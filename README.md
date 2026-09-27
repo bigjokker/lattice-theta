@@ -1,6 +1,6 @@
 # Lattice Theta Functions with Half-Integral Characteristics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23002464.svg)](https://doi.org/10.5281/zenodo.23002464)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23002464.svg)](https://zenodo.org/doi/10.5281/zenodo.23002464)
 
 Exact proofs, certificates, and reproducible computations for identical
 vanishing of lattice theta functions with half-integral characteristics.
@@ -72,8 +72,8 @@ are recorded separately and are not active assignments.
 Archived on Zenodo. Cite the concept DOI to refer to the work in general, or
 the version DOI to pin a specific release.
 
-* All versions: [10.5281/zenodo.23002464](https://doi.org/10.5281/zenodo.23002464)
-* v1.0.0: [10.5281/zenodo.23002465](https://doi.org/10.5281/zenodo.23002465)
+* All versions: [10.5281/zenodo.23002464](https://zenodo.org/doi/10.5281/zenodo.23002464)
+* v1.0.0: [10.5281/zenodo.23002465](https://zenodo.org/doi/10.5281/zenodo.23002465)
 
 ```bibtex
 @misc{lattice_theta,
