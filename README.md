@@ -65,5 +65,5 @@ schemas retain their original identifiers for compatibility. Scientific work
 through the rank-four counterexample is complete; [further questions](docs/deferred-research.md)
 are recorded separately and are not active assignments.
 
-Authorship and licensing metadata have not been assigned in this export.
+This repository is released under the MIT License. See [LICENSE](LICENSE).
 The local reviews are not a claim of journal publication or formal peer review.
