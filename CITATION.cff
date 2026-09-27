@@ -19,6 +19,14 @@ license: MIT
 version: 1.0.0
 date-released: "2026-09-27"
 repository-code: "https://github.com/bigjokker/lattice-theta"
+doi: 10.5281/zenodo.23002464
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23002464
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23002465
+    description: "Version 1.0.0"
 keywords:
   - "lattice theta functions"
   - "half-integral characteristics"

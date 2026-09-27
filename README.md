@@ -1,5 +1,7 @@
 # Lattice Theta Functions with Half-Integral Characteristics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23002464.svg)](https://doi.org/10.5281/zenodo.23002464)
+
 Exact proofs, certificates, and reproducible computations for identical
 vanishing of lattice theta functions with half-integral characteristics.
 
@@ -64,6 +66,24 @@ handoff prompts, and downloaded third-party papers are excluded. Certificate
 schemas retain their original identifiers for compatibility. Scientific work
 through the rank-four counterexample is complete; [further questions](docs/deferred-research.md)
 are recorded separately and are not active assignments.
+
+## Citation
+
+Archived on Zenodo. Cite the concept DOI to refer to the work in general, or
+the version DOI to pin a specific release.
+
+* All versions: [10.5281/zenodo.23002464](https://doi.org/10.5281/zenodo.23002464)
+* v1.0.0: [10.5281/zenodo.23002465](https://doi.org/10.5281/zenodo.23002465)
+
+```bibtex
+@misc{lattice_theta,
+  title  = {Lattice Theta Functions with Half-Integral Characteristics},
+  author = {bigjokker},
+  year   = {2026},
+  doi    = {10.5281/zenodo.23002464},
+  url    = {https://github.com/bigjokker/lattice-theta}
+}
+```
 
 This repository is released under the MIT License. See [LICENSE](LICENSE).
 The local reviews are not a claim of journal publication or formal peer review.
