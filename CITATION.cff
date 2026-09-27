@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Lattice Theta Functions with Half-Integral Characteristics"
+abstract: >-
+  Exact proofs, certificates, and reproducible computations for identical
+  vanishing of lattice theta functions with half-integral characteristics.
+  The symmetry converse holds in ranks one through three and fails in rank
+  four. The rank-four counterexample is a primitive positive definite
+  integral lattice of determinant 23716, with automorphism group {I, -I}
+  and trivial sign. The release also includes the low-rank parity
+  classification, the irreducible crystallographic root lattices in the
+  stated normalization, and exact determinant-at-most-24 censuses through
+  rank four. No smallest-counterexample-determinant or literature-priority
+  claim is made.
+authors:
+  - name: "bigjokker"
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-09-27"
+repository-code: "https://github.com/bigjokker/lattice-theta"
+keywords:
+  - "lattice theta functions"
+  - "half-integral characteristics"
+  - "symmetry converse"
+  - "positive definite integral lattices"
+  - "quadratic forms"
+  - "modular forms"

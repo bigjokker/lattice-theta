@@ -1,0 +1,23 @@
+{
+  "title": "Lattice Theta Functions with Half-Integral Characteristics",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "bigjokker"
+    }
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "description": "<p>Exact proofs, certificates, and reproducible computations for identical vanishing of lattice theta functions with half-integral characteristics.</p><p>The symmetry converse holds in ranks one through three and fails in rank four. The rank-four counterexample is a primitive, positive definite integral lattice of determinant 23,716. An even characteristic has identically zero theta series, while the complete automorphism group is {I, &minus;I}, with trivial sign on both elements. The proof uses an all-level coset bijection and a complete 315-point enumeration of possible automorphism columns.</p><p>The completed work also includes the low-rank parity classification, the classification of irreducible crystallographic root lattices in the stated normalization, and exact determinant-at-most-24 censuses through rank four. No smallest-counterexample-determinant or literature-priority claim is made.</p><p>Reproduction uses Python 3.11 or later and the Python standard library only. The included reviews are local mathematical reviews. They are not a claim of journal publication or formal peer review.</p>",
+  "keywords": [
+    "lattice theta functions",
+    "half-integral characteristics",
+    "symmetry converse",
+    "positive definite integral lattices",
+    "quadratic forms",
+    "modular forms"
+  ],
+  "notes": "Source code, certificates, and manuscripts: https://github.com/bigjokker/lattice-theta"
+}
