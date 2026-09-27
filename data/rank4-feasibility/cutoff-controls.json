@@ -1,0 +1,1484 @@
+{
+  "schema": "work7-rank4-cutoff-controls-v1",
+  "certificates": [
+    {
+      "name": "complete modular zero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            4,
+            -2,
+            0,
+            0
+          ],
+          [
+            -2,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 4,
+        "N0": 2,
+        "unsigned_level": 32,
+        "level_factors": [
+          [
+            2,
+            5
+          ]
+        ],
+        "index": 48,
+        "cutoff": 8,
+        "character_discriminant": 16,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 8,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 8,
+          "visited_nodes": 91,
+          "shells": [
+            {
+              "norm4": 2,
+              "norm": "1/2",
+              "vector_count": 4,
+              "signed_coefficient": 0
+            },
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 16,
+              "signed_coefficient": 0
+            }
+          ]
+        },
+        "verdict": "proved_zero_by_modular_cutoff"
+      }
+    },
+    {
+      "name": "endpoint missing",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            4,
+            -2,
+            0,
+            0
+          ],
+          [
+            -2,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 4,
+        "N0": 2,
+        "unsigned_level": 32,
+        "level_factors": [
+          [
+            2,
+            5
+          ]
+        ],
+        "index": 48,
+        "cutoff": 8,
+        "character_discriminant": 16,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 7,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 7,
+          "visited_nodes": 87,
+          "shells": [
+            {
+              "norm4": 2,
+              "norm": "1/2",
+              "vector_count": 4,
+              "signed_coefficient": 0
+            },
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 16,
+              "signed_coefficient": 0
+            }
+          ]
+        },
+        "verdict": "unresolved"
+      }
+    },
+    {
+      "name": "interrupted",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            4,
+            -2,
+            0,
+            0
+          ],
+          [
+            -2,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 4,
+        "N0": 2,
+        "unsigned_level": 32,
+        "level_factors": [
+          [
+            2,
+            5
+          ]
+        ],
+        "index": 48,
+        "cutoff": 8,
+        "character_discriminant": 16,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 8,
+        "max_nodes": 1
+      },
+      "evidence": {
+        "enumeration_complete": false,
+        "verdict": "unresolved",
+        "reason": "enumeration exceeded 1 nodes"
+      }
+    },
+    {
+      "name": "constant coefficient",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 4,
+        "N0": 4,
+        "unsigned_level": 64,
+        "level_factors": [
+          [
+            2,
+            6
+          ]
+        ],
+        "index": 96,
+        "cutoff": 16,
+        "character_discriminant": 16,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 0,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 0,
+          "visited_nodes": 9,
+          "shells": [
+            {
+              "norm4": 0,
+              "norm": "0",
+              "vector_count": 1,
+              "signed_coefficient": 1
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "name": "I4 nonzero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 4,
+        "N0": 4,
+        "unsigned_level": 64,
+        "level_factors": [
+          [
+            2,
+            6
+          ]
+        ],
+        "index": 96,
+        "cutoff": 16,
+        "character_discriminant": 16,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 16,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 16,
+          "visited_nodes": 277,
+          "shells": [
+            {
+              "norm4": 1,
+              "norm": "1/4",
+              "vector_count": 2,
+              "signed_coefficient": 2
+            },
+            {
+              "norm4": 5,
+              "norm": "5/4",
+              "vector_count": 12,
+              "signed_coefficient": 4
+            },
+            {
+              "norm4": 9,
+              "norm": "9/4",
+              "vector_count": 26,
+              "signed_coefficient": -6
+            },
+            {
+              "norm4": 13,
+              "norm": "13/4",
+              "vector_count": 28,
+              "signed_coefficient": -12
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 1,
+        "coefficient": 2
+      }
+    },
+    {
+      "name": "2I4 nonzero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "d0": 64,
+        "N0": 8,
+        "unsigned_level": 128,
+        "level_factors": [
+          [
+            2,
+            7
+          ]
+        ],
+        "index": 192,
+        "cutoff": 32,
+        "character_discriminant": 256,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 32,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 32,
+          "visited_nodes": 277,
+          "shells": [
+            {
+              "norm4": 2,
+              "norm": "1/2",
+              "vector_count": 2,
+              "signed_coefficient": 2
+            },
+            {
+              "norm4": 10,
+              "norm": "5/2",
+              "vector_count": 12,
+              "signed_coefficient": 4
+            },
+            {
+              "norm4": 18,
+              "norm": "9/2",
+              "vector_count": 26,
+              "signed_coefficient": -6
+            },
+            {
+              "norm4": 26,
+              "norm": "13/2",
+              "vector_count": 28,
+              "signed_coefficient": -12
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "name": "A4 nonzero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            8,
+            -2,
+            0,
+            0
+          ],
+          [
+            -2,
+            2,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            2,
+            -1
+          ],
+          [
+            0,
+            0,
+            -1,
+            2
+          ]
+        ],
+        "d0": 20,
+        "N0": 10,
+        "unsigned_level": 160,
+        "level_factors": [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "index": 288,
+        "cutoff": 48,
+        "character_discriminant": 80,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 48,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 48,
+          "visited_nodes": 1003,
+          "shells": [
+            {
+              "norm4": 2,
+              "norm": "1/2",
+              "vector_count": 2,
+              "signed_coefficient": 2
+            },
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 6,
+              "signed_coefficient": 2
+            },
+            {
+              "norm4": 10,
+              "norm": "5/2",
+              "vector_count": 12,
+              "signed_coefficient": -4
+            },
+            {
+              "norm4": 14,
+              "norm": "7/2",
+              "vector_count": 18,
+              "signed_coefficient": -2
+            },
+            {
+              "norm4": 18,
+              "norm": "9/2",
+              "vector_count": 14,
+              "signed_coefficient": -2
+            },
+            {
+              "norm4": 22,
+              "norm": "11/2",
+              "vector_count": 24,
+              "signed_coefficient": -8
+            },
+            {
+              "norm4": 26,
+              "norm": "13/2",
+              "vector_count": 36,
+              "signed_coefficient": 4
+            },
+            {
+              "norm4": 30,
+              "norm": "15/2",
+              "vector_count": 26,
+              "signed_coefficient": 6
+            },
+            {
+              "norm4": 34,
+              "norm": "17/2",
+              "vector_count": 48,
+              "signed_coefficient": 0
+            },
+            {
+              "norm4": 38,
+              "norm": "19/2",
+              "vector_count": 40,
+              "signed_coefficient": 8
+            },
+            {
+              "norm4": 42,
+              "norm": "21/2",
+              "vector_count": 24,
+              "signed_coefficient": 8
+            },
+            {
+              "norm4": 46,
+              "norm": "23/2",
+              "vector_count": 66,
+              "signed_coefficient": -2
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "name": "D4 nonzero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            8,
+            -2,
+            0,
+            0
+          ],
+          [
+            -2,
+            2,
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1,
+            2,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            2
+          ]
+        ],
+        "d0": 16,
+        "N0": 4,
+        "unsigned_level": 64,
+        "level_factors": [
+          [
+            2,
+            6
+          ]
+        ],
+        "index": 96,
+        "cutoff": 16,
+        "character_discriminant": 64,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 16,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 16,
+          "visited_nodes": 173,
+          "shells": [
+            {
+              "norm4": 2,
+              "norm": "1/2",
+              "vector_count": 2,
+              "signed_coefficient": 2
+            },
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 8,
+              "signed_coefficient": 0
+            },
+            {
+              "norm4": 10,
+              "norm": "5/2",
+              "vector_count": 12,
+              "signed_coefficient": -4
+            },
+            {
+              "norm4": 14,
+              "norm": "7/2",
+              "vector_count": 16,
+              "signed_coefficient": 0
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "name": "cancelled first shell",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          4,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            8,
+            -2,
+            -2,
+            0
+          ],
+          [
+            -2,
+            4,
+            -1,
+            0
+          ],
+          [
+            -2,
+            -1,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 80,
+        "N0": 80,
+        "unsigned_level": 1280,
+        "level_factors": [
+          [
+            2,
+            8
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "index": 2304,
+        "cutoff": 384,
+        "character_discriminant": 320,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 6,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 6,
+          "visited_nodes": 27,
+          "shells": [
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 4,
+              "signed_coefficient": 0
+            }
+          ]
+        },
+        "verdict": "unresolved"
+      }
+    },
+    {
+      "name": "later nonzero",
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          4,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "modular": {
+        "index_two_basis": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "G0": [
+          [
+            8,
+            -2,
+            -2,
+            0
+          ],
+          [
+            -2,
+            4,
+            -1,
+            0
+          ],
+          [
+            -2,
+            -1,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "d0": 80,
+        "N0": 80,
+        "unsigned_level": 1280,
+        "level_factors": [
+          [
+            2,
+            8
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "index": 2304,
+        "cutoff": 384,
+        "character_discriminant": 320,
+        "weight": "2",
+        "coefficient_index": "norm4",
+        "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+        "norm4_bound": 10,
+        "max_nodes": 1000000
+      },
+      "evidence": {
+        "enumeration_complete": true,
+        "enumeration": {
+          "algorithm": "exact-rational-ldl-v1",
+          "complete": true,
+          "norm4_bound": 10,
+          "visited_nodes": 65,
+          "shells": [
+            {
+              "norm4": 6,
+              "norm": "3/2",
+              "vector_count": 4,
+              "signed_coefficient": 0
+            },
+            {
+              "norm4": 10,
+              "norm": "5/2",
+              "vector_count": 10,
+              "signed_coefficient": 2
+            }
+          ]
+        },
+        "verdict": "proved_nonzero",
+        "nonzero_norm4": 10,
+        "coefficient": 2
+      }
+    }
+  ]
+}

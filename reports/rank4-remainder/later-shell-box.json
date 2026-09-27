@@ -1,0 +1,8 @@
+{
+  "verdict": "verified",
+  "cases": 21,
+  "parameter_pairs": 7,
+  "vector_backend": "box",
+  "uniform_proof_performed": false,
+  "input_sha256": "f0e56f31b7d73dc0b9a82ccffdfc44cc0c750b278a3b24e4f772a65ca0b27e3d"
+}

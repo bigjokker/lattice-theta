@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+scratch/
+# Losslessly expanded copies; compressed originals are tracked.
+data/census/rank12-det24-closed.json
+data/census-rank3/det24-bound32.json
+data/census-rank3/structure-det24.json
+data/census-rank4/det24-bound32.json
+data/census-rank4/pilot-det4-bound32.json
+data/e8-classification.json
+data/rank4-feasibility/controls.json

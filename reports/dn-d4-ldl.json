@@ -1,0 +1,36 @@
+{
+  "schema": "work7-dn-result-v1",
+  "verdict": "classification_verified",
+  "rank": 4,
+  "backend": "ldl",
+  "determinant": 4,
+  "coverage_complete": true,
+  "total_characteristics": 256,
+  "even_characteristics": 136,
+  "odd_characteristics_vanish_by_parity": 120,
+  "even_nonvanishing": 127,
+  "even_vanishing": 9,
+  "product_zero_classes": 6,
+  "balanced_cancellation_classes": 3,
+  "formula_value": 9,
+  "unresolved": 0,
+  "maximum_nonzero_witness_norm": "1",
+  "witness_norm4_counts": {
+    "0": 16,
+    "2": 96,
+    "4": 15
+  },
+  "records_sha256": "b97b33f574822e7e760124914ecd02dcc5e5c843080c9362a422f93014539981",
+  "shell_histogram_sha256": "48f0ea09eb70dfa7413216c74f061ed625503278ced6cd3aec6d24bb9f6b2fc4",
+  "enumeration": {
+    "ldl_nodes": 448,
+    "lattice_vectors": 49,
+    "shifted_enumerations": 16,
+    "norm4_bound": 4
+  },
+  "full_automorphism_group_claimed": false,
+  "certificate_stream_sha256": "790a4165537c45c645f96c50955a0e339448cfc9d83ab71d072ef2d48d02ae26",
+  "certificate_stream": "examples/dn/d4.jsonl.gz",
+  "seconds": 0.0044,
+  "compressed_bytes": 548
+}

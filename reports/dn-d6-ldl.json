@@ -1,0 +1,37 @@
+{
+  "schema": "work7-dn-result-v1",
+  "verdict": "classification_verified",
+  "rank": 6,
+  "backend": "ldl",
+  "determinant": 4,
+  "coverage_complete": true,
+  "total_characteristics": 4096,
+  "even_characteristics": 2080,
+  "odd_characteristics_vanish_by_parity": 2016,
+  "even_nonvanishing": 1680,
+  "even_vanishing": 400,
+  "product_zero_classes": 390,
+  "balanced_cancellation_classes": 10,
+  "formula_value": 400,
+  "unresolved": 0,
+  "maximum_nonzero_witness_norm": "3/2",
+  "witness_norm4_counts": {
+    "0": 64,
+    "2": 960,
+    "4": 622,
+    "6": 34
+  },
+  "records_sha256": "1d7d03cdf092dda8e4afa3ed6656d3332ba43bd08f1ec5a69f54e1714203f3d4",
+  "shell_histogram_sha256": "58137101b6179ba33f235540bb9ba0cb84a84d7d1c969a36a2d00cc3e77a64ee",
+  "enumeration": {
+    "ldl_nodes": 7996,
+    "lattice_vectors": 857,
+    "shifted_enumerations": 64,
+    "norm4_bound": 6
+  },
+  "full_automorphism_group_claimed": false,
+  "certificate_stream_sha256": "8078c9a15da398e75cc2516cb241957d8efa3e4ea95a8f959169da0241b153b5",
+  "certificate_stream": "examples/dn/d6.jsonl.gz",
+  "seconds": 0.0587,
+  "compressed_bytes": 5933
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "work7-rank3-structure-review-resolution-v1",
+  "date": "2026-09-27",
+  "verdict": "review_incorporated",
+  "uniform_rank3_parity_classification": "P iff orthogonally indecomposable, every determinant",
+  "uniform_rank3_symmetry_converse": "every identical zero has epsilon-one stabilizer element",
+  "review_requested_insertions_complete": true,
+  "insertions": [
+    "proper subset sum nonzero",
+    "saturated articulation block basis",
+    "antipodal sign ratio",
+    "constant coefficient",
+    "odd -I witness",
+    "degree at most one",
+    "36-pair factor counts",
+    "norm4 and extra cancelling shell vectors"
+  ],
+  "new_regression": "h=4 ten-vector and h=8 six-vector diamond shells, plus both signs in census class 97",
+  "structural_tests_passed": 7,
+  "full_structural_characteristic_replay": 7680,
+  "census_and_structure_packs_unchanged": true,
+  "historical_review_flag_preserved": true,
+  "frozen_manuscript_inventory_verified": {
+    "files": 115,
+    "report_bindings": 28
+  },
+  "novelty_established": false,
+  "artifacts": [
+    {
+      "path": "GROK-RANK3-STRUCTURE-REVIEW.md",
+      "sha256": "4330a5cdb4405969e2cc2f30c84fff96a6597366c84a040f499262c747d8c8b1"
+    },
+    {
+      "path": "RANK3-STRUCTURE.md",
+      "sha256": "b1fd3c49d349a5a7546b8095cc82f2aa7088598c8321bc66681d14039f03a714"
+    },
+    {
+      "path": "RANK3-NEXT-STEPS.md",
+      "sha256": "8065dd547be7518a29b63848c7b4bf2724b108f9fa3ae8e6e4c785062a6abb28"
+    },
+    {
+      "path": "test_rank3_structure.py",
+      "sha256": "a24f083bd73267a6623a31c14b347816b54bbce96a4d124e15ab46f02491f46c"
+    },
+    {
+      "path": "examples/census-rank3/structure-det24.json",
+      "sha256": "ae8288b4f1ae0bbddf3f6161200ea9e7e7c52eab28df772146b84aafb1a762f6"
+    },
+    {
+      "path": "examples/census-rank3/det24-bound32.json",
+      "sha256": "1083147c76d6b66aeed3491d35bcb1f83ebed65c9cc0c630e95eaac90b32816a"
+    },
+    {
+      "path": "results/census-rank3/structure-det24-box.json",
+      "sha256": "62e98e5db131d20c40cc56a712e84c3e85245d26a9d26f30743bcbff91184828"
+    },
+    {
+      "path": "results/census-rank3/grok-structure-summary.txt",
+      "sha256": "720bff1292a9231e59d00763df853e127aec7381189e028619f8d8b90326cfaa"
+    }
+  ]
+}

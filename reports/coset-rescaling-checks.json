@@ -1,0 +1,46 @@
+{
+  "scope": "Corroboration only; not an exact modularity or cusp certificate. No census rerun.",
+  "exact_level_scaling_forms": 94,
+  "rescaling_checks": [
+    {
+      "rank": 1,
+      "relative_error": 4.639162730849297e-13,
+      "tau": [
+        0.1,
+        0.7
+      ],
+      "matrix": [
+        [
+          171,
+          8
+        ],
+        [
+          64,
+          3
+        ]
+      ],
+      "truncation": 400,
+      "odd_rank_chi8_at_3": -1
+    },
+    {
+      "rank": 2,
+      "relative_error": 5.490931757471909e-13,
+      "tau": [
+        0.1,
+        0.7
+      ],
+      "matrix": [
+        [
+          171,
+          8
+        ],
+        [
+          64,
+          3
+        ]
+      ],
+      "truncation": 400,
+      "odd_rank_chi8_at_3": null
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Preserve exact certificate/report hashes and the release byte inventory.
+# Automatic line-ending conversion would invalidate scientific input bindings.
+* -text

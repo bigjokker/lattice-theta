@@ -1,0 +1,73 @@
+{
+  "schema": "work7-theta-v1",
+  "name": "Hermitian rank four: order-4 witness",
+  "G": [
+    [
+      5,
+      0,
+      1,
+      -2
+    ],
+    [
+      0,
+      5,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      6,
+      0
+    ],
+    [
+      -2,
+      1,
+      0,
+      6
+    ]
+  ],
+  "a": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "b": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "evidence": {
+    "kind": "symmetry",
+    "T": [
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "order": 4
+  },
+  "provenance": "realification of Hermitian example in mo-answer.md; no claim of full Aut"
+}

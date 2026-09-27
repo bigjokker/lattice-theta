@@ -1,0 +1,1253 @@
+{
+  "schema": "lattice-theta-export-provenance-v1",
+  "description": "Curated from the completed local research workspace. Certificate and saved report bytes are unchanged; large JSON inputs use lossless gzip. Documentation and code copies have relocated paths; original workspace is unchanged.",
+  "files": [
+    {
+      "source": "exact_theta.py",
+      "destination": "code/exact_theta.py",
+      "source_sha256": "3ecce1e124dbc00a11b76c5a29e62a054218d6cc457b2d8c4110feee71d37a80",
+      "export_sha256": "3ecce1e124dbc00a11b76c5a29e62a054218d6cc457b2d8c4110feee71d37a80",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "dn_exact.py",
+      "destination": "code/dn_exact.py",
+      "source_sha256": "e969152e5462b55a07fa90d67eb1c1443e50c472c178dae996b7634612c5c3b1",
+      "export_sha256": "e969152e5462b55a07fa90d67eb1c1443e50c472c178dae996b7634612c5c3b1",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "dn_ambient.py",
+      "destination": "code/dn_ambient.py",
+      "source_sha256": "a7358fd33f0d7e2920122d1b307bda113f8cfe05cf21d50e28727520a87be95e",
+      "export_sha256": "a7358fd33f0d7e2920122d1b307bda113f8cfe05cf21d50e28727520a87be95e",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "exceptional_ambient.py",
+      "destination": "code/exceptional_ambient.py",
+      "source_sha256": "14211926983f398d673125a5051674882d4b26e3277fcce6e3d3dfc1053a3131",
+      "export_sha256": "14211926983f398d673125a5051674882d4b26e3277fcce6e3d3dfc1053a3131",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "exceptional_batch.py",
+      "destination": "code/exceptional_batch.py",
+      "source_sha256": "cd10453d95dcc84ab45feb29267905a233014b2515ea2635e48ea4bbe9426c52",
+      "export_sha256": "cd10453d95dcc84ab45feb29267905a233014b2515ea2635e48ea4bbe9426c52",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "nonsimply_laced.py",
+      "destination": "code/nonsimply_laced.py",
+      "source_sha256": "a82276fec268cd2c8d2eeb0fa07eef77ca28918fd91cef13beb3a5807d5ee5b5",
+      "export_sha256": "0edbd0ad9eef8e44a74c7dce47f92daf9e857af3b6625a257d80bb7f8ccd67d4",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "lattice_census.py",
+      "destination": "code/lattice_census.py",
+      "source_sha256": "db0e66f6a8b16dd5234aeed505b2768a0dd87f90e1526e9b91af15979809e4b6",
+      "export_sha256": "e5acfe74fe0464e398eae2d9b2806cacfbe21e8cacbce5be6c6d10a748b5956f",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank3_census.py",
+      "destination": "code/rank3_census.py",
+      "source_sha256": "e895b85f28e2c46af0f14c14126e982c123575e00f0ebba31042ba7f077e4efc",
+      "export_sha256": "4f3d304925cd5b577a625382c6ab2637c68fc361069b6dac8f42436463a15d00",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank3_cutoff.py",
+      "destination": "code/rank3_cutoff.py",
+      "source_sha256": "1044dd16f901ab85f4e1bcd4194ecdfe4de78797c1350d49e1ecce4bdcb470af",
+      "export_sha256": "1044dd16f901ab85f4e1bcd4194ecdfe4de78797c1350d49e1ecce4bdcb470af",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank3_structure.py",
+      "destination": "code/rank3_structure.py",
+      "source_sha256": "4473d5579ee0eb5ad058f6951bf355e5923fbc0467f8ff000cb8986b76f3af24",
+      "export_sha256": "4473d5579ee0eb5ad058f6951bf355e5923fbc0467f8ff000cb8986b76f3af24",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_feasibility.py",
+      "destination": "code/rank4_feasibility.py",
+      "source_sha256": "b499b2434618ce4703a74ed6c216675ab847e959a1056b247ddca15a61b367ec",
+      "export_sha256": "b499b2434618ce4703a74ed6c216675ab847e959a1056b247ddca15a61b367ec",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_census.py",
+      "destination": "code/rank4_census.py",
+      "source_sha256": "41a6e19619777d3a5cbf576802c96fef0e515f4224f1e6c33428a26088c14cd5",
+      "export_sha256": "41a6e19619777d3a5cbf576802c96fef0e515f4224f1e6c33428a26088c14cd5",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_remainder.py",
+      "destination": "code/rank4_remainder.py",
+      "source_sha256": "47c7985ed22e8c37078f2f38e50d0a2b26a7a9a7752accdf42ec4a8292702d6b",
+      "export_sha256": "47c7985ed22e8c37078f2f38e50d0a2b26a7a9a7752accdf42ec4a8292702d6b",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_cancellation.py",
+      "destination": "code/rank4_cancellation.py",
+      "source_sha256": "27ccbba7638c8dbeac68274e84cc109787c856a164a3bde0d287643aaeb6979f",
+      "export_sha256": "27ccbba7638c8dbeac68274e84cc109787c856a164a3bde0d287643aaeb6979f",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_coset_regressions.py",
+      "destination": "code/rank4_coset_regressions.py",
+      "source_sha256": "cdc8cfe0fb75e87ad9e769cbf786910600c2cdb7a2019ff0e4bbe2fcaea84a00",
+      "export_sha256": "cdc8cfe0fb75e87ad9e769cbf786910600c2cdb7a2019ff0e4bbe2fcaea84a00",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_counterexample.py",
+      "destination": "code/rank4_counterexample.py",
+      "source_sha256": "8aaca7f292c0050883197cf88be865c9245ff81f0e5564e69edb597dc37a4952",
+      "export_sha256": "8aaca7f292c0050883197cf88be865c9245ff81f0e5564e69edb597dc37a4952",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_dn.py",
+      "destination": "code/verify_dn.py",
+      "source_sha256": "f0ecec0c8f1752a5990c967dabac9387c7a6b6b0ed2b8e3d0d26b8705392b754",
+      "export_sha256": "f0ecec0c8f1752a5990c967dabac9387c7a6b6b0ed2b8e3d0d26b8705392b754",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_e6_ambient.py",
+      "destination": "code/verify_e6_ambient.py",
+      "source_sha256": "d889abfe6f1b17f6ba02ee3b0b1c8b90814f7644d027cf3c93cb0730fec86883",
+      "export_sha256": "d889abfe6f1b17f6ba02ee3b0b1c8b90814f7644d027cf3c93cb0730fec86883",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_even_pack.py",
+      "destination": "code/verify_even_pack.py",
+      "source_sha256": "deab933b87431fb5e3eaa83170c69cb663911fd986109008e610b1ebcf61d082",
+      "export_sha256": "deab933b87431fb5e3eaa83170c69cb663911fd986109008e610b1ebcf61d082",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_exceptional.py",
+      "destination": "code/verify_exceptional.py",
+      "source_sha256": "28fe11ea3f756fc20a9bdd2723e7d6dafb769aa67740e9ff3e8f1ca5954aab24",
+      "export_sha256": "28fe11ea3f756fc20a9bdd2723e7d6dafb769aa67740e9ff3e8f1ca5954aab24",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_lattice_census.py",
+      "destination": "code/verify_lattice_census.py",
+      "source_sha256": "2a12ed12fba55fa922591466ff847ab1e569b59b97d511125645c66c31f0eff2",
+      "export_sha256": "2a12ed12fba55fa922591466ff847ab1e569b59b97d511125645c66c31f0eff2",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_rank3_census.py",
+      "destination": "code/verify_rank3_census.py",
+      "source_sha256": "48320375080924f0e5b536e5c67fb9deac5027e31a171d5a26fcded514f5d137",
+      "export_sha256": "48320375080924f0e5b536e5c67fb9deac5027e31a171d5a26fcded514f5d137",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_rank3_structure.py",
+      "destination": "code/verify_rank3_structure.py",
+      "source_sha256": "dec0c4b204fb31d675fa86b55a7a8b3dbe0509525950cc71ab2d28730a9a5052",
+      "export_sha256": "2f61a1ab2064b861bb2d909aeed6f2c10c5cfe1d2cd478c21496af931dd6d06d",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_rank4_census.py",
+      "destination": "code/verify_rank4_census.py",
+      "source_sha256": "76edc0ec2e0d5410a3a70e17dadbf86a488e021cfe53c1974fd543053c9ff181",
+      "export_sha256": "76edc0ec2e0d5410a3a70e17dadbf86a488e021cfe53c1974fd543053c9ff181",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "verify_rank4_feasibility.py",
+      "destination": "code/verify_rank4_feasibility.py",
+      "source_sha256": "d0e96cf7a5d5bbd7bfd93a1c363bed7e4a45ab7b5b0ddce030d2847f8e1cead8",
+      "export_sha256": "d0e96cf7a5d5bbd7bfd93a1c363bed7e4a45ab7b5b0ddce030d2847f8e1cead8",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "build_dn.py",
+      "destination": "code/build_dn.py",
+      "source_sha256": "a935d0bff3e3313cdfbb8a31b270860d3ae6318ea60f7104172963431ad8d7c0",
+      "export_sha256": "c2a5914dd255b661750f041daab78e3634f335e63686fa1ad66f914f55b2250e",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "build_e6.py",
+      "destination": "code/build_e6.py",
+      "source_sha256": "8df67ed25115514cdae67d0e72d53f978b00b54e38768e70d42255026dd73fa9",
+      "export_sha256": "c7af3c8b1b8c99be7ecc9fd4fa19adc2b5e4381fd1f415b2cc44e31d3a8a5d71",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "build_exceptional.py",
+      "destination": "code/build_exceptional.py",
+      "source_sha256": "4070f6802e7603d299b87c204370aedc4bf671d05c796f996d2dea87b7f2b26e",
+      "export_sha256": "1dd60913065f630a83110d52729dee45235c1020b6a1033a72cb264071b44059",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "build_cutoff_controls.py",
+      "destination": "code/build_cutoff_controls.py",
+      "source_sha256": "e112f044f856b030bebd4b53f780475a9fc52fc1d5bc543f865c286f3a969a1e",
+      "export_sha256": "42176f314ba35052111bbcf624bc8e6407e86f19daf3b20d41b3562023c2781a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "build_rank3_structure.py",
+      "destination": "code/build_rank3_structure.py",
+      "source_sha256": "e236a5beae1670745c7ae18523ea0e77b45cd4e8d10b6ca071638999ecc5ee3e",
+      "export_sha256": "84a61ae5f5f57882f8a50a231db1ed273ac8ee1fddb146b99f8547a839aced58",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_dn.py",
+      "destination": "tests/test_dn.py",
+      "source_sha256": "f78349f5a34e070d25587b7ec00db4aa1a2ea1269a9803265c849bc4eac6a2b1",
+      "export_sha256": "6573f34629a198ea7bb499f160aec45313b6d6eca67db265afcf393a4d881276",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_e6.py",
+      "destination": "tests/test_e6.py",
+      "source_sha256": "aaa580828fcf348f9dad00358df387c0916a4807c966ae1556652ab77815ac46",
+      "export_sha256": "e6f841d367fffaf12c55f3a2f816b775fe3a64c94e25e936ae36aef15841127a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_exact_theta.py",
+      "destination": "tests/test_exact_theta.py",
+      "source_sha256": "3fbf0d747ee7ca79aafd86d6f1f0e8ded934da29f5a319b1ceeab003f408b1c2",
+      "export_sha256": "ddc72df89faf77f394dde6e7dfe3200722566ad378ce027a5b4a69de67c476dd",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_exceptional.py",
+      "destination": "tests/test_exceptional.py",
+      "source_sha256": "70b1688257cd893f78160d235ef26b4626d4e0e0101a80f331964958c336d154",
+      "export_sha256": "604c01f45221a582f31563c6119716c03dae183cf3956d2e1529d585762282b4",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_lattice_census.py",
+      "destination": "tests/test_lattice_census.py",
+      "source_sha256": "f61bab313f9c8a3f7a53cbc82ea1a4a45d19e6af3b6bcb61e0f21e28ef637640",
+      "export_sha256": "36f13503544eef9940a09f118f99dee3c032c528fc22c30b51d2cfdf4c69d430",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank3_census.py",
+      "destination": "tests/test_rank3_census.py",
+      "source_sha256": "cfbe7fb5762186866028996a35dce9fb1e9b7c699d2ffd867c448d7dea98c9f3",
+      "export_sha256": "b23e945eade9d589a1d833bcff386718094be6d7b6911ca68e5a99bffb97a419",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank3_cutoff.py",
+      "destination": "tests/test_rank3_cutoff.py",
+      "source_sha256": "238a8810bc662fbe7fcc48bcaa7dc36c24bec9b3b0235ed39cabde6cd550a43b",
+      "export_sha256": "238a8810bc662fbe7fcc48bcaa7dc36c24bec9b3b0235ed39cabde6cd550a43b",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank3_structure.py",
+      "destination": "tests/test_rank3_structure.py",
+      "source_sha256": "a24f083bd73267a6623a31c14b347816b54bbce96a4d124e15ab46f02491f46c",
+      "export_sha256": "e8276312e51e16c6c9d05f1a9bd1db9052b39bfaf5d8fc941666729d45f581ba",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_census.py",
+      "destination": "tests/test_rank4_census.py",
+      "source_sha256": "ab14bb7f6d6b5f92ccc4910c0863a722b7f623e7d148ec903642f39848695f71",
+      "export_sha256": "5658a1584aa09bc4a8a94972b65fbc66a6cafd3a646219994d3ebbba8b2aa16f",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_coset_regressions.py",
+      "destination": "tests/test_rank4_coset_regressions.py",
+      "source_sha256": "d79fee2d5989f9e929f41d5fc46dc453160b26d6ab2e96fc1d66762d0bbf43ac",
+      "export_sha256": "d79fee2d5989f9e929f41d5fc46dc453160b26d6ab2e96fc1d66762d0bbf43ac",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_counterexample.py",
+      "destination": "tests/test_rank4_counterexample.py",
+      "source_sha256": "8e9fcfaecc8e77a407ea879234adecd4a2001cd9f66fd038e8ca7aadfd832acf",
+      "export_sha256": "8e9fcfaecc8e77a407ea879234adecd4a2001cd9f66fd038e8ca7aadfd832acf",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_feasibility.py",
+      "destination": "tests/test_rank4_feasibility.py",
+      "source_sha256": "c771a67d78f83ec6001b427f4058e8d8f2e43e7324a19208ef4d02e6c17e968c",
+      "export_sha256": "035fad9b73d172d82e3378327b99316f9b02fdfff0b97a58e08fc7f68144501a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_remainder.py",
+      "destination": "tests/test_rank4_remainder.py",
+      "source_sha256": "f4f5729c12dcbe6a045f4b64b369fed09dfde3583bcc059d9a421a161e55f73d",
+      "export_sha256": "f4f5729c12dcbe6a045f4b64b369fed09dfde3583bcc059d9a421a161e55f73d",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank_two.py",
+      "destination": "tests/test_rank_two.py",
+      "source_sha256": "87ab3f4b3ec7a2e379116707b64a430f5ec72d957be4b52d6e7b63f8c479b62f",
+      "export_sha256": "77e252ac1bd2078c7099bd8f449e15a9459b0d92b6d90c8753b73999efbc8767",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_root_lattices.py",
+      "destination": "tests/test_root_lattices.py",
+      "source_sha256": "5b515bb76784bd1604ebf6a7bf573bc1e6741358f0cbadfcc63a678eba6098b8",
+      "export_sha256": "6b295045171ac00b3b619ca76367d31845f1155963be3c74c77110d1978d5b8a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "examples/a3.json",
+      "destination": "data/a3.json",
+      "source_sha256": "ed5ee4615b0c80f26926511dff3e3c00d0977facfbfa42dfb51ad6e74c56ae94",
+      "export_sha256": "ed5ee4615b0c80f26926511dff3e3c00d0977facfbfa42dfb51ad6e74c56ae94",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/census/rank12-det24-closed.json",
+      "destination": "data/census/rank12-det24-closed.json.gz",
+      "source_sha256": "9b359c8736fe8687ad904a448382f6475dd955795ea015a3e4ca180d8df1e571",
+      "export_sha256": "115d5407d23b31f0f6284d2a30ead1b394ee8f2803a9ca802f542424166fb3e6",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/census/rank12-det24.json",
+      "destination": "data/census/rank12-det24.json",
+      "source_sha256": "c8d121c7736791a86990800ddae198547689c1c617f27c7959b82cf3f8c9aa03",
+      "export_sha256": "c8d121c7736791a86990800ddae198547689c1c617f27c7959b82cf3f8c9aa03",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/census-rank3/cutoff-controls.json",
+      "destination": "data/census-rank3/cutoff-controls.json",
+      "source_sha256": "a9dba5f73ae88cc7b17894686eea6a3d5b9a5ffad9808a54b31dc993f075487f",
+      "export_sha256": "a9dba5f73ae88cc7b17894686eea6a3d5b9a5ffad9808a54b31dc993f075487f",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/census-rank3/det24-bound32.json",
+      "destination": "data/census-rank3/det24-bound32.json.gz",
+      "source_sha256": "1083147c76d6b66aeed3491d35bcb1f83ebed65c9cc0c630e95eaac90b32816a",
+      "export_sha256": "9e8c35fdca80aa1eba4d3b7ea8b79a317324f38361c3693dbe22c5355f88e2fd",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/census-rank3/structure-det24.json",
+      "destination": "data/census-rank3/structure-det24.json.gz",
+      "source_sha256": "ae8288b4f1ae0bbddf3f6161200ea9e7e7c52eab28df772146b84aafb1a762f6",
+      "export_sha256": "7c0d99b35ccb9a791d0a22b58f0ea3ada476a9c8734ff01d21cc60ff548fcafd",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/census-rank4/det24-bound32.json",
+      "destination": "data/census-rank4/det24-bound32.json.gz",
+      "source_sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982",
+      "export_sha256": "b3ce01a1d3b8106d0d821a13f01b7db471bceb6e509e3b993a82fe03b58bb585",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/census-rank4/pilot-det4-bound32.json",
+      "destination": "data/census-rank4/pilot-det4-bound32.json.gz",
+      "source_sha256": "74426f6389c1344193599de8acc6be2edf71eeb431e250c40fee29565c4ef5c1",
+      "export_sha256": "bad579cd6278514d20f29a7fdf740769cd6e4b3c90d6df0047bcee30fc716f9c",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/d4.json",
+      "destination": "data/d4.json",
+      "source_sha256": "2f68654928478ea515e068fb6ac6f31376656efb0f92a2bd99b99da65da9cf6b",
+      "export_sha256": "2f68654928478ea515e068fb6ac6f31376656efb0f92a2bd99b99da65da9cf6b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d10-balanced-zero.json",
+      "destination": "data/dn/d10-balanced-zero.json",
+      "source_sha256": "ec516447e45581108aa40062be467c42a52edff2ef72034254d38d97db350ce2",
+      "export_sha256": "ec516447e45581108aa40062be467c42a52edff2ef72034254d38d97db350ce2",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d10-nonzero.json",
+      "destination": "data/dn/d10-nonzero.json",
+      "source_sha256": "a88e4093d5e3b82b64bc6153f903fa87e0c9de68f86ee8feaf451caff6374301",
+      "export_sha256": "a88e4093d5e3b82b64bc6153f903fa87e0c9de68f86ee8feaf451caff6374301",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d10-product-zero.json",
+      "destination": "data/dn/d10-product-zero.json",
+      "source_sha256": "662b39ff773a8f381455e7ead1cd078dccbb6df41697d077f693522b0ad76b41",
+      "export_sha256": "662b39ff773a8f381455e7ead1cd078dccbb6df41697d077f693522b0ad76b41",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d10.jsonl.gz",
+      "destination": "data/dn/d10.jsonl.gz",
+      "source_sha256": "227a3bab392048b248d4e7090493a6b4818f51cc594c5966849999be794aa523",
+      "export_sha256": "227a3bab392048b248d4e7090493a6b4818f51cc594c5966849999be794aa523",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d2-balanced-zero.json",
+      "destination": "data/dn/d2-balanced-zero.json",
+      "source_sha256": "8dc3f7ce9aed169e308bd8be89b524a80acb36fed8c5570af83b1583520d1885",
+      "export_sha256": "8dc3f7ce9aed169e308bd8be89b524a80acb36fed8c5570af83b1583520d1885",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d2-nonzero.json",
+      "destination": "data/dn/d2-nonzero.json",
+      "source_sha256": "4d8bd7982c1f4c88d8a8323c01731004f41de8dce2cd4c160a196d5e50c2514c",
+      "export_sha256": "4d8bd7982c1f4c88d8a8323c01731004f41de8dce2cd4c160a196d5e50c2514c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d2.jsonl.gz",
+      "destination": "data/dn/d2.jsonl.gz",
+      "source_sha256": "58cde2780b2e6e341e469189ebf0b03b5f640c986379fb7d6f8bc9211c6ed26a",
+      "export_sha256": "58cde2780b2e6e341e469189ebf0b03b5f640c986379fb7d6f8bc9211c6ed26a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d3-nonzero.json",
+      "destination": "data/dn/d3-nonzero.json",
+      "source_sha256": "b7f89f2191f005887789533d4a249dea9f5487c01db31277493cca426ab8b030",
+      "export_sha256": "b7f89f2191f005887789533d4a249dea9f5487c01db31277493cca426ab8b030",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d3.jsonl.gz",
+      "destination": "data/dn/d3.jsonl.gz",
+      "source_sha256": "612a2848228c7b4481d7f6f8c3d7f596e06520c0cba48a3ea1fbcb14efaf9891",
+      "export_sha256": "612a2848228c7b4481d7f6f8c3d7f596e06520c0cba48a3ea1fbcb14efaf9891",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d4-balanced-zero.json",
+      "destination": "data/dn/d4-balanced-zero.json",
+      "source_sha256": "b322684ab9c4b8875c86b3b6c532b9737cddeb1b46bd3f362b6694e3ed04387c",
+      "export_sha256": "b322684ab9c4b8875c86b3b6c532b9737cddeb1b46bd3f362b6694e3ed04387c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d4-nonzero.json",
+      "destination": "data/dn/d4-nonzero.json",
+      "source_sha256": "7616160b0f683405024566d5e79d6a0d0646cbc0ec0c0e35fa89c6f0f4c2dbee",
+      "export_sha256": "7616160b0f683405024566d5e79d6a0d0646cbc0ec0c0e35fa89c6f0f4c2dbee",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d4-product-zero.json",
+      "destination": "data/dn/d4-product-zero.json",
+      "source_sha256": "545ff7b501893a9120c06f8ed94bfa987be81beac19bebfea849b4dd6e39eca4",
+      "export_sha256": "545ff7b501893a9120c06f8ed94bfa987be81beac19bebfea849b4dd6e39eca4",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d4.jsonl.gz",
+      "destination": "data/dn/d4.jsonl.gz",
+      "source_sha256": "790a4165537c45c645f96c50955a0e339448cfc9d83ab71d072ef2d48d02ae26",
+      "export_sha256": "790a4165537c45c645f96c50955a0e339448cfc9d83ab71d072ef2d48d02ae26",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d5.jsonl.gz",
+      "destination": "data/dn/d5.jsonl.gz",
+      "source_sha256": "d556e566b5634fa3dbe407ddff490290dcd65ed3c1f32b513b3103af8c28c26f",
+      "export_sha256": "d556e566b5634fa3dbe407ddff490290dcd65ed3c1f32b513b3103af8c28c26f",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d6.jsonl.gz",
+      "destination": "data/dn/d6.jsonl.gz",
+      "source_sha256": "8078c9a15da398e75cc2516cb241957d8efa3e4ea95a8f959169da0241b153b5",
+      "export_sha256": "8078c9a15da398e75cc2516cb241957d8efa3e4ea95a8f959169da0241b153b5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d7.jsonl.gz",
+      "destination": "data/dn/d7.jsonl.gz",
+      "source_sha256": "a48dd5d6dfc4e52d5a7300fec77aef838d68553a299b897ab244d3eebf620611",
+      "export_sha256": "a48dd5d6dfc4e52d5a7300fec77aef838d68553a299b897ab244d3eebf620611",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d8.jsonl.gz",
+      "destination": "data/dn/d8.jsonl.gz",
+      "source_sha256": "bd3d74f4ef22cc09bfdbcb99f34e4f339d47d3bc60272f522b28cca5cf7ef624",
+      "export_sha256": "bd3d74f4ef22cc09bfdbcb99f34e4f339d47d3bc60272f522b28cca5cf7ef624",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/dn/d9.jsonl.gz",
+      "destination": "data/dn/d9.jsonl.gz",
+      "source_sha256": "3e9312a98ae5bf5abb6ca368ce576a57422808eb11434b76d51132ee9c1c2596",
+      "export_sha256": "3e9312a98ae5bf5abb6ca368ce576a57422808eb11434b76d51132ee9c1c2596",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e6-even.json",
+      "destination": "data/e6-even.json",
+      "source_sha256": "36cad93223b72ebd68ae1fa686dfbff2eced28e7f5b4605a607db78c79f362a6",
+      "export_sha256": "36cad93223b72ebd68ae1fa686dfbff2eced28e7f5b4605a607db78c79f362a6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e7-classification.json",
+      "destination": "data/e7-classification.json",
+      "source_sha256": "12004da6c92dbca21cb57c4052ab64d6dd1b65bd9bc356c01c8782654020c8e8",
+      "export_sha256": "12004da6c92dbca21cb57c4052ab64d6dd1b65bd9bc356c01c8782654020c8e8",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e7-nonzero.json",
+      "destination": "data/e7-nonzero.json",
+      "source_sha256": "0ad9eeae22d38ce41919b09d2cefcd31f52a49382cdad8d1cbf625d4a39b4985",
+      "export_sha256": "0ad9eeae22d38ce41919b09d2cefcd31f52a49382cdad8d1cbf625d4a39b4985",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e7-zero.json",
+      "destination": "data/e7-zero.json",
+      "source_sha256": "5b5b89f6b336859125ba7724c4ff6007918683e472b7cc78011531318326493c",
+      "export_sha256": "5b5b89f6b336859125ba7724c4ff6007918683e472b7cc78011531318326493c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e8-classification.json",
+      "destination": "data/e8-classification.json.gz",
+      "source_sha256": "4b24110eaeaef01c7b311be2bda6a241b9729ed32b6d97c667d46ddedeac9e2a",
+      "export_sha256": "bafaab4d33c649496680a5fdcc0d0abb0c8296eb3012cc18e3540cec75d5dc7b",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/e8-nonzero.json",
+      "destination": "data/e8-nonzero.json",
+      "source_sha256": "94402155ebc5d18ec949630e2ee48e8eadb89448491e6acb711dd3974954a4b9",
+      "export_sha256": "94402155ebc5d18ec949630e2ee48e8eadb89448491e6acb711dd3974954a4b9",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/e8-zero.json",
+      "destination": "data/e8-zero.json",
+      "source_sha256": "812e2b8a37f1dd93f04ae1fec406fee0ebebc52046a2f09a66e82f6581ac487b",
+      "export_sha256": "812e2b8a37f1dd93f04ae1fec406fee0ebebc52046a2f09a66e82f6581ac487b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/order16.json",
+      "destination": "data/order16.json",
+      "source_sha256": "98dde314055f3df1896afb8084d2f9af9ab37d829704e70e796191ea21964f6b",
+      "export_sha256": "98dde314055f3df1896afb8084d2f9af9ab37d829704e70e796191ea21964f6b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/order4.json",
+      "destination": "data/order4.json",
+      "source_sha256": "d479ec979c3017a55c0bd1372593726b361d2a756c2ff1486c38321d5ba476b6",
+      "export_sha256": "d479ec979c3017a55c0bd1372593726b361d2a756c2ff1486c38321d5ba476b6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/order8.json",
+      "destination": "data/order8.json",
+      "source_sha256": "c00312919a9c3053addb22a826255025008bf801413852b1cbb08b0a78000339",
+      "export_sha256": "c00312919a9c3053addb22a826255025008bf801413852b1cbb08b0a78000339",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-counterexample/det23716.json",
+      "destination": "data/rank4-counterexample/det23716.json",
+      "source_sha256": "a1effafe9871bbb833a39a187d98f718879986d24fd23444e167b8635b55e36c",
+      "export_sha256": "a1effafe9871bbb833a39a187d98f718879986d24fd23444e167b8635b55e36c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-feasibility/candidate-sizing.json",
+      "destination": "data/rank4-feasibility/candidate-sizing.json",
+      "source_sha256": "0f9f10497b1a7f48c9f92474164d61f43ae7ca2ea1bde4ce588e2a7193ed924d",
+      "export_sha256": "0f9f10497b1a7f48c9f92474164d61f43ae7ca2ea1bde4ce588e2a7193ed924d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-feasibility/candidates-det24.json",
+      "destination": "data/rank4-feasibility/candidates-det24.json",
+      "source_sha256": "bdd2719c3f500d43459e47a8f6e4b6dcf137b6db736bffd453d1edd348f27d5d",
+      "export_sha256": "bdd2719c3f500d43459e47a8f6e4b6dcf137b6db736bffd453d1edd348f27d5d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-feasibility/controls.json",
+      "destination": "data/rank4-feasibility/controls.json.gz",
+      "source_sha256": "7490e6e5a4e9a0e792bf677dcd30068fc59c6f037e66ad7fb8cba0b02e7a5e63",
+      "export_sha256": "527c5bd8f2aeb5275da6af052176d1272509cd5638be2aa4b92cb0ba6299c447",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/rank4-feasibility/cutoff-controls.json",
+      "destination": "data/rank4-feasibility/cutoff-controls.json",
+      "source_sha256": "e2107b28667ff08011f8521ab9b850e64f9cdf9993de57da778fe58e4fb9e31a",
+      "export_sha256": "e2107b28667ff08011f8521ab9b850e64f9cdf9993de57da778fe58e4fb9e31a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-fibre-obstruction/coupled-cosets.json",
+      "destination": "data/rank4-fibre-obstruction/coupled-cosets.json",
+      "source_sha256": "0f31ceb174b9e1680ab5595863b009ff5f9c39b65f129c956ffdadd9fd358971",
+      "export_sha256": "0f31ceb174b9e1680ab5595863b009ff5f9c39b65f129c956ffdadd9fd358971",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-remainder/det24.json",
+      "destination": "data/rank4-remainder/det24.json",
+      "source_sha256": "c3193de18de727d5ecbb006df053b0a633b1b68bbe191b30663f577a5e495b86",
+      "export_sha256": "c3193de18de727d5ecbb006df053b0a633b1b68bbe191b30663f577a5e495b86",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-remainder/later-shell-controls.json",
+      "destination": "data/rank4-remainder/later-shell-controls.json",
+      "source_sha256": "f0e56f31b7d73dc0b9a82ccffdfc44cc0c750b278a3b24e4f772a65ca0b27e3d",
+      "export_sha256": "f0e56f31b7d73dc0b9a82ccffdfc44cc0c750b278a3b24e4f772a65ca0b27e3d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/root-lattices/b2-zero.json",
+      "destination": "data/root-lattices/b2-zero.json",
+      "source_sha256": "0719435f8f0ca40e55b42301c3176658304918b30edced13047c518eac9e8322",
+      "export_sha256": "0719435f8f0ca40e55b42301c3176658304918b30edced13047c518eac9e8322",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/root-lattices/b8-zero.json",
+      "destination": "data/root-lattices/b8-zero.json",
+      "source_sha256": "288aaabb7b9722c80ebd1f46b1b69e03ef961d0a76c380b45cf67f316a3c2072",
+      "export_sha256": "288aaabb7b9722c80ebd1f46b1b69e03ef961d0a76c380b45cf67f316a3c2072",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/root-lattices/e8-quarter-xi-zero.json",
+      "destination": "data/root-lattices/e8-quarter-xi-zero.json",
+      "source_sha256": "f753302a55c8c574ebc233c6ad0ed780152f1dfd4099eaa3bcaa64cbb2b4deab",
+      "export_sha256": "f753302a55c8c574ebc233c6ad0ed780152f1dfd4099eaa3bcaa64cbb2b4deab",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/root-lattices/f4-classes.json",
+      "destination": "data/root-lattices/f4-classes.json",
+      "source_sha256": "5aff41e3293b432102c387dba984d9aa9e6509c91c48a39392e6ba10c7c9baa0",
+      "export_sha256": "5aff41e3293b432102c387dba984d9aa9e6509c91c48a39392e6ba10c7c9baa0",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/root-lattices/g2-classes.json",
+      "destination": "data/root-lattices/g2-classes.json",
+      "source_sha256": "a678a59a566b97cbf5ee98a78a09856def57a238409559ea6cdb150383f84e59",
+      "export_sha256": "a678a59a566b97cbf5ee98a78a09856def57a238409559ea6cdb150383f84e59",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/ternary.json",
+      "destination": "data/ternary.json",
+      "source_sha256": "761bc15aa1c70ce992ecfc99e385c8c83dc4982a6bb32f54381c8e265b15b607",
+      "export_sha256": "761bc15aa1c70ce992ecfc99e385c8c83dc4982a6bb32f54381c8e265b15b607",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank12-det24-box.json",
+      "destination": "reports/census-rank12-det24-box.json",
+      "source_sha256": "f725130b5d3baa4a7addeefcc0f8e03ecedfd7f64dc84db20905607e082c5a52",
+      "export_sha256": "f725130b5d3baa4a7addeefcc0f8e03ecedfd7f64dc84db20905607e082c5a52",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank12-det24-closed-box.json",
+      "destination": "reports/census-rank12-det24-closed-box.json",
+      "source_sha256": "ae95eced564d73f98ff1184bee61c6fb471f849dbc85dd388ff54b436b3ec6c8",
+      "export_sha256": "ae95eced564d73f98ff1184bee61c6fb471f849dbc85dd388ff54b436b3ec6c8",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank12-det24-closed-ldl.json",
+      "destination": "reports/census-rank12-det24-closed-ldl.json",
+      "source_sha256": "37a7b7844f0a889aafb11edb30c0dd6c600e87c4fbe9563e89b44225a2d9b824",
+      "export_sha256": "37a7b7844f0a889aafb11edb30c0dd6c600e87c4fbe9563e89b44225a2d9b824",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank12-det24-ldl.json",
+      "destination": "reports/census-rank12-det24-ldl.json",
+      "source_sha256": "464c73692e7caf9e69a7a7efb70dada56da2bbe1b2f37b30aa77074a08c5e8a1",
+      "export_sha256": "464c73692e7caf9e69a7a7efb70dada56da2bbe1b2f37b30aa77074a08c5e8a1",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/cutoff-controls-box.json",
+      "destination": "reports/census-rank3/cutoff-controls-box.json",
+      "source_sha256": "9e83703a84f6c59c908b90ab505a1a4b49bf69c9822773ba2e242fa1eac68fbf",
+      "export_sha256": "9e83703a84f6c59c908b90ab505a1a4b49bf69c9822773ba2e242fa1eac68fbf",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/cutoff-controls-ldl.json",
+      "destination": "reports/census-rank3/cutoff-controls-ldl.json",
+      "source_sha256": "9b429b564ac32dc7c03ba8ed90868d06993de8459c25c571aed4a81d6411a4dc",
+      "export_sha256": "9b429b564ac32dc7c03ba8ed90868d06993de8459c25c571aed4a81d6411a4dc",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/cutoff-index-audit.json",
+      "destination": "reports/census-rank3/cutoff-index-audit.json",
+      "source_sha256": "e2cb404861b7273ab1f7cadb483f67c53c95cd8c7a83bdb8730c9af6bd6bbc6b",
+      "export_sha256": "e2cb404861b7273ab1f7cadb483f67c53c95cd8c7a83bdb8730c9af6bd6bbc6b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/det24-bound32-box.json",
+      "destination": "reports/census-rank3/det24-bound32-box.json",
+      "source_sha256": "23a80ca19f40b3fdd97b47cd7001be352bee4b6b6e52d032e699acf86c043f09",
+      "export_sha256": "23a80ca19f40b3fdd97b47cd7001be352bee4b6b6e52d032e699acf86c043f09",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/det24-bound32-ldl.json",
+      "destination": "reports/census-rank3/det24-bound32-ldl.json",
+      "source_sha256": "13560178991006f43308a811b28622199b361d3deb7d380d789f4ba92194659c",
+      "export_sha256": "13560178991006f43308a811b28622199b361d3deb7d380d789f4ba92194659c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/structure-det24-box.json",
+      "destination": "reports/census-rank3/structure-det24-box.json",
+      "source_sha256": "62e98e5db131d20c40cc56a712e84c3e85245d26a9d26f30743bcbff91184828",
+      "export_sha256": "62e98e5db131d20c40cc56a712e84c3e85245d26a9d26f30743bcbff91184828",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank3/structure-review-resolution.json",
+      "destination": "reports/census-rank3/structure-review-resolution.json",
+      "source_sha256": "bdc8b12713201c162d6582dd5c096082c061462660603c69c3e923994252aab1",
+      "export_sha256": "bdc8b12713201c162d6582dd5c096082c061462660603c69c3e923994252aab1",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/coset-rescaling-checks.json",
+      "destination": "reports/coset-rescaling-checks.json",
+      "source_sha256": "741e08196b76fb3f8ab183513d6042f7de2cb2be27b8cfd389c2af9a434fca5c",
+      "export_sha256": "741e08196b76fb3f8ab183513d6042f7de2cb2be27b8cfd389c2af9a434fca5c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-audit-summary.json",
+      "destination": "reports/dn-audit-summary.json",
+      "source_sha256": "1b8bbf818655d367b662d7c641af99e37897fc338bf010e990e30b6df54eac8d",
+      "export_sha256": "1b8bbf818655d367b662d7c641af99e37897fc338bf010e990e30b6df54eac8d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d10-ambient.json",
+      "destination": "reports/dn-d10-ambient.json",
+      "source_sha256": "9f20870db6ef6ed62713b8a2222b1941e07f49200a364f36e72a1c8a6f222a09",
+      "export_sha256": "9f20870db6ef6ed62713b8a2222b1941e07f49200a364f36e72a1c8a6f222a09",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d10-ldl.json",
+      "destination": "reports/dn-d10-ldl.json",
+      "source_sha256": "b585b5333adb86e458cf1a464029f6d0657ea22db590a967e14e02b81a17a32d",
+      "export_sha256": "b585b5333adb86e458cf1a464029f6d0657ea22db590a967e14e02b81a17a32d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d2-ambient.json",
+      "destination": "reports/dn-d2-ambient.json",
+      "source_sha256": "501a5e3e63967cad8da9c1d3babfea2a3808d2279b7a38d311c683d4a32ae2d3",
+      "export_sha256": "501a5e3e63967cad8da9c1d3babfea2a3808d2279b7a38d311c683d4a32ae2d3",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d2-ldl.json",
+      "destination": "reports/dn-d2-ldl.json",
+      "source_sha256": "b155afe77360bff337542c545a27c35118956a4337d9dc8402237253fcfaa126",
+      "export_sha256": "b155afe77360bff337542c545a27c35118956a4337d9dc8402237253fcfaa126",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d3-ambient.json",
+      "destination": "reports/dn-d3-ambient.json",
+      "source_sha256": "bd8f937e404b09a6400e09e8426535b5311b43b7cfa1dfa9d7daa41c54930998",
+      "export_sha256": "bd8f937e404b09a6400e09e8426535b5311b43b7cfa1dfa9d7daa41c54930998",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d3-ldl.json",
+      "destination": "reports/dn-d3-ldl.json",
+      "source_sha256": "9571971ff741079b2e7b4fa6f3996d70eb3d787701aec7c6499745e20121c526",
+      "export_sha256": "9571971ff741079b2e7b4fa6f3996d70eb3d787701aec7c6499745e20121c526",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d4-ambient.json",
+      "destination": "reports/dn-d4-ambient.json",
+      "source_sha256": "4e0b206bc6d42d71a44ca2a3d9d166a4dd82832ef74a47b3cc00d72d3ca18de6",
+      "export_sha256": "4e0b206bc6d42d71a44ca2a3d9d166a4dd82832ef74a47b3cc00d72d3ca18de6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d4-ldl.json",
+      "destination": "reports/dn-d4-ldl.json",
+      "source_sha256": "1589875bc394a6b826e8c10b9a37aa0ae0a1732592e417d924f25e6149f220f1",
+      "export_sha256": "1589875bc394a6b826e8c10b9a37aa0ae0a1732592e417d924f25e6149f220f1",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d5-ambient.json",
+      "destination": "reports/dn-d5-ambient.json",
+      "source_sha256": "7b5623d493b65642f7602e8d1d964ab52dda589506db68825d5a24ebd9dc6d25",
+      "export_sha256": "7b5623d493b65642f7602e8d1d964ab52dda589506db68825d5a24ebd9dc6d25",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d5-ldl.json",
+      "destination": "reports/dn-d5-ldl.json",
+      "source_sha256": "7401fb4fe31b50af1b3ec92df77fa2532a5c151f24858c497b4948f8e99d30c5",
+      "export_sha256": "7401fb4fe31b50af1b3ec92df77fa2532a5c151f24858c497b4948f8e99d30c5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d6-ambient.json",
+      "destination": "reports/dn-d6-ambient.json",
+      "source_sha256": "fe3e34b01e32e443ec67608f4030d2b1653f5f5e9547421892cb5c5eecae8138",
+      "export_sha256": "fe3e34b01e32e443ec67608f4030d2b1653f5f5e9547421892cb5c5eecae8138",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d6-ldl.json",
+      "destination": "reports/dn-d6-ldl.json",
+      "source_sha256": "9386c82f159c5a61a5b7b053524f92705c36a51b0ea2ced0bee07d66c27e1ef2",
+      "export_sha256": "9386c82f159c5a61a5b7b053524f92705c36a51b0ea2ced0bee07d66c27e1ef2",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d7-ambient.json",
+      "destination": "reports/dn-d7-ambient.json",
+      "source_sha256": "12ac9a6cacf1802a0606d81caf0ddd9f37f9f4f449b9c2c7f5e3f1c5ce42cd90",
+      "export_sha256": "12ac9a6cacf1802a0606d81caf0ddd9f37f9f4f449b9c2c7f5e3f1c5ce42cd90",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d7-ldl.json",
+      "destination": "reports/dn-d7-ldl.json",
+      "source_sha256": "6165730b88b9996969b617bd9624e8e0fb9cf337d1e1d75a3a82dee48a14445b",
+      "export_sha256": "6165730b88b9996969b617bd9624e8e0fb9cf337d1e1d75a3a82dee48a14445b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d8-ambient.json",
+      "destination": "reports/dn-d8-ambient.json",
+      "source_sha256": "e93b4cea865e337ee014b95d33047c6982c80804eeacb8039be6ea1c9fca5829",
+      "export_sha256": "e93b4cea865e337ee014b95d33047c6982c80804eeacb8039be6ea1c9fca5829",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d8-ldl.json",
+      "destination": "reports/dn-d8-ldl.json",
+      "source_sha256": "8aa8997df498bf9db34176f94bf61858df4ec6576ffeb8671b74d74221ddc12b",
+      "export_sha256": "8aa8997df498bf9db34176f94bf61858df4ec6576ffeb8671b74d74221ddc12b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d9-ambient.json",
+      "destination": "reports/dn-d9-ambient.json",
+      "source_sha256": "746a8605f8f2c9e0e0c4b485746b5ef9f305d5c2aeae1c80a45542a441b59fca",
+      "export_sha256": "746a8605f8f2c9e0e0c4b485746b5ef9f305d5c2aeae1c80a45542a441b59fca",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/dn-d9-ldl.json",
+      "destination": "reports/dn-d9-ldl.json",
+      "source_sha256": "8cd0c45f04a7d8491ce288fa68b0b7695bc5289067aaa4b61ed898b1db5a3c72",
+      "export_sha256": "8cd0c45f04a7d8491ce288fa68b0b7695bc5289067aaa4b61ed898b1db5a3c72",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e6-ambient-results.json",
+      "destination": "reports/e6-ambient-results.json",
+      "source_sha256": "1540c1e21e672e727cb1caf9637d7a72bb93b70c90ccbc5eacde69aed277a7c7",
+      "export_sha256": "1540c1e21e672e727cb1caf9637d7a72bb93b70c90ccbc5eacde69aed277a7c7",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e6-even-results.json",
+      "destination": "reports/e6-even-results.json",
+      "source_sha256": "d417ce475191ca8358ee0de5b7ece9b1f72f40417853137d2275e3df0855cecd",
+      "export_sha256": "d417ce475191ca8358ee0de5b7ece9b1f72f40417853137d2275e3df0855cecd",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e7-ambient-results.json",
+      "destination": "reports/e7-ambient-results.json",
+      "source_sha256": "f1ac98c137eb8f7ad6088e937b4da63d56df85e2cdbb5bee99a9dcaf1a186158",
+      "export_sha256": "f1ac98c137eb8f7ad6088e937b4da63d56df85e2cdbb5bee99a9dcaf1a186158",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e7-ldl-results.json",
+      "destination": "reports/e7-ldl-results.json",
+      "source_sha256": "825430109eafff52a2470e7eef2b71f6c78ee80a181b6353651404397ba00aa2",
+      "export_sha256": "825430109eafff52a2470e7eef2b71f6c78ee80a181b6353651404397ba00aa2",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e8-ambient-results.json",
+      "destination": "reports/e8-ambient-results.json",
+      "source_sha256": "fff0e9523cf6939d91c9d799acc155b2459544c2c107009a75a618d2dbbaa18e",
+      "export_sha256": "fff0e9523cf6939d91c9d799acc155b2459544c2c107009a75a618d2dbbaa18e",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/e8-ldl-results.json",
+      "destination": "reports/e8-ldl-results.json",
+      "source_sha256": "cb63cf8e3fa418991730ff491ee514a0a78ed6b219e47e8d0316d7407ed90de5",
+      "export_sha256": "cb63cf8e3fa418991730ff491ee514a0a78ed6b219e47e8d0316d7407ed90de5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/example-results.json",
+      "destination": "reports/example-results.json",
+      "source_sha256": "36ece157eedc155000f93c63f0ea0c4d53d821ce0cff4a8c652c4fddf5f5fac1",
+      "export_sha256": "36ece157eedc155000f93c63f0ea0c4d53d821ce0cff4a8c652c4fddf5f5fac1",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/root-lattices-audit.json",
+      "destination": "reports/root-lattices-audit.json",
+      "source_sha256": "49057cf4a9259782f18174e32e268b8b941530a9fb6a48dd942684a66c786354",
+      "export_sha256": "49057cf4a9259782f18174e32e268b8b941530a9fb6a48dd942684a66c786354",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank4/det24-bound32-final-box.json",
+      "destination": "reports/census-rank4/det24-bound32-final-box.json",
+      "source_sha256": "5772b964674d53e5a60d026929460db9da0a5c569073ffd6bb978588633f7033",
+      "export_sha256": "5772b964674d53e5a60d026929460db9da0a5c569073ffd6bb978588633f7033",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank4/det24-bound32-final-ldl.json",
+      "destination": "reports/census-rank4/det24-bound32-final-ldl.json",
+      "source_sha256": "9655a565efece7745542d8224d225b9a82554dcd6f71691baf7cdb3ec0633d4f",
+      "export_sha256": "9655a565efece7745542d8224d225b9a82554dcd6f71691baf7cdb3ec0633d4f",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank4/det24-profile.json",
+      "destination": "reports/census-rank4/det24-profile.json",
+      "source_sha256": "c9a39fdafd9eb6a73e57ea29d618ff7e63835ea345af9a5f119e7be220359e83",
+      "export_sha256": "c9a39fdafd9eb6a73e57ea29d618ff7e63835ea345af9a5f119e7be220359e83",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank4/pilot-det4-bound32-box.json",
+      "destination": "reports/census-rank4/pilot-det4-bound32-box.json",
+      "source_sha256": "b53909ff47520d9bd92384d76a6346d97955d647843cefb6112b1e108c92e690",
+      "export_sha256": "b53909ff47520d9bd92384d76a6346d97955d647843cefb6112b1e108c92e690",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/census-rank4/pilot-det4-bound32-ldl.json",
+      "destination": "reports/census-rank4/pilot-det4-bound32-ldl.json",
+      "source_sha256": "b5370686f84098d701c1c378af664974653c29b2546e0d600b3d3d1e5c70e5fb",
+      "export_sha256": "b5370686f84098d701c1c378af664974653c29b2546e0d600b3d3d1e5c70e5fb",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-feasibility/independent-box.json",
+      "destination": "reports/rank4-feasibility/independent-box.json",
+      "source_sha256": "e14e3c7f29b09dbe86d1e75dc2182eac334bf754d089a1b43620718a890a7d98",
+      "export_sha256": "e14e3c7f29b09dbe86d1e75dc2182eac334bf754d089a1b43620718a890a7d98",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-remainder/final-box.json",
+      "destination": "reports/rank4-remainder/final-box.json",
+      "source_sha256": "a5c7fdae5d55b5cacd16be7dcfaee5b73a8ae98ad3a23074de9047b166d86752",
+      "export_sha256": "a5c7fdae5d55b5cacd16be7dcfaee5b73a8ae98ad3a23074de9047b166d86752",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-remainder/later-shell-box.json",
+      "destination": "reports/rank4-remainder/later-shell-box.json",
+      "source_sha256": "0a9fc465d66fffda64bbc7baa21b92b7326cfbc713e31752e48f568cace1a1be",
+      "export_sha256": "0a9fc465d66fffda64bbc7baa21b92b7326cfbc713e31752e48f568cace1a1be",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-remainder/fibre-identity-check.json",
+      "destination": "reports/rank4-remainder/fibre-identity-check.json",
+      "source_sha256": "218ef43784de3caaaa5ea78493e6485029698064c5c1ce3fcaa958367c904adc",
+      "export_sha256": "218ef43784de3caaaa5ea78493e6485029698064c5c1ce3fcaa958367c904adc",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-counterexample/astra-box.json",
+      "destination": "reports/rank4-counterexample/astra-box.json",
+      "source_sha256": "7d44c1dcde49901968c14c20353801bac0638cc4a8117560cb872925fbec508d",
+      "export_sha256": "7d44c1dcde49901968c14c20353801bac0638cc4a8117560cb872925fbec508d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-counterexample/independent-box.json",
+      "destination": "reports/rank4-counterexample/independent-box.json",
+      "source_sha256": "7d44c1dcde49901968c14c20353801bac0638cc4a8117560cb872925fbec508d",
+      "export_sha256": "7d44c1dcde49901968c14c20353801bac0638cc4a8117560cb872925fbec508d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "MANUSCRIPT-RANK4.md",
+      "destination": "papers/rank-four-counterexample.md",
+      "source_sha256": "b7c2b61f4bcb048e0622de8a23a4865e7a12549d525ea78674625f7fd5b525d4",
+      "export_sha256": "9ea60617a332fa6150723d6420088eebff337d02fa46602f3b0ce2df002b8b8f",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "MANUSCRIPT-RANK3.md",
+      "destination": "papers/low-rank-and-root-lattice-results.md",
+      "source_sha256": "66fa8cee20e7ca84172d3777529c2680f588d69c3176aff491a662539ebc10a5",
+      "export_sha256": "80a479f2367efd72b789b757fe3141c72e4694fb6f62788bb84920112e67d097",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "PROOFS.md",
+      "destination": "docs/foundations-and-exact-enumeration.md",
+      "source_sha256": "ccf887544d211c2dac494400e339122724dc2913fcbfa8adf0bde2ad63a556c8",
+      "export_sha256": "a54efe709a1240ca53ea59055585c342088043071f6aa69075a4370285e872e0",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK-TWO.md",
+      "destination": "docs/rank-two-classification.md",
+      "source_sha256": "786912220d1ff82ee48fb27f8c39174920fc3e917cb299e06f4706063c51b672",
+      "export_sha256": "417e4505662daaa7eab981f2222675f255bac37764226b9d6e459cb4755ce2ca",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK3-STRUCTURE.md",
+      "destination": "docs/rank-three-classification.md",
+      "source_sha256": "b1fd3c49d349a5a7546b8095cc82f2aa7088598c8321bc66681d14039f03a714",
+      "export_sha256": "346ba095951fa2c15932fc82cac126ec4cb7852a7bb69bdc41fc08bb934b4bec",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK3-CENSUS-PLAN.md",
+      "destination": "docs/rank-three-census-domain.md",
+      "source_sha256": "d3bf9ed96645192c0bc7b9c859fe0306ad869c2aee4ff62d790b26e389487694",
+      "export_sha256": "23559bab3e0ebec87aca9c57deb5d1f37f299e0b72c4f6c4a45ecdfbc5f569cb",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "LATTICE-CENSUS.md",
+      "destination": "docs/rank-one-and-two-census.md",
+      "source_sha256": "9d597d03ebce7156d2e06fee0164e0d09e5e50ba22d2b5b13caf05c16fdd69b7",
+      "export_sha256": "763986989d4d477310b702676e20d6073e30dda628579a9beb2f1c30528894eb",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK3-CUTOFF.md",
+      "destination": "docs/rank-three-coefficient-cutoff.md",
+      "source_sha256": "12b3226e34e1ddffbf875806f668743d2c6755dbfe3f516326f57ef021a5812c",
+      "export_sha256": "000b9aa6c2ba488fef40ef01ba450ded8880e6eda250ffb712dc400cad130b35",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "COSET-MODULARITY.md",
+      "destination": "docs/coset-modularity.md",
+      "source_sha256": "1bebe4cbd9c9b6754fd9b2e768177aa1640ffc145c90f2181cd426755745a0a7",
+      "export_sha256": "33608b5f8e3e6af8113a9f406d5d0271c3041032226782ebab7f96b00324628d",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "THETA-TRANSFORMATIONS.md",
+      "destination": "docs/theta-transformations.md",
+      "source_sha256": "2189ab4f1673dd52800aa5708b6a2fd2b09c540fc15b161026ba10f31e82b89e",
+      "export_sha256": "e44e360b81110459c517956e505bc5e2de63c7f63e18aa2ef68c704692175f3a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "ROOT-LATTICES.md",
+      "destination": "docs/root-lattice-classification.md",
+      "source_sha256": "a5e1a928d6a3d0417f1b3b2a4d4da833ca417ab23b8edcae1002608fd8ffd5c6",
+      "export_sha256": "597d87415aae79be66c3381675166b1ea43ca47726972017fdee782d46145410",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "DN-COUNTING.md",
+      "destination": "docs/dn-vanishing-formula.md",
+      "source_sha256": "4ebf112173c78f150dff7edde17c5a1d1d8a9979f9bca7482cae577f15a54124",
+      "export_sha256": "75d6a949bc44180f89e03c8543666a13fd3e5d102e8e98c2339f2b64708ed476",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "E6-MILESTONE.md",
+      "destination": "docs/e6-classification.md",
+      "source_sha256": "4abd8913b50b7b5ea421c062ae02796b71c47b74cd5258390329041a04703539",
+      "export_sha256": "7d6e45c1752d66f16276d8dbd34d3d0eadfc7adfd708b95486131de3869db822",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "E7-E8-MILESTONE.md",
+      "destination": "docs/e7-and-e8-classification.md",
+      "source_sha256": "c26920d02fa4a583880f845fef7f3b4d1af60634bf081a05f74da08d00dec144",
+      "export_sha256": "0d6e33747771c6a1786e311f5327384fbedfc40185740918229ecf567d29725a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "LITERATURE.md",
+      "destination": "docs/literature-and-source-scope.md",
+      "source_sha256": "8ed9c38e5251240f82bd05e06db70789d7985b5b05da09bade78ef743cb8f232",
+      "export_sha256": "40223f529dc4b823a8e1e99209c57a3757cbdeec004063f263e7d819537eeabe",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "LITERATURE-RANK3.md",
+      "destination": "docs/low-rank-literature.md",
+      "source_sha256": "e79924ab9ab2a0b75a537512978e892f7d35bf4e4c3890b1f108dc6844e5c87a",
+      "export_sha256": "c8a213bac8741ea93ff20db3700550c49209945f4ec69d2b75bec182c7ce941c",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-FEASIBILITY.md",
+      "destination": "docs/rank-four-census-domain-and-cutoff.md",
+      "source_sha256": "1c7361517f1248a562cc566a2125343328cf21fa7c69ef281d7f9d69e135fc45",
+      "export_sha256": "40696be6db75bb36a292e773150d2e955ac4b3ffc36b761196964efd9e5ff712",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-INDECOMPOSABLE-REDUCTION.md",
+      "destination": "docs/rank-four-decomposition-and-fibres.md",
+      "source_sha256": "097f2f6269dba4a5f00c50981befce83f474c05049c835c1cd56ceb419804d9a",
+      "export_sha256": "bf6cc289ae586ccef67868baea63641c3d01a63a5e0cdd34228dc73e77207e64",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-CANCELLATION-LEMMA.md",
+      "destination": "docs/rank-four-later-shell-lemma.md",
+      "source_sha256": "7fb62db2d3e5b6e364e2ea27f2be1407065d0ba72f117bfef0361db2daaf648e",
+      "export_sha256": "7fb62db2d3e5b6e364e2ea27f2be1407065d0ba72f117bfef0361db2daaf648e",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RESEARCH-SIDE-QUESTS.md",
+      "destination": "docs/deferred-research.md",
+      "source_sha256": "ebe7d64ec86149ac22faf294bed3eb8e3b20138b3e193ed605560ca70e1325d8",
+      "export_sha256": "6c3c62c4258f76a83aac213664e26f8aa7de1090811f254e04e5c314b062e716",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RESEARCH.md",
+      "destination": "reviews/initial-mathematical-review.md",
+      "source_sha256": "e1f318a9f05be42dd6ea860892274fbbe050cbe73d46576a5f810f08418c69d7",
+      "export_sha256": "9b819f293f83277aed8622b1b04f89d2510f0b2c200ef78b4c8c19a183836e54",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-FOLLOWUP.md",
+      "destination": "reviews/modularity-follow-up.md",
+      "source_sha256": "7a467d68aaab6ad7eb2afc64f5ff82f562cbdf97f60176c051061f98521b008d",
+      "export_sha256": "db221c85779cab9de47c2bd30fed33fd8f83193a4ab03c8b1523820444fe1372",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-TRANSFORM-REVIEW.md",
+      "destination": "reviews/theta-transformation-review.md",
+      "source_sha256": "53feb377f5a48c06f1036395f69f32a7e95b89fc18bae6328c31538f3e2f27f2",
+      "export_sha256": "56f937381c0795517330dc7c3f93ce4c23955b7179525f8403de8a03f720b78a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RESCALING-REVIEW.md",
+      "destination": "reviews/coset-rescaling-review.md",
+      "source_sha256": "6e333b131a6ab7ca6e15d1cca5f4c9d680160edcee7d8c15ac17d47392197d35",
+      "export_sha256": "899d67ddfdddf1c46b5f7620ffcf287524a5f90e0dcba7681b1557bfc6ecc5a4",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK3-CUTOFF-REPORT.md",
+      "destination": "reviews/rank-three-cutoff-review.md",
+      "source_sha256": "6aee0d0246997d12cc5aae5fc3c0bd99a0f3f936ee43e4c4391bd2de25a37df4",
+      "export_sha256": "55ce8829212b24b95470789e4dccc9d13994e16998506715ad7571a6b0325ae8",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK3-PRIOR-ART-REPORT.md",
+      "destination": "reviews/low-rank-literature-review.md",
+      "source_sha256": "3522b75d695f3d73c96e3e1371bc6fe183fc5bacedc1031549fae33858729064",
+      "export_sha256": "94e5fac61394a751e7cb03f40d339bcea3b4ec53c34ef89e253507e45dba024f",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK3-STRUCTURE-REVIEW.md",
+      "destination": "reviews/rank-three-proof-review.md",
+      "source_sha256": "4330a5cdb4405969e2cc2f30c84fff96a6597366c84a040f499262c747d8c8b1",
+      "export_sha256": "39c6e4554259e620f2145eeb0bb17e9378222412cb0c68e55277142c19535646",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-FINAL-MANUSCRIPT-REVIEW.md",
+      "destination": "reviews/low-rank-manuscript-review.md",
+      "source_sha256": "63ef0e8ef6ecf55e8614ec2fe4b8ff772f86d9e23288209a5cacc4c9e4be50f7",
+      "export_sha256": "2cf9bcd818f7890ab7cc6f85b8113a6c19e4094df737025ff2053e0cc3fe4b58",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK4-FEASIBILITY-REVIEW.md",
+      "destination": "reviews/rank-four-domain-and-cutoff-review.md",
+      "source_sha256": "62298a0d4d6f74f6f0ddf9e1c7cfac7211762335e5e55da4a0f38f30f5668e75",
+      "export_sha256": "d19b71f8a5239b44f4c4e40cba14b41067d14ec35de77c953797b4cae07f58af",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK4-CENSUS-REVIEW.md",
+      "destination": "reviews/rank-four-census-review.md",
+      "source_sha256": "fef5308a18b79f1bad348496d61f565d44e4259607ec98cf52e126dbc58efa91",
+      "export_sha256": "3366fdb3ac6e656b2bcb27a1001e5d8adf6f566fac6fb97d2c800b237abae1b4",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "GROK-RANK4-LATER-SHELL-REVIEW.md",
+      "destination": "reviews/rank-four-later-shell-review.md",
+      "source_sha256": "69f0b330af570b6a147a8d38b038a0024269db11aa11fd381912435b363fba6b",
+      "export_sha256": "1ee9238ed21276cd4a9d11619767e0a9dd60e6fa197e4a45fa97785fb1849261",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "ASTRA-RANK4-COUNTEREXAMPLE-REVIEW.md",
+      "destination": "reviews/rank-four-counterexample-review.md",
+      "source_sha256": "944a72b85f1b16500d6f2ef1f04a10107a3bf0c3c2fa8ba7e1d0277b5a9a10ce",
+      "export_sha256": "8b824d4d839296cd98b4f346901beebe2da668249362c00071696762e90fdb57",
+      "changes": "editorial links, current status and relocated paths"
+    }
+  ],
+  "editorial_scope": "Relocated paths and links, descriptive filenames, current completion status, and preservation-safe public reproduction commands. Mathematical statements and certificate schemas are retained; reviews record historical AI-assisted audits."
+}

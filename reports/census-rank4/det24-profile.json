@@ -1,0 +1,6788 @@
+{
+  "schema": "work7-rank4-census-profile-v1",
+  "source_sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982",
+  "scope": "Derived reading aid; not a replacement certificate or independent replay",
+  "summary": {
+    "candidate_bases": 1510,
+    "lattice_classes": 169,
+    "even_pairs": 22984,
+    "odd_pairs": 20280,
+    "even_verdicts": {
+      "proved_nonzero": 16608,
+      "proved_zero": 6376
+    }
+  },
+  "classes_by_determinant": {
+    "1": 1,
+    "2": 1,
+    "3": 2,
+    "4": 4,
+    "5": 3,
+    "6": 3,
+    "7": 3,
+    "8": 7,
+    "9": 6,
+    "10": 4,
+    "11": 4,
+    "12": 12,
+    "13": 5,
+    "14": 5,
+    "15": 8,
+    "16": 15,
+    "17": 6,
+    "18": 9,
+    "19": 6,
+    "20": 16,
+    "21": 11,
+    "22": 7,
+    "23": 7,
+    "24": 24
+  },
+  "lattices": [
+    {
+      "representative": 0,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "determinant": 1,
+      "group_order": 384,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 4,
+      "cutoff_range": [
+        8,
+        16
+      ]
+    },
+    {
+      "representative": 1,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 2,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        8,
+        32
+      ]
+    },
+    {
+      "representative": 2,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 3,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 4,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 5,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        48,
+        96
+      ]
+    },
+    {
+      "representative": 5,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 6,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 6,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "determinant": 7,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    },
+    {
+      "representative": 7,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 8,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 9,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "determinant": 10,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 13,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 10,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ]
+      ],
+      "determinant": 11,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 11,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 15,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 12,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13
+        ]
+      ],
+      "determinant": 13,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 16,
+      "cutoff_range": [
+        112,
+        224
+      ]
+    },
+    {
+      "representative": 13,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14
+        ]
+      ],
+      "determinant": 14,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 17,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 14,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 18,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 15,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 19,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 16,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          17
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 20,
+      "cutoff_range": [
+        144,
+        288
+      ]
+    },
+    {
+      "representative": 17,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 21,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 18,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          19
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 22,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 19,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 23,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 20,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          21
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 24,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 21,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          22
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 25,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 22,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          23
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 26,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 23,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 27,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 24,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 4,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 25,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 5,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        48,
+        96
+      ]
+    },
+    {
+      "representative": 26,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 7,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    },
+    {
+      "representative": 27,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 28,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 11,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 29,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          7
+        ]
+      ],
+      "determinant": 13,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        112,
+        224
+      ]
+    },
+    {
+      "representative": 30,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          8
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 31,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          9
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        144,
+        288
+      ]
+    },
+    {
+      "representative": 32,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          10
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 33,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          11
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 13,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 34,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          12
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 35,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 4,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        8,
+        32
+      ]
+    },
+    {
+      "representative": 36,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 6,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 37,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 38,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 10,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 39,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 40,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "determinant": 14,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 41,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 42,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          9
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 13,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 43,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          10
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 44,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 15,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 45,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 16,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 46,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 47,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 11,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 48,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 14,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 49,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        144,
+        288
+      ]
+    },
+    {
+      "representative": 50,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          7
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 51,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          8
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 52,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 53,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 54,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 55,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 56,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 57,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 13,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 58,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 59,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          5
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 60,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          6
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 61,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          7
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 62,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 63,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 64,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 65,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 66,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 67,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 68,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          5
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 69,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 70,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 71,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          3
+        ]
+      ],
+      "determinant": 7,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    },
+    {
+      "representative": 72,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 10,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 73,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          5
+        ]
+      ],
+      "determinant": 13,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        112,
+        224
+      ]
+    },
+    {
+      "representative": 74,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          6
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 75,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          7
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 76,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          8
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 77,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          3
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 78,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        144,
+        288
+      ]
+    },
+    {
+      "representative": 79,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          5
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 80,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          4,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 81,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          4,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 82,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 6,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 83,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 84,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 85,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 86,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 87,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 88,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 89,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 13,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        112,
+        224
+      ]
+    },
+    {
+      "representative": 90,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 91,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 92,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 10,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 93,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 94,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 95,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          4,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 96,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 97,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 98,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 13,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 99,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 17,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 100,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 21,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 101,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          7
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 25,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 102,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 14,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 103,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          5
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 104,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          6
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 105,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        16,
+        32
+      ]
+    },
+    {
+      "representative": 106,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 107,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 108,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 109,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    },
+    {
+      "representative": 110,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 111,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 112,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 113,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 114,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          -2
+        ],
+        [
+          0,
+          0,
+          -2,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    },
+    {
+      "representative": 115,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        16,
+        32
+      ]
+    },
+    {
+      "representative": 116,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 117,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          3
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 118,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          3,
+          1
+        ],
+        [
+          0,
+          -1,
+          1,
+          3
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        48,
+        96
+      ]
+    },
+    {
+      "representative": 119,
+      "G": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 120,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 4,
+      "group_order": 1152,
+      "even_verdicts": {
+        "proved_nonzero": 127,
+        "proved_zero": 9
+      },
+      "maximum_first_nonzero_norm4": 4,
+      "cutoff_range": [
+        8,
+        16
+      ]
+    },
+    {
+      "representative": 121,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 122,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 123,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 124,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        48,
+        96
+      ]
+    },
+    {
+      "representative": 125,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          7
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 126,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          2
+        ]
+      ],
+      "determinant": 5,
+      "group_order": 240,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 4,
+      "cutoff_range": [
+        48,
+        48
+      ]
+    },
+    {
+      "representative": 127,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          3
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 128,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          4
+        ]
+      ],
+      "determinant": 13,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        112,
+        112
+      ]
+    },
+    {
+      "representative": 129,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          5
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        144,
+        288
+      ]
+    },
+    {
+      "representative": 130,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          6
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        256,
+        256
+      ]
+    },
+    {
+      "representative": 131,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 132,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 22,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 15,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 133,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          3
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 134,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          1
+        ],
+        [
+          -1,
+          0,
+          1,
+          4
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 135,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 136,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 137,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 138,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 139,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 140,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 141,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 14,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 142,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 143,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          3,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 132,
+        "proved_zero": 4
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 144,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          3,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 145,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 11,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        96,
+        192
+      ]
+    },
+    {
+      "representative": 146,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 17,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        144,
+        144
+      ]
+    },
+    {
+      "representative": 147,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          5
+        ]
+      ],
+      "determinant": 23,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 16,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 148,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 149,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 19,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        160,
+        320
+      ]
+    },
+    {
+      "representative": 150,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "determinant": 9,
+      "group_order": 288,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      },
+      "maximum_first_nonzero_norm4": 4,
+      "cutoff_range": [
+        32,
+        32
+      ]
+    },
+    {
+      "representative": 151,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 15,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      },
+      "maximum_first_nonzero_norm4": 5,
+      "cutoff_range": [
+        192,
+        384
+      ]
+    },
+    {
+      "representative": 152,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        256,
+        256
+      ]
+    },
+    {
+      "representative": 153,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 154,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 18,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 155,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 156,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      },
+      "maximum_first_nonzero_norm4": 6,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 157,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          3,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          3
+        ]
+      ],
+      "determinant": 21,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        256,
+        512
+      ]
+    },
+    {
+      "representative": 158,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          3,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 10,
+      "cutoff_range": [
+        32,
+        128
+      ]
+    },
+    {
+      "representative": 159,
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      },
+      "maximum_first_nonzero_norm4": 7,
+      "cutoff_range": [
+        48,
+        192
+      ]
+    },
+    {
+      "representative": 160,
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          3,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          3
+        ]
+      ],
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        32,
+        64
+      ]
+    },
+    {
+      "representative": 161,
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          3,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 132,
+        "proved_zero": 4
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        96,
+        384
+      ]
+    },
+    {
+      "representative": 162,
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          3,
+          1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          3
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 128,
+        "proved_zero": 8
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        16,
+        64
+      ]
+    },
+    {
+      "representative": 163,
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          3,
+          1
+        ],
+        [
+          -1,
+          -1,
+          1,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 164,
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 11,
+      "cutoff_range": [
+        128,
+        512
+      ]
+    },
+    {
+      "representative": 165,
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      },
+      "maximum_first_nonzero_norm4": 12,
+      "cutoff_range": [
+        48,
+        96
+      ]
+    },
+    {
+      "representative": 166,
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      },
+      "maximum_first_nonzero_norm4": 14,
+      "cutoff_range": [
+        64,
+        256
+      ]
+    },
+    {
+      "representative": 167,
+      "G": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "determinant": 16,
+      "group_order": 384,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 8,
+      "cutoff_range": [
+        16,
+        32
+      ]
+    },
+    {
+      "representative": 168,
+      "G": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3
+        ]
+      ],
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      },
+      "maximum_first_nonzero_norm4": 9,
+      "cutoff_range": [
+        64,
+        128
+      ]
+    }
+  ]
+}

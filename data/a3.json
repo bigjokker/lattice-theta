@@ -1,0 +1,37 @@
+{
+  "schema": "work7-theta-v1",
+  "name": "A3: even-p nonzero minimal shell",
+  "G": [
+    [
+      2,
+      -1,
+      0
+    ],
+    [
+      -1,
+      2,
+      -1
+    ],
+    [
+      0,
+      -1,
+      2
+    ]
+  ],
+  "a": [
+    1,
+    0,
+    1
+  ],
+  "b": [
+    1,
+    0,
+    1
+  ],
+  "evidence": {
+    "kind": "shell",
+    "norm4": 4,
+    "coefficient": 2
+  },
+  "provenance": "simple roots ei-e(i+1); generated elementary example"
+}

@@ -1,0 +1,878 @@
+{
+  "schema": "work7-rank3-structure-result-v1",
+  "summary": {
+    "classes": 120,
+    "structure_types": {
+      "three_lines": 51,
+      "line_and_indecomposable_binary": 44,
+      "indecomposable": 25
+    },
+    "even_pairs": 4320,
+    "all_pairs": 7680,
+    "proved_zero": 4083,
+    "proved_nonzero": 3597,
+    "complete": true,
+    "positive_graphs": {
+      "cycle": 12,
+      "diamond": 11,
+      "complete": 2
+    },
+    "symbolic_shell_cases": {
+      "constant": 200,
+      "singleton": 400,
+      "cycle": 48,
+      "two_connected": 208,
+      "diamond_minimum": 22,
+      "diamond_later": 22
+    }
+  },
+  "backend": "box",
+  "certificate_replay_complete": true,
+  "replay_limits": [],
+  "verdict": "resolved",
+  "census_sha256": "1083147c76d6b66aeed3491d35bcb1f83ebed65c9cc0c630e95eaac90b32816a",
+  "rows": [
+    {
+      "lattice": 0,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 1,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 2,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 3,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 4,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 5,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 6,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 7,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 8,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 9,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 10,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 11,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 12,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 13,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 14,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 15,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 16,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 17,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 18,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 19,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 20,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 21,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 22,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 23,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 24,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 25,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 26,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 27,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 28,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 29,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 30,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 31,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 32,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 33,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 34,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 35,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 36,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 37,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 38,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 39,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 40,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 41,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 42,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 43,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 44,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 45,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 46,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 47,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 48,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 49,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 50,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 51,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 52,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 53,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 54,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 55,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 56,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 57,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 58,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 59,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 60,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 61,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 62,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 63,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 64,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 65,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 66,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 67,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 68,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 69,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 70,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 71,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 72,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 73,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 74,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 75,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 76,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 77,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 78,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 79,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 80,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 81,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 82,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 83,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 84,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 85,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 86,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 87,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 88,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 89,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 90,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 91,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 92,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 93,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 94,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 95,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 96,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 97,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 98,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 99,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 100,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 101,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 102,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 103,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 104,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 105,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 106,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 107,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 108,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 109,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 110,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 111,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 112,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 113,
+      "structure": "three_lines",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 114,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 115,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 116,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 117,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 118,
+      "structure": "indecomposable",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    },
+    {
+      "lattice": 119,
+      "structure": "line_and_indecomposable_binary",
+      "splitting_sphere_complete": true,
+      "pairs_replayed": 64,
+      "verdict": "verified"
+    }
+  ],
+  "symbolic_theorem_externally_reviewed": false,
+  "pack_sha256": "ae8288b4f1ae0bbddf3f6161200ea9e7e7c52eab28df772146b84aafb1a762f6"
+}

@@ -1,0 +1,617 @@
+{
+  "schema": "work7-rank3-cutoff-controls-result-v1",
+  "backend": "ldl",
+  "pack_sha256": "a9dba5f73ae88cc7b17894686eea6a3d5b9a5ffad9808a54b31dc993f075487f",
+  "all_claims_replayed": true,
+  "results": [
+    {
+      "name": "orthogonal modular zero",
+      "verdict": "proved_zero_by_modular_cutoff",
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 6,
+      "norm4_bound": 6,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 2,
+          "norm": "1/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 6,
+          "norm": "3/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "inclusive endpoint missing",
+      "verdict": "unresolved",
+      "reason": "complete zero search below the inclusive cutoff",
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 6,
+      "norm4_bound": 5,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 2,
+          "norm": "1/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "enumeration interrupted",
+      "verdict": "unresolved",
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": false,
+      "reason": "builder enumeration interrupted",
+      "cutoff": 6,
+      "backend": "ldl"
+    },
+    {
+      "name": "I3 nonzero",
+      "verdict": "proved_nonzero",
+      "nonzero_norm4": 1,
+      "coefficient": 2,
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 12,
+      "norm4_bound": 12,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 1,
+          "norm": "1/4",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 5,
+          "norm": "5/4",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 9,
+          "norm": "9/4",
+          "vector_count": 10,
+          "signed_coefficient": -6
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "A3 nonzero",
+      "verdict": "proved_nonzero",
+      "nonzero_norm4": 2,
+      "coefficient": 2,
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 48,
+      "norm4_bound": 48,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 2,
+          "norm": "1/2",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 6,
+          "norm": "3/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 10,
+          "norm": "5/2",
+          "vector_count": 4,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 14,
+          "norm": "7/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 18,
+          "norm": "9/2",
+          "vector_count": 6,
+          "signed_coefficient": -2
+        },
+        {
+          "norm4": 22,
+          "norm": "11/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 26,
+          "norm": "13/2",
+          "vector_count": 12,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 30,
+          "norm": "15/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 34,
+          "norm": "17/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 38,
+          "norm": "19/2",
+          "vector_count": 12,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 42,
+          "norm": "21/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 46,
+          "norm": "23/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "2I3 nonzero",
+      "verdict": "proved_nonzero",
+      "nonzero_norm4": 2,
+      "coefficient": 2,
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 24,
+      "norm4_bound": 24,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 2,
+          "norm": "1/2",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 10,
+          "norm": "5/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 18,
+          "norm": "9/2",
+          "vector_count": 10,
+          "signed_coefficient": -6
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "det20 cancelled first shell",
+      "verdict": "unresolved",
+      "reason": "complete zero search below the inclusive cutoff",
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 288,
+      "norm4_bound": 6,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 6,
+          "norm": "3/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "det20 complete cutoff",
+      "verdict": "proved_nonzero",
+      "nonzero_norm4": 10,
+      "coefficient": 2,
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 288,
+      "norm4_bound": 288,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 6,
+          "norm": "3/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 10,
+          "norm": "5/2",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 18,
+          "norm": "9/2",
+          "vector_count": 4,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 22,
+          "norm": "11/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 26,
+          "norm": "13/2",
+          "vector_count": 4,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 34,
+          "norm": "17/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 38,
+          "norm": "19/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 42,
+          "norm": "21/2",
+          "vector_count": 4,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 46,
+          "norm": "23/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 54,
+          "norm": "27/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 58,
+          "norm": "29/2",
+          "vector_count": 8,
+          "signed_coefficient": -8
+        },
+        {
+          "norm4": 62,
+          "norm": "31/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 74,
+          "norm": "37/2",
+          "vector_count": 4,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 78,
+          "norm": "39/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 82,
+          "norm": "41/2",
+          "vector_count": 12,
+          "signed_coefficient": -12
+        },
+        {
+          "norm4": 86,
+          "norm": "43/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 90,
+          "norm": "45/2",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 94,
+          "norm": "47/2",
+          "vector_count": 16,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 98,
+          "norm": "49/2",
+          "vector_count": 12,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 102,
+          "norm": "51/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 106,
+          "norm": "53/2",
+          "vector_count": 12,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 114,
+          "norm": "57/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 118,
+          "norm": "59/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 122,
+          "norm": "61/2",
+          "vector_count": 4,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 126,
+          "norm": "63/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 134,
+          "norm": "67/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 138,
+          "norm": "69/2",
+          "vector_count": 12,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 142,
+          "norm": "71/2",
+          "vector_count": 16,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 146,
+          "norm": "73/2",
+          "vector_count": 8,
+          "signed_coefficient": -8
+        },
+        {
+          "norm4": 150,
+          "norm": "75/2",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 154,
+          "norm": "77/2",
+          "vector_count": 16,
+          "signed_coefficient": -8
+        },
+        {
+          "norm4": 158,
+          "norm": "79/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 162,
+          "norm": "81/2",
+          "vector_count": 20,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 166,
+          "norm": "83/2",
+          "vector_count": 12,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 174,
+          "norm": "87/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 178,
+          "norm": "89/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 182,
+          "norm": "91/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 186,
+          "norm": "93/2",
+          "vector_count": 16,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 190,
+          "norm": "95/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 198,
+          "norm": "99/2",
+          "vector_count": 20,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 202,
+          "norm": "101/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 206,
+          "norm": "103/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 210,
+          "norm": "105/2",
+          "vector_count": 4,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 214,
+          "norm": "107/2",
+          "vector_count": 20,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 218,
+          "norm": "109/2",
+          "vector_count": 4,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 226,
+          "norm": "113/2",
+          "vector_count": 24,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 234,
+          "norm": "117/2",
+          "vector_count": 12,
+          "signed_coefficient": -12
+        },
+        {
+          "norm4": 238,
+          "norm": "119/2",
+          "vector_count": 24,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 242,
+          "norm": "121/2",
+          "vector_count": 8,
+          "signed_coefficient": 8
+        },
+        {
+          "norm4": 246,
+          "norm": "123/2",
+          "vector_count": 16,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 250,
+          "norm": "125/2",
+          "vector_count": 2,
+          "signed_coefficient": 2
+        },
+        {
+          "norm4": 254,
+          "norm": "127/2",
+          "vector_count": 8,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 258,
+          "norm": "129/2",
+          "vector_count": 4,
+          "signed_coefficient": -4
+        },
+        {
+          "norm4": 262,
+          "norm": "131/2",
+          "vector_count": 20,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 266,
+          "norm": "133/2",
+          "vector_count": 16,
+          "signed_coefficient": -8
+        },
+        {
+          "norm4": 274,
+          "norm": "137/2",
+          "vector_count": 24,
+          "signed_coefficient": -8
+        },
+        {
+          "norm4": 278,
+          "norm": "139/2",
+          "vector_count": 12,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 282,
+          "norm": "141/2",
+          "vector_count": 20,
+          "signed_coefficient": 4
+        },
+        {
+          "norm4": 286,
+          "norm": "143/2",
+          "vector_count": 16,
+          "signed_coefficient": 0
+        }
+      ],
+      "full_stabilizer_checked": false
+    },
+    {
+      "name": "constant term nonzero",
+      "verdict": "proved_nonzero",
+      "nonzero_norm4": 0,
+      "coefficient": 1,
+      "certificate_replay_complete": true,
+      "coefficient_replay_complete": true,
+      "cutoff": 12,
+      "norm4_bound": 0,
+      "backend": "ldl",
+      "shells": [
+        {
+          "norm4": 0,
+          "norm": "0",
+          "vector_count": 1,
+          "signed_coefficient": 1
+        }
+      ],
+      "full_stabilizer_checked": false
+    }
+  ]
+}

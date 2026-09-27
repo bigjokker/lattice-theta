@@ -1,0 +1,27 @@
+{
+  "schema": "work7-theta-v1",
+  "name": "D2: a=3, b=0",
+  "G": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "a": [
+    1,
+    1
+  ],
+  "b": [
+    0,
+    0
+  ],
+  "evidence": {
+    "kind": "shell",
+    "norm4": 4,
+    "coefficient": 4
+  }
+}

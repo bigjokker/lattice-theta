@@ -1,0 +1,95 @@
+{
+  "verdict": "verified",
+  "summary": {
+    "candidate_bases": 47,
+    "lattice_classes": 8,
+    "even_pairs": 1088,
+    "odd_pairs": 960,
+    "even_verdicts": {
+      "proved_nonzero": 730,
+      "proved_zero": 358
+    }
+  },
+  "lattices": [
+    {
+      "representative": 0,
+      "determinant": 1,
+      "group_order": 384,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 1,
+      "determinant": 2,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 2,
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 3,
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 4,
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 5,
+      "determinant": 4,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 6,
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 7,
+      "determinant": 4,
+      "group_order": 1152,
+      "even_verdicts": {
+        "proved_nonzero": 127,
+        "proved_zero": 9
+      }
+    }
+  ],
+  "domain_coverage_verified": true,
+  "representative_uniqueness_verified": true,
+  "full_groups_and_stabilizers_verified": true,
+  "coefficient_backend": "ldl",
+  "unresolved_pairs": 0,
+  "symmetry_converse_in_domain": true,
+  "input_sha256": "74426f6389c1344193599de8acc6be2edf71eeb431e250c40fee29565c4ef5c1",
+  "seconds": 3.7362147999992885
+}

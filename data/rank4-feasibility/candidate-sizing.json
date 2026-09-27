@@ -1,0 +1,41 @@
+{
+  "schema": "work7-rank4-candidate-sizing-v1",
+  "isometry_deduplication_performed": false,
+  "rows": [
+    {
+      "determinant_bound": 1,
+      "candidate_bases": 1,
+      "seconds": 0.0001742999993439298
+    },
+    {
+      "determinant_bound": 2,
+      "candidate_bases": 2,
+      "seconds": 0.00012289999722270295
+    },
+    {
+      "determinant_bound": 4,
+      "candidate_bases": 47,
+      "seconds": 0.002440499996737344
+    },
+    {
+      "determinant_bound": 8,
+      "candidate_bases": 166,
+      "seconds": 0.0049895000011019874
+    },
+    {
+      "determinant_bound": 12,
+      "candidate_bases": 406,
+      "seconds": 0.011268700000073295
+    },
+    {
+      "determinant_bound": 16,
+      "candidate_bases": 688,
+      "seconds": 0.01928580000094371
+    },
+    {
+      "determinant_bound": 24,
+      "candidate_bases": 1510,
+      "seconds": 0.04391849999956321
+    }
+  ]
+}

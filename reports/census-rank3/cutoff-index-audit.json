@@ -1,0 +1,10090 @@
+{
+  "schema": "work7-rank3-cutoff-index-audit-v1",
+  "census_pack_sha256": "1083147c76d6b66aeed3491d35bcb1f83ebed65c9cc0c630e95eaac90b32816a",
+  "records_checked": 840,
+  "minimum_cutoff": 6,
+  "maximum_cutoff": 384,
+  "coefficient_enumeration_performed": false,
+  "rows": [
+    {
+      "lattice": 0,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 0,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 0,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 2,
+      "unsigned_level": 32,
+      "index": 48,
+      "cutoff": 6
+    },
+    {
+      "lattice": 0,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 0,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 2,
+      "unsigned_level": 32,
+      "index": 48,
+      "cutoff": 6
+    },
+    {
+      "lattice": 0,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 2,
+      "unsigned_level": 32,
+      "index": 48,
+      "cutoff": 6
+    },
+    {
+      "lattice": 0,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 1,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 1,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 1,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 1,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 1,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 1,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 2,
+      "unsigned_level": 32,
+      "index": 48,
+      "cutoff": 6
+    },
+    {
+      "lattice": 1,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 2,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 2,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 2,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 2,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 2,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 2,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 2,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 3,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 3,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 3,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 3,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 3,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 3,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 3,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 4,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 4,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 4,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 4,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 4,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 4,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 4,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 5,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 5,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 5,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 5,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 5,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 5,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 5,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 6,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 6,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 6,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 6,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 6,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 6,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 6,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 7,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 7,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 7,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 7,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 7,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 7,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 7,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 8,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 8,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 8,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 8,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 8,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 8,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 8,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 9,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 9,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 9,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 9,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 9,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 9,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 9,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 10,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 10,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 10,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 10,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 10,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 10,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 10,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 11,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 11,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 11,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 11,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 11,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 11,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 11,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 12,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 12,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 12,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 12,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 12,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 12,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 12,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 13,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 13,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 13,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 13,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 13,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 13,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 13,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 14,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 14,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 14,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 14,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 14,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 14,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 14,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 15,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 15,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 15,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 15,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 15,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 15,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 15,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 16,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 16,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 16,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 16,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 16,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 16,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 16,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 17,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 17,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 17,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 17,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 17,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 17,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 17,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 18,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 18,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 18,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 18,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 18,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 18,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 18,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 19,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 19,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 19,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 19,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 19,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 19,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 19,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 20,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 20,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 20,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 20,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 20,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 20,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 20,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 21,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 21,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 21,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 21,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 21,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 21,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 21,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 22,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 22,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 22,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 22,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 22,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 22,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 22,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 23,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 23,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 23,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 23,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 23,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 23,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 23,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 24,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 24,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 24,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 24,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 24,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 24,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 24,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 25,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 25,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 25,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 25,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 25,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 25,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 25,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 26,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 26,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 26,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 26,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 26,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 26,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 26,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 27,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 27,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 27,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 27,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 27,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 27,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 27,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 28,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 28,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 28,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 28,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 28,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 28,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 28,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 29,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 29,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 29,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 29,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 29,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 29,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 29,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 30,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 30,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 30,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 30,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 30,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 30,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 30,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 31,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 31,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 31,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 31,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 31,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 31,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 31,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 32,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 32,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 32,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 32,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 32,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 32,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 32,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 33,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 33,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 33,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 33,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 33,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 33,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 33,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 34,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 34,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 34,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 34,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 34,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 34,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 34,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 35,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 35,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 35,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 35,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 35,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 35,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 35,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 36,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 36,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 36,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 36,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 36,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 36,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 36,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 37,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 37,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 37,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 37,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 37,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 37,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 37,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 38,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 38,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 38,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 38,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 38,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 38,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 38,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 39,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 39,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 39,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 39,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 39,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 39,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 39,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 40,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 40,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 40,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 40,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 40,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 40,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 40,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 41,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 41,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 41,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 41,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 41,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 41,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 41,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 42,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 42,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 42,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 42,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 42,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 42,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 42,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 43,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 43,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 43,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 43,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 43,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 43,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 43,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 44,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 44,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 44,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 44,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 44,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 44,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 44,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 45,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 45,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 45,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 45,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 45,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 45,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 45,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 46,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 46,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 46,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 46,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 46,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 46,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 46,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 47,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 47,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 47,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 47,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 47,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 47,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 47,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 48,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 48,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 48,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 48,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 48,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 48,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 48,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 49,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 49,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 49,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 49,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 49,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 49,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 49,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 50,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 50,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 50,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 50,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 50,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 50,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 50,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 51,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 51,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 51,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 51,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 51,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 51,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 51,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 52,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 52,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 52,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 52,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 52,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 52,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 52,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 53,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 53,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 53,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 53,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 53,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 53,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 53,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 54,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 54,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 54,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 54,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 54,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 54,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 54,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 55,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 55,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 55,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 55,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 55,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 55,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 55,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 56,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 56,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 56,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 56,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 56,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 56,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 56,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 57,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 57,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 57,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 57,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 57,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 57,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 57,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 58,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 58,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 59,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 59,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 59,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 59,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 59,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 59,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 59,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 60,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 60,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 60,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 60,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 60,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 60,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 60,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 61,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 61,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 61,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 61,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 61,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 61,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 61,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 62,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 62,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 62,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 62,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 62,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 62,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 62,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 63,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 63,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 63,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 63,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 63,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 63,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 63,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 64,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 64,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 64,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 64,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 64,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 64,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 64,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 65,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 65,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 65,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 65,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 65,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 65,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 65,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 66,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 66,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 66,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 66,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 66,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 66,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 66,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 67,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 67,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 67,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 67,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 67,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 67,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 67,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 68,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 68,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 68,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 68,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 68,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 68,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 68,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 69,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 69,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 69,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 69,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 69,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 69,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 69,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 70,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 70,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 70,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 70,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 70,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 70,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 70,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 71,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 71,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 71,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 71,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 71,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 71,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 28,
+      "unsigned_level": 448,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 71,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 72,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 72,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 72,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 72,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 72,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 72,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 72,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 73,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 73,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 73,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 73,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 73,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 73,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 73,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 74,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 74,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 74,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 74,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 74,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 74,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 74,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 75,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 75,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 75,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 75,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 75,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 75,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 75,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 76,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 76,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 76,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 76,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 76,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 76,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 76,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 77,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 77,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 77,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 77,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 77,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 77,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 77,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 78,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 78,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 78,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 78,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 78,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 78,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 68,
+      "unsigned_level": 1088,
+      "index": 1728,
+      "cutoff": 216
+    },
+    {
+      "lattice": 78,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 34,
+      "unsigned_level": 544,
+      "index": 864,
+      "cutoff": 108
+    },
+    {
+      "lattice": 79,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 79,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 79,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 79,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 79,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 79,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 79,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 80,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 80,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 80,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 80,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 80,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 80,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 80,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 81,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 81,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 81,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 81,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 81,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 81,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 81,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 82,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 82,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 82,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 82,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 82,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 82,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 82,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 83,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 83,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 83,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 83,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 83,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 83,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 83,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 84,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 84,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 84,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 84,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 84,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 84,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 84,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 85,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 85,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 85,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 85,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 85,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 85,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 85,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 86,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 86,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 86,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 86,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 86,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 86,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 86,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 87,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 87,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 87,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 87,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 87,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 87,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 87,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 88,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 88,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 88,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 88,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 88,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 88,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 88,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 89,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 89,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 89,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 89,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 89,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 89,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 26,
+      "unsigned_level": 416,
+      "index": 672,
+      "cutoff": 84
+    },
+    {
+      "lattice": 89,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 52,
+      "unsigned_level": 832,
+      "index": 1344,
+      "cutoff": 168
+    },
+    {
+      "lattice": 90,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 90,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 90,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 90,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 90,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 90,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 90,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 91,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 91,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 91,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 91,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 91,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 91,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 46,
+      "unsigned_level": 736,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 91,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 92,
+      "unsigned_level": 1472,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 92,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 92,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 92,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 92,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 92,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 92,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 60,
+      "unsigned_level": 960,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 92,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 30,
+      "unsigned_level": 480,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 93,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 93,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 93,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 93,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 93,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 93,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 93,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 94,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 94,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 94,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 94,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 94,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 94,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 94,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 95,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 95,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 95,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 95,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 95,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 95,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 95,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 96,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 96,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 96,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 96,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 96,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 64,
+      "unsigned_level": 1024,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 96,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 96,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 97,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 97,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 97,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 97,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 97,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 80,
+      "unsigned_level": 1280,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 97,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 97,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 98,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 98,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 98,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 98,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 98,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 98,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 98,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 99,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 10,
+      "unsigned_level": 160,
+      "index": 288,
+      "cutoff": 36
+    },
+    {
+      "lattice": 99,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 99,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 99,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 99,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 99,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 99,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 100,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 100,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 100,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 100,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 100,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 14,
+      "unsigned_level": 224,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 100,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 100,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 56,
+      "unsigned_level": 896,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 101,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 18,
+      "unsigned_level": 288,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 101,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 101,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 101,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 101,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 36,
+      "unsigned_level": 576,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 101,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 101,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 72,
+      "unsigned_level": 1152,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 102,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 102,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 102,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 102,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 102,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 102,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 102,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 103,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 103,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 103,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 103,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 103,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 76,
+      "unsigned_level": 1216,
+      "index": 1920,
+      "cutoff": 240
+    },
+    {
+      "lattice": 103,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 103,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 38,
+      "unsigned_level": 608,
+      "index": 960,
+      "cutoff": 120
+    },
+    {
+      "lattice": 104,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 104,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 104,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 104,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 104,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 104,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 104,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 105,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 105,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 105,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 105,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 105,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 105,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 105,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 106,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 106,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 106,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 106,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 106,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 106,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 106,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 107,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 107,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 107,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 107,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 107,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 107,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 107,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 16,
+      "unsigned_level": 256,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 108,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 108,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 108,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 108,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 108,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 40,
+      "unsigned_level": 640,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 108,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 108,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 109,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 109,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 109,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 109,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 109,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 109,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 109,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 110,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 110,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 110,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 110,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 110,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 110,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 32,
+      "unsigned_level": 512,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 110,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 111,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 111,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 22,
+      "unsigned_level": 352,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 111,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 44,
+      "unsigned_level": 704,
+      "index": 1152,
+      "cutoff": 144
+    },
+    {
+      "lattice": 111,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 111,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 111,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 111,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 88,
+      "unsigned_level": 1408,
+      "index": 2304,
+      "cutoff": 288
+    },
+    {
+      "lattice": 112,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 112,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 112,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 6,
+      "unsigned_level": 96,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 112,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 112,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 112,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 112,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 113,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 113,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 113,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 113,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 113,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 113,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 113,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 48,
+      "unsigned_level": 768,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 114,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 114,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 114,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 12,
+      "unsigned_level": 192,
+      "index": 384,
+      "cutoff": 48
+    },
+    {
+      "lattice": 114,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 114,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 114,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 114,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 115,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 8,
+      "unsigned_level": 128,
+      "index": 192,
+      "cutoff": 24
+    },
+    {
+      "lattice": 115,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 4,
+      "unsigned_level": 64,
+      "index": 96,
+      "cutoff": 12
+    },
+    {
+      "lattice": 116,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 116,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 116,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 116,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 116,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 116,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 116,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 117,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 117,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 117,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 42,
+      "unsigned_level": 672,
+      "index": 1536,
+      "cutoff": 192
+    },
+    {
+      "lattice": 117,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 117,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 117,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 117,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 84,
+      "unsigned_level": 1344,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 118,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 118,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 20,
+      "unsigned_level": 320,
+      "index": 576,
+      "cutoff": 72
+    },
+    {
+      "lattice": 119,
+      "b": [
+        0,
+        0,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 119,
+      "b": [
+        0,
+        1,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 119,
+      "b": [
+        0,
+        1,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 119,
+      "b": [
+        1,
+        0,
+        0
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 119,
+      "b": [
+        1,
+        0,
+        1
+      ],
+      "N0": 96,
+      "unsigned_level": 1536,
+      "index": 3072,
+      "cutoff": 384
+    },
+    {
+      "lattice": 119,
+      "b": [
+        1,
+        1,
+        0
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    },
+    {
+      "lattice": 119,
+      "b": [
+        1,
+        1,
+        1
+      ],
+      "N0": 24,
+      "unsigned_level": 384,
+      "index": 768,
+      "cutoff": 96
+    }
+  ]
+}

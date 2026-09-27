@@ -1,0 +1,47 @@
+{
+  "schema": "lattice-theta-compressed-data-v1",
+  "files": [
+    {
+      "path": "data/census/rank12-det24-closed.json",
+      "gzip_path": "data/census/rank12-det24-closed.json.gz",
+      "sha256": "9b359c8736fe8687ad904a448382f6475dd955795ea015a3e4ca180d8df1e571",
+      "size": 1023995
+    },
+    {
+      "path": "data/census-rank3/det24-bound32.json",
+      "gzip_path": "data/census-rank3/det24-bound32.json.gz",
+      "sha256": "1083147c76d6b66aeed3491d35bcb1f83ebed65c9cc0c630e95eaac90b32816a",
+      "size": 9968730
+    },
+    {
+      "path": "data/census-rank3/structure-det24.json",
+      "gzip_path": "data/census-rank3/structure-det24.json.gz",
+      "sha256": "ae8288b4f1ae0bbddf3f6161200ea9e7e7c52eab28df772146b84aafb1a762f6",
+      "size": 4249688
+    },
+    {
+      "path": "data/census-rank4/det24-bound32.json",
+      "gzip_path": "data/census-rank4/det24-bound32.json.gz",
+      "sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982",
+      "size": 91064021
+    },
+    {
+      "path": "data/census-rank4/pilot-det4-bound32.json",
+      "gzip_path": "data/census-rank4/pilot-det4-bound32.json.gz",
+      "sha256": "74426f6389c1344193599de8acc6be2edf71eeb431e250c40fee29565c4ef5c1",
+      "size": 6215180
+    },
+    {
+      "path": "data/e8-classification.json",
+      "gzip_path": "data/e8-classification.json.gz",
+      "sha256": "4b24110eaeaef01c7b311be2bda6a241b9729ed32b6d97c667d46ddedeac9e2a",
+      "size": 3355234
+    },
+    {
+      "path": "data/rank4-feasibility/controls.json",
+      "gzip_path": "data/rank4-feasibility/controls.json.gz",
+      "sha256": "7490e6e5a4e9a0e792bf677dcd30068fc59c6f037e66ad7fb8cba0b02e7a5e63",
+      "size": 4436806
+    }
+  ]
+}

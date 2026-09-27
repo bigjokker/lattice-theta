@@ -1,0 +1,1412 @@
+{
+  "schema": "work7-rank4-later-shell-controls-v1",
+  "cases": [
+    {
+      "s": 3,
+      "t": 3,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 14,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 6,
+            "norm": "3/2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 14,
+            "norm": "7/2",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 6,
+        "first_nonzero_norm4": 14,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 3,
+      "t": 3,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 14,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 6,
+            "norm": "3/2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 14,
+            "norm": "7/2",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 6,
+        "first_nonzero_norm4": 14,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 3,
+      "t": 3,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 14,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 6,
+            "norm": "3/2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 14,
+            "norm": "7/2",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 6,
+        "first_nonzero_norm4": 14,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 3,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 15,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 7,
+            "norm": "7/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 15,
+            "norm": "15/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 7,
+        "first_nonzero_norm4": 15,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 3,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 15,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 7,
+            "norm": "7/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 15,
+            "norm": "15/4",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 7,
+        "first_nonzero_norm4": 15,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 3,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 15,
+        "visited_nodes": 97,
+        "shells": [
+          {
+            "norm4": 7,
+            "norm": "7/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 15,
+            "norm": "15/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 7,
+        "first_nonzero_norm4": 15,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 3,
+      "t": 5,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          5
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 3,
+      "t": 5,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          5
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 3,
+      "t": 5,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          5
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 4,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          4,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 4,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          4,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 4,
+      "t": 4,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          4,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 16,
+        "visited_nodes": 95,
+        "shells": [
+          {
+            "norm4": 8,
+            "norm": "2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 16,
+            "norm": "4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 8,
+        "first_nonzero_norm4": 16,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 5,
+      "t": 7,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          5,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          7
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 20,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 12,
+            "norm": "3",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 20,
+            "norm": "5",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 12,
+        "first_nonzero_norm4": 20,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 5,
+      "t": 7,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          5,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          7
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 20,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 12,
+            "norm": "3",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 20,
+            "norm": "5",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 12,
+        "first_nonzero_norm4": 20,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 5,
+      "t": 7,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          5,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          7
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 20,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 12,
+            "norm": "3",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 20,
+            "norm": "5",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 12,
+        "first_nonzero_norm4": 20,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 8,
+      "t": 11,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          8,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          11
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 27,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 19,
+            "norm": "19/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 27,
+            "norm": "27/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 19,
+        "first_nonzero_norm4": 27,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 8,
+      "t": 11,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          8,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          11
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 27,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 19,
+            "norm": "19/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 27,
+            "norm": "27/4",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 19,
+        "first_nonzero_norm4": 27,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 8,
+      "t": 11,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          8,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          11
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 27,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 19,
+            "norm": "19/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 27,
+            "norm": "27/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 19,
+        "first_nonzero_norm4": 27,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 20,
+      "t": 31,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          20,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          31
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 59,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 51,
+            "norm": "51/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 59,
+            "norm": "59/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 51,
+        "first_nonzero_norm4": 59,
+        "coefficient": -2
+      }
+    },
+    {
+      "s": 20,
+      "t": 31,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          20,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          31
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 59,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 51,
+            "norm": "51/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 59,
+            "norm": "59/4",
+            "vector_count": 18,
+            "signed_coefficient": 2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 51,
+        "first_nonzero_norm4": 59,
+        "coefficient": 2
+      }
+    },
+    {
+      "s": 20,
+      "t": 31,
+      "G": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          20,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          31
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 59,
+        "visited_nodes": 93,
+        "shells": [
+          {
+            "norm4": 51,
+            "norm": "51/4",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 59,
+            "norm": "59/4",
+            "vector_count": 18,
+            "signed_coefficient": -2
+          }
+        ]
+      },
+      "claim": {
+        "cancelled_minimal_norm4": 51,
+        "first_nonzero_norm4": 59,
+        "coefficient": -2
+      }
+    }
+  ]
+}

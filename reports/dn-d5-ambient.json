@@ -1,0 +1,34 @@
+{
+  "schema": "work7-dn-result-v1",
+  "verdict": "classification_verified",
+  "rank": 5,
+  "backend": "ambient",
+  "determinant": 4,
+  "coverage_complete": true,
+  "total_characteristics": 1024,
+  "even_characteristics": 528,
+  "odd_characteristics_vanish_by_parity": 496,
+  "even_nonvanishing": 468,
+  "even_vanishing": 60,
+  "product_zero_classes": 60,
+  "balanced_cancellation_classes": 0,
+  "formula_value": 60,
+  "unresolved": 0,
+  "maximum_nonzero_witness_norm": "1",
+  "witness_norm4_counts": {
+    "0": 32,
+    "2": 320,
+    "4": 116
+  },
+  "records_sha256": "1a198e28d0a9ecf3f851b4a689bb0f47b69fe845cf2752195486b7e3c19ef7db",
+  "shell_histogram_sha256": "4f3326cc7b52c6e5e112c47759eacfc2c59fdb232cda7f81c7b0564694bc3c52",
+  "enumeration": {
+    "rank": 5,
+    "norm4_bound": 4,
+    "ambient_leaves": 221,
+    "lattice_vectors": 131
+  },
+  "full_automorphism_group_claimed": false,
+  "certificate_stream_sha256": "d556e566b5634fa3dbe407ddff490290dcd65ed3c1f32b513b3103af8c28c26f",
+  "seconds": 0.004
+}

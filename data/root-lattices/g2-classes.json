@@ -1,0 +1,167 @@
+{
+  "schema": "work7-root-pack-v1",
+  "family": "G2",
+  "G": [
+    [
+      2,
+      -3
+    ],
+    [
+      -3,
+      6
+    ]
+  ],
+  "representatives": "binary-primal-and-dual",
+  "certificates": [
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "work7-e6-ambient-result-v1",
+  "verdict": "parity_converse_verified",
+  "algorithm": "integer-euclidean-sum-of-squares-v1; no shared enumeration code",
+  "coverage_complete": true,
+  "even_characteristics_verified": 2080,
+  "odd_characteristics_checked_through_bound": 2016,
+  "witness_norm4_counts": {
+    "0": 64,
+    "2": 1152,
+    "4": 864
+  },
+  "minimal_coset_shell_counts": [
+    {
+      "norm4": 0,
+      "vector_count": 1,
+      "cosets": 1
+    },
+    {
+      "norm4": 2,
+      "vector_count": 2,
+      "cosets": 36
+    },
+    {
+      "norm4": 4,
+      "vector_count": 10,
+      "cosets": 27
+    }
+  ],
+  "enumeration_bound_norm4": 4,
+  "ambient_leaves": 627,
+  "accepted_lattice_vectors": 343,
+  "pack_sha256": "36cad93223b72ebd68ae1fa686dfbff2eced28e7f5b4605a607db78c79f362a6"
+}

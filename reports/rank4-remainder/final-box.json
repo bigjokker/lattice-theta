@@ -1,0 +1,18 @@
+{
+  "verdict": "verified",
+  "source_sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982",
+  "remainder_sha256": "c3193de18de727d5ecbb006df053b0a633b1b68bbe191b30663f577a5e495b86",
+  "summary": {
+    "lattice_classes": 169,
+    "split_kinds": {
+      "line": 138,
+      "indecomposable": 27,
+      "plane": 4
+    },
+    "indecomposable_even_symmetry_zeros": 73,
+    "cancelled_first_support_pairs": 6
+  },
+  "vector_backend": "box",
+  "orthogonal_projection_criterion_shared": true,
+  "seconds": 13.324905699999363
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "work7-exceptional-result-v1",
+  "verdict": "classification_verified",
+  "name": "E7 even-characteristic classification",
+  "rank": 7,
+  "determinant": 2,
+  "gram_sha256": "8e0280e0778b233d086a9a8c7d2a749db727fce368d89643e71fbe12b8ae60c5",
+  "backend": "ldl",
+  "algorithm": "exact-rational-ldl-v1 + integer Walsh transform",
+  "coverage_complete": true,
+  "total_characteristics": 16384,
+  "even_characteristics": 8256,
+  "odd_characteristics_vanish_by_parity": 8128,
+  "even_vanishing_by_symmetry": 1260,
+  "even_nonvanishing_by_complete_shell": 6996,
+  "unresolved": 0,
+  "seed_witnesses": 1,
+  "transport_nodes": 1260,
+  "full_automorphism_group_claimed": false,
+  "witness_norm4_counts": {
+    "0": 128,
+    "2": 4032,
+    "4": 2772,
+    "6": 64
+  },
+  "maximum_nonzero_witness_norm": "3/2",
+  "minimal_shell_detects_all_even_nonvanishing": true,
+  "shell_histogram_sha256": "d26e29867517870c07997574215f895b1950eab8eb1585e87ca11ed0196af95c",
+  "enumeration": {
+    "ldl_nodes": 62726,
+    "lattice_vectors": 7113,
+    "shifted_enumerations": 128,
+    "norm4_bound": 8
+  },
+  "structural_checks": {
+    "even_zeros_outside_primal_lattice": 1260,
+    "two_dual_lattice_is_in_primal": true
+  },
+  "timings_seconds": {
+    "symmetry_and_coverage": 0.0207,
+    "shells_and_coefficients": 0.3368,
+    "total": 0.4348
+  },
+  "pack_sha256": "12004da6c92dbca21cb57c4052ab64d6dd1b65bd9bc356c01c8782654020c8e8"
+}

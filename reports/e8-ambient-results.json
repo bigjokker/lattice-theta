@@ -1,0 +1,52 @@
+{
+  "schema": "work7-exceptional-result-v1",
+  "verdict": "classification_verified",
+  "name": "E8 even-characteristic classification",
+  "rank": 8,
+  "determinant": 1,
+  "gram_sha256": "05643d8ce484a8dbf8e2f0053088da734cc78510d263fcbb8411756c84adc0c2",
+  "backend": "ambient",
+  "algorithm": "integer Euclidean sum-of-squares + direct sign summation",
+  "coverage_complete": true,
+  "total_characteristics": 65536,
+  "even_characteristics": 32896,
+  "odd_characteristics_vanish_by_parity": 32640,
+  "even_vanishing_by_symmetry": 9450,
+  "even_nonvanishing_by_complete_shell": 23446,
+  "unresolved": 0,
+  "seed_witnesses": 1,
+  "transport_nodes": 9450,
+  "full_automorphism_group_claimed": false,
+  "witness_norm4_counts": {
+    "0": 256,
+    "2": 15360,
+    "4": 7830
+  },
+  "maximum_nonzero_witness_norm": "1",
+  "minimal_shell_detects_all_even_nonvanishing": true,
+  "shell_histogram_sha256": "b0aa775de85f98558e4ad563c13148fdee4ddb921ad6c50e446dc9d8c3a9da34",
+  "enumeration": {
+    "ambient_leaves": 47553,
+    "lattice_vectors": 26641,
+    "rank": 8,
+    "norm4_bound": 8
+  },
+  "structural_checks": {
+    "totally_singular_planes": 1575,
+    "singular_vectors_including_zero": 136,
+    "quadratic_criterion_verified": true,
+    "totally_singular_four_space_basis_masks": [
+      5,
+      17,
+      34,
+      65
+    ],
+    "one_zero_orbit_under_supplied_generators": true
+  },
+  "timings_seconds": {
+    "symmetry_and_coverage": 0.0807,
+    "shells_and_coefficients": 0.6077,
+    "total": 1.2969
+  },
+  "pack_sha256": "4b24110eaeaef01c7b311be2bda6a241b9729ed32b6d97c667d46ddedeac9e2a"
+}

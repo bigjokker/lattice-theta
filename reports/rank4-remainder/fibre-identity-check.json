@@ -1,0 +1,8 @@
+{
+  "verdict": "verified",
+  "scope": "Finite algebraic regression for the written block identity, not a uniform analytic proof",
+  "profile_sha256": "c9a39fdafd9eb6a73e57ea29d618ff7e63835ea345af9a5f119e7be220359e83",
+  "gram_matrices": 169,
+  "rational_norm_identities": 13689,
+  "sign_factorizations": 219024
+}

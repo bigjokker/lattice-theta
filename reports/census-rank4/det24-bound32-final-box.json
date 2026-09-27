@@ -1,0 +1,1529 @@
+{
+  "verdict": "verified",
+  "summary": {
+    "candidate_bases": 1510,
+    "lattice_classes": 169,
+    "even_pairs": 22984,
+    "odd_pairs": 20280,
+    "even_verdicts": {
+      "proved_nonzero": 16608,
+      "proved_zero": 6376
+    }
+  },
+  "lattices": [
+    {
+      "representative": 0,
+      "determinant": 1,
+      "group_order": 384,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 1,
+      "determinant": 2,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 2,
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 3,
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 4,
+      "determinant": 5,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 5,
+      "determinant": 6,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 6,
+      "determinant": 7,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 7,
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 8,
+      "determinant": 9,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 9,
+      "determinant": 10,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 10,
+      "determinant": 11,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 11,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 12,
+      "determinant": 13,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 13,
+      "determinant": 14,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 14,
+      "determinant": 15,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 15,
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 16,
+      "determinant": 17,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 17,
+      "determinant": 18,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 18,
+      "determinant": 19,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 19,
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 20,
+      "determinant": 21,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 21,
+      "determinant": 22,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 22,
+      "determinant": 23,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 23,
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 24,
+      "determinant": 3,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 25,
+      "determinant": 5,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 26,
+      "determinant": 7,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 27,
+      "determinant": 9,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 28,
+      "determinant": 11,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 29,
+      "determinant": 13,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 30,
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 31,
+      "determinant": 17,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 32,
+      "determinant": 19,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 33,
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 34,
+      "determinant": 23,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 35,
+      "determinant": 4,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 36,
+      "determinant": 6,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 37,
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 38,
+      "determinant": 10,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 39,
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 40,
+      "determinant": 14,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 41,
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 42,
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 43,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 44,
+      "determinant": 22,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 45,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 46,
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 47,
+      "determinant": 11,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 48,
+      "determinant": 14,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 49,
+      "determinant": 17,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 50,
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 51,
+      "determinant": 23,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 52,
+      "determinant": 9,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 53,
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 54,
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 55,
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 56,
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 57,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 58,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 59,
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 60,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 61,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 62,
+      "determinant": 15,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 63,
+      "determinant": 19,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 64,
+      "determinant": 23,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 65,
+      "determinant": 16,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 66,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 67,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 68,
+      "determinant": 21,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 69,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 70,
+      "determinant": 4,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 71,
+      "determinant": 7,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 72,
+      "determinant": 10,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 73,
+      "determinant": 13,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 74,
+      "determinant": 16,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 75,
+      "determinant": 19,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 76,
+      "determinant": 22,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 77,
+      "determinant": 12,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 78,
+      "determinant": 17,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 79,
+      "determinant": 22,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 80,
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 81,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 82,
+      "determinant": 6,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 83,
+      "determinant": 9,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 84,
+      "determinant": 12,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 85,
+      "determinant": 15,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 86,
+      "determinant": 18,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 87,
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 88,
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 89,
+      "determinant": 13,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 90,
+      "determinant": 18,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 91,
+      "determinant": 23,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 92,
+      "determinant": 10,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 93,
+      "determinant": 15,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 94,
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 95,
+      "determinant": 19,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 96,
+      "determinant": 21,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 97,
+      "determinant": 8,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 98,
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 99,
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 100,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 101,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 102,
+      "determinant": 14,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 103,
+      "determinant": 18,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 104,
+      "determinant": 22,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 105,
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 106,
+      "determinant": 12,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 107,
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 108,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 109,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 110,
+      "determinant": 16,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 111,
+      "determinant": 22,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 112,
+      "determinant": 18,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 113,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 114,
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 115,
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 116,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 117,
+      "determinant": 21,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 118,
+      "determinant": 20,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 119,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 120,
+      "determinant": 4,
+      "group_order": 1152,
+      "even_verdicts": {
+        "proved_nonzero": 127,
+        "proved_zero": 9
+      }
+    },
+    {
+      "representative": 121,
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 122,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 123,
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 124,
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 125,
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 126,
+      "determinant": 5,
+      "group_order": 240,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 127,
+      "determinant": 9,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 128,
+      "determinant": 13,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 129,
+      "determinant": 17,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 130,
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 131,
+      "determinant": 15,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 132,
+      "determinant": 22,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 133,
+      "determinant": 16,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 134,
+      "determinant": 23,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 135,
+      "determinant": 8,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 136,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 137,
+      "determinant": 16,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 138,
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 139,
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 140,
+      "determinant": 18,
+      "group_order": 12,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 141,
+      "determinant": 14,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 142,
+      "determinant": 21,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 143,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 132,
+        "proved_zero": 4
+      }
+    },
+    {
+      "representative": 144,
+      "determinant": 24,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 145,
+      "determinant": 11,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 146,
+      "determinant": 17,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 147,
+      "determinant": 23,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 148,
+      "determinant": 20,
+      "group_order": 24,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 149,
+      "determinant": 19,
+      "group_order": 8,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 150,
+      "determinant": 9,
+      "group_order": 288,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      }
+    },
+    {
+      "representative": 151,
+      "determinant": 15,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      }
+    },
+    {
+      "representative": 152,
+      "determinant": 21,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      }
+    },
+    {
+      "representative": 153,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 154,
+      "determinant": 18,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 155,
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 156,
+      "determinant": 24,
+      "group_order": 48,
+      "even_verdicts": {
+        "proved_nonzero": 100,
+        "proved_zero": 36
+      }
+    },
+    {
+      "representative": 157,
+      "determinant": 21,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 136
+      }
+    },
+    {
+      "representative": 158,
+      "determinant": 16,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 159,
+      "determinant": 20,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 90,
+        "proved_zero": 46
+      }
+    },
+    {
+      "representative": 160,
+      "determinant": 12,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 161,
+      "determinant": 20,
+      "group_order": 16,
+      "even_verdicts": {
+        "proved_nonzero": 132,
+        "proved_zero": 4
+      }
+    },
+    {
+      "representative": 162,
+      "determinant": 16,
+      "group_order": 64,
+      "even_verdicts": {
+        "proved_nonzero": 128,
+        "proved_zero": 8
+      }
+    },
+    {
+      "representative": 163,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 164,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 165,
+      "determinant": 20,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 130,
+        "proved_zero": 6
+      }
+    },
+    {
+      "representative": 166,
+      "determinant": 24,
+      "group_order": 32,
+      "even_verdicts": {
+        "proved_nonzero": 108,
+        "proved_zero": 28
+      }
+    },
+    {
+      "representative": 167,
+      "determinant": 16,
+      "group_order": 384,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    },
+    {
+      "representative": 168,
+      "determinant": 24,
+      "group_order": 96,
+      "even_verdicts": {
+        "proved_nonzero": 81,
+        "proved_zero": 55
+      }
+    }
+  ],
+  "domain_coverage_verified": true,
+  "representative_uniqueness_verified": true,
+  "full_groups_and_stabilizers_verified": true,
+  "coefficient_backend": "box",
+  "unresolved_pairs": 0,
+  "symmetry_converse_in_domain": true,
+  "input_sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982",
+  "seconds": 35.55536629999915
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "D4: xi=e1, delta=(0,0,1/2,1/2)",
+    "rank": 4,
+    "gram_sha256": "88f297b987347795002d2084b7778d2656dc76ec2f9387b0a5f867fa2a3f9bc2",
+    "determinant": 4,
+    "a": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "b": [
+      0,
+      -1,
+      0,
+      2
+    ],
+    "pairing": 0,
+    "phase_i_exponent_mod4": 0,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "verdict": "vanishes_by_symmetry",
+    "symmetry": {
+      "epsilon": 1,
+      "dual_shift": [
+        0,
+        1,
+        0,
+        -1
+      ],
+      "primal_shift": [
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "witness_order": 2
+    },
+    "full_automorphism_group_verified": false,
+    "certificate": "examples\\d4.json"
+  },
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "A3: even-p nonzero minimal shell",
+    "rank": 3,
+    "gram_sha256": "26dd5b670d98feaf484cc850d401b3bdd71f158fd8a8c396d3cdf892d2ae9365",
+    "determinant": 4,
+    "a": [
+      1,
+      0,
+      1
+    ],
+    "b": [
+      1,
+      0,
+      1
+    ],
+    "pairing": 2,
+    "phase_i_exponent_mod4": 2,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "enumeration": {
+      "algorithm": "exact-rational-ldl-v1",
+      "complete": true,
+      "norm4_bound": 4,
+      "visited_nodes": 25,
+      "shells": [
+        {
+          "norm4": 4,
+          "norm": "1",
+          "vector_count": 6,
+          "signed_coefficient": 2
+        }
+      ]
+    },
+    "verdict": "does_not_vanish",
+    "nonzero_norm4": 4,
+    "signed_coefficient": 2,
+    "certificate": "examples\\a3.json"
+  },
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "Ternary: first shell zero, next shell nonzero",
+    "rank": 3,
+    "gram_sha256": "5db953841c14ce986048b048a9e202e7ad9ad24640139f50f85d4f0bcdf56fe3",
+    "determinant": 29,
+    "a": [
+      1,
+      0,
+      1
+    ],
+    "b": [
+      1,
+      0,
+      1
+    ],
+    "pairing": 2,
+    "phase_i_exponent_mod4": 2,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "enumeration": {
+      "algorithm": "exact-rational-ldl-v1",
+      "complete": true,
+      "norm4_bound": 11,
+      "visited_nodes": 25,
+      "shells": [
+        {
+          "norm4": 7,
+          "norm": "7/4",
+          "vector_count": 4,
+          "signed_coefficient": 0
+        },
+        {
+          "norm4": 11,
+          "norm": "11/4",
+          "vector_count": 2,
+          "signed_coefficient": -2
+        }
+      ]
+    },
+    "verdict": "does_not_vanish",
+    "nonzero_norm4": 11,
+    "signed_coefficient": -2,
+    "certificate": "examples\\ternary.json"
+  },
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "Hermitian rank four: order-4 witness",
+    "rank": 4,
+    "gram_sha256": "784edddbb57ebced19abb1fe78e94bda359834b3c7df342572dd153938e169c9",
+    "determinant": 625,
+    "a": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "b": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "pairing": 2,
+    "phase_i_exponent_mod4": 2,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "verdict": "vanishes_by_symmetry",
+    "symmetry": {
+      "epsilon": 1,
+      "dual_shift": [
+        -1,
+        0,
+        0,
+        0
+      ],
+      "primal_shift": [
+        -1,
+        0,
+        0,
+        0
+      ],
+      "witness_order": 4
+    },
+    "full_automorphism_group_verified": false,
+    "certificate": "examples\\order4.json"
+  },
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "Stored rank-8 matrix: order-8 witness",
+    "rank": 8,
+    "gram_sha256": "6a0e9633cf6bf1a4843823dcc7615306e5ca69b59787daaa059313281eef3832",
+    "determinant": 6160313198340734976,
+    "a": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "b": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "pairing": 4,
+    "phase_i_exponent_mod4": 0,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "verdict": "vanishes_by_symmetry",
+    "symmetry": {
+      "epsilon": 1,
+      "dual_shift": [
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "primal_shift": [
+        -1,
+        -1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "witness_order": 8
+    },
+    "full_automorphism_group_verified": false,
+    "certificate": "examples\\order8.json"
+  },
+  {
+    "schema": "work7-theta-result-v1",
+    "name": "Stored rank-16 matrix: order-16 witness",
+    "rank": 16,
+    "gram_sha256": "996a211c16e207f3e200edf3988b1baf78912d981bb48dbe09544e0025fad430",
+    "determinant": 66356650066040430279000064,
+    "a": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "b": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pairing": 4,
+    "phase_i_exponent_mod4": 0,
+    "basis_convention": "a primal; b dual; T acts on primal columns",
+    "verdict": "vanishes_by_symmetry",
+    "symmetry": {
+      "epsilon": 1,
+      "dual_shift": [
+        -1,
+        0,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "primal_shift": [
+        1,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        -2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "witness_order": 16
+    },
+    "full_automorphism_group_verified": false,
+    "certificate": "examples\\order16.json"
+  }
+]

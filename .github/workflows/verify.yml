@@ -1,0 +1,22 @@
+name: Verify exact certificates
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check distributed file hashes
+        run: python scripts/verify_integrity.py
+      - name: Run all scientific regression tests
+        run: python scripts/run_tests.py --all
+      - name: Replay the rank-four counterexample
+        run: python code/rank4_counterexample.py --replay data/rank4-counterexample/det23716.json --output scratch/counterexample-replay.json

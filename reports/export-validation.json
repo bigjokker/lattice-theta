@@ -1,0 +1,39 @@
+{
+  "schema": "lattice-theta-curated-export-validation-v1",
+  "python": "3.11",
+  "full_test_suite": {
+    "command": "python scripts/run_tests.py --all",
+    "tests_run": 115,
+    "result": "passed",
+    "seconds": 44.865
+  },
+  "standalone_modules_imported": 30,
+  "local_document_links": "verified",
+  "counterexample_replay": {
+    "verdict": "verified_rank4_symmetry_converse_counterexample",
+    "determinant": 23716,
+    "full_group_order": 2,
+    "all_stabilizer_epsilon_zero": true,
+    "input_sha256": "a1effafe9871bbb833a39a187d98f718879986d24fd23444e167b8635b55e36c"
+  },
+  "rank_four_census_replay": {
+    "verdict": "verified",
+    "summary": {
+      "candidate_bases": 1510,
+      "lattice_classes": 169,
+      "even_pairs": 22984,
+      "odd_pairs": 20280,
+      "even_verdicts": {
+        "proved_nonzero": 16608,
+        "proved_zero": 6376
+      }
+    },
+    "domain_coverage_verified": true,
+    "representative_uniqueness_verified": true,
+    "full_groups_and_stabilizers_verified": true,
+    "coefficient_backend": "box",
+    "unresolved_pairs": 0,
+    "symmetry_converse_in_domain": true,
+    "input_sha256": "f3411b2ae36cda48b1d93b92c8edd16eddf659e7a3031e47f613b484507ef982"
+  }
+}

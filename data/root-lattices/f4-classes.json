@@ -1,0 +1,2842 @@
+{
+  "schema": "work7-root-pack-v1",
+  "family": "F4",
+  "G": [
+    [
+      2,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      2
+    ]
+  ],
+  "representatives": "binary-primal-and-dual",
+  "certificates": [
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 0,
+        "coefficient": 1
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 8
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            0
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": -4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 8
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            1,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          [
+            -1,
+            -1,
+            -1,
+            0
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": -4
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            -1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            -1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 8
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            -1,
+            0,
+            0,
+            -2
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": 4
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 4,
+        "coefficient": -4
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "symmetry",
+        "T": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            -1,
+            -1,
+            0,
+            0
+          ],
+          [
+            -1,
+            0,
+            -1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "order": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": 2
+      }
+    },
+    {
+      "a": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "evidence": {
+        "kind": "shell",
+        "norm4": 2,
+        "coefficient": -2
+      }
+    }
+  ]
+}

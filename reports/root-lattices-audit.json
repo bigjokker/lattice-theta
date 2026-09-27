@@ -1,0 +1,426 @@
+[
+  {
+    "family": "B",
+    "rank": 1,
+    "G": [
+      [
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 3,
+    "even_zero": 0,
+    "even_nonzero": 3,
+    "odd_zero_by_parity": 1,
+    "unresolved": 0,
+    "minimal_shell_vectors": 3,
+    "ldl_nodes": 8,
+    "records_sha256": "3d997a71076470475fb0d5a9470dc041c98574ea77032df91f69ada157f9ff04",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 2,
+    "G": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 10,
+    "even_zero": 1,
+    "even_nonzero": 9,
+    "odd_zero_by_parity": 6,
+    "unresolved": 0,
+    "minimal_shell_vectors": 9,
+    "ldl_nodes": 34,
+    "records_sha256": "7a18e61514a30851db8e36d58d0d2bd604a7ae55b508321217d0cebce3bd3d6c",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 3,
+    "G": [
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 36,
+    "even_zero": 9,
+    "even_nonzero": 27,
+    "odd_zero_by_parity": 28,
+    "unresolved": 0,
+    "minimal_shell_vectors": 27,
+    "ldl_nodes": 124,
+    "records_sha256": "49c533bf1b09f0020268738f2ae5054d2d92e171d72346a3ae4e04ebf20c0ee7",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 4,
+    "G": [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 136,
+    "even_zero": 55,
+    "even_nonzero": 81,
+    "odd_zero_by_parity": 120,
+    "unresolved": 0,
+    "minimal_shell_vectors": 81,
+    "ldl_nodes": 420,
+    "records_sha256": "716a175967cd35f5009c1191d4a62b6fb2ccbb77a8e5c0b95d67c00536205e4d",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 5,
+    "G": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 528,
+    "even_zero": 285,
+    "even_nonzero": 243,
+    "odd_zero_by_parity": 496,
+    "unresolved": 0,
+    "minimal_shell_vectors": 243,
+    "ldl_nodes": 1366,
+    "records_sha256": "a9a9fa8031b693aaf61761e50638109f2fe2791dec4e6c2efdd7899392b2b7ce",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 6,
+    "G": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 2080,
+    "even_zero": 1351,
+    "even_nonzero": 729,
+    "odd_zero_by_parity": 2016,
+    "unresolved": 0,
+    "minimal_shell_vectors": 729,
+    "ldl_nodes": 4346,
+    "records_sha256": "09624f75378e7e1511fa7db03296f20783ad539019a1a324d4c1cd39366fb00e",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 7,
+    "G": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 8256,
+    "even_zero": 6069,
+    "even_nonzero": 2187,
+    "odd_zero_by_parity": 8128,
+    "unresolved": 0,
+    "minimal_shell_vectors": 2187,
+    "ldl_nodes": 13668,
+    "records_sha256": "a9e60f4e96617acc5b4c603d8c756200d1a08ca873c7a721c83c2b63e5bc4f83",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "B",
+    "rank": 8,
+    "G": [
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "coverage_complete": true,
+    "even_pairs": 32896,
+    "even_zero": 26335,
+    "even_nonzero": 6561,
+    "odd_zero_by_parity": 32640,
+    "unresolved": 0,
+    "minimal_shell_vectors": 6561,
+    "ldl_nodes": 42732,
+    "records_sha256": "140fd11a89758c89f4ad271fe939c749a20380a11cc912ce0128d55aeb214f79",
+    "zero_proof": "coordinate flip with epsilon one"
+  },
+  {
+    "family": "F4",
+    "rank": 4,
+    "coverage_complete": true,
+    "even_pairs": 136,
+    "even_zero": 9,
+    "even_nonzero": 127,
+    "odd_zero_by_parity": 120,
+    "unresolved": 0
+  },
+  {
+    "family": "G2",
+    "rank": 2,
+    "coverage_complete": true,
+    "even_pairs": 10,
+    "even_zero": 0,
+    "even_nonzero": 10,
+    "odd_zero_by_parity": 6,
+    "unresolved": 0
+  }
+]
