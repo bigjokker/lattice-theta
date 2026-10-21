@@ -49,6 +49,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23547917
     description: "Version 1.2.0"
+  - type: doi
+    value: 10.5281/zenodo.23548985
+    description: "Version 1.3.0"
 keywords:
   - "lattice theta functions"
   - "half-integral characteristics"

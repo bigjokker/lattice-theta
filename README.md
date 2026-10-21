@@ -134,6 +134,7 @@ the version DOI to pin a specific release.
 * v1.1.0: [10.5281/zenodo.23540724](https://zenodo.org/doi/10.5281/zenodo.23540724)
 * v1.1.1: [10.5281/zenodo.23546565](https://zenodo.org/doi/10.5281/zenodo.23546565)
 * v1.2.0: [10.5281/zenodo.23547917](https://zenodo.org/doi/10.5281/zenodo.23547917)
+* v1.3.0: [10.5281/zenodo.23548985](https://zenodo.org/doi/10.5281/zenodo.23548985)
 
 ```bibtex
 @misc{lattice_theta,
