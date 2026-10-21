@@ -285,6 +285,11 @@ Consequences for attribution and framing:
   example with Hermitian parameters (p, q, delta) = (8, 6, 4+10w) and ambient
   determinant 17^2. The census excludes determinants at most 24 for L, and no
   minimality claim is made between 25 and 1155.
+  Correction 2026-10-21: halving the determinant-4480 level-4 lattice gives a
+  level-4 counterexample of determinant 280
+  (`data/rank4-level4/det280-level4.json`, replayed by
+  `code/verify_rank4_det280.py`); both records are now 280 and the bracket is
+  24 < det <= 280.
 
 ## 8. Pages read for this note
 

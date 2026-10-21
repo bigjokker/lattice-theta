@@ -1,5 +1,22 @@
 # Changelog
 
+## Unreleased
+
+- Correction: the determinant-4480 level-four lattice has every Gram entry
+  even, and halving it gives an odd lattice of determinant 280 with
+  automorphism group {I, -I} and a level-four zero. It is the smallest known
+  level-four zero and the smallest known symmetry counterexample; the
+  bracket for the minimum counterexample determinant is now
+  24 < det <= 280 (was 24 < det <= 1156). Certificate
+  `data/rank4-level4/det280-level4.json`; independent replay
+  `code/verify_rank4_det280.py` (checks the determinant-4480 certificate
+  with the unchanged level-four verifier, then re-proves the group, the zero
+  by the modular cutoff, and non-isometry of the coset lattices directly);
+  four tests (default suite 71, complete suite 155); CI step. Dated
+  correction notes added to the level-four, Eisenstein and literature
+  reports, their reviews, the assessment, the follow-up paper and the
+  deferred-research table.
+
 ## 1.1.0 (2026-10-21)
 
 Rank-four follow-up results, stated in

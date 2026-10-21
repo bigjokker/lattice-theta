@@ -14,7 +14,7 @@ rank-four follow-up reports, and source attribution.
 | Theta conventions | [Transformations](theta-transformations.md) |
 | Root-lattice classification | [All types](root-lattice-classification.md), [Dn](dn-vanishing-formula.md), [E6](e6-classification.md), [E7/E8](e7-and-e8-classification.md) |
 | Rank-four supporting identities | [Decomposition and fibres](rank-four-decomposition-and-fibres.md), [later-shell lemma](rank-four-later-shell-lemma.md) |
-| Rank-four follow-up reports (release 1.1.0) | [Level-four zero, determinant 1729](rank-four-level-four-zero.md), [Eisenstein family and determinant 1156](rank-four-eisenstein-family.md), [parity property](rank-four-parity-property.md) |
+| Rank-four follow-up reports (release 1.1.0) | [Level-four zero, determinant 1729 (smallest known: 280, see the dated correction)](rank-four-level-four-zero.md), [Eisenstein family and determinant 1156](rank-four-eisenstein-family.md), [parity property](rank-four-parity-property.md) |
 | Sources and limits of attribution | [Literature](literature-and-source-scope.md), [low-rank references](low-rank-literature.md), [isospectrality sources and the Klein-configuration bridge](rank-four-isospectrality-literature.md) |
 
 See [reproduction](reproduction.md), [export provenance](export-provenance.json),

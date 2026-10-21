@@ -18,9 +18,8 @@ certificates, independent replays and a local review:
 - **A smaller symmetry counterexample.** An even lattice of determinant
   **1156** with automorphism group **{I, −I}** has an identically vanishing
   even characteristic, by the same Eisenstein-integer construction as the
-  original determinant-23,716 example. The minimum counterexample determinant
-  in rank four satisfies 24 < det ≤ 1156; no minimality claim is made in
-  between.
+  original determinant-23,716 example. (The bracket stated at release,
+  24 < det ≤ 1156, is lowered by the correction below.)
 - **The parity property.** The conjecture that an indecomposable rank-four
   lattice whose determinant is not divisible by four has no vanishing even
   characteristic is false, by complete class lists: odd lattices fail first at
@@ -29,6 +28,16 @@ certificates, independent replays and a local review:
   −I. An even indecomposable rank-four lattice of odd determinant has no
   involution witness. Whether every such lattice of determinant 5 mod 8 has
   the parity property is open.
+
+**Correction after 1.1.0 (2026-10-21).** The determinant-4480 level-four
+lattice has every Gram entry even; halving it gives an odd lattice of
+determinant **280** with automorphism group {I, −I} and an identically
+vanishing even characteristic at level four. It is the smallest known
+level-four zero and the smallest known counterexample to the rank-four
+symmetry converse, so the minimum counterexample determinant satisfies
+24 < det ≤ 280; no minimality claim is made in between. Certificate
+`data/rank4-level4/det280-level4.json`, independent replay
+`code/verify_rank4_det280.py`.
 
 The original results remain: the determinant-23,716 counterexample with its
 all-level coset bijection and complete automorphism group {I, −I}, the
@@ -58,13 +67,14 @@ python scripts/verify_integrity.py
 python scripts/run_tests.py
 python code/rank4_counterexample.py --replay data/rank4-counterexample/det23716.json --output scratch/counterexample-replay.json
 python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.json --certificates data/rank4-level4/det1729-level4.json --output scratch/level4-replay.json
+python code/verify_rank4_det280.py --output scratch/level4-det280-replay.json
 python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-replay.json
 python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexamples.json --output scratch/parity-replay.json
 ```
 
-The default suite runs the 67 rank-four tests. The output path for a replay
+The default suite runs the 71 rank-four tests. The output path for a replay
 must be fresh. The test runner automatically prepares compressed datasets.
-To run the complete 151-test suite:
+To run the complete 155-test suite:
 
 ```sh
 python scripts/run_tests.py --all

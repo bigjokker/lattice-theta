@@ -33,6 +33,20 @@ reviewed in [rank-four-eisenstein-review.md](rank-four-eisenstein-review.md), ga
 determinant 1156; the determinant record is now 1156 and the level-4
 statement about 1729 is unchanged.)
 
+**Correction, 2026-10-21 (determinant 280).** The determinant-4480 lattice of
+the (2,8,14,20) configuration has every Gram entry even. Halving it gives the
+odd primitive lattice G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]] of
+determinant 280 with the same a = (1,0,0,1), b = (1,1,1,1). Scaling a Gram
+matrix changes neither the vanishing nor the isometry type of the coset
+lattices, so this is a level-4 zero; Aut(L) = {I,-I} with epsilon 0 on both
+elements, so it is also a counterexample to the rank-four symmetry converse.
+It is certified directly (zero by the modular cutoff, B = 3072, 383 complete
+signed shells; group and non-isometry by complete searches;
+`data/rank4-level4/det280-level4.json`, replayed by
+`code/verify_rank4_det280.py`). The smallest known level-4 determinant is
+therefore 280, not 1729, and the bracket for the minimum counterexample
+determinant becomes 24 < det <= 280. No minimality claim is made.
+
 The one new computational fact behind the result is that the index-two
 sublattices {all e-coordinates even} of L^+ and of L^- are isometric although
 L^+ and L^- are not; everything else is Conway-Sloane 1992 plus the project's
@@ -142,6 +156,7 @@ script directory from the path); run without `-I` from the workspace root.
   was 1729 (odd lattice); the Eisenstein sweep of item 3 then lowered it to
   1156 ([rank-four-eisenstein-review.md](rank-four-eisenstein-review.md)). The census lower bound is det(L) > 24.
   No minimality claim is made in between.
+  (Superseded 2026-10-21: both records are now 280; see the note in section 1.)
 - The det-3844 pair (S1 decomposable, S2 indecomposable) is only
   isospectral-to-a-bound; it is not certified and should not be cited as a new
   isospectral pair without an all-level proof.

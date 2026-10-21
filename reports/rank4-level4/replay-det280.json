@@ -1,0 +1,58 @@
+{
+  "verdict": "verified_level_4",
+  "determinant": 280,
+  "G": [
+    [
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      -1,
+      2
+    ],
+    [
+      1,
+      -1,
+      4,
+      -1
+    ],
+    [
+      0,
+      2,
+      -1,
+      7
+    ]
+  ],
+  "a": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "b": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "source": {
+    "pair": "A4 Conway-Sloane (2, 8, 14, 20) det 4480",
+    "determinant": 4480,
+    "verdict": "verified_level_4"
+  },
+  "full_group_order": 2,
+  "stabilizer_epsilons": [
+    0,
+    0
+  ],
+  "cutoff": 3072,
+  "shells": 383,
+  "vectors": 173956,
+  "box_nodes": 193734,
+  "coset_lattices_isometric": false,
+  "level": 4
+}

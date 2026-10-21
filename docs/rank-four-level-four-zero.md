@@ -229,6 +229,20 @@ kernel level makes the cutoff very small. Certificates:
 `reports/rank4-level4/replay-others.json` (all seven `verified_level_4`, box
 enumeration through each B agreeing shell by shell, 60.7 s in total).
 
+**Correction, 2026-10-21 (determinant 280).** The determinant-4480 lattice of
+the (2,8,14,20) configuration has every Gram entry even. Halving it gives the
+odd primitive lattice G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]] of
+determinant 280 with the same a = (1,0,0,1), b = (1,1,1,1). Scaling a Gram
+matrix changes neither the vanishing nor the isometry type of the coset
+lattices, so this is a level-4 zero; Aut(L) = {I,-I} with epsilon 0 on both
+elements, so it is also a counterexample to the rank-four symmetry converse.
+It is certified directly (zero by the modular cutoff, B = 3072, 383 complete
+signed shells; group and non-isometry by complete searches;
+`data/rank4-level4/det280-level4.json`, replayed by
+`code/verify_rank4_det280.py`). The smallest known level-4 determinant is
+therefore 280, not 1729, and the bracket for the minimum counterexample
+determinant becomes 24 < det <= 280. No minimality claim is made.
+
 ## 5. Task D: bounded scan of sign kernels with det(L0) <= 24
 
 Universe: the 169 isometry classes of positive definite integral rank-four
@@ -273,6 +287,10 @@ Two directions, both with a clear completion criterion.
    example needs an isospectral non-isometric pair of determinant det(L0)/4,
    so det(L0) >= 4*961 if the Conway-Sloane remark (x) suspicion holds; a
    level-3 example has no such floor and is the realistic target.
+   Correction 2026-10-21: a level-4 zero of determinant 280 exists (the
+   det-4480 configuration halved; see the note in section 4). Its coset
+   lattices are not integral, so the 4*961 floor, which assumes integral coset
+   lattices, does not apply to it.
 2. Item 3 (smaller level-2 examples). For an even lattice M with a
    fixed-point-free automorphism of order three, M/2M is a two-dimensional
    F4-space and the five F4-lines are the orbits of the automorphism, so each

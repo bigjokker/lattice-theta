@@ -62,6 +62,7 @@ Certificate hashes (SHA-256):
 ```text
 76175459bf0b317843fae80ac14da5186ca07aa351d3a40a838c522e69b23668  data/rank4-level4/det1729-level4.json
 a279081ac204bd75ab1e3694348dc9c6d07465cd0e265fef4c258b3ba577cd38  data/rank4-level4/cs-bijection.json
+852e9924b2678582b3d7681b8449f819db6e78de9314f240b1fc4cdbd46e39c5  data/rank4-level4/det280-level4.json
 d11ad820da6ccb19f814f47f755d529dd0e8eb91f322100ff95121e9bbea8a04  data/rank4-eisenstein/det1156-level2.json
 56773197994e9be621db875e3aed79f8a92f89147f9aad4b1bfdc5ec9beda282  data/rank4-parity/c1-counterexamples.json
 ```
@@ -71,6 +72,7 @@ Certificate replays (seconds, not minutes; these also run in CI):
 ```sh
 python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.json --certificates data/rank4-level4/det1729-level4.json --output scratch/level4-det1729-replay.json
 python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.json --certificates data/rank4-level4/other-level4-certificates.json --output scratch/level4-others-replay.json
+python code/verify_rank4_det280.py --output scratch/level4-det280-replay.json
 python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-det1156-replay.json
 python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexamples.json --output scratch/parity-certificates-replay.json
 python code/verify_rank4_parity.py pair-members data/rank4-parity/pair-members-parity.json --output scratch/parity-pair-members-replay.json
@@ -80,7 +82,11 @@ python code/check_small_pairs.py
 The level-four replay checks the Conway-Sloane bijection on the nine cosets,
 the modular cutoff with complete signed shells by a box enumeration, the
 isometries of the coset lattices to the Conway-Sloane pair, and their
-non-isometry. The Eisenstein replay checks the order-three kernel isometry,
+non-isometry. The determinant-280 replay checks the determinant-4480
+certificate with the same verifier, that halving its Gram gives the
+determinant-280 lattice, and then re-proves the full group, the zero (modular
+cutoff and box shells) and the non-isometry of the coset lattices directly.
+The Eisenstein replay checks the order-three kernel isometry,
 the cutoff, and the manuscript-schema document through the unchanged
 `code/rank4_counterexample.py`. The parity replay checks each certified zero
 (cutoff and witness) and each nonzero (complete shell) with a box backend.

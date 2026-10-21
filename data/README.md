@@ -8,7 +8,9 @@ The Dn certificate streams were already distributed in gzip form.
 - `rank4-counterexample/`: determinant-23,716 all-level counterexample.
 - `rank4-level4/`: the determinant-1729 level-four certificate, the
   Conway-Sloane bijection certificate, and the seven other level-four
-  configurations (release 1.1.0).
+  configurations (release 1.1.0), and the determinant-280 level-four
+  certificate, the determinant-4480 configuration halved (correction of
+  2026-10-21).
 - `rank4-eisenstein/`: the determinant-1156 level-two counterexample, with
   the manuscript-schema document embedded (release 1.1.0).
 - `rank4-parity/`: the six determinant-121 certificates of the refuted even

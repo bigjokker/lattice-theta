@@ -75,6 +75,18 @@ sign kernels with det(L0) <= 24 from the census (Task D: 17,745 pairs, each
 either nonzero or level 1). Finite-domain statement: no level-2, level-3 or
 level-4 configuration has det(L0) <= 24. No level-3 configuration is known.
 
+**Correction (2026-10-21): determinant 280.** The determinant-4480 member,
+from parameters (2,8,14,20), has every Gram entry even. Its half,
+G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]] with the same a = (1,0,0,1),
+b = (1,1,1,1), is odd, primitive, of determinant 280, with Aut(L) = {I, -I}
+and epsilon 0 on both elements. Scaling the Gram matrix changes neither the
+vanishing nor the isometry type of the coset lattices, so it is a level-4
+zero; it is also certified directly (modular cutoff B = 3072 with 383
+complete signed shells, complete group and non-isometry searches;
+[det280-level4.json](../data/rank4-level4/det280-level4.json), replay
+`code/verify_rank4_det280.py`). Its coset lattices are not integral. It is
+the smallest known level-4 zero; no minimality claim is made.
+
 Precision. "The vanishing has no geometric explanation" means no single
 Euclidean isometry between the coset lattices explains it; the sign-change
 bijection is a piecewise norm-preserving bijection, so a geometric description
@@ -127,6 +139,11 @@ determinant of a rank-four counterexample to the symmetry converse:
 the lower bound from the determinant-24 census, the upper bound from this
 example. No minimality claim is made between 25 and 1155; the family minimum
 is not a global minimum.
+
+Correction (2026-10-21): the determinant-280 level-4 lattice of section 2
+also has no symmetry witness, so the bracket is now 24 < det(L) <= 280.
+Determinant 1156 remains the minimum of the Eisenstein family F and the
+smallest known even counterexample.
 
 Full report: [rank-four-eisenstein-family.md](../docs/rank-four-eisenstein-family.md);
 review: [rank-four-eisenstein-review.md](../reviews/rank-four-eisenstein-review.md);

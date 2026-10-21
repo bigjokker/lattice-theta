@@ -1,0 +1,136 @@
+{
+  "schema": "work7-rank4-level4-rescaled-certificate-v1",
+  "claim": "Theta_G[a,b] vanishes identically; the full automorphism group {I,-I} has no epsilon-one element; the two coset lattices of the sign kernel are not isometric (level 4). Smallest known determinant of a rank-four symmetry-converse counterexample; no minimality claim.",
+  "derived_from": {
+    "file": "data/rank4-level4/other-level4-certificates.json",
+    "sha256": "8889c8fe484e70ce91dea0241d38bc1f7401c91d51e2a49b1807d77d248daff5",
+    "certificate_determinant": 4480,
+    "pair": "A4 Conway-Sloane (2, 8, 14, 20) det 4480",
+    "gram_divisor": 2
+  },
+  "G": [
+    [
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      -1,
+      2
+    ],
+    [
+      1,
+      -1,
+      4,
+      -1
+    ],
+    [
+      0,
+      2,
+      -1,
+      7
+    ]
+  ],
+  "a": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "b": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "determinant": 280,
+  "modular": {
+    "index_two_basis": [
+      [
+        2,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "G0": [
+      [
+        12,
+        -4,
+        -4,
+        -6
+      ],
+      [
+        -4,
+        6,
+        0,
+        4
+      ],
+      [
+        -4,
+        0,
+        5,
+        1
+      ],
+      [
+        -6,
+        4,
+        1,
+        10
+      ]
+    ],
+    "d0": 1120,
+    "N0": 560,
+    "unsigned_level": 8960,
+    "level_factors": [
+      [
+        2,
+        8
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "index": 18432,
+    "cutoff": 3072,
+    "character_discriminant": 4480,
+    "weight": "2",
+    "coefficient_index": "norm4",
+    "theorem": "rank4-square-complex-identity-v1"
+  },
+  "expected": {
+    "full_group_order": 2,
+    "cutoff": 3072,
+    "shells": 383,
+    "vectors": 173956,
+    "shells_sha256": "4842e80dd2e465cd40a01b7ede12349d39c7657549b768361e34eb6badd63ef7",
+    "level": 4
+  },
+  "provenance": "Found 2026-10-21 by halving the even det-4480 certificate (workspace script rank4_minus_type_constructions.py det280, output det280-rescaling.json); replay with code/verify_rank4_det280.py."
+}

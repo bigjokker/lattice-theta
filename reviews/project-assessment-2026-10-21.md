@@ -23,6 +23,10 @@ settled; the latter is not.
 | Does indecomposability plus determinant not divisible by four imply the parity property? | No. The smallest odd-lattice failure under these hypotheses has determinant 49. | Minimality follows from the complete restricted lists and the earlier census. |
 | Does the conjecture become true for even lattices of odd determinant? | No. The smallest indecomposable failure has determinant 121. | The only failure among 255 indecomposable classes through determinant 201. |
 
+(Correction 2026-10-21: the level-4 and symmetry-converse records in this
+table are now both determinant 280, the determinant-4480 level-4 lattice
+halved; see the note at the end of the section on global minimization.)
+
 The determinant-1729 example is the most substantial conceptual advance. The
 determinant-1156 example improves the size and presentation of an already
 known mechanism. The 1729 example shows that a zero need not even come from
@@ -164,12 +168,27 @@ because it fills an explanatory distinction rather than classifying a
 substantial family.
 
 Global determinant minimization is also open. The existing reports' safe
-general bracket is 24 < det <= 1156. Their family-minimum statement should
+general bracket is 24 < det <= 1156 (24 < det <= 280 after the correction
+of 2026-10-21 below). Their family-minimum statement should
 not be promoted to a global minimum. The newer restricted censuses give
 more exclusions, but do not cover all odd lattices with determinant divisible
 by four above 24. I would not make a broad census to 1155 the next default
 task. Likewise, moving to rank five is unnecessary to establish the
 dimension-four threshold already proved.
+
+**Correction, 2026-10-21 (determinant 280).** The determinant-4480 lattice of
+the (2,8,14,20) configuration has every Gram entry even. Halving it gives the
+odd primitive lattice G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]] of
+determinant 280 with the same a = (1,0,0,1), b = (1,1,1,1). Scaling a Gram
+matrix changes neither the vanishing nor the isometry type of the coset
+lattices, so this is a level-4 zero; Aut(L) = {I,-I} with epsilon 0 on both
+elements, so it is also a counterexample to the rank-four symmetry converse.
+It is certified directly (zero by the modular cutoff, B = 3072, 383 complete
+signed shells; group and non-isometry by complete searches;
+`data/rank4-level4/det280-level4.json`, replayed by
+`code/verify_rank4_det280.py`). The smallest known level-4 determinant is
+therefore 280, not 1729, and the bracket for the minimum counterexample
+determinant becomes 24 < det <= 280. No minimality claim is made.
 
 **What remains before the work is presented as a current release.**
 
