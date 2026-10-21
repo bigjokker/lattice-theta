@@ -1,0 +1,24 @@
+class list: 636 candidates, 22 classes, 3.1s
+  class 1/22 det 5 aut 240 holds 1s
+  class 2/22 det 13 aut 48 holds 2s
+  class 3/22 det 21 aut 48 holds 3s
+  class 4/22 det 29 aut 48 holds 3s
+  class 5/22 det 37 aut 48 holds 4s
+  class 6/22 det 45 aut 48 holds 4s
+  class 7/22 det 25 aut 72 holds 5s
+  class 8/22 det 45 aut 24 holds 5s
+  class 9/22 det 33 aut 24 holds 6s
+  class 10/22 det 37 aut 12 holds 6s
+  class 11/22 det 17 aut 24 holds 7s
+  class 12/22 det 29 aut 24 holds 8s
+  class 13/22 det 41 aut 24 holds 8s
+  class 14/22 det 9 aut 288 decomposable 8s
+  class 15/22 det 21 aut 48 decomposable 8s
+  class 16/22 det 33 aut 48 decomposable 8s
+  class 17/22 det 45 aut 48 decomposable 8s
+  class 18/22 det 45 aut 48 decomposable 8s
+  class 19/22 det 33 aut 16 holds 9s
+  class 20/22 det 41 aut 8 holds 9s
+  class 21/22 det 45 aut 16 holds 9s
+  class 22/22 det 49 aut 32 decomposable 9s
+exit=0

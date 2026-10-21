@@ -1,0 +1,20 @@
+{
+ "verdict": "verified",
+ "inputs": {
+  "results\\rank4-level4\\task-d-det24.json": "e0dd2e4c5fc3eab62db1ec93baa46669afa268ae7cbc6c255d33f54fc31d72a2"
+ },
+ "task_a": [],
+ "bijection": null,
+ "certificates": [],
+ "task_d": {
+  "verdict": "verified",
+  "classes": 169,
+  "tally": {
+   "level_1": 2235,
+   "nonzero": 15510
+  },
+  "level_3_configurations": 0,
+  "level_4_candidates": 0
+ },
+ "seconds": 1.9005114999599755
+}

@@ -1,0 +1,423 @@
+{
+ "verdict": "verified",
+ "inputs": {
+  "examples\\rank4-level4\\cs-bijection.json": "a279081ac204bd75ab1e3694348dc9c6d07465cd0e265fef4c258b3ba577cd38",
+  "examples\\rank4-level4\\other-level4-certificates.json": "8889c8fe484e70ce91dea0241d38bc1f7401c91d51e2a49b1807d77d248daff5"
+ },
+ "task_a": [],
+ "bijection": {
+  "verdict": "verified",
+  "pieces": 9,
+  "statement": "L^+ and L^- are isospectral for every diagonal form (piecewise isometry)"
+ },
+ "certificates": [
+  {
+   "verdict": "verified_level_4",
+   "pair": "A3 Earnest-Nipp det 84721",
+   "determinant": 84721,
+   "G": [
+    [
+     13,
+     6,
+     2,
+     0
+    ],
+    [
+     6,
+     20,
+     9,
+     -7
+    ],
+    [
+     2,
+     9,
+     23,
+     -11
+    ],
+    [
+     0,
+     -7,
+     -11,
+     26
+    ]
+   ],
+   "a": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "b": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=125440, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 125440,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 17349248,
+    "vectors": 16673408,
+    "shells": 14699
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (1, 7, 13, 43) det 3913",
+   "determinant": 3913,
+   "G": [
+    [
+     3,
+     1,
+     -1,
+     1
+    ],
+    [
+     1,
+     7,
+     0,
+     -2
+    ],
+    [
+     -1,
+     0,
+     14,
+     -5
+    ],
+    [
+     1,
+     -2,
+     -5,
+     17
+    ]
+   ],
+   "a": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=39424, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 39424,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 7895644,
+    "vectors": 7665596,
+    "shells": 4924
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (1, 7, 25, 31) det 5425",
+   "determinant": 5425,
+   "G": [
+    [
+     3,
+     1,
+     1,
+     -1
+    ],
+    [
+     1,
+     13,
+     -2,
+     -5
+    ],
+    [
+     1,
+     -2,
+     11,
+     -4
+    ],
+    [
+     -1,
+     -5,
+     -4,
+     18
+    ]
+   ],
+   "a": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=61440, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 61440,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 16237364,
+    "vectors": 15810080,
+    "shells": 7675
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (1, 7, 13, 31) det 2821",
+   "determinant": 2821,
+   "G": [
+    [
+     3,
+     1,
+     -1,
+     -1
+    ],
+    [
+     1,
+     7,
+     0,
+     2
+    ],
+    [
+     -1,
+     0,
+     14,
+     5
+    ],
+    [
+     -1,
+     2,
+     5,
+     13
+    ]
+   ],
+   "a": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=28672, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 28672,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 4948168,
+    "vectors": 4773968,
+    "shells": 3579
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (1, 7, 19, 25) det 3325",
+   "determinant": 3325,
+   "G": [
+    [
+     3,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     9,
+     -2,
+     4
+    ],
+    [
+     1,
+     -2,
+     11,
+     -6
+    ],
+    [
+     0,
+     4,
+     -6,
+     17
+    ]
+   ],
+   "a": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=38400, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 38400,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 8143766,
+    "vectors": 7886888,
+    "shells": 4795
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (2, 8, 14, 20) det 4480",
+   "determinant": 4480,
+   "G": [
+    [
+     6,
+     2,
+     2,
+     0
+    ],
+    [
+     2,
+     10,
+     -2,
+     4
+    ],
+    [
+     2,
+     -2,
+     8,
+     -2
+    ],
+    [
+     0,
+     4,
+     -2,
+     14
+    ]
+   ],
+   "a": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=6144, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 6144,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 193734,
+    "vectors": 173956,
+    "shells": 383
+   },
+   "members_isometric": false
+  },
+  {
+   "verdict": "verified_level_4",
+   "pair": "A4 Conway-Sloane (7, 13, 19, 49) det 84721",
+   "determinant": 84721,
+   "G": [
+    [
+     13,
+     6,
+     0,
+     2
+    ],
+    [
+     6,
+     20,
+     -7,
+     9
+    ],
+    [
+     0,
+     -7,
+     26,
+     -11
+    ],
+    [
+     2,
+     9,
+     -11,
+     23
+    ]
+   ],
+   "a": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "b": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=125440, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 125440,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 17349248,
+    "vectors": 16673408,
+    "shells": 14699
+   },
+   "members_isometric": false
+  }
+ ],
+ "task_d": null,
+ "seconds": 60.72033470007591
+}

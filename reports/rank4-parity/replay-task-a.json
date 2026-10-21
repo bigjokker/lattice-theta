@@ -1,0 +1,19 @@
+{
+ "verdict": "verified",
+ "census_classes": 169,
+ "census_indecomposable": 27,
+ "eisenstein_task_b_smallest_level_1": 169,
+ "eisenstein_task_b_smallest_level_2": null,
+ "eisenstein_task_d_smallest_level_1": 169,
+ "eisenstein_task_d_smallest_level_2": 2401,
+ "pair_members": {
+  "holds": 17,
+  "fails": 1
+ },
+ "level4_lattices": {
+  "fails": 8
+ },
+ "seconds": 20.207875900086947,
+ "input": "results\\rank4-parity\\task-a.json",
+ "input_sha256": "cc4929f8f3d5b8e5597858f5c4fe0ad4002a4a3e023c8f039bf969ad3471733c"
+}

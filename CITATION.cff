@@ -5,19 +5,25 @@ abstract: >-
   Exact proofs, certificates, and reproducible computations for identical
   vanishing of lattice theta functions with half-integral characteristics.
   The symmetry converse holds in ranks one through three and fails in rank
-  four. The rank-four counterexample is a primitive positive definite
-  integral lattice of determinant 23716, with automorphism group {I, -I}
-  and trivial sign. The release also includes the low-rank parity
-  classification, the irreducible crystallographic root lattices in the
-  stated normalization, and exact determinant-at-most-24 censuses through
-  rank four. No smallest-counterexample-determinant or literature-priority
-  claim is made.
+  four. Rank-four results: an identically vanishing even characteristic of a
+  lattice of determinant 1729 whose two coset lattices are the Conway-Sloane
+  isospectral pair, which are not isometric; a counterexample to the symmetry
+  converse of determinant 1156 with automorphism group {I, -I}, improving the
+  original determinant-23716 example (bracket 24 < det <= 1156, no minimality
+  claim); and the rank-four parity property, which fails for indecomposable
+  odd lattices of determinant 49 not divisible by four and for even
+  indecomposable lattices of odd determinant at determinant 121, with
+  complete class lists and structural theorems. The release also includes
+  the low-rank parity classification, the irreducible crystallographic root
+  lattices in the stated normalization, exact determinant-at-most-24 censuses
+  through rank four, and a checked literature note on isospectral lattices.
+  No literature-priority claim is made.
 authors:
   - name: "bigjokker"
 type: software
 license: MIT
-version: 1.0.0
-date-released: "2026-09-27"
+version: 1.1.0
+date-released: "2026-10-21"
 repository-code: "https://github.com/bigjokker/lattice-theta"
 doi: 10.5281/zenodo.23002464
 identifiers:
@@ -31,6 +37,8 @@ keywords:
   - "lattice theta functions"
   - "half-integral characteristics"
   - "symmetry converse"
+  - "isospectral lattices"
+  - "parity property"
   - "positive definite integral lattices"
   - "quadratic forms"
   - "modular forms"

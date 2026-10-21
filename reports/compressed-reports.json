@@ -1,0 +1,71 @@
+{
+  "schema": "lattice-theta-compressed-reports-v1",
+  "files": [
+    {
+      "path": "reports/rank4-level4/task-a.json",
+      "gzip_path": "reports/rank4-level4/task-a.json.gz",
+      "sha256": "22b81b7478152e9e04b34fdda15047564e4be14f83b3a8ec8ba526f67480be57",
+      "size": 1230281
+    },
+    {
+      "path": "reports/rank4-level4/task-d-det24.json",
+      "gzip_path": "reports/rank4-level4/task-d-det24.json.gz",
+      "sha256": "e0dd2e4c5fc3eab62db1ec93baa46669afa268ae7cbc6c255d33f54fc31d72a2",
+      "size": 1505495
+    },
+    {
+      "path": "reports/rank4-eisenstein/task-b.json",
+      "gzip_path": "reports/rank4-eisenstein/task-b.json.gz",
+      "sha256": "15ef448ceb6dbb9673a0c64f41ab0f1f0f4d1a061f01d184e97f05aa769b522a",
+      "size": 10063654
+    },
+    {
+      "path": "reports/rank4-eisenstein/task-d-prefix60.json",
+      "gzip_path": "reports/rank4-eisenstein/task-d-prefix60.json.gz",
+      "sha256": "8524455467982693846f254c6e6fffde303b913c9d91d430e8f0347a619b07fa",
+      "size": 114549391
+    },
+    {
+      "path": "reports/rank4-eisenstein/task-d.json",
+      "gzip_path": "reports/rank4-eisenstein/task-d.json.gz",
+      "sha256": "d2ad13911eaf11f8c1fc4c956f2f3a0d34d136b475ada50d1b804672c4caff05",
+      "size": 76893040
+    },
+    {
+      "path": "reports/rank4-parity/task-a.json",
+      "gzip_path": "reports/rank4-parity/task-a.json.gz",
+      "sha256": "cc4929f8f3d5b8e5597858f5c4fe0ad4002a4a3e023c8f039bf969ad3471733c",
+      "size": 10116728
+    },
+    {
+      "path": "reports/rank4-parity/task-b-det101.json",
+      "gzip_path": "reports/rank4-parity/task-b-det101.json.gz",
+      "sha256": "8b8c3a2b5f6d173214eba1bd7b01567cdd9c66eab453e5fbd3e774c3769c378b",
+      "size": 31828368
+    },
+    {
+      "path": "reports/rank4-parity/task-b-det201.json",
+      "gzip_path": "reports/rank4-parity/task-b-det201.json.gz",
+      "sha256": "c462ed47c3ebe13948ea05782340043555aee236be588eba62833581af93a904",
+      "size": 120653627
+    },
+    {
+      "path": "reports/rank4-parity/task-b-det49.json",
+      "gzip_path": "reports/rank4-parity/task-b-det49.json.gz",
+      "sha256": "b5a8e02119f484a6f64f71199463d2db32185a778dacd2574ea6fd80793ad5bc",
+      "size": 8236518
+    },
+    {
+      "path": "reports/rank4-parity/task-c-det64.json",
+      "gzip_path": "reports/rank4-parity/task-c-det64.json.gz",
+      "sha256": "ac17e85e2d3095e00547598f12aac4cc232a34f6a42c877bf011753e4485e760",
+      "size": 14597165
+    },
+    {
+      "path": "reports/rank4-parity/task-e-det168.json",
+      "gzip_path": "reports/rank4-parity/task-e-det168.json.gz",
+      "sha256": "4e41471d49431a4ce1923d731be473dc75fe40057b5b38a7ac72f86315fd7834",
+      "size": 459038952
+    }
+  ]
+}

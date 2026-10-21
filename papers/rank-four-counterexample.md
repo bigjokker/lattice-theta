@@ -4,6 +4,13 @@ Completed counterexample manuscript, 2026-09-27. The exact proof and certificate
 in [accepted local review](../reviews/rank-four-counterexample-review.md). This is a local review manuscript;
 no publication, priority or minimum-determinant claim is made.
 
+Status note (release 1.1.0, 2026-10-21). The example below remains valid and
+its certificate is unchanged, but it is no longer the smallest known: a
+counterexample of determinant 1156 of the same Eisenstein construction, a
+level-four zero of determinant 1729 whose coset lattices are isospectral and
+not isometric, and the rank-four parity results are stated in
+[rank-four-follow-up-results.md](rank-four-follow-up-results.md).
+
 ## Abstract
 
 The characteristic stabilizer of an integral lattice carries a sign character

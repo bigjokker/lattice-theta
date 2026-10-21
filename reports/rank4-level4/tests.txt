@@ -1,0 +1,18 @@
+test_altered_characteristic (test_rank4_level4.Level4Tests.test_altered_characteristic) ... ok
+test_altered_gram (test_rank4_level4.Level4Tests.test_altered_gram) ... ok
+test_certificate_is_level_four_with_two_identity_routes (test_rank4_level4.Level4Tests.test_certificate_is_level_four_with_two_identity_routes) ... ok
+test_interrupted_replay_cannot_certify (test_rank4_level4.Level4Tests.test_interrupted_replay_cannot_certify) ... ok
+test_removed_group_element_and_wrong_sign (test_rank4_level4.Level4Tests.test_removed_group_element_and_wrong_sign) ... ok
+test_tampered_bijection (test_rank4_level4.Level4Tests.test_tampered_bijection) ... ok
+test_tampered_coset_lattice_and_kernel (test_rank4_level4.Level4Tests.test_tampered_coset_lattice_and_kernel) ... ok
+test_tampered_links_and_false_non_isometry (test_rank4_level4.Level4Tests.test_tampered_links_and_false_non_isometry) ... ok
+test_tampered_task_a_tables (test_rank4_level4.Level4Tests.test_tampered_task_a_tables) ... ok
+test_task_a_finds_the_configuration_and_replays (test_rank4_level4.Level4Tests.test_task_a_finds_the_configuration_and_replays) ... ok
+test_truncated_or_altered_enumeration (test_rank4_level4.Level4Tests.test_truncated_or_altered_enumeration) ... ok
+test_two_enumeration_backends_agree_with_the_box (test_rank4_level4.Level4Tests.test_two_enumeration_backends_agree_with_the_box) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 22.118s
+
+OK
+exit=0

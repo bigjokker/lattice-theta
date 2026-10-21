@@ -1,0 +1,202 @@
+﻿{
+  "conway_sloane_remark_x_det961": {
+    "G": [
+      [
+        [
+          17,
+          -5,
+          5,
+          2
+        ],
+        [
+          -5,
+          13,
+          6,
+          5
+        ],
+        [
+          5,
+          6,
+          9,
+          5
+        ],
+        [
+          2,
+          5,
+          5,
+          5
+        ]
+      ],
+      [
+        [
+          17,
+          -2,
+          1,
+          7
+        ],
+        [
+          -2,
+          13,
+          9,
+          1
+        ],
+        [
+          1,
+          9,
+          9,
+          2
+        ],
+        [
+          7,
+          1,
+          2,
+          5
+        ]
+      ]
+    ],
+    "determinants": [
+      961,
+      961
+    ],
+    "gram_scale_for_evenness": 2,
+    "even_lattice_levels": [
+      124,
+      124
+    ],
+    "common_level": 124,
+    "weight": 2,
+    "character": "trivial",
+    "gamma0_index": 192,
+    "inclusive_sturm_bound": 32,
+    "coefficients_0_through_bound": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      2,
+      4,
+      4,
+      2,
+      4,
+      4,
+      4,
+      2,
+      8,
+      8,
+      4,
+      4,
+      6,
+      8,
+      8,
+      4,
+      8,
+      12,
+      6,
+      4,
+      8,
+      12,
+      8,
+      8,
+      0,
+      14
+    ],
+    "independent_enumerators_agree": true,
+    "nonisometry_confirmed_by_ldl_and_box": true,
+    "conclusion": "equal theta series by the stated modular-form theorem"
+  },
+  "index_two_kernels_det3844": {
+    "G": [
+      [
+        [
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          16
+        ]
+      ],
+      [
+        [
+          4,
+          -2,
+          1,
+          1
+        ],
+        [
+          -2,
+          8,
+          -3,
+          -1
+        ],
+        [
+          1,
+          -3,
+          10,
+          -4
+        ],
+        [
+          1,
+          -1,
+          -4,
+          18
+        ]
+      ]
+    ],
+    "determinants": [
+      3844,
+      3844
+    ],
+    "gram_scale_for_evenness": 1,
+    "even_lattice_levels": [
+      62,
+      62
+    ],
+    "common_level": 62,
+    "weight": 2,
+    "character": "trivial",
+    "gamma0_index": 96,
+    "inclusive_sturm_bound": 16,
+    "coefficients_0_through_bound": [
+      1,
+      0,
+      2,
+      0,
+      4,
+      2,
+      4,
+      2,
+      8,
+      4,
+      8,
+      4,
+      12,
+      4,
+      12,
+      8,
+      14
+    ],
+    "independent_enumerators_agree": true,
+    "nonisometry_confirmed_by_ldl_and_box": true,
+    "conclusion": "equal theta series by the stated modular-form theorem"
+  }
+}

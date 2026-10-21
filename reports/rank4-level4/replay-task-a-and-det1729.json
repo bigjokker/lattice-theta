@@ -1,0 +1,211 @@
+{
+ "verdict": "verified",
+ "inputs": {
+  "results\\rank4-level4\\task-a.json": "22b81b7478152e9e04b34fdda15047564e4be14f83b3a8ec8ba526f67480be57",
+  "examples\\rank4-level4\\cs-bijection.json": "a279081ac204bd75ab1e3694348dc9c6d07465cd0e265fef4c258b3ba577cd38",
+  "examples\\rank4-level4\\det1729-level4.json": "76175459bf0b317843fae80ac14da5186ca07aa351d3a40a838c522e69b23668"
+ },
+ "task_a": [
+  {
+   "name": "A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729",
+   "determinants": [
+    1729,
+    1729
+   ],
+   "box_nodes": [
+    522700,
+    522700
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961",
+   "determinants": [
+    961,
+    961
+   ],
+   "box_nodes": [
+    824156,
+    824156
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 0,
+   "isospectral_nonisometric_cells": 2,
+   "verdict": "no_index_two_neighbour_relation"
+  },
+  {
+   "name": "A3 Earnest-Nipp det 84721",
+   "determinants": [
+    84721,
+    84721
+   ],
+   "box_nodes": [
+    76882,
+    76168
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (1, 7, 13, 43) det 3913",
+   "determinants": [
+    3913,
+    3913
+   ],
+   "box_nodes": [
+    358382,
+    358382
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (1, 7, 25, 31) det 5425",
+   "determinants": [
+    5425,
+    5425
+   ],
+   "box_nodes": [
+    305920,
+    305920
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (1, 7, 13, 31) det 2821",
+   "determinants": [
+    2821,
+    2821
+   ],
+   "box_nodes": [
+    414160,
+    414160
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (1, 7, 19, 25) det 3325",
+   "determinants": [
+    3325,
+    3325
+   ],
+   "box_nodes": [
+    384890,
+    384890
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (2, 8, 14, 20) det 4480",
+   "determinants": [
+    4480,
+    4480
+   ],
+   "box_nodes": [
+    322562,
+    322562
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  },
+  {
+   "name": "A4 Conway-Sloane (7, 13, 19, 49) det 84721",
+   "determinants": [
+    84721,
+    84721
+   ],
+   "box_nodes": [
+    76882,
+    76882
+   ],
+   "cells_checked": 450,
+   "isometric_cells": 2,
+   "isospectral_nonisometric_cells": 0,
+   "verdict": "klein_configuration_found"
+  }
+ ],
+ "bijection": {
+  "verdict": "verified",
+  "pieces": 9,
+  "statement": "L^+ and L^- are isospectral for every diagonal form (piecewise isometry)"
+ },
+ "certificates": [
+  {
+   "verdict": "verified_level_4",
+   "pair": "A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729",
+   "determinant": 1729,
+   "G": [
+    [
+     3,
+     1,
+     1,
+     0
+    ],
+    [
+     1,
+     9,
+     -2,
+     4
+    ],
+    [
+     1,
+     -2,
+     7,
+     -2
+    ],
+    [
+     0,
+     4,
+     -2,
+     13
+    ]
+   ],
+   "a": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 2,
+   "identity_routes": [
+    "conway-sloane bijection (cs-bijection certificate) + explicit isometries",
+    "modular cutoff B=17920, complete signed shells by LDL, integer and box backends"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 17920,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 2494592,
+    "vectors": 2382392,
+    "shells": 2238
+   },
+   "members_isometric": false
+  }
+ ],
+ "seconds": 9.344984699971974
+}

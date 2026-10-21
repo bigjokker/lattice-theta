@@ -1,0 +1,18 @@
+test_class_removed_or_added (test_rank4_parity.ParityTests.test_class_removed_or_added) ... ok
+test_counterexample_certificate_replays (test_rank4_parity.ParityTests.test_counterexample_certificate_replays) ... ok
+test_decomposable_presented_as_indecomposable (test_rank4_parity.ParityTests.test_decomposable_presented_as_indecomposable) ... ok
+test_generator_matches_frozen_domain_and_census (test_rank4_parity.ParityTests.test_generator_matches_frozen_domain_and_census) ... ok
+test_interrupted_replay_cannot_certify (test_rank4_parity.ParityTests.test_interrupted_replay_cannot_certify) ... ok
+test_nonzero_with_wrong_bound (test_rank4_parity.ParityTests.test_nonzero_with_wrong_bound) ... ok
+test_small_task_b_replays (test_rank4_parity.ParityTests.test_small_task_b_replays) ... ok
+test_structure_on_data (test_rank4_parity.ParityTests.test_structure_on_data)
+Constant-sign lemma (a = c), type versus det mod 8, witness orders. ... ok
+test_tampered_automorphism_list (test_rank4_parity.ParityTests.test_tampered_automorphism_list) ... ok
+test_wrong_summary_and_status (test_rank4_parity.ParityTests.test_wrong_summary_and_status) ... ok
+test_zero_without_cutoff_or_witness (test_rank4_parity.ParityTests.test_zero_without_cutoff_or_witness) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 36.945s
+
+OK
+exit=0

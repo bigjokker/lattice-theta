@@ -1,0 +1,19 @@
+test_altered_gram_matrices (test_rank4_eisenstein.EisensteinTests.test_altered_gram_matrices) ... ok
+test_certificate_is_level_two_with_three_identity_routes (test_rank4_eisenstein.EisensteinTests.test_certificate_is_level_two_with_three_identity_routes) ... ok
+test_forged_swap_and_group_tampering (test_rank4_eisenstein.EisensteinTests.test_forged_swap_and_group_tampering) ... ok
+test_formulas_and_control (test_rank4_eisenstein.EisensteinTests.test_formulas_and_control) ... ok
+test_interrupted_replay_cannot_certify (test_rank4_eisenstein.EisensteinTests.test_interrupted_replay_cannot_certify) ... ok
+test_manuscript_schema_tampering (test_rank4_eisenstein.EisensteinTests.test_manuscript_schema_tampering) ... ok
+test_non_primitive_presented_as_primitive (test_rank4_eisenstein.EisensteinTests.test_non_primitive_presented_as_primitive) ... ok
+test_rotation_tampering (test_rank4_eisenstein.EisensteinTests.test_rotation_tampering) ... ok
+test_tampered_enumeration_table (test_rank4_eisenstein.EisensteinTests.test_tampered_enumeration_table) ... ok
+test_tampered_lemma_record (test_rank4_eisenstein.EisensteinTests.test_tampered_lemma_record) ... ok
+test_task_b_at_34_finds_the_level_two_example_and_replays (test_rank4_eisenstein.EisensteinTests.test_task_b_at_34_finds_the_level_two_example_and_replays) ... ok
+test_task_e_lemma_replays (test_rank4_eisenstein.EisensteinTests.test_task_e_lemma_replays) ... ok
+test_truncated_or_altered_enumeration (test_rank4_eisenstein.EisensteinTests.test_truncated_or_altered_enumeration) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 5.881s
+
+OK
+exit=0

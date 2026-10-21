@@ -1,0 +1,39 @@
+census done
+  eisenstein 100/123
+  eisenstein 100/1092
+  eisenstein 200/1092
+  eisenstein 300/1092
+  eisenstein 400/1092
+  eisenstein 500/1092
+  eisenstein 600/1092
+  eisenstein 700/1092
+  eisenstein 800/1092
+  eisenstein 900/1092
+  eisenstein 1000/1092
+  pair member A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G1: P holds (0.1s)
+  pair member A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G2: P holds (0.1s)
+  pair member A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G1: P fails (0.1s)
+  pair member A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G2: P holds (0.2s)
+  pair member A3 Earnest-Nipp det 84721 G1: P holds (0.0s)
+  pair member A3 Earnest-Nipp det 84721 G2: P holds (0.0s)
+  pair member A4 Conway-Sloane (1, 7, 13, 43) det 3913 G1: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 13, 43) det 3913 G2: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 25, 31) det 5425 G1: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 25, 31) det 5425 G2: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 13, 31) det 2821 G1: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 13, 31) det 2821 G2: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 19, 25) det 3325 G1: P holds (0.1s)
+  pair member A4 Conway-Sloane (1, 7, 19, 25) det 3325 G2: P holds (0.1s)
+  pair member A4 Conway-Sloane (2, 8, 14, 20) det 4480 G1: P holds (0.1s)
+  pair member A4 Conway-Sloane (2, 8, 14, 20) det 4480 G2: P holds (0.1s)
+  pair member A4 Conway-Sloane (7, 13, 19, 49) det 84721 G1: P holds (0.0s)
+  pair member A4 Conway-Sloane (7, 13, 19, 49) det 84721 G2: P holds (0.0s)
+  level-4 lattice det 1729: P fails verdicts {'nonzero': 104, 'zero_by_cutoff': 1} (14.8s)
+  level-4 lattice det 84721: P fails verdicts {'nonzero': 104, 'zero_certified_externally': 1} (0.1s)
+  level-4 lattice det 3913: P fails verdicts {'nonzero': 104, 'zero_certified_externally': 1} (0.2s)
+  level-4 lattice det 5425: P fails verdicts {'nonzero': 104, 'zero_certified_externally': 1} (0.1s)
+  level-4 lattice det 2821: P fails verdicts {'nonzero': 104, 'zero_by_cutoff': 1} (31.4s)
+  level-4 lattice det 3325: P fails verdicts {'nonzero': 104, 'zero_certified_externally': 1} (0.2s)
+  level-4 lattice det 4480: P fails verdicts {'nonzero': 104, 'zero_by_cutoff': 1} (1.7s)
+  level-4 lattice det 84721: P fails verdicts {'nonzero': 104, 'zero_certified_externally': 1} (0.1s)
+exit=0

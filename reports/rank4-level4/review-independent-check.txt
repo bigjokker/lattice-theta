@@ -1,0 +1,21 @@
+det G = 1729  a.b = 2
+modular data: d0 = 6916 N0 = 3458 M = 55328 mu = 107520 B = 17920
+cutoff enumeration: shells = 2238 vectors = 2382392 nodes = 4908667 nonzero signed shells = 0 (14.8s)
+Aut(L) size = 2  elements: [[[-1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, -1]], [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]]
+G0 = [[12, -4, -4, -6], [-4, 10, -1, 6], [-4, -1, 8, 0], [-6, 6, 0, 16]]  det G0 = 6916
+Aut(L0) size = 2
+Gram O1 = [[4, 1, -2, 5], [1, 10, -1, 6], [-2, -1, 8, 0], [5, 6, 0, 16]] det 1729
+Gram O2 = [[12, -4, -4, 9], [-4, 10, -1, -1], [-4, -1, 8, -4], [9, -1, -4, 10]] det 1729
+L+ = [[4, -1, -4, -4], [-1, 8, 0, -4], [-4, 0, 12, 1], [-4, -4, 1, 16]] det 1729
+L- = [[4, 2, 2, 5], [2, 8, -3, 2], [2, -3, 12, -2], [5, 2, -2, 16]] det 1729
+isometries L+ vs L- : 0
+isometries O1 vs L- : 2  O1 vs L+ : 0
+isometries O2 vs L+ : 2  O2 vs L- : 0
+isometries O1 vs O2 : 0
+det ker+ = 6916  det ker- = 6916
+isometries ker(L+) vs ker(L-): 2 [[[-1, 1, 1, 1], [-1, 1, 0, 1], [-1, 1, 1, 0], [-1, 0, 1, 1]]]
+isometries ker(L+) vs G0: 2
+EN g1 vs CS L-(7,13,19,49): 2  g2 vs L+(7,13,19,49): 2
+det S1, S2 = 3844 3844  isometries S1 vs S2: 0
+S1/S2 theta agree through norm 400: True  first terms: [1, 0, 0, 0, 2, 0, 0, 0, 4, 0, 2, 0]
+ker(P) vs S1: 4  ker(Q) vs S2: 2  ker(P) vs S2: 0  ker(Q) vs S1: 0

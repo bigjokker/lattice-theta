@@ -12,3 +12,17 @@ data/census-rank4/det24-bound32.json
 data/census-rank4/pilot-det4-bound32.json
 data/e8-classification.json
 data/rank4-feasibility/controls.json
+# Release 1.1.0 expanded copies (data: automatic; reports: prepare_data.py --reports).
+data/rank4-level4/other-level4-certificates.json
+data/rank4-parity/pair-members-parity.json
+reports/rank4-level4/task-a.json
+reports/rank4-level4/task-d-det24.json
+reports/rank4-eisenstein/task-b.json
+reports/rank4-eisenstein/task-d-prefix60.json
+reports/rank4-eisenstein/task-d.json
+reports/rank4-parity/task-a.json
+reports/rank4-parity/task-b-det101.json
+reports/rank4-parity/task-b-det201.json
+reports/rank4-parity/task-b-det49.json
+reports/rank4-parity/task-c-det64.json
+reports/rank4-parity/task-e-det168.json

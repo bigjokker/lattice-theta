@@ -1,6 +1,6 @@
 {
   "schema": "lattice-theta-export-provenance-v1",
-  "description": "Curated from the completed local research workspace. Certificate and saved report bytes are unchanged; large JSON inputs use lossless gzip. Documentation and code copies have relocated paths; original workspace is unchanged.",
+  "description": "Curated from the completed local research workspace. Certificate and saved report bytes are unchanged; large JSON inputs use lossless gzip. Documentation and code copies have relocated paths; original workspace is unchanged. Release 1.1.0 (2026-10-21) added the rank-four follow-up work (level-four zero, Eisenstein family, parity property, independent assessment) under the same conventions; large preserved reports are gzip files listed in reports/compressed-reports.json.",
   "files": [
     {
       "source": "exact_theta.py",
@@ -1246,6 +1246,713 @@
       "destination": "reviews/rank-four-counterexample-review.md",
       "source_sha256": "944a72b85f1b16500d6f2ef1f04a10107a3bf0c3c2fa8ba7e1d0277b5a9a10ce",
       "export_sha256": "8b824d4d839296cd98b4f346901beebe2da668249362c00071696762e90fdb57",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_level4_search.py",
+      "destination": "code/rank4_level4_search.py",
+      "source_sha256": "722e688f3dd220e4c31570865e45f15e361b8cb7b06aaf8e0a327577b1ba83f5",
+      "export_sha256": "722e688f3dd220e4c31570865e45f15e361b8cb7b06aaf8e0a327577b1ba83f5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "verify_rank4_level4.py",
+      "destination": "code/verify_rank4_level4.py",
+      "source_sha256": "a9b1a9a28ae649dd61b83d36c6de675401c30b432292e71b5a2d5d3a190a4d8a",
+      "export_sha256": "a9b1a9a28ae649dd61b83d36c6de675401c30b432292e71b5a2d5d3a190a4d8a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "rank4_eisenstein_search.py",
+      "destination": "code/rank4_eisenstein_search.py",
+      "source_sha256": "36aceef068113b1aaa415413283bef30e08893e116e59b70482d6298f30d150a",
+      "export_sha256": "36aceef068113b1aaa415413283bef30e08893e116e59b70482d6298f30d150a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "verify_rank4_eisenstein.py",
+      "destination": "code/verify_rank4_eisenstein.py",
+      "source_sha256": "9ba0ef542207795e77144463dfdc0478ffe5afd10ab93f5a28fbf54df73b9c6f",
+      "export_sha256": "9ba0ef542207795e77144463dfdc0478ffe5afd10ab93f5a28fbf54df73b9c6f",
+      "changes": "unchanged"
+    },
+    {
+      "source": "rank4_parity_search.py",
+      "destination": "code/rank4_parity_search.py",
+      "source_sha256": "d7f1573d7982bf49123f7caa0809961c14cf93c8db23a8ee7f4df8cbcc6e9479",
+      "export_sha256": "a615833a82586ee5dcb67a088371e7d01030c221f2a622ce3ad34a176471521c",
+      "changes": "relocated hash-bound source paths (examples/, results/ resolved to data/, reports/); otherwise unchanged"
+    },
+    {
+      "source": "verify_rank4_parity.py",
+      "destination": "code/verify_rank4_parity.py",
+      "source_sha256": "9702d39030c96147d51222edcb547247cfbb4b18d2c05a4a56ccebf02e32cb09",
+      "export_sha256": "d65838e2f1b12fabd90245a9382a1ba1632c223b8a31909a60be871a9ead20be",
+      "changes": "relocated hash-bound source paths (examples/, results/ resolved to data/, reports/); otherwise unchanged"
+    },
+    {
+      "source": "rank4_klein_triple.py",
+      "destination": "code/rank4_klein_triple.py",
+      "source_sha256": "f35a8ba648582ffea513fa3e4436c48d5711c93f85f062847ffe46e4679c8735",
+      "export_sha256": "f35a8ba648582ffea513fa3e4436c48d5711c93f85f062847ffe46e4679c8735",
+      "changes": "unchanged"
+    },
+    {
+      "source": "rank4_eisenstein_formula_check.py",
+      "destination": "code/rank4_eisenstein_formula_check.py",
+      "source_sha256": "3d9928f7b1cb9b9002ddd246c3ef218335c52d2af51c0803c3de1eac390b7aff",
+      "export_sha256": "3d9928f7b1cb9b9002ddd246c3ef218335c52d2af51c0803c3de1eac390b7aff",
+      "changes": "unchanged"
+    },
+    {
+      "source": "rank4_level4_review_check.py",
+      "destination": "code/rank4_level4_review_check.py",
+      "source_sha256": "4760de5efe26c2bf4670da84bd01867b737d5b6f267dfd7ea98e3c621b78c18f",
+      "export_sha256": "25d4c71ebbc17e333545f828e8df5efb0375e180d138bf77d8a1ea25d2e27d26",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_eisenstein_review_check.py",
+      "destination": "code/rank4_eisenstein_review_check.py",
+      "source_sha256": "58f202939a52558616ac5fe312ee4eef0a0ca7645634c87b4e1a31e021a977ea",
+      "export_sha256": "cd2c9824d35ba87476807b49e401a2c3c32abf58702c18146fe9fd60c8a9d5ed",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_eisenstein_review_enum.py",
+      "destination": "code/rank4_eisenstein_review_enum.py",
+      "source_sha256": "f4b5ac862c6127327bc358bc879f18377931da4d6ed3b26e3d5d708ccfe37d52",
+      "export_sha256": "2813f0a4296072f433d40ccab37fb5bdd8830aa1a2a56a21357d1f44e2c61cbc",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_parity_review_check.py",
+      "destination": "code/rank4_parity_review_check.py",
+      "source_sha256": "988175f66eb6d36855f2ba50c6785b8edbb5e123393b2e1bd0ee9bce78b776b6",
+      "export_sha256": "61ad0842e918375fd1fffa928e3844e9e9e06ccbd5b5eabfbdb8c3a6657a0443",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_parity_review_enum.py",
+      "destination": "code/rank4_parity_review_enum.py",
+      "source_sha256": "25ff74caf6c7b9658b616fb100b9925303d186fecfd58889fc3f2ff7f828d5f6",
+      "export_sha256": "d04bc4d1dada9bc1cd78397486f5150e8ac9cb798a8eda10c22122b25cc42d6a",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "rank4_parity_facts_check.py",
+      "destination": "code/rank4_parity_facts_check.py",
+      "source_sha256": "da9b8dcee770347a1254af80732b7dc0c5a5b77f9a44e789cc202216f9ac2442",
+      "export_sha256": "e65d798188679246993d49e76a3c2204658ffe4d12a0fdbb03e866482dde80f2",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "results/project-review-20261021/check_small_pairs.py",
+      "destination": "code/check_small_pairs.py",
+      "source_sha256": "b727e39837d11e4aa470df2de5b5c4d80e12276e93eb76d6e1cea4e0a37267f8",
+      "export_sha256": "592811db85c15a0a3a3db8a4fd215ebab90852c132907586a6c81d4a886ff624",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "test_rank4_level4.py",
+      "destination": "tests/test_rank4_level4.py",
+      "source_sha256": "2328aba3cd8ff6afa4269fe6498df34993e47555e403722de8fb7d45345c3134",
+      "export_sha256": "2328aba3cd8ff6afa4269fe6498df34993e47555e403722de8fb7d45345c3134",
+      "changes": "unchanged"
+    },
+    {
+      "source": "test_rank4_eisenstein.py",
+      "destination": "tests/test_rank4_eisenstein.py",
+      "source_sha256": "3fa61e0d092ee7f06f30b8725e97fc907ae766c28a748aff1409408533feff1d",
+      "export_sha256": "3fa61e0d092ee7f06f30b8725e97fc907ae766c28a748aff1409408533feff1d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "test_rank4_parity.py",
+      "destination": "tests/test_rank4_parity.py",
+      "source_sha256": "83501711da1a16ba1a8e12cc4964b5fd7fa1b5e09d2915d388be13bb38be22c3",
+      "export_sha256": "6f218979f77c5b32ce767524cc93aa081842bd66624e63f36ca7a48d943d5267",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "examples/rank4-level4/cs-bijection.json",
+      "destination": "data/rank4-level4/cs-bijection.json",
+      "source_sha256": "a279081ac204bd75ab1e3694348dc9c6d07465cd0e265fef4c258b3ba577cd38",
+      "export_sha256": "a279081ac204bd75ab1e3694348dc9c6d07465cd0e265fef4c258b3ba577cd38",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-level4/det1729-level4.json",
+      "destination": "data/rank4-level4/det1729-level4.json",
+      "source_sha256": "76175459bf0b317843fae80ac14da5186ca07aa351d3a40a838c522e69b23668",
+      "export_sha256": "76175459bf0b317843fae80ac14da5186ca07aa351d3a40a838c522e69b23668",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-level4/other-level4-certificates.json",
+      "destination": "data/rank4-level4/other-level4-certificates.json.gz",
+      "source_sha256": "8889c8fe484e70ce91dea0241d38bc1f7401c91d51e2a49b1807d77d248daff5",
+      "export_sha256": "20efd9a7a0a4191f632a486b33734193d0b927ad46f4f0eb88104b8795ab01a2",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "examples/rank4-eisenstein/det1156-level2.json",
+      "destination": "data/rank4-eisenstein/det1156-level2.json",
+      "source_sha256": "d11ad820da6ccb19f814f47f755d529dd0e8eb91f322100ff95121e9bbea8a04",
+      "export_sha256": "d11ad820da6ccb19f814f47f755d529dd0e8eb91f322100ff95121e9bbea8a04",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-parity/c1-counterexamples.json",
+      "destination": "data/rank4-parity/c1-counterexamples.json",
+      "source_sha256": "56773197994e9be621db875e3aed79f8a92f89147f9aad4b1bfdc5ec9beda282",
+      "export_sha256": "56773197994e9be621db875e3aed79f8a92f89147f9aad4b1bfdc5ec9beda282",
+      "changes": "unchanged"
+    },
+    {
+      "source": "examples/rank4-parity/pair-members-parity.json",
+      "destination": "data/rank4-parity/pair-members-parity.json.gz",
+      "source_sha256": "4eb08bfaf630b2df76e8e55a6f117db6b56cf54e93c2146de7b509658b1e9b91",
+      "export_sha256": "06d6e5bef9d4084dacf83e85d55fbfe205d107a69e2dfdde78826b893258e960",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-level4/replay-others.json",
+      "destination": "reports/rank4-level4/replay-others.json",
+      "source_sha256": "387a37033ef076b876d7782c6754b6721511a714c0cfb677814d1da3356b6bdb",
+      "export_sha256": "387a37033ef076b876d7782c6754b6721511a714c0cfb677814d1da3356b6bdb",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/replay-others.log",
+      "destination": "reports/rank4-level4/replay-others.log",
+      "source_sha256": "60912b46d2f821671c1c79caa446b6d1616d4082aacf16de641e66eeea4a291a",
+      "export_sha256": "60912b46d2f821671c1c79caa446b6d1616d4082aacf16de641e66eeea4a291a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/replay-task-a-and-det1729.json",
+      "destination": "reports/rank4-level4/replay-task-a-and-det1729.json",
+      "source_sha256": "79c5c58ff2bf9bf51e8be2a74d6a910d11a7e12ac240722ffaf4f903d43ca9ec",
+      "export_sha256": "79c5c58ff2bf9bf51e8be2a74d6a910d11a7e12ac240722ffaf4f903d43ca9ec",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/replay-task-d-det24.json",
+      "destination": "reports/rank4-level4/replay-task-d-det24.json",
+      "source_sha256": "2abb49b9437a785d3f79bf80711c3e49988f42d4ef331bf9c715bd712ace5631",
+      "export_sha256": "2abb49b9437a785d3f79bf80711c3e49988f42d4ef331bf9c715bd712ace5631",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/review-independent-check.txt",
+      "destination": "reports/rank4-level4/review-independent-check.txt",
+      "source_sha256": "1707a80487b08b61dbb7ac4ac95a1b788553c74f7730f0dccf5019f66ab08808",
+      "export_sha256": "1707a80487b08b61dbb7ac4ac95a1b788553c74f7730f0dccf5019f66ab08808",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/task-a.json",
+      "destination": "reports/rank4-level4/task-a.json.gz",
+      "source_sha256": "22b81b7478152e9e04b34fdda15047564e4be14f83b3a8ec8ba526f67480be57",
+      "export_sha256": "3cc642300d3a49be002c1875435dea3d95b9d187270b9f66562e10250f7cb28c",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-level4/task-a.log",
+      "destination": "reports/rank4-level4/task-a.log",
+      "source_sha256": "59ce12379146e2591c8a302a600d38e16ffb1f0a19c4c97be7b135b47d10fb6d",
+      "export_sha256": "59ce12379146e2591c8a302a600d38e16ffb1f0a19c4c97be7b135b47d10fb6d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/task-c-others.log",
+      "destination": "reports/rank4-level4/task-c-others.log",
+      "source_sha256": "b7e81472869fed33b242a0191cc68278914c5eb022563010be94b77046d0fca2",
+      "export_sha256": "b7e81472869fed33b242a0191cc68278914c5eb022563010be94b77046d0fca2",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/task-d-det24.json",
+      "destination": "reports/rank4-level4/task-d-det24.json.gz",
+      "source_sha256": "e0dd2e4c5fc3eab62db1ec93baa46669afa268ae7cbc6c255d33f54fc31d72a2",
+      "export_sha256": "1dac688cedcf6d6f80cad0d5580ff47522cfe2c2f4dd5b641e03c4a5fa349f36",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-level4/task-d.log",
+      "destination": "reports/rank4-level4/task-d.log",
+      "source_sha256": "61a45bd7359061b86fc795923d0a4e0257e2b2ea414e5fd677f7d882ff3de9ca",
+      "export_sha256": "61a45bd7359061b86fc795923d0a4e0257e2b2ea414e5fd677f7d882ff3de9ca",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-level4/tests.txt",
+      "destination": "reports/rank4-level4/tests.txt",
+      "source_sha256": "7a3f8f8a6eb3610b3749cc018bf9548303c4bd58a3714f49b475e5ebfcc03a44",
+      "export_sha256": "7a3f8f8a6eb3610b3749cc018bf9548303c4bd58a3714f49b475e5ebfcc03a44",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/replay-b-c-e.json",
+      "destination": "reports/rank4-eisenstein/replay-b-c-e.json",
+      "source_sha256": "08b776f7bf2d90d00287efa59181dd1e6dc7a48320ff7a749c60e34798f17c63",
+      "export_sha256": "08b776f7bf2d90d00287efa59181dd1e6dc7a48320ff7a749c60e34798f17c63",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/replay-b-c-e.log",
+      "destination": "reports/rank4-eisenstein/replay-b-c-e.log",
+      "source_sha256": "593685b51541a991b4dd9ef2aa81cb14323f42a80604c59f0a4bef7d8fcb40bb",
+      "export_sha256": "593685b51541a991b4dd9ef2aa81cb14323f42a80604c59f0a4bef7d8fcb40bb",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/replay-d.json",
+      "destination": "reports/rank4-eisenstein/replay-d.json",
+      "source_sha256": "256a75f91965d23668ca22ee6e91abc654d9fdc5c9ba05a14232d337a03e0d5d",
+      "export_sha256": "256a75f91965d23668ca22ee6e91abc654d9fdc5c9ba05a14232d337a03e0d5d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/replay-d.log",
+      "destination": "reports/rank4-eisenstein/replay-d.log",
+      "source_sha256": "e5659c6b192766de66633433bc6fe890a563cb9100f09782f1bc1f5b9984c74a",
+      "export_sha256": "e5659c6b192766de66633433bc6fe890a563cb9100f09782f1bc1f5b9984c74a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/review-independent-check.txt",
+      "destination": "reports/rank4-eisenstein/review-independent-check.txt",
+      "source_sha256": "311d69dcecb57d959fe6e8e539f57b4dfbb616ba48e5abe565433839f2643627",
+      "export_sha256": "311d69dcecb57d959fe6e8e539f57b4dfbb616ba48e5abe565433839f2643627",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/review-independent-enum.txt",
+      "destination": "reports/rank4-eisenstein/review-independent-enum.txt",
+      "source_sha256": "86e7b9af8298814618ef487fe6bacd0441f4ffe6e84eee1a34fdfa213056fb1f",
+      "export_sha256": "86e7b9af8298814618ef487fe6bacd0441f4ffe6e84eee1a34fdfa213056fb1f",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-a.json",
+      "destination": "reports/rank4-eisenstein/task-a.json",
+      "source_sha256": "639ce82062b182a8ba2e50c5800d86f9ff8c9230d55f78586872dfbc0a5ab261",
+      "export_sha256": "639ce82062b182a8ba2e50c5800d86f9ff8c9230d55f78586872dfbc0a5ab261",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-b.json",
+      "destination": "reports/rank4-eisenstein/task-b.json.gz",
+      "source_sha256": "15ef448ceb6dbb9673a0c64f41ab0f1f0f4d1a061f01d184e97f05aa769b522a",
+      "export_sha256": "20794d00333e5c63dd9c226760deecb0f49c09a13d956022db3fc3e854698315",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-b.log",
+      "destination": "reports/rank4-eisenstein/task-b.log",
+      "source_sha256": "a7fc1f52f0e73c0b9d1d9433ed62e2a4645caa4b319be01eca3857a369c067d3",
+      "export_sha256": "a7fc1f52f0e73c0b9d1d9433ed62e2a4645caa4b319be01eca3857a369c067d3",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-d-prefix60.json",
+      "destination": "reports/rank4-eisenstein/task-d-prefix60.json.gz",
+      "source_sha256": "8524455467982693846f254c6e6fffde303b913c9d91d430e8f0347a619b07fa",
+      "export_sha256": "6188058c7936e54eca76aed077716e1509e544a10814bae31371b4fa58b8d486",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-d-prefix60.log",
+      "destination": "reports/rank4-eisenstein/task-d-prefix60.log",
+      "source_sha256": "91796b5f9da147cebde8daf5c92268fa06df6c1375daf41e570ae1f6bd6a0d24",
+      "export_sha256": "91796b5f9da147cebde8daf5c92268fa06df6c1375daf41e570ae1f6bd6a0d24",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-d.json",
+      "destination": "reports/rank4-eisenstein/task-d.json.gz",
+      "source_sha256": "d2ad13911eaf11f8c1fc4c956f2f3a0d34d136b475ada50d1b804672c4caff05",
+      "export_sha256": "d8c353ee3f5dd9f913465ff2fa5fc54b283a2ea86c65fc67a7f701bd079fca59",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-d.log",
+      "destination": "reports/rank4-eisenstein/task-d.log",
+      "source_sha256": "7d0573147d3beed402063664eed328a0d31eceb64d9285b82b231e61da029de6",
+      "export_sha256": "7d0573147d3beed402063664eed328a0d31eceb64d9285b82b231e61da029de6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/task-e.json",
+      "destination": "reports/rank4-eisenstein/task-e.json",
+      "source_sha256": "73b1a22862ccbb91adf7fa8df7cef77acc03606f4b3c61f92d4aa173dd5fd442",
+      "export_sha256": "73b1a22862ccbb91adf7fa8df7cef77acc03606f4b3c61f92d4aa173dd5fd442",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-eisenstein/tests.txt",
+      "destination": "reports/rank4-eisenstein/tests.txt",
+      "source_sha256": "9847945c05a3c6401c04450768028e51d2d9fba624d2d0d7deb619dc858e7f0e",
+      "export_sha256": "9847945c05a3c6401c04450768028e51d2d9fba624d2d0d7deb619dc858e7f0e",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/certify.log",
+      "destination": "reports/rank4-parity/certify.log",
+      "source_sha256": "9bfcbb4435574fad02b805dc199a71f3e610bb25c846610f3f6629ede842974b",
+      "export_sha256": "9bfcbb4435574fad02b805dc199a71f3e610bb25c846610f3f6629ede842974b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/control-facts.txt",
+      "destination": "reports/rank4-parity/control-facts.txt",
+      "source_sha256": "2724808e67fdd89b29ec2a78bb49ea96ef967fa5e09e7869601db0d66b345aa4",
+      "export_sha256": "2724808e67fdd89b29ec2a78bb49ea96ef967fa5e09e7869601db0d66b345aa4",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/e8-check.json",
+      "destination": "reports/rank4-parity/e8-check.json",
+      "source_sha256": "b69e81208a27b84e630e6214727f833a29a1552abda17661864a9e1f094533cf",
+      "export_sha256": "b69e81208a27b84e630e6214727f833a29a1552abda17661864a9e1f094533cf",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/e8-check.log",
+      "destination": "reports/rank4-parity/e8-check.log",
+      "source_sha256": "bf1d9a204c9b268090840a59695b2842e62edd12bae5ebf5467507f474ade13e",
+      "export_sha256": "bf1d9a204c9b268090840a59695b2842e62edd12bae5ebf5467507f474ade13e",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-certificates.json",
+      "destination": "reports/rank4-parity/replay-certificates.json",
+      "source_sha256": "174f9fd3400cee8712eef760541d3a0be1d2d6f726fa7f029c4d5ebf2a1568c6",
+      "export_sha256": "174f9fd3400cee8712eef760541d3a0be1d2d6f726fa7f029c4d5ebf2a1568c6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-certificates.log",
+      "destination": "reports/rank4-parity/replay-certificates.log",
+      "source_sha256": "656eb24cdeb2df3ce48162e783c8ff2c7ab523a2477193306154dc59527abdb4",
+      "export_sha256": "656eb24cdeb2df3ce48162e783c8ff2c7ab523a2477193306154dc59527abdb4",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-pair-members.json",
+      "destination": "reports/rank4-parity/replay-pair-members.json",
+      "source_sha256": "376d5f3ac51c67399cdc7a28a61be82bbd1dce0c215fbc6f822ada67b6a0cc26",
+      "export_sha256": "376d5f3ac51c67399cdc7a28a61be82bbd1dce0c215fbc6f822ada67b6a0cc26",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-pair-members.log",
+      "destination": "reports/rank4-parity/replay-pair-members.log",
+      "source_sha256": "233770d2fe3b40395d55bfb697b613c507931bb9ea15c7f7b5aaa4212d679e9e",
+      "export_sha256": "233770d2fe3b40395d55bfb697b613c507931bb9ea15c7f7b5aaa4212d679e9e",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-a.json",
+      "destination": "reports/rank4-parity/replay-task-a.json",
+      "source_sha256": "1ebcd58609ec310cfaa140ff0fc8a99adc3a1df773b249f7fae18d8b958e3e58",
+      "export_sha256": "1ebcd58609ec310cfaa140ff0fc8a99adc3a1df773b249f7fae18d8b958e3e58",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-a.log",
+      "destination": "reports/rank4-parity/replay-task-a.log",
+      "source_sha256": "54c8268d76d4798661c4781a89f239e3927e8d85d52064b578528ba1d70bc9aa",
+      "export_sha256": "54c8268d76d4798661c4781a89f239e3927e8d85d52064b578528ba1d70bc9aa",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det101.json",
+      "destination": "reports/rank4-parity/replay-task-b-det101.json",
+      "source_sha256": "4bcb1664fe96014d632eb525cf35cb7bdc653a7d354c0af84c27f97ac488ae06",
+      "export_sha256": "4bcb1664fe96014d632eb525cf35cb7bdc653a7d354c0af84c27f97ac488ae06",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det101.log",
+      "destination": "reports/rank4-parity/replay-task-b-det101.log",
+      "source_sha256": "8d08323fc380f50a6cbbab8355e6a8f2eda4816c4b3819f12af458dfd10b4035",
+      "export_sha256": "8d08323fc380f50a6cbbab8355e6a8f2eda4816c4b3819f12af458dfd10b4035",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det201.json",
+      "destination": "reports/rank4-parity/replay-task-b-det201.json",
+      "source_sha256": "bee16e8a41ccb57c102b5ccd5b2b6b1dc03833e6ed6700e87ba43bf44d7184c7",
+      "export_sha256": "bee16e8a41ccb57c102b5ccd5b2b6b1dc03833e6ed6700e87ba43bf44d7184c7",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det201.log",
+      "destination": "reports/rank4-parity/replay-task-b-det201.log",
+      "source_sha256": "89acded6be7795f04ce9950d751ed53ec1040d20a859bdcea89b937c5fc47103",
+      "export_sha256": "89acded6be7795f04ce9950d751ed53ec1040d20a859bdcea89b937c5fc47103",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det49.json",
+      "destination": "reports/rank4-parity/replay-task-b-det49.json",
+      "source_sha256": "b909cc29899f5e4b55b686508ffa3bd0d3908d77907db327e244e60c6f1188d0",
+      "export_sha256": "b909cc29899f5e4b55b686508ffa3bd0d3908d77907db327e244e60c6f1188d0",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-b-det49.log",
+      "destination": "reports/rank4-parity/replay-task-b-det49.log",
+      "source_sha256": "a0b6a7cd30a0e127e17562f8492ad03ca2d263dac799f64448e82d204f6719da",
+      "export_sha256": "a0b6a7cd30a0e127e17562f8492ad03ca2d263dac799f64448e82d204f6719da",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-c-det64.json",
+      "destination": "reports/rank4-parity/replay-task-c-det64.json",
+      "source_sha256": "45eca56a0b1611b25003c4fe07936bf076a5310e01f37b5916941d309a0b5a52",
+      "export_sha256": "45eca56a0b1611b25003c4fe07936bf076a5310e01f37b5916941d309a0b5a52",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-c-det64.log",
+      "destination": "reports/rank4-parity/replay-task-c-det64.log",
+      "source_sha256": "7b28e371214fc113220fde22755bc265682a227b7c3d0c0312be35e116a3c293",
+      "export_sha256": "7b28e371214fc113220fde22755bc265682a227b7c3d0c0312be35e116a3c293",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-e-det168.json",
+      "destination": "reports/rank4-parity/replay-task-e-det168.json",
+      "source_sha256": "ea601defd47999a7d17f31291446f767ae185c12a7f9214ab4dc81760af55b9c",
+      "export_sha256": "ea601defd47999a7d17f31291446f767ae185c12a7f9214ab4dc81760af55b9c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/replay-task-e-det168.log",
+      "destination": "reports/rank4-parity/replay-task-e-det168.log",
+      "source_sha256": "644e3b12b7877bed39c72022ad4066c9cac37de08e9c87c508d72a6b62cac0ad",
+      "export_sha256": "644e3b12b7877bed39c72022ad4066c9cac37de08e9c87c508d72a6b62cac0ad",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/review-independent-check.txt",
+      "destination": "reports/rank4-parity/review-independent-check.txt",
+      "source_sha256": "61a823d9c4c105508c29bdf1d19b9480f1d4f4809178f8e04b1a2de1856ca6ca",
+      "export_sha256": "61a823d9c4c105508c29bdf1d19b9480f1d4f4809178f8e04b1a2de1856ca6ca",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/review-independent-enum-B201.txt",
+      "destination": "reports/rank4-parity/review-independent-enum-B201.txt",
+      "source_sha256": "05431821c99a54fe07fadab1b91437d33759a9c5a61a3c5094a4a904d01305a7",
+      "export_sha256": "05431821c99a54fe07fadab1b91437d33759a9c5a61a3c5094a4a904d01305a7",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/review-independent-enum-C64.txt",
+      "destination": "reports/rank4-parity/review-independent-enum-C64.txt",
+      "source_sha256": "1bf325404c1343a48aded1b04361a6c3f038d3a04ae0e689ee57228e12c329a5",
+      "export_sha256": "1bf325404c1343a48aded1b04361a6c3f038d3a04ae0e689ee57228e12c329a5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/review-independent-enum-E168.txt",
+      "destination": "reports/rank4-parity/review-independent-enum-E168.txt",
+      "source_sha256": "12a8d762a572cf97241761b27d0ca74590968a3e64d0116f419eb38378a71d48",
+      "export_sha256": "12a8d762a572cf97241761b27d0ca74590968a3e64d0116f419eb38378a71d48",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-a.json",
+      "destination": "reports/rank4-parity/task-a.json.gz",
+      "source_sha256": "cc4929f8f3d5b8e5597858f5c4fe0ad4002a4a3e023c8f039bf969ad3471733c",
+      "export_sha256": "f02af5c8a0d05d5b6296175315f4c46c7c1940b3fbade310f279f3b4fa4adfa3",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-a.log",
+      "destination": "reports/rank4-parity/task-a.log",
+      "source_sha256": "7b66326751f120b76cfa9f47ca5fe77181f44d9b9c8582ea62367005aa830773",
+      "export_sha256": "7b66326751f120b76cfa9f47ca5fe77181f44d9b9c8582ea62367005aa830773",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-a.md",
+      "destination": "reports/rank4-parity/task-a.md",
+      "source_sha256": "6d129c93c8f5eccda6716a4357febe74472e317687d9567fc1d5330bc7330da0",
+      "export_sha256": "6d129c93c8f5eccda6716a4357febe74472e317687d9567fc1d5330bc7330da0",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det101.json",
+      "destination": "reports/rank4-parity/task-b-det101.json.gz",
+      "source_sha256": "8b8c3a2b5f6d173214eba1bd7b01567cdd9c66eab453e5fbd3e774c3769c378b",
+      "export_sha256": "77e792b7558a52b8e984e98a4f076fd6e9c62032b3ce1abad7db2c7e82d9bc16",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det101.log",
+      "destination": "reports/rank4-parity/task-b-det101.log",
+      "source_sha256": "45d46a466986c428a5b14c5a7818476a63782ee4dadeb22c9028aee7f413cdcf",
+      "export_sha256": "45d46a466986c428a5b14c5a7818476a63782ee4dadeb22c9028aee7f413cdcf",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det201.json",
+      "destination": "reports/rank4-parity/task-b-det201.json.gz",
+      "source_sha256": "c462ed47c3ebe13948ea05782340043555aee236be588eba62833581af93a904",
+      "export_sha256": "1da68bc15b7f323b8509bf495b5cea21d41c34b63fa07fbb057af136043575da",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det201.log",
+      "destination": "reports/rank4-parity/task-b-det201.log",
+      "source_sha256": "0ea06018ec35647494d9541476f8067daefd86f6e97fade2665f05d471950672",
+      "export_sha256": "0ea06018ec35647494d9541476f8067daefd86f6e97fade2665f05d471950672",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det49.json",
+      "destination": "reports/rank4-parity/task-b-det49.json.gz",
+      "source_sha256": "b5a8e02119f484a6f64f71199463d2db32185a778dacd2574ea6fd80793ad5bc",
+      "export_sha256": "9dbe8967e724c15c23898ba7cfdd1e30fc5948699caccb0084097a2140b03d29",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-b-det49.log",
+      "destination": "reports/rank4-parity/task-b-det49.log",
+      "source_sha256": "b15945894225fb2f26141094bcd9a6da6a0cca6d7242a51685ae6b167c628083",
+      "export_sha256": "b15945894225fb2f26141094bcd9a6da6a0cca6d7242a51685ae6b167c628083",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-c-det64.json",
+      "destination": "reports/rank4-parity/task-c-det64.json.gz",
+      "source_sha256": "ac17e85e2d3095e00547598f12aac4cc232a34f6a42c877bf011753e4485e760",
+      "export_sha256": "392e9b1f714f789257eb42bb20f50f9eadf739aab969c99d8fc74177087b2c5f",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-c-det64.log",
+      "destination": "reports/rank4-parity/task-c-det64.log",
+      "source_sha256": "8a3a1609c0ffbec0d2570f09941e018a0fe14c0f4a976f22e274064ac7a6a41a",
+      "export_sha256": "8a3a1609c0ffbec0d2570f09941e018a0fe14c0f4a976f22e274064ac7a6a41a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-d.json",
+      "destination": "reports/rank4-parity/task-d.json",
+      "source_sha256": "c9af49413a8ab75dc510fc569b4b6e1acb4df4eb3c32187d57c0f42859f34937",
+      "export_sha256": "c9af49413a8ab75dc510fc569b4b6e1acb4df4eb3c32187d57c0f42859f34937",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-d.log",
+      "destination": "reports/rank4-parity/task-d.log",
+      "source_sha256": "a11ab438abb1a79d0f05a559b6e94cde099c5ae3f8be5149ff3a9fff06f08cdb",
+      "export_sha256": "a11ab438abb1a79d0f05a559b6e94cde099c5ae3f8be5149ff3a9fff06f08cdb",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-e-det168.json",
+      "destination": "reports/rank4-parity/task-e-det168.json.gz",
+      "source_sha256": "4e41471d49431a4ce1923d731be473dc75fe40057b5b38a7ac72f86315fd7834",
+      "export_sha256": "9c3dd9cdc2ed184ba4a5cfb53137bba27af9f0f099d91022165cf224d7a8bba6",
+      "changes": "gzip compression; decompressed bytes unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-e-det168.log",
+      "destination": "reports/rank4-parity/task-e-det168.log",
+      "source_sha256": "8e6921ae2531e4af966bc3e35164e5680f568e7654cda2800c2cfeb6fed4c11a",
+      "export_sha256": "8e6921ae2531e4af966bc3e35164e5680f568e7654cda2800c2cfeb6fed4c11a",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-e-estimate.json",
+      "destination": "reports/rank4-parity/task-e-estimate.json",
+      "source_sha256": "4770fd790db139494959c5390a92b88e5afd2197e96ce34cb8c1444c3490de38",
+      "export_sha256": "4770fd790db139494959c5390a92b88e5afd2197e96ce34cb8c1444c3490de38",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/task-e-estimate.log",
+      "destination": "reports/rank4-parity/task-e-estimate.log",
+      "source_sha256": "660d6f4e980bcc0933578aca9c30442577a30ffc9669b390b6ba310fdc6d0aee",
+      "export_sha256": "660d6f4e980bcc0933578aca9c30442577a30ffc9669b390b6ba310fdc6d0aee",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-parity/tests.txt",
+      "destination": "reports/rank4-parity/tests.txt",
+      "source_sha256": "a6d4295cf6789723fca71770315c2ed912146b954bda268fe8ab34b912b0849b",
+      "export_sha256": "a6d4295cf6789723fca71770315c2ed912146b954bda268fe8ab34b912b0849b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/project-review-20261021/small-pairs.json",
+      "destination": "reports/project-review-2026-10-21/small-pairs.json",
+      "source_sha256": "526bc6ddcfd0e8d13886140f42ba569b72fa44145bfa1cab8c5b3d951ab8a3e4",
+      "export_sha256": "526bc6ddcfd0e8d13886140f42ba569b72fa44145bfa1cab8c5b3d951ab8a3e4",
+      "changes": "unchanged"
+    },
+    {
+      "source": "LITERATURE-RANK4.md",
+      "destination": "docs/rank-four-isospectrality-literature.md",
+      "source_sha256": "7b0ac1dea687e24e4e57bb405358c6ebc01bf5988fc894c665b04734408adab4",
+      "export_sha256": "52959e29d21cb368f519391c7d0f7be36af85332c64b5f39449485956924a903",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-LEVEL4-SEARCH.md",
+      "destination": "docs/rank-four-level-four-zero.md",
+      "source_sha256": "f62e0c25dad7b3c04fccf14598d728dc20f91af28e0d882bd99aed48727963f2",
+      "export_sha256": "47c3697a292ceb8f70b547ef36e21ad3d0311a55fc0611fc5609167b9d605563",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-EISENSTEIN-SEARCH.md",
+      "destination": "docs/rank-four-eisenstein-family.md",
+      "source_sha256": "b8121a5cd6bdb7bd96aa29c6ff5ca54408991024c2c626efd36aa797827ea775",
+      "export_sha256": "3a5cff4d62744b8006d642b6c5e1569bf1fd777b812b3b3ef6d69b1c40d94b39",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-PARITY-CONJECTURE.md",
+      "destination": "docs/rank-four-parity-property.md",
+      "source_sha256": "e977f1945c6b3c4952c9f70236874123e726ffb9cfe126393c72c3299f6e9145",
+      "export_sha256": "0c3fb01f128d7c163a3b3b52e69d1d4c8fe15af326e6b6bbc00dc292dcd55772",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-LEVEL4-REVIEW.md",
+      "destination": "reviews/rank-four-level-four-review.md",
+      "source_sha256": "4c745d226c3b6d3198086506b407dc227514e492b7e198826f1d5dc4063b4dd5",
+      "export_sha256": "d9dcf8b6d669eb5c93c4bdb6302d56662a0718b9e3a282d5ad9b062653d06654",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-EISENSTEIN-REVIEW.md",
+      "destination": "reviews/rank-four-eisenstein-review.md",
+      "source_sha256": "675866c25a28158289461f9750dc67b93da4f9dda688eb5235c3ca3616d71457",
+      "export_sha256": "ff4f34142f22b8ce948be0b3d8982c4c3ff6fab9f30ca40398a364119a316904",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-PARITY-REVIEW.md",
+      "destination": "reviews/rank-four-parity-review.md",
+      "source_sha256": "852247d4e4a7adadfa7fbd4fe105d1e83b7e9c9fb6a178dbb3191dda6382a8bb",
+      "export_sha256": "c9edfb0d59894723dc6b92738b0237ce40c756e3857153cfdfa47b577d8b7aff",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "PROJECT-REVIEW-2026-10-21.md",
+      "destination": "reviews/project-assessment-2026-10-21.md",
+      "source_sha256": "8f1dc32216d1376cf2c2fdf097c83628a7ae6978f23d0f0ce9a040f19e7ee4c3",
+      "export_sha256": "d41958da87fb014ce996a8bb0810bc3a217648a48c7a12ae9b5ecab0fb774dfc",
       "changes": "editorial links, current status and relocated paths"
     }
   ],

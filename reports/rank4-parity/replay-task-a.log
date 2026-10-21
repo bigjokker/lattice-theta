@@ -1,0 +1,33 @@
+  census replayed
+  eisenstein_task_d 200/1092 5s
+  eisenstein_task_d 400/1092 6s
+  eisenstein_task_d 600/1092 7s
+  eisenstein_task_d 800/1092 8s
+  eisenstein_task_d 1000/1092 9s
+  pair member A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G1 replayed 10s
+  pair member A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G2 replayed 10s
+  pair member A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G1 replayed 10s
+  pair member A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G2 replayed 10s
+  pair member A3 Earnest-Nipp det 84721 G1 replayed 10s
+  pair member A3 Earnest-Nipp det 84721 G2 replayed 10s
+  pair member A4 Conway-Sloane (1, 7, 13, 43) det 3913 G1 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 13, 43) det 3913 G2 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 25, 31) det 5425 G1 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 25, 31) det 5425 G2 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 13, 31) det 2821 G1 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 13, 31) det 2821 G2 replayed 11s
+  pair member A4 Conway-Sloane (1, 7, 19, 25) det 3325 G1 replayed 12s
+  pair member A4 Conway-Sloane (1, 7, 19, 25) det 3325 G2 replayed 12s
+  pair member A4 Conway-Sloane (2, 8, 14, 20) det 4480 G1 replayed 12s
+  pair member A4 Conway-Sloane (2, 8, 14, 20) det 4480 G2 replayed 12s
+  pair member A4 Conway-Sloane (7, 13, 19, 49) det 84721 G1 replayed 12s
+  pair member A4 Conway-Sloane (7, 13, 19, 49) det 84721 G2 replayed 12s
+  level-4 det 1729 replayed 14s
+  level-4 det 84721 replayed 15s
+  level-4 det 3913 replayed 15s
+  level-4 det 5425 replayed 15s
+  level-4 det 2821 replayed 20s
+  level-4 det 3325 replayed 20s
+  level-4 det 4480 replayed 20s
+  level-4 det 84721 replayed 20s
+exit=0

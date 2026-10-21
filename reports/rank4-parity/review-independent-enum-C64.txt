@@ -1,0 +1,92 @@
+# Reviewer's independent re-enumeration: universe C = isometry classes of positive definite integral rank-four even lattices with determinant divisible by 4, 1 <= det <= 64; Minkowski box with lambda_4 = 4; exact-isometry dedup
+candidates (Minkowski-reduced Gram matrices in the box): 876  generation 0.1 s
+classes: 69  (isometry searches 807; representatives of equal determinant and equal vector counts through norm 40 were compared by complete basis-image search)  18.8 s
+classes per determinant: {"4": 1, "8": 1, "12": 2, "16": 2, "20": 3, "24": 3, "28": 3, "32": 5, "36": 5, "40": 4, "44": 4, "48": 9, "52": 6, "56": 5, "60": 8, "64": 8}
+
+| # | det | parity | |Aut| | sqrt(-I) | type (singular classes) | decomposable | P | zeros | witness orders | max first-nonzero norm4 | G |
+|---:|---:|---|---:|---|---|---|---|---:|---|---:|---|
+| 0 | 8 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 2, 0], [0, -1, 0, 2]] |
+| 1 | 20 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 2, 0], [0, -1, 0, 4]] |
+| 2 | 32 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 2, 0], [0, -1, 0, 6]] |
+| 3 | 44 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 2, 0], [0, -1, 0, 8]] |
+| 4 | 56 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 2, 0], [0, -1, 0, 10]] |
+| 5 | 40 | even | 16 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 4, -1], [0, -1, -1, 4]] |
+| 6 | 48 | even | 16 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, -1], [0, -1, 4, 0], [0, -1, 0, 4]] |
+| 7 | 12 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 2, 0], [0, 0, 0, 2]] |
+| 8 | 24 | even | 48 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 2, 0], [0, 0, 0, 4]] |
+| 9 | 36 | even | 48 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 2, 0], [0, 0, 0, 6]] |
+| 10 | 48 | even | 48 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 2, 0], [0, 0, 0, 8]] |
+| 11 | 60 | even | 48 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 2, 0], [0, 0, 0, 10]] |
+| 12 | 52 | even | 8 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 4, -1], [0, 0, -1, 4]] |
+| 13 | 56 | even | 16 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, -1, 0], [0, -1, 4, 0], [0, 0, 0, 4]] |
+| 14 | 24 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, -1], [0, -1, -1, 4]] |
+| 15 | 40 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, -1], [0, -1, -1, 6]] |
+| 16 | 56 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, -1], [0, -1, -1, 8]] |
+| 17 | 28 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, 0], [0, -1, 0, 4]] |
+| 18 | 44 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, 0], [0, -1, 0, 6]] |
+| 19 | 60 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, -1], [0, 0, 2, 0], [0, -1, 0, 8]] |
+| 20 | 16 | even | 384 | True | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 2, 0], [0, 0, 0, 2]] |
+| 21 | 32 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 2, 0], [0, 0, 0, 4]] |
+| 22 | 48 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 2, 0], [0, 0, 0, 6]] |
+| 23 | 64 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 2, 0], [0, 0, 0, 8]] |
+| 24 | 48 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 4, -2], [0, 0, -2, 4]] |
+| 25 | 60 | even | 32 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 4, -1], [0, 0, -1, 4]] |
+| 26 | 64 | even | 64 | True | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 2, 0, 0], [0, 0, 4, 0], [0, 0, 0, 4]] |
+| 27 | 64 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 0], [0, 4, -2, -2], [0, -2, 4, 0], [0, -2, 0, 4]] |
+| 28 | 4 | even | 1152 | True | degenerate (3) | False | fails | 9 | {2: 9, 4: 9, 8: 9} | 4 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 2]] |
+| 29 | 20 | even | 96 | False | degenerate (11) | False | fails | 6 | {2: 6, 4: 6} | 12 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 4]] |
+| 30 | 36 | even | 96 | False | degenerate (3) | False | fails | 6 | {2: 6, 4: 6} | 20 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 6]] |
+| 31 | 52 | even | 96 | False | degenerate (11) | False | fails | 6 | {2: 6, 4: 6} | 28 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 8]] |
+| 32 | 32 | even | 32 | False | degenerate (11) | False | fails | 6 | {2: 6, 4: 2} | 12 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -2], [1, -1, -2, 4]] |
+| 33 | 64 | even | 32 | False | degenerate (3) | False | fails | 6 | {2: 6, 4: 2} | 20 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -2], [1, -1, -2, 6]] |
+| 34 | 44 | even | 16 | False | degenerate (7) | False | fails | 4 | {2: 4} | 14 | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -1], [1, -1, -1, 4]] |
+| 35 | 48 | even | 32 | False | degenerate (11) | True | fails (decomposable) | - | {} | None | [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, 0], [1, -1, 0, 4]] |
+| 36 | 52 | even | 24 | False | degenerate (11) | False | holds | 0 | {} | 10 | [[2, 0, 0, 1], [0, 4, -2, -2], [0, -2, 4, 0], [1, -2, 0, 4]] |
+| 37 | 60 | even | 16 | False | degenerate (7) | False | fails | 4 | {2: 4} | 14 | [[2, 0, 0, 1], [0, 4, -2, -2], [0, -2, 4, 1], [1, -2, 1, 4]] |
+| 38 | 48 | even | 32 | False | degenerate (11) | False | fails | 6 | {2: 6, 4: 2} | 16 | [[2, 0, 0, 1], [0, 4, 0, -2], [0, 0, 4, -2], [1, -2, -2, 4]] |
+| 39 | 12 | even | 96 | False | degenerate (7) | False | fails | 6 | {2: 6, 4: 6} | 6 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 4]] |
+| 40 | 20 | even | 96 | False | degenerate (3) | False | fails | 6 | {2: 6, 4: 6} | 8 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 6]] |
+| 41 | 28 | even | 96 | False | degenerate (7) | False | fails | 6 | {2: 6, 4: 6} | 10 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 8]] |
+| 42 | 36 | even | 96 | False | degenerate (3) | False | fails | 6 | {2: 6, 4: 6} | 12 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 10]] |
+| 43 | 44 | even | 96 | False | degenerate (7) | False | fails | 6 | {2: 6, 4: 6} | 14 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 12]] |
+| 44 | 52 | even | 96 | False | degenerate (3) | False | fails | 6 | {2: 6, 4: 6} | 16 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 14]] |
+| 45 | 60 | even | 96 | False | degenerate (7) | False | fails | 6 | {2: 6, 4: 6} | 18 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 16]] |
+| 46 | 16 | even | 96 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 4]] |
+| 47 | 24 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 6]] |
+| 48 | 32 | even | 96 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 8]] |
+| 49 | 40 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 10]] |
+| 50 | 48 | even | 96 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 12]] |
+| 51 | 56 | even | 96 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 14]] |
+| 52 | 64 | even | 96 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, 0], [0, 0, 0, 16]] |
+| 53 | 56 | even | 16 | False | degenerate (7) | False | fails | 4 | {2: 4} | 12 | [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 4, -2], [0, 0, -2, 6]] |
+| 54 | 36 | even | 64 | True | degenerate (11) | False | fails | 8 | {2: 8, 4: 8} | 12 | [[2, 0, 1, 1], [0, 2, -1, -1], [1, -1, 4, 1], [1, -1, 1, 4]] |
+| 55 | 60 | even | 32 | False | degenerate (7) | False | fails | 6 | {2: 6, 4: 2} | 12 | [[2, 0, 1, 1], [0, 2, -1, -1], [1, -1, 4, 1], [1, -1, 1, 6]] |
+| 56 | 32 | even | 24 | False | degenerate (7) | False | holds | 0 | {} | 16 | [[2, 1, 0, 0], [1, 2, -1, -1], [0, -1, 4, 0], [0, -1, 0, 4]] |
+| 57 | 52 | even | 12 | False | degenerate (7) | False | holds | 0 | {} | 18 | [[2, 1, 0, 0], [1, 2, -1, -1], [0, -1, 4, 0], [0, -1, 0, 6]] |
+| 58 | 28 | even | 24 | False | degenerate (7) | False | holds | 0 | {} | 10 | [[2, 1, 0, 0], [1, 2, -1, -1], [0, -1, 4, 2], [0, -1, 2, 4]] |
+| 59 | 48 | even | 12 | False | degenerate (7) | False | holds | 0 | {} | 12 | [[2, 1, 0, 0], [1, 2, -1, -1], [0, -1, 4, 2], [0, -1, 2, 6]] |
+| 60 | 64 | even | 72 | False | degenerate (3) | False | holds | 0 | {} | 8 | [[2, 1, 0, 0], [1, 2, -1, -1], [0, -1, 6, -2], [0, -1, -2, 6]] |
+| 61 | 40 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, -1, 0], [0, -1, 4, 0], [0, 0, 0, 4]] |
+| 62 | 60 | even | 24 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, -1, 0], [0, -1, 4, 0], [0, 0, 0, 6]] |
+| 63 | 52 | even | 24 | False | degenerate (3) | False | holds | 0 | {} | 18 | [[2, 1, 0, 0], [1, 2, 0, -1], [0, 0, 4, -2], [0, -1, -2, 6]] |
+| 64 | 64 | even | 24 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, 0, -1], [0, 0, 4, 0], [0, -1, 0, 6]] |
+| 65 | 36 | even | 144 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, 0, 0], [0, 0, 4, -2], [0, 0, -2, 4]] |
+| 66 | 60 | even | 48 | False | degenerate (7) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, 0, 0], [0, 0, 4, -2], [0, 0, -2, 6]] |
+| 67 | 48 | even | 96 | False | degenerate (3) | True | fails (decomposable) | - | {} | None | [[2, 1, 0, 0], [1, 2, 0, 0], [0, 0, 4, 0], [0, 0, 0, 4]] |
+| 68 | 64 | even | 1152 | True | degenerate (15) | False | fails | 9 | {2: 9, 4: 9, 8: 9} | 8 | [[4, 0, 0, 2], [0, 4, 0, -2], [0, 0, 4, -2], [2, -2, -2, 4]] |
+
+## Summary
+classes 69; decomposable 42; indecomposable 27; P holds 7; P fails 20; undecided 0
+failing determinants (indecomposable): [4, 12, 20, 20, 28, 32, 36, 36, 36, 44, 44, 48, 52, 52, 56, 60, 60, 60, 64, 64]
+failing classes: [{"det": 4, "aut": 1152, "zeros": 9, "witness_orders": {"2": 9, "4": 9, "8": 9}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 2]]}, {"det": 20, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 4]]}, {"det": 36, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 6]]}, {"det": 52, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 2, -1], [1, -1, -1, 8]]}, {"det": 32, "aut": 32, "zeros": 6, "witness_orders": {"2": 6, "4": 2}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -2], [1, -1, -2, 4]]}, {"det": 64, "aut": 32, "zeros": 6, "witness_orders": {"2": 6, "4": 2}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -2], [1, -1, -2, 6]]}, {"det": 44, "aut": 16, "zeros": 4, "witness_orders": {"2": 4}, "G": [[2, 0, 0, 1], [0, 2, 0, -1], [0, 0, 4, -1], [1, -1, -1, 4]]}, {"det": 60, "aut": 16, "zeros": 4, "witness_orders": {"2": 4}, "G": [[2, 0, 0, 1], [0, 4, -2, -2], [0, -2, 4, 1], [1, -2, 1, 4]]}, {"det": 48, "aut": 32, "zeros": 6, "witness_orders": {"2": 6, "4": 2}, "G": [[2, 0, 0, 1], [0, 4, 0, -2], [0, 0, 4, -2], [1, -2, -2, 4]]}, {"det": 12, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 4]]}, {"det": 20, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 6]]}, {"det": 28, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 8]]}, {"det": 36, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 10]]}, {"det": 44, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 12]]}, {"det": 52, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 14]]}, {"det": 60, "aut": 96, "zeros": 6, "witness_orders": {"2": 6, "4": 6}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 2, -1], [0, 0, -1, 16]]}, {"det": 56, "aut": 16, "zeros": 4, "witness_orders": {"2": 4}, "G": [[2, 0, 1, 0], [0, 2, -1, 0], [1, -1, 4, -2], [0, 0, -2, 6]]}, {"det": 36, "aut": 64, "zeros": 8, "witness_orders": {"2": 8, "4": 8}, "G": [[2, 0, 1, 1], [0, 2, -1, -1], [1, -1, 4, 1], [1, -1, 1, 4]]}, {"det": 60, "aut": 32, "zeros": 6, "witness_orders": {"2": 6, "4": 2}, "G": [[2, 0, 1, 1], [0, 2, -1, -1], [1, -1, 4, 1], [1, -1, 1, 6]]}, {"det": 64, "aut": 1152, "zeros": 9, "witness_orders": {"2": 9, "4": 9, "8": 9}, "G": [[4, 0, 0, 2], [0, 4, 0, -2], [0, 0, 4, -2], [2, -2, -2, 4]]}]
+undecided characteristics: 0
+indecomposable classes per determinant: {"4": 1, "12": 1, "20": 2, "28": 2, "32": 2, "36": 3, "44": 2, "48": 2, "52": 5, "56": 1, "60": 3, "64": 3}
+decomposable classes per determinant: {"8": 1, "12": 1, "16": 2, "20": 1, "24": 3, "28": 1, "32": 3, "36": 2, "40": 4, "44": 2, "48": 7, "52": 1, "56": 4, "60": 5, "64": 5}
+|Aut| distribution of indecomposable classes: {"12": 2, "16": 3, "24": 4, "32": 4, "64": 1, "72": 1, "96": 10, "1152": 2}
+type distribution of indecomposable classes: {"degenerate": 27}
+type agrees with det mod 8 (plus iff 1, minus iff 5) on every even indecomposable class: True
+classes with an element squaring to -I: [{"det": 16, "decomposable": true, "P": "fails (decomposable)"}, {"det": 64, "decomposable": true, "P": "fails (decomposable)"}, {"det": 4, "decomposable": false, "P": "fails"}, {"det": 36, "decomposable": false, "P": "fails"}, {"det": 64, "decomposable": false, "P": "fails"}]
+first-nonzero norm4 distribution over all nonzero decisions of indecomposable classes: {"2": 672, "4": 827, "6": 582, "8": 256, "10": 111, "12": 94, "14": 58, "16": 60, "18": 33, "20": 8, "26": 6, "28": 6}
+total nonzero decisions 2713; zeros 122; largest first-nonzero norm4 28
+zero witness orders over all zeros of indecomposable classes: {"2": 122, "4": 94, "8": 18}
+elapsed 45.5 s

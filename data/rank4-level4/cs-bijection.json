@@ -1,0 +1,301 @@
+{
+ "schema": "work7-rank4-level4-search-v1-cs-bijection",
+ "V_plus": [
+  [
+   3,
+   1,
+   1,
+   1
+  ],
+  [
+   -1,
+   3,
+   -1,
+   1
+  ],
+  [
+   -1,
+   1,
+   3,
+   -1
+  ],
+  [
+   -1,
+   -1,
+   1,
+   3
+  ]
+ ],
+ "V_minus": [
+  [
+   -3,
+   1,
+   1,
+   1
+  ],
+  [
+   -1,
+   -3,
+   -1,
+   1
+  ],
+  [
+   -1,
+   1,
+   -3,
+   -1
+  ],
+  [
+   -1,
+   -1,
+   1,
+   -3
+  ]
+ ],
+ "M": [
+  [
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   2,
+   0,
+   0
+  ],
+  [
+   1,
+   -2,
+   2,
+   0
+  ],
+  [
+   1,
+   0,
+   -2,
+   4
+  ]
+ ],
+ "M_prime": [
+  [
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   1,
+   2,
+   0,
+   0
+  ],
+  [
+   1,
+   -2,
+   2,
+   0
+  ],
+  [
+   -1,
+   0,
+   -2,
+   4
+  ]
+ ],
+ "cosets": [
+  {
+   "representative": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "mod3": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "flip": 0,
+   "image": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "representative": [
+    1,
+    1,
+    -1,
+    3
+   ],
+   "mod3": [
+    1,
+    1,
+    2,
+    0
+   ],
+   "flip": 3,
+   "image": [
+    1,
+    1,
+    -1,
+    -3
+   ]
+  },
+  {
+   "representative": [
+    2,
+    2,
+    -2,
+    6
+   ],
+   "mod3": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "flip": 3,
+   "image": [
+    2,
+    2,
+    -2,
+    -6
+   ]
+  },
+  {
+   "representative": [
+    1,
+    -1,
+    3,
+    1
+   ],
+   "mod3": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "flip": 2,
+   "image": [
+    1,
+    -1,
+    -3,
+    1
+   ]
+  },
+  {
+   "representative": [
+    2,
+    0,
+    2,
+    4
+   ],
+   "mod3": [
+    2,
+    0,
+    2,
+    1
+   ],
+   "flip": 1,
+   "image": [
+    2,
+    0,
+    2,
+    4
+   ]
+  },
+  {
+   "representative": [
+    3,
+    1,
+    1,
+    7
+   ],
+   "mod3": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "flip": 0,
+   "image": [
+    -3,
+    1,
+    1,
+    7
+   ]
+  },
+  {
+   "representative": [
+    2,
+    -2,
+    6,
+    2
+   ],
+   "mod3": [
+    2,
+    1,
+    0,
+    2
+   ],
+   "flip": 2,
+   "image": [
+    2,
+    -2,
+    -6,
+    2
+   ]
+  },
+  {
+   "representative": [
+    3,
+    -1,
+    5,
+    5
+   ],
+   "mod3": [
+    0,
+    2,
+    2,
+    2
+   ],
+   "flip": 0,
+   "image": [
+    -3,
+    -1,
+    5,
+    5
+   ]
+  },
+  {
+   "representative": [
+    4,
+    0,
+    4,
+    8
+   ],
+   "mod3": [
+    1,
+    0,
+    1,
+    2
+   ],
+   "flip": 1,
+   "image": [
+    4,
+    0,
+    4,
+    8
+   ]
+  }
+ ],
+ "pieces": 9,
+ "statement": "theta of L^+(a,b,c,d) equals theta of L^-(a,b,c,d) for every diagonal form, at every norm",
+ "proof": "piecewise coordinate sign change; each piece is an isometry of diag(a,b,c,d)/12 mapping a coset of 3M in L^+ onto a coset of 3M' in L^-; images are distinct"
+}

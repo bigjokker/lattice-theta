@@ -1,0 +1,29 @@
+{
+ "schema": "work7-rank4-parity-v1-task-e-estimate",
+ "rows": [
+  {
+   "determinant_bound": 24,
+   "candidates": 812,
+   "odd_lattice_candidates": 644,
+   "generation_seconds": 0.04043689998798072
+  },
+  {
+   "determinant_bound": 48,
+   "candidates": 3447,
+   "odd_lattice_candidates": 2819,
+   "generation_seconds": 0.24685640004463494
+  },
+  {
+   "determinant_bound": 72,
+   "candidates": 8334,
+   "odd_lattice_candidates": 7046,
+   "generation_seconds": 0.5513463999377564
+  },
+  {
+   "determinant_bound": 96,
+   "candidates": 15687,
+   "odd_lattice_candidates": 13463,
+   "generation_seconds": 1.3402037000050768
+  }
+ ]
+}

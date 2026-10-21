@@ -42,6 +42,18 @@
       "gzip_path": "data/rank4-feasibility/controls.json.gz",
       "sha256": "7490e6e5a4e9a0e792bf677dcd30068fc59c6f037e66ad7fb8cba0b02e7a5e63",
       "size": 4436806
+    },
+    {
+      "path": "data/rank4-level4/other-level4-certificates.json",
+      "gzip_path": "data/rank4-level4/other-level4-certificates.json.gz",
+      "sha256": "8889c8fe484e70ce91dea0241d38bc1f7401c91d51e2a49b1807d77d248daff5",
+      "size": 7559609
+    },
+    {
+      "path": "data/rank4-parity/pair-members-parity.json",
+      "gzip_path": "data/rank4-parity/pair-members-parity.json.gz",
+      "sha256": "4eb08bfaf630b2df76e8e55a6f117db6b56cf54e93c2146de7b509658b1e9b91",
+      "size": 4999787
     }
   ]
 }

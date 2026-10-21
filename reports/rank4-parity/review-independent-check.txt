@@ -1,0 +1,90 @@
+# Reviewer's independent check of RANK4-PARITY-CONJECTURE.md (accepted modules only)
+
+## 1. The (C1) counterexample of determinant 121
+det 121 even True gcd of entries 1 det mod 8 1 nonzero singular classes 9 (9 = plus type)
+|Aut(L)| = 24  element orders {1: 1, 2: 13, 3: 2, 4: 2, 6: 2, 12: 4}
+elements with g^2 = -I: 2
+g = [[0, 0, 0, -1], [0, 0, -1, 0], [0, 1, 0, 0], [1, 0, 0, 0]]
+plane Pi = (g+I)L/2L nonzero classes: [(0, 1, 1, 0), (1, 0, 0, 1), (1, 1, 1, 1)]  Q=0 on all: True  B=0 pairwise: True
+splitting involutions: 0  Eichler components: 1  indecomposable vectors up to sign: 6  -> decomposable: False
+105 even characteristics: {'nonzero': 99, 'zero_by_symmetry': 6}  witness orders of zeros: {4: 6}  max first nonzero norm4: 12
+   zero a [0, 1, 1, 0] b [0, 1, 1, 0] c [[1, 0, 0, 1]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+   zero a [0, 1, 1, 0] b [1, 1, 1, 1] c [[1, 1, 1, 1]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+   zero a [1, 0, 0, 1] b [1, 0, 0, 1] c [[0, 1, 1, 0]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+   zero a [1, 0, 0, 1] b [1, 1, 1, 1] c [[1, 1, 1, 1]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+   zero a [1, 1, 1, 1] b [0, 1, 1, 0] c [[1, 0, 0, 1]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+   zero a [1, 1, 1, 1] b [1, 0, 0, 1] c [[0, 1, 1, 0]]  a,c in Pi, distinct: True  stabilizer 4 witnesses 2
+ordered pairs of distinct nonzero classes of Pi: 6  all zeros: True  epsilon(g)=1 on all: True
+modular data for a=b=(0,1,1,0): d0 484 N0 22 M 352 mu 576 B 96
+cutoff enumeration complete: True verdict proved_zero_by_modular_cutoff shells 21 vectors 260
+(extra) through norm4 2000: vectors 112272 nonzero signed 0
+kernel basis K, G0 = [[4, -4, 1, 0], [-4, 16, -8, 2], [1, -8, 8, -3], [0, 2, -3, 4]] det 484  all columns of K in the sign kernel: True
+|Aut(L0)| = 8  v1 [0, 1, 1, 0] v2 [0, 0, 1, 0]  mapping v1->v2: 2  swapping: 2
+trace form Re h of Z[i]-Gram [[4,2+i],[2-i,4]] on (e1, i e1, e2, i e2): [[4, 0, 2, -1], [0, 4, 1, 2], [2, 1, 4, 0], [-1, 2, 0, 4]] det 121  isometries to G: 24
+multiplication by i on the trace form preserves H: True  squares to -I: True
+elapsed 1.5 s
+
+## 2. The smallest odd-lattice failure, determinant 49, and the family G_k
+det-49 lattice: det 49 odd |Aut| 16 decomposable False (Eichler components 1) P fails verdicts {'nonzero': 98, 'zero_by_symmetry': 7} witness orders {2: 7, 4: 6, 8: 1} max first nonzero norm4 10
+   quoted witness on a=b=(0,1,1,0): in Aut: True  order 2  epsilon 1
+   zeros: [([0, 1, 1, 0], [0, 1, 1, 0], [2, 4]), ([0, 1, 1, 0], [1, 1, 1, 1], [2, 4]), ([1, 0, 0, 1], [1, 0, 0, 1], [2, 4]), ([1, 0, 0, 1], [1, 1, 1, 1], [2, 4]), ([1, 1, 1, 1], [0, 1, 1, 0], [2, 4]), ([1, 1, 1, 1], [1, 0, 0, 1], [2, 4]), ([1, 1, 1, 1], [1, 1, 1, 1], [2, 8])]
+G_4: det 70 odd |Aut| 4 decomposable False (Eichler components 1) P fails verdicts {'nonzero': 101, 'zero_by_symmetry': 4} witness orders {2: 4} max first nonzero norm4 25
+G_5: det 91 odd |Aut| 4 decomposable False (Eichler components 1) P fails verdicts {'nonzero': 101, 'zero_by_symmetry': 4} witness orders {2: 4} max first nonzero norm4 26
+G_7: det 133 odd |Aut| 4 decomposable False (Eichler components 1) P fails verdicts {'nonzero': 101, 'zero_by_symmetry': 4} witness orders {2: 4} max first nonzero norm4 28
+G_8: det 154 odd |Aut| 4 decomposable False (Eichler components 1) P fails verdicts {'nonzero': 101, 'zero_by_symmetry': 4} witness orders {2: 4} max first nonzero norm4 29
+elapsed 4.1 s
+
+## 3. The eighteen isospectral-pair members (results/rank4-level4/task-a.json)
+A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G1: det 1729 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 32
+   type: plus, totally singular ordered pairs (a,c): 36
+A1 Conway-Sloane (1,7,13,19) = Schiemann det 1729 G2: det 1729 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 26
+   type: plus, totally singular ordered pairs (a,c): 36
+A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G1: det 961 odd |Aut| 4 decomposable True (Eichler components 2) P fails verdicts {'nonzero': 69, 'zero_by_symmetry': 36} witness orders {2: 36} max first nonzero norm4 18
+   splitting involutions: 2  zeros: 36
+A2 Conway-Sloane remark (x) (a,b)=(11,1) det 961 G2: det 961 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 21
+A3 Earnest-Nipp det 84721 G1: det 84721 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 74
+   type: plus, totally singular ordered pairs (a,c): 36
+A3 Earnest-Nipp det 84721 G2: det 84721 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 50
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (1, 7, 13, 43) det 3913 G1: det 3913 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 34
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (1, 7, 13, 43) det 3913 G2: det 3913 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 36
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (1, 7, 25, 31) det 5425 G1: det 5425 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 28
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (1, 7, 25, 31) det 5425 G2: det 5425 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 34
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (1, 7, 13, 31) det 2821 G1: det 2821 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 42
+A4 Conway-Sloane (1, 7, 13, 31) det 2821 G2: det 2821 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 20
+A4 Conway-Sloane (1, 7, 19, 25) det 3325 G1: det 3325 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 31
+A4 Conway-Sloane (1, 7, 19, 25) det 3325 G2: det 3325 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 32
+A4 Conway-Sloane (2, 8, 14, 20) det 4480 G1: det 4480 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 34
+A4 Conway-Sloane (2, 8, 14, 20) det 4480 G2: det 4480 odd |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 45
+A4 Conway-Sloane (7, 13, 19, 49) det 84721 G1: det 84721 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 50
+   type: plus, totally singular ordered pairs (a,c): 36
+A4 Conway-Sloane (7, 13, 19, 49) det 84721 G2: det 84721 even |Aut| 2 decomposable False (Eichler components 1) P holds verdicts {'nonzero': 105} witness orders {} max first nonzero norm4 74
+   type: plus, totally singular ordered pairs (a,c): 36
+elapsed 7.3 s
+
+## 4. The eight certified level-4 lattices: the other 104 characteristics
+level-4 det 1729 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 0, 0, 1], [1, 1, 1, 1])]; certified zero is ([1, 0, 0, 1], [1, 1, 1, 1]): the only undecided one; max first nonzero 48
+level-4 det 84721 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 1, 1, 1], [1, 0, 1, 0])]; certified zero is ([1, 1, 1, 1], [1, 0, 1, 0]): the only undecided one; max first nonzero 80
+level-4 det 3913 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 0, 1, 1], [1, 1, 0, 1])]; certified zero is ([1, 0, 1, 1], [1, 1, 0, 1]): the only undecided one; max first nonzero 56
+level-4 det 5425 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 1, 0, 1], [1, 1, 1, 0])]; certified zero is ([1, 1, 0, 1], [1, 1, 1, 0]): the only undecided one; max first nonzero 88
+level-4 det 2821 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 0, 1, 1], [1, 1, 0, 1])]; certified zero is ([1, 0, 1, 1], [1, 1, 0, 1]): the only undecided one; max first nonzero 52
+level-4 det 3325 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 0, 0, 1], [1, 1, 1, 1])]; certified zero is ([1, 0, 0, 1], [1, 1, 1, 1]): the only undecided one; max first nonzero 68
+level-4 det 4480 even |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 0, 0, 1], [1, 1, 1, 1])]; certified zero is ([1, 0, 0, 1], [1, 1, 1, 1]): the only undecided one; max first nonzero 52
+level-4 det 84721 odd |Aut| 2 decomposable False: verdicts {'nonzero': 104, 'undecided': 1}; undecided through norm4 400: [([1, 1, 1, 1], [1, 0, 0, 1])]; certified zero is ([1, 1, 1, 1], [1, 0, 0, 1]): the only undecided one; max first nonzero 80
+elapsed 8.5 s
+
+## 5. The E8 witness (results/rank4-parity/e8-check.json)
+det 1 even True  g^t G g = G: True  g^2 = -I: True
+fixed space classes: 16  nonzero: 15  all singular (norm = 0 mod 4): True  pairwise orthogonal mod 2: True
+ordered pairs of distinct nonzero classes: 210  with epsilon(g) = 1: 120
+elapsed 8.8 s
+
+## 6. The three decomposable even odd-det classes with an element squaring to -I (det 9, 49, 121)
+A2+A2: det 9 |Aut| 288 elements with g^2=-I: 12 verdicts {'nonzero': 69, 'zero_by_symmetry': 36} witness orders {2: 36, 4: 36}
+[[2,1],[1,4]]^2: det 49 |Aut| 32 elements with g^2=-I: 4 verdicts {'nonzero': 69, 'zero_by_symmetry': 36} witness orders {2: 36, 4: 12}
+[[2,1],[1,6]]^2: det 121 |Aut| 32 elements with g^2=-I: 4 verdicts {'nonzero': 69, 'zero_by_symmetry': 36} witness orders {2: 36, 4: 12}
+elapsed 17.1 s

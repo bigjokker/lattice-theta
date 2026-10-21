@@ -1,0 +1,33 @@
+  triples 0/5539 members 1 0s
+  triples 500/5539 members 925 28s
+  triples 1000/5539 members 1781 45s
+  triples 1500/5539 members 2649 68s
+  triples 2000/5539 members 3537 84s
+  triples 2500/5539 members 4385 104s
+  triples 3000/5539 members 5217 132s
+  triples 3500/5539 members 6161 151s
+  triples 4000/5539 members 6981 172s
+  triples 4500/5539 members 7837 191s
+  triples 5000/5539 members 8705 219s
+  triples 5500/5539 members 9525 242s
+{
+ "reduced_triples": 5539,
+ "members": 9659,
+ "distinct_examples": 1092,
+ "level_1_examples": 959,
+ "level_2_examples": 133,
+ "smallest_level_2_primitive_determinant": 1156,
+ "accidental_zero_pairs": 173781,
+ "level_3_or_4_candidates": 23301,
+ "seconds": 432.8,
+ "structural_tally": {
+  "swapping_elements_by_kind_over_all_level_1_members": {
+   "conjugate-linear": 27336,
+   "does not normalise R": 23388
+  },
+  "level_1_members_with_conjugate_linear_swap": 7775,
+  "level_1_members_with_only_non_normalising_swaps": 0
+ },
+ "det_23716_recovered": 12
+}
+exit=0

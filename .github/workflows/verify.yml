@@ -8,7 +8,7 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,3 +20,11 @@ jobs:
         run: python scripts/run_tests.py --all
       - name: Replay the rank-four counterexample
         run: python code/rank4_counterexample.py --replay data/rank4-counterexample/det23716.json --output scratch/counterexample-replay.json
+      - name: Replay the determinant-1729 level-four certificate
+        run: python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.json --certificates data/rank4-level4/det1729-level4.json --output scratch/level4-det1729-replay.json
+      - name: Replay the determinant-1156 counterexample
+        run: python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-det1156-replay.json
+      - name: Replay the determinant-121 parity certificates
+        run: python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexamples.json --output scratch/parity-certificates-replay.json
+      - name: Check the two small isospectral pairs
+        run: python code/check_small_pairs.py

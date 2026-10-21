@@ -1,0 +1,23 @@
+{
+ "verdict": "verified",
+ "inputs": {
+  "results\\rank4-eisenstein\\task-d.json": "d2ad13911eaf11f8c1fc4c956f2f3a0d34d136b475ada50d1b804672c4caff05"
+ },
+ "enumerations": [
+  {
+   "verdict": "verified",
+   "D_prime_range": [
+    5,
+    154
+   ],
+   "reduced_triples": 5539,
+   "members": 9659,
+   "distinct_examples": 1092,
+   "level_2_examples": 133,
+   "smallest_level_2_primitive_determinant": 1156
+  }
+ ],
+ "certificates": [],
+ "task_e": null,
+ "seconds": 222.9112412999384
+}

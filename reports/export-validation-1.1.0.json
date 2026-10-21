@@ -1,0 +1,72 @@
+{
+  "schema": "lattice-theta-curated-export-validation-v1",
+  "release": "1.1.0",
+  "date": "2026-10-21",
+  "python": "3.11.9",
+  "default_test_suite": {
+    "command": "python scripts/run_tests.py",
+    "tests_run": 67,
+    "result": "passed",
+    "seconds": 74.811
+  },
+  "full_test_suite": {
+    "command": "python scripts/run_tests.py --all",
+    "tests_run": 151,
+    "result": "passed",
+    "seconds": 108.919
+  },
+  "counterexample_replay": {
+    "verdict": "verified_rank4_symmetry_converse_counterexample",
+    "determinant": 23716,
+    "input_sha256": "a1effafe9871bbb833a39a187d98f718879986d24fd23444e167b8635b55e36c"
+  },
+  "level4_det1729_replay": {
+    "command_seconds": 2.3,
+    "verdict": "verified",
+    "input_sha256": "76175459bf0b317843fae80ac14da5186ca07aa351d3a40a838c522e69b23668"
+  },
+  "eisenstein_det1156_replay": {
+    "command_seconds": 0.1,
+    "verdict": "verified",
+    "input_sha256": "d11ad820da6ccb19f814f47f755d529dd0e8eb91f322100ff95121e9bbea8a04"
+  },
+  "parity_certificates_replay": {
+    "command_seconds": 0.2,
+    "verdict": "verified",
+    "input_sha256": "56773197994e9be621db875e3aed79f8a92f89147f9aad4b1bfdc5ec9beda282"
+  },
+  "parity_pair_members_replay": {
+    "command_seconds": 2.3,
+    "verdict": "verified",
+    "input_sha256": "4eb08bfaf630b2df76e8e55a6f117db6b56cf54e93c2146de7b509658b1e9b91"
+  },
+  "parity_task_a_replay": {
+    "command_seconds": 18.9,
+    "verdict": "verified",
+    "input_sha256": "cc4929f8f3d5b8e5597858f5c4fe0ad4002a4a3e023c8f039bf969ad3471733c"
+  },
+  "parity_task_b_det49_replay": {
+    "command_seconds": 11.0,
+    "verdict": "verified",
+    "input_sha256": "b5a8e02119f484a6f64f71199463d2db32185a778dacd2574ea6fd80793ad5bc"
+  },
+  "parity_builder_checks": {
+    "command": "python code/rank4_parity_search.py checks",
+    "exit_code": 0,
+    "seconds": 2.1
+  },
+  "small_isospectral_pairs_check": {
+    "command": "python code/check_small_pairs.py",
+    "output_identical_to_preserved": true,
+    "seconds": 0.1
+  },
+  "independent_review_checks_reproduced": {
+    "note": "rank4_level4_review_check, rank4_eisenstein_review_check, rank4_eisenstein_review_enum, rank4_parity_review_check and rank4_parity_facts_check were rerun from code/; their outputs equal the preserved reports except for timing figures and relocated path strings",
+    "other_replays_verified_in_this_layout": [
+      "level-four other seven certificates",
+      "eisenstein task-b + certificate + task-e",
+      "level-four task-a with det1729"
+    ]
+  },
+  "local_document_links": "verified for all documents added or changed in 1.1.0"
+}

@@ -1,0 +1,14 @@
+{
+ "verdict": "verified",
+ "candidates": 636,
+ "classes": 22,
+ "pairwise_searches": 17,
+ "indecomposable_classes": 16,
+ "P_holds": 16,
+ "P_fails": 0,
+ "P_unresolved": 0,
+ "failing_determinants": [],
+ "seconds": 11.977034299983643,
+ "input": "results\\rank4-parity\\task-b-det49.json",
+ "input_sha256": "b5a8e02119f484a6f64f71199463d2db32185a778dacd2574ea6fd80793ad5bc"
+}

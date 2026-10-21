@@ -1,0 +1,1139 @@
+{
+ "schema": "work7-rank4-eisenstein-v1-certificates",
+ "det_bound": 1729,
+ "certificates": [
+  {
+   "schema": "work7-rank4-eisenstein-v1-level2-certificate",
+   "member": {
+    "a": 4,
+    "q": 6,
+    "beta": [
+     2,
+     5
+    ],
+    "p": 8,
+    "delta": [
+     4,
+     10
+    ],
+    "D_prime": 34,
+    "line": "(1,1)",
+    "reduced_triple": {
+     "p0": 4,
+     "delta0": [
+      -2,
+      -2
+     ],
+     "q0": 6
+    }
+   },
+   "G0_standard": [
+    [
+     16,
+     -8,
+     10,
+     -4
+    ],
+    [
+     -8,
+     16,
+     -6,
+     10
+    ],
+    [
+     10,
+     -6,
+     12,
+     -6
+    ],
+    [
+     -4,
+     10,
+     -6,
+     12
+    ]
+   ],
+   "scaling_c": 1,
+   "G": [
+    [
+     4,
+     -2,
+     1,
+     -2
+    ],
+    [
+     -2,
+     8,
+     2,
+     -2
+    ],
+    [
+     1,
+     2,
+     6,
+     -4
+    ],
+    [
+     -2,
+     -2,
+     -4,
+     12
+    ]
+   ],
+   "determinant": 1156,
+   "primitive": true,
+   "ldl_pivots": [
+    "4",
+    "7",
+    "34/7",
+    "17/2"
+   ],
+   "lll_transform": [
+    [
+     1,
+     -2,
+     -1,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     1,
+     -1
+    ],
+    [
+     0,
+     0,
+     1,
+     0
+    ]
+   ],
+   "L_gram_in_kernel_coordinates": [
+    [
+     4,
+     4,
+     2,
+     3
+    ],
+    [
+     4,
+     16,
+     -6,
+     10
+    ],
+    [
+     2,
+     -6,
+     12,
+     -6
+    ],
+    [
+     3,
+     10,
+     -6,
+     12
+    ]
+   ],
+   "a": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "kernel_basis": [
+    [
+     0,
+     2,
+     0,
+     1
+    ],
+    [
+     -1,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     -1,
+     1,
+     -1,
+     1
+    ]
+   ],
+   "G0": [
+    [
+     16,
+     -8,
+     10,
+     -4
+    ],
+    [
+     -8,
+     16,
+     -6,
+     10
+    ],
+    [
+     10,
+     -6,
+     12,
+     -6
+    ],
+    [
+     -4,
+     10,
+     -6,
+     12
+    ]
+   ],
+   "d0": 4624,
+   "complement_t": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "coset_lattices": {
+    "O_v1": {
+     "doubled_basis": [
+      [
+       2,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0
+      ],
+      [
+       2,
+       0,
+       4,
+       0
+      ],
+      [
+       2,
+       1,
+       4,
+       2
+      ]
+     ],
+     "gram": [
+      [
+       12,
+       2,
+       18,
+       6
+      ],
+      [
+       2,
+       4,
+       8,
+       5
+      ],
+      [
+       18,
+       8,
+       40,
+       16
+      ],
+      [
+       6,
+       5,
+       16,
+       12
+      ]
+     ]
+    },
+    "O_v2": {
+     "doubled_basis": [
+      [
+       2,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0
+      ],
+      [
+       2,
+       -2,
+       4,
+       0
+      ],
+      [
+       2,
+       -1,
+       4,
+       2
+      ]
+     ],
+     "gram": [
+      [
+       12,
+       -7,
+       18,
+       6
+      ],
+      [
+       -7,
+       6,
+       -12,
+       -3
+      ],
+      [
+       18,
+       -12,
+       40,
+       16
+      ],
+      [
+       6,
+       -3,
+       16,
+       12
+      ]
+     ]
+    }
+   },
+   "classes": {
+    "v1": [
+     1,
+     0,
+     0,
+     0
+    ],
+    "v2": [
+     0,
+     1,
+     0,
+     0
+    ]
+   },
+   "identity": {
+    "kernel_rotation": {
+     "R0": [
+      [
+       0,
+       -1,
+       0,
+       0
+      ],
+      [
+       1,
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       -1
+      ],
+      [
+       0,
+       0,
+       1,
+       -1
+      ]
+     ],
+     "maps_v1_to_v2": true,
+     "maps_v2_to_v1": false
+    },
+    "modular_cutoff": {
+     "cutoff": 144,
+     "modular": {
+      "index_two_basis": [
+       [
+        2,
+        0,
+        -1,
+        0
+       ],
+       [
+        0,
+        1,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        1,
+        0
+       ],
+       [
+        0,
+        0,
+        0,
+        1
+       ]
+      ],
+      "G0": [
+       [
+        16,
+        -4,
+        -6,
+        -4
+       ],
+       [
+        -4,
+        8,
+        4,
+        -2
+       ],
+       [
+        -6,
+        4,
+        8,
+        -2
+       ],
+       [
+        -4,
+        -2,
+        -2,
+        12
+       ]
+      ],
+      "d0": 4624,
+      "N0": 34,
+      "unsigned_level": 544,
+      "level_factors": [
+       [
+        2,
+        5
+       ],
+       [
+        17,
+        1
+       ]
+      ],
+      "index": 864,
+      "cutoff": 144,
+      "character_discriminant": 18496,
+      "weight": "2",
+      "coefficient_index": "norm4",
+      "theorem": "rank4-square-complex-identity-v1"
+     },
+     "estimated_vectors": 188.10304858546777,
+     "attempted": true,
+     "ldl_backend": {
+      "schema": "work7-rank4-cutoff-v1",
+      "G": [
+       [
+        4,
+        -2,
+        1,
+        -2
+       ],
+       [
+        -2,
+        8,
+        2,
+        -2
+       ],
+       [
+        1,
+        2,
+        6,
+        -4
+       ],
+       [
+        -2,
+        -2,
+        -4,
+        12
+       ]
+      ],
+      "a": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "b": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "modular": {
+       "index_two_basis": [
+        [
+         2,
+         0,
+         -1,
+         0
+        ],
+        [
+         0,
+         1,
+         0,
+         0
+        ],
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ]
+       ],
+       "G0": [
+        [
+         16,
+         -4,
+         -6,
+         -4
+        ],
+        [
+         -4,
+         8,
+         4,
+         -2
+        ],
+        [
+         -6,
+         4,
+         8,
+         -2
+        ],
+        [
+         -4,
+         -2,
+         -2,
+         12
+        ]
+       ],
+       "d0": 4624,
+       "N0": 34,
+       "unsigned_level": 544,
+       "level_factors": [
+        [
+         2,
+         5
+        ],
+        [
+         17,
+         1
+        ]
+       ],
+       "index": 864,
+       "cutoff": 144,
+       "character_discriminant": 18496,
+       "weight": "2",
+       "coefficient_index": "norm4",
+       "theorem": "rank4-square-complex-identity-v1"
+      },
+      "run": {
+       "norm4_bound": 144,
+       "max_nodes": 2000000000
+      },
+      "evidence": {
+       "enumeration_complete": true,
+       "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 144,
+        "visited_nodes": 597,
+        "shells": [
+         {
+          "norm4": 16,
+          "norm": "4",
+          "vector_count": 4,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 24,
+          "norm": "6",
+          "vector_count": 4,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 32,
+          "norm": "8",
+          "vector_count": 4,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 40,
+          "norm": "10",
+          "vector_count": 8,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 48,
+          "norm": "12",
+          "vector_count": 8,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 56,
+          "norm": "14",
+          "vector_count": 4,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 64,
+          "norm": "16",
+          "vector_count": 4,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 72,
+          "norm": "18",
+          "vector_count": 16,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 80,
+          "norm": "20",
+          "vector_count": 8,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 88,
+          "norm": "22",
+          "vector_count": 12,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 96,
+          "norm": "24",
+          "vector_count": 16,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 104,
+          "norm": "26",
+          "vector_count": 16,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 112,
+          "norm": "28",
+          "vector_count": 24,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 120,
+          "norm": "30",
+          "vector_count": 24,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 128,
+          "norm": "32",
+          "vector_count": 20,
+          "signed_coefficient": 0
+         },
+         {
+          "norm4": 144,
+          "norm": "36",
+          "vector_count": 20,
+          "signed_coefficient": 0
+         }
+        ]
+       },
+       "verdict": "proved_zero_by_modular_cutoff"
+      }
+     },
+     "integer_backend": {
+      "algorithm": "integer-fincke-pohst-v1",
+      "visited_nodes": 269,
+      "shells_sha256": "d7d8b482a6e1bf4e0c2664029520f66c4890dc97b8e25223baf20d14a1ee8c20",
+      "vectors": 192
+     },
+     "seconds": {
+      "ldl": 0.0020195000106468797,
+      "integer": 0.0002335000317543745
+     }
+    },
+    "manuscript_schema": {
+     "available": true,
+     "document": {
+      "schema": "work7-rank4-ambient-coset-counterexample-v1",
+      "G": [
+       [
+        4,
+        -2,
+        1,
+        -2
+       ],
+       [
+        -2,
+        8,
+        2,
+        -2
+       ],
+       [
+        1,
+        2,
+        6,
+        -4
+       ],
+       [
+        -2,
+        -2,
+        -4,
+        12
+       ]
+      ],
+      "a": [
+       0,
+       1,
+       0,
+       1
+      ],
+      "b": [
+       1,
+       0,
+       1,
+       0
+      ],
+      "ambient_metric": [
+       [
+        8,
+        -4,
+        5,
+        -2
+       ],
+       [
+        -4,
+        8,
+        -3,
+        5
+       ],
+       [
+        5,
+        -3,
+        6,
+        -3
+       ],
+       [
+        -2,
+        5,
+        -3,
+        6
+       ]
+      ],
+      "embedding": [
+       [
+        1,
+        -2,
+        -1,
+        0
+       ],
+       [
+        1,
+        0,
+        -1,
+        0
+       ],
+       [
+        0,
+        2,
+        2,
+        -2
+       ],
+       [
+        0,
+        0,
+        2,
+        0
+       ]
+      ],
+      "ambient_isometry": [
+       [
+        -1,
+        1,
+        0,
+        0
+       ],
+       [
+        -1,
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        -1,
+        1
+       ],
+       [
+        0,
+        0,
+        -1,
+        0
+       ]
+      ],
+      "index_two_basis": [
+       [
+        0,
+        2,
+        0,
+        1
+       ],
+       [
+        -1,
+        1,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0,
+        1
+       ],
+       [
+        -1,
+        1,
+        -1,
+        1
+       ]
+      ],
+      "common_coset_basis_change": [
+       [
+        1,
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        1,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        1,
+        0
+       ],
+       [
+        0,
+        0,
+        0,
+        1
+       ]
+      ],
+      "complementary_vector": [
+       1,
+       0,
+       0,
+       0
+      ],
+      "positive_coset_representative": [
+       2,
+       0,
+       0,
+       0
+      ],
+      "negative_coset_representative": [
+       0,
+       2,
+       0,
+       0
+      ],
+      "automorphisms": [
+       [
+        [
+         -1,
+         0,
+         0,
+         0
+        ],
+        [
+         0,
+         -1,
+         0,
+         0
+        ],
+        [
+         0,
+         0,
+         -1,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         -1
+        ]
+       ],
+       [
+        [
+         1,
+         0,
+         0,
+         0
+        ],
+        [
+         0,
+         1,
+         0,
+         0
+        ],
+        [
+         0,
+         0,
+         1,
+         0
+        ],
+        [
+         0,
+         0,
+         0,
+         1
+        ]
+       ]
+      ],
+      "corroboration": {
+       "algorithm": "exact-rational-ldl-v1",
+       "complete": true,
+       "norm4_bound": 64,
+       "visited_nodes": 133,
+       "shells": [
+        {
+         "norm4": 16,
+         "norm": "4",
+         "vector_count": 4,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 24,
+         "norm": "6",
+         "vector_count": 4,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 32,
+         "norm": "8",
+         "vector_count": 4,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 40,
+         "norm": "10",
+         "vector_count": 8,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 48,
+         "norm": "12",
+         "vector_count": 8,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 56,
+         "norm": "14",
+         "vector_count": 4,
+         "signed_coefficient": 0
+        },
+        {
+         "norm4": 64,
+         "norm": "16",
+         "vector_count": 4,
+         "signed_coefficient": 0
+        }
+       ]
+      }
+     },
+     "replay_verdict": "verified_rank4_symmetry_converse_counterexample",
+     "replay_full_group_order": 2
+    }
+   },
+   "automorphisms": [
+    [
+     [
+      -1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      -1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      -1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      -1
+     ]
+    ],
+    [
+     [
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      1
+     ]
+    ]
+   ],
+   "stabilizer": [
+    {
+     "T": [
+      [
+       -1,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       -1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       -1,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       -1
+      ]
+     ],
+     "epsilon": 0
+    },
+    {
+     "T": [
+      [
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       1
+      ]
+     ],
+     "epsilon": 0
+    }
+   ],
+   "indecomposable": true,
+   "indecomposability_argument": "Aut(L) = {I,-I}: a decomposable lattice has at least four automorphisms",
+   "kernel_automorphisms": {
+    "order": 12,
+    "orbits_on_classes": [
+     [
+      1,
+      2,
+      3,
+      6,
+      11,
+      13
+     ],
+     [
+      4,
+      8,
+      12
+     ],
+     [
+      5,
+      10,
+      15
+     ],
+     [
+      7,
+      9,
+      14
+     ]
+    ],
+    "elements_mapping_v1_to_v2": 2,
+    "elements_swapping_v1_v2": 0
+   },
+   "level": 2,
+   "seconds": 0.011525099980644882
+  }
+ ],
+ "summary_table": [
+  {
+   "D_prime": 34,
+   "primitive_determinant": 1156,
+   "member_index": 615
+  }
+ ]
+}

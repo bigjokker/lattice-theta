@@ -1,0 +1,215 @@
+{
+ "verdict": "verified",
+ "inputs": {
+  "results\\rank4-eisenstein\\task-b.json": "15ef448ceb6dbb9673a0c64f41ab0f1f0f4d1a061f01d184e97f05aa769b522a",
+  "examples\\rank4-eisenstein\\det1156-level2.json": "d11ad820da6ccb19f814f47f755d529dd0e8eb91f322100ff95121e9bbea8a04",
+  "results\\rank4-eisenstein\\task-e.json": "73b1a22862ccbb91adf7fa8df7cef77acc03606f4b3c61f92d4aa173dd5fd442"
+ },
+ "enumerations": [
+  {
+   "verdict": "verified",
+   "D_prime_range": [
+    5,
+    41
+   ],
+   "reduced_triples": 498,
+   "members": 914,
+   "distinct_examples": 123,
+   "level_2_examples": 1,
+   "smallest_level_2_primitive_determinant": 1156
+  }
+ ],
+ "certificates": [
+  {
+   "verdict": "verified_level_2",
+   "D_prime": 34,
+   "determinant": 1156,
+   "G": [
+    [
+     4,
+     -2,
+     1,
+     -2
+    ],
+    [
+     -2,
+     8,
+     2,
+     -2
+    ],
+    [
+     1,
+     2,
+     6,
+     -4
+    ],
+    [
+     -2,
+     -2,
+     -4,
+     12
+    ]
+   ],
+   "a": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "b": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "full_group_order": 2,
+   "kernel_group_order": 12,
+   "identity_routes": [
+    "kernel rotation R0 (isometry of L0 carrying O_v1 onto O_v2 or back)",
+    "modular cutoff B=144",
+    "manuscript ambient-coset schema (rank4_counterexample.replay)"
+   ],
+   "cutoff": {
+    "attempted": true,
+    "cutoff": 144,
+    "verdict": "proved_zero_by_modular_cutoff",
+    "box_nodes": 312,
+    "vectors": 192
+   }
+  }
+ ],
+ "task_e": {
+  "verdict": "verified",
+  "cases": [
+   {
+    "N": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "c": 1,
+    "determinant": 1,
+    "line_level": 1,
+    "aut_order": 384
+   },
+   {
+    "N": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "c": 2,
+    "determinant": 4,
+    "line_level": 1,
+    "aut_order": 1152
+   },
+   {
+    "N": [
+     [
+      4,
+      -2
+     ],
+     [
+      -2,
+      4
+     ]
+    ],
+    "c": 1,
+    "determinant": 4,
+    "line_level": 1,
+    "aut_order": 1152
+   },
+   {
+    "N": [
+     [
+      3,
+      0
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "c": 1,
+    "determinant": 3,
+    "line_level": 1,
+    "aut_order": 96
+   },
+   {
+    "N": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "c": 4,
+    "determinant": 16,
+    "line_level": 1,
+    "aut_order": 96
+   },
+   {
+    "N": [
+     [
+      2,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "c": 5,
+    "determinant": 25,
+    "line_level": 1,
+    "aut_order": 72
+   },
+   {
+    "N": [
+     [
+      3,
+      0
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "c": 4,
+    "determinant": 48,
+    "line_level": 1,
+    "aut_order": 96
+   },
+   {
+    "N": [
+     [
+      1,
+      0
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "c": 7,
+    "determinant": 49,
+    "line_level": 1,
+    "aut_order": 24
+   }
+  ]
+ },
+ "seconds": 23.35417950002011
+}

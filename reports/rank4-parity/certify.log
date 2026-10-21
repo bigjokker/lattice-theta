@@ -1,0 +1,7 @@
+  certified det 121 a [0, 1, 1, 0] b [0, 1, 1, 1] level 1
+  certified det 121 a [0, 1, 1, 0] b [1, 1, 1, 0] level 1
+  certified det 121 a [1, 0, 1, 1] b [1, 0, 0, 1] level 1
+  certified det 121 a [1, 0, 1, 1] b [1, 1, 1, 0] level 1
+  certified det 121 a [1, 1, 0, 1] b [0, 1, 1, 1] level 1
+  certified det 121 a [1, 1, 0, 1] b [1, 0, 0, 1] level 1
+exit=0
