@@ -1,0 +1,16 @@
+{
+  "source": "results/rank4-minus-type/minus-det202-501.json.gz",
+  "source_sha256": "496c5c8c2e5015b00a8bd63249e45c22e142f421f08c6b9b97896932e1ec097d",
+  "dmin": 202,
+  "dmax": 501,
+  "verdict": "verified",
+  "candidates": 23612,
+  "classes": 787,
+  "pairwise_searches": 8773,
+  "indecomposable_classes": 703,
+  "P_holds": 703,
+  "P_fails": 0,
+  "P_unresolved": 0,
+  "failing_determinants": [],
+  "seconds": 101.46011019998696
+}

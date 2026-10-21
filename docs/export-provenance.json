@@ -1,6 +1,6 @@
 {
   "schema": "lattice-theta-export-provenance-v1",
-  "description": "Curated from the completed local research workspace. Certificate and saved report bytes are unchanged; large JSON inputs use lossless gzip. Documentation and code copies have relocated paths; original workspace is unchanged. Release 1.1.0 (2026-10-21) added the rank-four follow-up work (level-four zero, Eisenstein family, parity property, independent assessment) under the same conventions; large preserved reports are gzip files listed in reports/compressed-reports.json. Release 1.2.0 (2026-10-21) added the determinant census through 279 (minimum counterexample determinant 280) under the same conventions; its per-determinant chunks are gzip files read compressed by code/rank4_gap_census.py and are not listed in reports/compressed-reports.json.",
+  "description": "Curated from the completed local research workspace. Certificate and saved report bytes are unchanged; large JSON inputs use lossless gzip. Documentation and code copies have relocated paths; original workspace is unchanged. Release 1.1.0 (2026-10-21) added the rank-four follow-up work (level-four zero, Eisenstein family, parity property, independent assessment) under the same conventions; large preserved reports are gzip files listed in reports/compressed-reports.json. Release 1.2.0 (2026-10-21) added the determinant census through 279 (minimum counterexample determinant 280) under the same conventions; its per-determinant chunks are gzip files read compressed by code/rank4_gap_census.py and are not listed in reports/compressed-reports.json. Release 1.3.0 (2026-10-21) added the work on even lattices of odd determinant (minus-type report, stage-two reductions and their review, the plus-type class list) under the same conventions; the plus-type per-determinant chunks and the minus-type class list are gzip files read compressed and are not listed in reports/compressed-reports.json.",
   "files": [
     {
       "source": "exact_theta.py",
@@ -3767,6 +3767,391 @@
       "source_sha256": "97350afc4d9ce3d78cdd3522d0f6ec2f48589c439ef12bc37cd790fc564543fc",
       "export_sha256": "97350afc4d9ce3d78cdd3522d0f6ec2f48589c439ef12bc37cd790fc564543fc",
       "changes": "unchanged"
+    },
+    {
+      "source": "rank4_minus_type.py",
+      "destination": "code/rank4_minus_type.py",
+      "source_sha256": "4922f170494747a4d108f61bd9770717c0ff0017bee79acca52d59f254de71c9",
+      "export_sha256": "1f53cd1fd3997ee6ef8e0eef9dcacca59504fd8db96a1b0abf7f897fb01179a4",
+      "changes": "relocated input paths (examples/ -> data/, results/ -> reports/, .json.gz fallback), release docstring"
+    },
+    {
+      "source": "rank4_minus_type_constructions.py",
+      "destination": "code/rank4_minus_type_constructions.py",
+      "source_sha256": "d4c13148237709a9276cb035fbdae7f0588cb1f619ca38bbc3375197cd35df3b",
+      "export_sha256": "4e905d515ebcdbbf4f771b8bf0afc6086d3530fe6e997602af72dd9eaeb859aa",
+      "changes": "relocated input paths (examples/ -> data/, results/ -> reports/, .json.gz fallback), release docstring"
+    },
+    {
+      "source": "rank4_stage2_checks.py",
+      "destination": "code/rank4_stage2_checks.py",
+      "source_sha256": "40c23ae71d16d6dadef8f5901647cab3c2e490dc42f91b2e8747e14b4dbc4c3e",
+      "export_sha256": "78aa308e7e3eb4b709ae33c95ac00496332fd7c2b3118298d32efe368e6df1e8",
+      "changes": "relocated input paths (.json.gz fallback), --output option (refuses to overwrite), release docstring"
+    },
+    {
+      "source": "rank4_stage2_review_check.py",
+      "destination": "code/rank4_stage2_review_check.py",
+      "source_sha256": "0f8c87606d8c3894c1bc7e7b5834492733e64a03a027d997aad8761c68fb5ac0",
+      "export_sha256": "5e1dd68b1ea99f13e7a6bec9b624b22769823ee85edbc8f618aaa7e398d28500",
+      "changes": "release paths, .json.gz source, worker count capped at the CPU count, refuses to overwrite"
+    },
+    {
+      "source": "RANK4-MINUS-TYPE.md",
+      "destination": "docs/rank-four-minus-type.md",
+      "source_sha256": "8b340d9e19a03ad840dce45335dc5fe01041b4cbda0a88bca9e14a3ebd5667b7",
+      "export_sha256": "811eb74b11a31bd20f1a554d202a3dcc29b6a8db1dfc7b0036c5fce89fdf6ab0",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-STAGE2-STRATEGY.md",
+      "destination": "docs/rank-four-stage-two-reductions.md",
+      "source_sha256": "9cce8bd7f370888c289f62033869e75b12d0e5504b5162ae5f6b8013a73c11af",
+      "export_sha256": "86999c81eadc177ad1de8e82f5afa244ac7daaefd0ec1bd2702f729fcc3194e7",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "RANK4-STAGE2-REVIEW.md",
+      "destination": "reviews/rank-four-stage-two-review.md",
+      "source_sha256": "3daacb5c063c10e9d06c942aa2e515117234ca7ff5bcedfe285057627414d55a",
+      "export_sha256": "c2c33159c356da868d20f2bf1be6de4e6fb5510f86896d3265c17dba5a59cbb9",
+      "changes": "editorial links, current status and relocated paths"
+    },
+    {
+      "source": "results/rank4-minus-type/cs-template-full.json",
+      "destination": "reports/rank4-minus-type/cs-template-full.json",
+      "source_sha256": "f649ce375235ab7752b1e4b22a6771dd7e12e4275fc2bb7d961f9fa9e813dde6",
+      "export_sha256": "f649ce375235ab7752b1e4b22a6771dd7e12e4275fc2bb7d961f9fa9e813dde6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/cs-template.json",
+      "destination": "reports/rank4-minus-type/cs-template.json",
+      "source_sha256": "2a180b56516c83865de7d9d945d1cfa0ce2411713537c0c9f0e56125d6a08a3d",
+      "export_sha256": "2a180b56516c83865de7d9d945d1cfa0ce2411713537c0c9f0e56125d6a08a3d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/det280-rescaling.json",
+      "destination": "reports/rank4-minus-type/det280-rescaling.json",
+      "source_sha256": "54669012b480687e107634822980c0b5b36a79c9ce163faec7a916f8e02209e3",
+      "export_sha256": "54669012b480687e107634822980c0b5b36a79c9ce163faec7a916f8e02209e3",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/finite-groups.json",
+      "destination": "reports/rank4-minus-type/finite-groups.json",
+      "source_sha256": "b277e0a1be4efb4e0b46e620f1494d7cd3686caa3147976834c60fe519c7b177",
+      "export_sha256": "b277e0a1be4efb4e0b46e620f1494d7cd3686caa3147976834c60fe519c7b177",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/minus-det202-501-symmetry-audit.json",
+      "destination": "reports/rank4-minus-type/minus-det202-501-symmetry-audit.json",
+      "source_sha256": "f8ee7a659537c25af075f91bbbc867749769ca3dd95c1db02adf3ddd5d06d727",
+      "export_sha256": "f8ee7a659537c25af075f91bbbc867749769ca3dd95c1db02adf3ddd5d06d727",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/minus-det202-501.json.gz",
+      "destination": "reports/rank4-minus-type/minus-det202-501.json.gz",
+      "source_sha256": "496c5c8c2e5015b00a8bd63249e45c22e142f421f08c6b9b97896932e1ec097d",
+      "export_sha256": "496c5c8c2e5015b00a8bd63249e45c22e142f421f08c6b9b97896932e1ec097d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/mixed-kernel-lemma-check.json",
+      "destination": "reports/rank4-minus-type/mixed-kernel-lemma-check.json",
+      "source_sha256": "b6c6c9d7ca3d3abb5ff95d221e612fad7e50ca2296a957d3f840fa5840201dde",
+      "export_sha256": "b6c6c9d7ca3d3abb5ff95d221e612fad7e50ca2296a957d3f840fa5840201dde",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/odd-det201-symmetry-audit.json",
+      "destination": "reports/rank4-minus-type/odd-det201-symmetry-audit.json",
+      "source_sha256": "d0f3b927b1d8873ac87a76017861c0a21a5f492144e65b4ea8174ecf459a42df",
+      "export_sha256": "d0f3b927b1d8873ac87a76017861c0a21a5f492144e65b4ea8174ecf459a42df",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/quarter-turn-probe15.json",
+      "destination": "reports/rank4-minus-type/quarter-turn-probe15.json",
+      "source_sha256": "1b93c55a3965bb4c251813958f2946b59ad7e34e4c4133b8650a26d8dc9ca9dd",
+      "export_sha256": "1b93c55a3965bb4c251813958f2946b59ad7e34e4c4133b8650a26d8dc9ca9dd",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/replay-minus-det202-501.json",
+      "destination": "reports/rank4-minus-type/replay-minus-det202-501.json",
+      "source_sha256": "3a4bc418cab4dcdd9e27ab608a876044539e58cf32983f8abe07fd7ba603dd26",
+      "export_sha256": "3a4bc418cab4dcdd9e27ab608a876044539e58cf32983f8abe07fd7ba603dd26",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-minus-type/replay-minus-det202-501.log",
+      "destination": "reports/rank4-minus-type/replay-minus-det202-501.log",
+      "source_sha256": "229544131b95212c65b35ce6ec8037cd8f9b4e90f8586d7512a7ea993cfb6a24",
+      "export_sha256": "229544131b95212c65b35ce6ec8037cd8f9b4e90f8586d7512a7ea993cfb6a24",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-stage2/review-independent-check.json",
+      "destination": "reports/rank4-stage2/review-independent-check.json",
+      "source_sha256": "417ad4b523ce89e29c886ea200065c799dbbe4e38341f40c16810151bb384450",
+      "export_sha256": "417ad4b523ce89e29c886ea200065c799dbbe4e38341f40c16810151bb384450",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-stage2/strategy-checks.json",
+      "destination": "reports/rank4-stage2/strategy-checks.json",
+      "source_sha256": "cdb41b5fbd31f8544f11895bad43cc753dc9dd9a19046e807580b909705c6944",
+      "export_sha256": "cdb41b5fbd31f8544f11895bad43cc753dc9dd9a19046e807580b909705c6944",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det281.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det281.json.gz",
+      "source_sha256": "d128fea02fc8e57c0468396433a665c2357d0082149addbb78da036ad2c44556",
+      "export_sha256": "d128fea02fc8e57c0468396433a665c2357d0082149addbb78da036ad2c44556",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det289.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det289.json.gz",
+      "source_sha256": "dfbfeb4adf450b682e06beffe131cf1d4d34a5696cab9d94a4e0198353cd1ce5",
+      "export_sha256": "dfbfeb4adf450b682e06beffe131cf1d4d34a5696cab9d94a4e0198353cd1ce5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det297.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det297.json.gz",
+      "source_sha256": "da8073fb6c7ea9d9303bd44315f48b3c03877a2e576c764aedb378e619fe8b05",
+      "export_sha256": "da8073fb6c7ea9d9303bd44315f48b3c03877a2e576c764aedb378e619fe8b05",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det305.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det305.json.gz",
+      "source_sha256": "202ec6f154fb67fb0c1b7c0dcfa9d51e29729de1f0132cd9b332c7e555aa9cce",
+      "export_sha256": "202ec6f154fb67fb0c1b7c0dcfa9d51e29729de1f0132cd9b332c7e555aa9cce",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det313.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det313.json.gz",
+      "source_sha256": "9c4e5f0b78ae39a552b283918a4ecb91516afe87f5273d41257c8eacef3f58c3",
+      "export_sha256": "9c4e5f0b78ae39a552b283918a4ecb91516afe87f5273d41257c8eacef3f58c3",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det321.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det321.json.gz",
+      "source_sha256": "190eee0ab009a988fad621903f54603bda0dadb8b02cd44cd0190688d92a6014",
+      "export_sha256": "190eee0ab009a988fad621903f54603bda0dadb8b02cd44cd0190688d92a6014",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det329.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det329.json.gz",
+      "source_sha256": "336e00d448ffe1ad15a0f64cc45b683ae12332700d650c0a0cf9e25449df4824",
+      "export_sha256": "336e00d448ffe1ad15a0f64cc45b683ae12332700d650c0a0cf9e25449df4824",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det337.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det337.json.gz",
+      "source_sha256": "6f6cf793074a46d96e14eb6ed6cc2eb95507f55717774860702ccccd5c271e8c",
+      "export_sha256": "6f6cf793074a46d96e14eb6ed6cc2eb95507f55717774860702ccccd5c271e8c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det345.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det345.json.gz",
+      "source_sha256": "c20271f5f915ae40bca584cc79a99cb2838c0e0e9a090feacaf6a00b280f5b98",
+      "export_sha256": "c20271f5f915ae40bca584cc79a99cb2838c0e0e9a090feacaf6a00b280f5b98",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det353.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det353.json.gz",
+      "source_sha256": "3d3be4ec7489cbdcb745c26eda5a4beb270da1368c029589bfd7e28bb1da1e97",
+      "export_sha256": "3d3be4ec7489cbdcb745c26eda5a4beb270da1368c029589bfd7e28bb1da1e97",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det361.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det361.json.gz",
+      "source_sha256": "1ebeda614a800ebd32e972cbafd9104528d39b710367446a14ea30579ef53da5",
+      "export_sha256": "1ebeda614a800ebd32e972cbafd9104528d39b710367446a14ea30579ef53da5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det369.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det369.json.gz",
+      "source_sha256": "f02c2903c3d5c9339f3a7aac9f4eab2533aef558df7f85f3d25352c00c678e1b",
+      "export_sha256": "f02c2903c3d5c9339f3a7aac9f4eab2533aef558df7f85f3d25352c00c678e1b",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det377.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det377.json.gz",
+      "source_sha256": "34f9110c929787da045c9982527aa105708b512591a6bac32947961eae7c98dc",
+      "export_sha256": "34f9110c929787da045c9982527aa105708b512591a6bac32947961eae7c98dc",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det385.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det385.json.gz",
+      "source_sha256": "d7be6c60c0c32fd8080d98449549361a17f5cd1c5eab5b662e8e996dc77472e6",
+      "export_sha256": "d7be6c60c0c32fd8080d98449549361a17f5cd1c5eab5b662e8e996dc77472e6",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det393.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det393.json.gz",
+      "source_sha256": "51f5a31acc29410af3abfd936153bd78d69bc1b472db1f5e5362c55e7f373205",
+      "export_sha256": "51f5a31acc29410af3abfd936153bd78d69bc1b472db1f5e5362c55e7f373205",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det401.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det401.json.gz",
+      "source_sha256": "59f2d73210f27ba7dd049a3ee363296f7d0dea95c789e33266d88acc8cf8b9b2",
+      "export_sha256": "59f2d73210f27ba7dd049a3ee363296f7d0dea95c789e33266d88acc8cf8b9b2",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det409.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det409.json.gz",
+      "source_sha256": "bf036868fc22d97d68cc80e724c0d0e61aecc5cb7f435941b7a827332ad53365",
+      "export_sha256": "bf036868fc22d97d68cc80e724c0d0e61aecc5cb7f435941b7a827332ad53365",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det417.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det417.json.gz",
+      "source_sha256": "662461554e8988fc20a83aafed42f4fe8a1298345dfa1c527c9deb1d351842f9",
+      "export_sha256": "662461554e8988fc20a83aafed42f4fe8a1298345dfa1c527c9deb1d351842f9",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det425.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det425.json.gz",
+      "source_sha256": "b66c173606fa63c65ae778f9b98116f4e46e998595db29627ca8994e5118a47c",
+      "export_sha256": "b66c173606fa63c65ae778f9b98116f4e46e998595db29627ca8994e5118a47c",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det433.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det433.json.gz",
+      "source_sha256": "e2e86926cd9f87109e8b78d5d0a59faee6780145947bed28e31fc2f6e5d9ba22",
+      "export_sha256": "e2e86926cd9f87109e8b78d5d0a59faee6780145947bed28e31fc2f6e5d9ba22",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det441.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det441.json.gz",
+      "source_sha256": "db5d33bcce5cf47a364a52e56ec1949ab4a8ba021f72e6109a33f61ab12f5837",
+      "export_sha256": "db5d33bcce5cf47a364a52e56ec1949ab4a8ba021f72e6109a33f61ab12f5837",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det449.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det449.json.gz",
+      "source_sha256": "00d86ab38349fec97c2329f57ffa8bd4c995727b5f5da3e1727bdf72987fa331",
+      "export_sha256": "00d86ab38349fec97c2329f57ffa8bd4c995727b5f5da3e1727bdf72987fa331",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det457.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det457.json.gz",
+      "source_sha256": "267565395363fb1b7886dfafb60246233d42158986135497efae3cc54f6dfdf8",
+      "export_sha256": "267565395363fb1b7886dfafb60246233d42158986135497efae3cc54f6dfdf8",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det465.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det465.json.gz",
+      "source_sha256": "b200f16f7924c0c8e46cd45fa1db60806402401ef34cdff9b959c92cab0e44b9",
+      "export_sha256": "b200f16f7924c0c8e46cd45fa1db60806402401ef34cdff9b959c92cab0e44b9",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det473.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det473.json.gz",
+      "source_sha256": "a4023254caf4882741fb72277f4b09b047b6135cb076796f335d82c2184aaea5",
+      "export_sha256": "a4023254caf4882741fb72277f4b09b047b6135cb076796f335d82c2184aaea5",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det481.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det481.json.gz",
+      "source_sha256": "b1ad80d87beb3d446be4eb7a7fd29e093a27a31f144c3510ce4fc8f657c0ab98",
+      "export_sha256": "b1ad80d87beb3d446be4eb7a7fd29e093a27a31f144c3510ce4fc8f657c0ab98",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det489.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det489.json.gz",
+      "source_sha256": "d50762e68be25c5626b6574072167f695bb080299b38f8b3ae8cf962e1361d11",
+      "export_sha256": "d50762e68be25c5626b6574072167f695bb080299b38f8b3ae8cf962e1361d11",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497/det497.json.gz",
+      "destination": "reports/rank4-plus-type/even-plus-281-497/det497.json.gz",
+      "source_sha256": "1f5e0f01e2fd3f0e1cef13c9c6ca1c37086753d25a3feb1c6c5e766403214b83",
+      "export_sha256": "1f5e0f01e2fd3f0e1cef13c9c6ca1c37086753d25a3feb1c6c5e766403214b83",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497-replay.json",
+      "destination": "reports/rank4-plus-type/even-plus-281-497-replay.json",
+      "source_sha256": "70136d919d933de561bf164acf4181ec43dd50e0e2fb61f6d2da6a15320130c4",
+      "export_sha256": "70136d919d933de561bf164acf4181ec43dd50e0e2fb61f6d2da6a15320130c4",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/even-plus-281-497-summary.json",
+      "destination": "reports/rank4-plus-type/even-plus-281-497-summary.json",
+      "source_sha256": "000ec67bb4572a198dc9d0ed9107fdbb183e4d31c6965aafef4d9b3c58ce8073",
+      "export_sha256": "000ec67bb4572a198dc9d0ed9107fdbb183e4d31c6965aafef4d9b3c58ce8073",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/planes.json",
+      "destination": "reports/rank4-plus-type/planes.json",
+      "source_sha256": "f8f3ec4a258e91c5da30fda47078789902f10b6358fe0ce693a0e4f48553f8a9",
+      "export_sha256": "f8f3ec4a258e91c5da30fda47078789902f10b6358fe0ce693a0e4f48553f8a9",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/replay.log",
+      "destination": "reports/rank4-plus-type/replay.log",
+      "source_sha256": "487cdbeed4a5f1791cfc11f92c43636f341413f5265ecd40aeb74f3e39b94d96",
+      "export_sha256": "487cdbeed4a5f1791cfc11f92c43636f341413f5265ecd40aeb74f3e39b94d96",
+      "changes": "unchanged"
+    },
+    {
+      "source": "results/rank4-plus-type/run.log",
+      "destination": "reports/rank4-plus-type/run.log",
+      "source_sha256": "49850549090fc50517eb1a0d3d406b6b9c1165e21a7e59f41f0137b8de18b69d",
+      "export_sha256": "49850549090fc50517eb1a0d3d406b6b9c1165e21a7e59f41f0137b8de18b69d",
+      "changes": "unchanged"
+    },
+    {
+      "source": "rank4_plus_type_census.py",
+      "destination": "code/rank4_plus_type_census.py",
+      "source_sha256": "754c47d42967502a3b3df79c15ab327d8a0576959bf851a84319c65db91fbfda",
+      "export_sha256": "897e66d4cdace0c3be540604e5acbf87ac72a765319241df708ecb64e21c7e31",
+      "changes": "adapted to the release interface of rank4_gap_census.py (explicit --chunks/--out directories), release paths, release docstring"
+    },
+    {
+      "source": null,
+      "destination": "tests/test_rank4_stage_two.py",
+      "source_sha256": null,
+      "export_sha256": "845783c2acd998bd74a4d6cf1bae40c1b19becdb0e246de4a69d95891d93bad8",
+      "changes": "new in release 1.3.0"
     }
   ],
   "editorial_scope": "Relocated paths and links, descriptive filenames, current completion status, and preservation-safe public reproduction commands. Mathematical statements and certificate schemas are retained; reviews record historical AI-assisted audits."

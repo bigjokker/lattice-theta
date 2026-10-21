@@ -1,0 +1,109 @@
+{
+  "schema": "lattice-theta-curated-export-validation-v1",
+  "release": "1.3.0",
+  "date": "2026-10-21",
+  "python": "3.11.9",
+  "default_test_suite": {
+    "command": "python scripts/run_tests.py",
+    "tests_run": 82,
+    "result": "passed",
+    "seconds": 74.316
+  },
+  "full_test_suite": {
+    "command": "python scripts/run_tests.py --all",
+    "tests_run": 166,
+    "result": "passed",
+    "seconds": 106.116
+  },
+  "release_layout_runs": {
+    "commands_seconds": {
+      "code/rank4_stage2_checks.py --output scratch/.../strategy-checks.json": 2,
+      "code/rank4_minus_type.py finite --output scratch/.../finite.json": 0,
+      "code/rank4_minus_type.py census --output scratch/.../odd-det201-audit.json": 6,
+      "code/rank4_minus_type.py census --source reports/rank4-minus-type/minus-det202-501.json.gz --output scratch/.../minus-audit.json": 12,
+      "code/rank4_minus_type.py mixed-kernels --output scratch/.../mixed.json": 0,
+      "code/rank4_minus_type.py quarter-turn --output scratch/.../qt.json": 2,
+      "code/rank4_minus_type_constructions.py template --output scratch/.../template.json": 0,
+      "code/rank4_minus_type_constructions.py det280 --output scratch/.../det280.json": 2,
+      "code/rank4_stage2_review_check.py reports/rank4-parity/task-b-det201.json scratch/.../review-check.json": 2,
+      "code/rank4_plus_type_census.py planes --out scratch/.../plus": 5,
+      "code/rank4_plus_type_census.py replay --workers 16 --out scratch/.../plus": 15,
+      "code/rank4_minus_type.py replay-extension --source reports/rank4-minus-type/minus-det202-501.json.gz --output scratch/.../replay-minus.json": 96
+    },
+    "all_succeeded": true,
+    "agreement_with_preserved_outputs": "every output equals the preserved workspace output except timing fields and the input paths recorded in it; all recorded input hashes are equal (class lists stored only as .json.gz are read decompressed)"
+  },
+  "stage_two_checks": {
+    "plane_transform": {
+      "lattices": 300,
+      "characteristic_swaps_and_dual_Q_checks": 31500
+    },
+    "mixed_kernel_and_mapping": {
+      "kernel_classes": 33,
+      "mixed_order_four_elements": 540,
+      "eigenlattice_index_2": 492,
+      "four_cycle_steps_with_constructed_reflection": 3936,
+      "nonsquare_kernel_classes": 27,
+      "eigenlattice_index_1": 48,
+      "maps_with_even_third_lattice": 16
+    },
+    "equal_to_preserved": true
+  },
+  "plus_type_replay": {
+    "all_verified": true,
+    "chunks": 28,
+    "totals": {
+      "candidates": 24580,
+      "classes": 672,
+      "pairwise_searches": 8740,
+      "indecomposable_classes": 623,
+      "P_holds": 622,
+      "P_fails": 1,
+      "P_unresolved": 0
+    }
+  },
+  "zero_planes": [
+    {
+      "label": "Task B: even, odd det <= 201",
+      "classes": 300,
+      "indecomposable": 255,
+      "zeros": 6,
+      "predicted": 6,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0
+    },
+    {
+      "label": "gap census: even, odd det 202..279",
+      "classes": 269,
+      "indecomposable": 238,
+      "zeros": 0,
+      "predicted": 0,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0
+    },
+    {
+      "label": "minus-type extension: even, det = 5 mod 8, 202..501",
+      "classes": 787,
+      "indecomposable": 703,
+      "zeros": 0,
+      "predicted": 0,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0
+    },
+    {
+      "label": "plus-type region: even, det = 1 mod 8, 281..497",
+      "classes": 672,
+      "indecomposable": 623,
+      "zeros": 6,
+      "predicted": 6,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0
+    }
+  ],
+  "independent_review_check_equal_to_preserved": true,
+  "local_document_links": "verified for all documents added or changed in 1.3.0"
+}

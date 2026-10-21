@@ -1,0 +1,5511 @@
+{
+  "universe": "odd A,B,C in [1,limit], (2A+B+C) divisible by 4, A^2 B C = 5 mod 8",
+  "parameter_limit": 15,
+  "kernel_parameter_triples": 128,
+  "configurations_with_even_third_lattice": 512,
+  "distinct_reduced_matrices_not_isometry_classes": 59,
+  "indecomposable_hits": 0,
+  "lattices": [
+    {
+      "parameters": [
+        1,
+        3,
+        7
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          1,
+          1,
+          3,
+          6
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          4
+        ]
+      ],
+      "determinant": 21,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        3,
+        7
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          1,
+          1,
+          3,
+          6
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          4
+        ]
+      ],
+      "determinant": 21,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        3,
+        15
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          1,
+          1,
+          3,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 45,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        3,
+        15
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          1,
+          1,
+          3,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          8
+        ]
+      ],
+      "determinant": 45,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        7,
+        11
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          1,
+          1,
+          7,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          4,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 77,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        11,
+        7
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          1,
+          1,
+          11,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          6
+        ]
+      ],
+      "determinant": 77,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        11,
+        15
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          1,
+          1,
+          11,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          6,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 165,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        1,
+        15,
+        11
+      ],
+      "G0": [
+        [
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          30,
+          15
+        ],
+        [
+          1,
+          1,
+          15,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          8
+        ]
+      ],
+      "determinant": 165,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        1,
+        5
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          1,
+          6
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          4
+        ]
+      ],
+      "determinant": 45,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        1,
+        13
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          1,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          8
+        ]
+      ],
+      "determinant": 117,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        5,
+        9
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          3,
+          3,
+          5,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          4,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          6
+        ]
+      ],
+      "determinant": 405,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        9,
+        13
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          3,
+          3,
+          9,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          6,
+          -3,
+          0
+        ],
+        [
+          0,
+          -3,
+          6,
+          0
+        ],
+        [
+          -3,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 1053,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        9,
+        13
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          3,
+          3,
+          9,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          0,
+          -3,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          -3
+        ],
+        [
+          -3,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          -3,
+          0,
+          8
+        ]
+      ],
+      "determinant": 1053,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        13,
+        1
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          3,
+          3,
+          13,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          6
+        ]
+      ],
+      "determinant": 117,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        13,
+        9
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          3,
+          3,
+          13,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          0,
+          0,
+          -3
+        ],
+        [
+          0,
+          8,
+          -3,
+          0
+        ],
+        [
+          0,
+          -3,
+          6,
+          0
+        ],
+        [
+          -3,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 1053,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        3,
+        13,
+        9
+      ],
+      "G0": [
+        [
+          6,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          6,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          3,
+          3,
+          13,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          0,
+          -3,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          -3
+        ],
+        [
+          -3,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          -3,
+          0,
+          6
+        ]
+      ],
+      "determinant": 1053,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        3,
+        7
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          5,
+          5,
+          3,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          4,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          6
+        ]
+      ],
+      "determinant": 525,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        3,
+        15
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          5,
+          5,
+          3,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          4,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          10
+        ]
+      ],
+      "determinant": 1125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        7,
+        11
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          5,
+          5,
+          7,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          8
+        ]
+      ],
+      "determinant": 1925,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        11,
+        7
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          5,
+          5,
+          11,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          8
+        ]
+      ],
+      "determinant": 1925,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        11,
+        7
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          5,
+          5,
+          11,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          6
+        ]
+      ],
+      "determinant": 1925,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        11,
+        15
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          5,
+          5,
+          11,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          0,
+          0,
+          -5
+        ],
+        [
+          0,
+          8,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          8,
+          0
+        ],
+        [
+          -5,
+          0,
+          0,
+          10
+        ]
+      ],
+      "determinant": 4125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        11,
+        15
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          5,
+          5,
+          11,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          10
+        ]
+      ],
+      "determinant": 4125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        15,
+        11
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          30,
+          15
+        ],
+        [
+          5,
+          5,
+          15,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -5,
+          0,
+          0
+        ],
+        [
+          -5,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          10
+        ]
+      ],
+      "determinant": 4125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        5,
+        15,
+        11
+      ],
+      "G0": [
+        [
+          10,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          10,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          30,
+          15
+        ],
+        [
+          5,
+          5,
+          15,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "Ra": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          0,
+          0,
+          -5
+        ],
+        [
+          0,
+          10,
+          -5,
+          0
+        ],
+        [
+          0,
+          -5,
+          8,
+          0
+        ],
+        [
+          -5,
+          0,
+          0,
+          10
+        ]
+      ],
+      "determinant": 4125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        1,
+        5
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          7,
+          7,
+          1,
+          10
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 245,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        1,
+        13
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          7,
+          7,
+          1,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          10
+        ]
+      ],
+      "determinant": 637,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        5,
+        9
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          7,
+          7,
+          5,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          8
+        ]
+      ],
+      "determinant": 2205,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        9,
+        5
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          7,
+          7,
+          9,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 2205,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        9,
+        13
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          7,
+          7,
+          9,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          10
+        ]
+      ],
+      "determinant": 5733,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        7,
+        13,
+        9
+      ],
+      "G0": [
+        [
+          14,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          14,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          7,
+          7,
+          13,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          8
+        ]
+      ],
+      "determinant": 5733,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        3,
+        7
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          9,
+          9,
+          3,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          8
+        ]
+      ],
+      "determinant": 1701,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        3,
+        15
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          9,
+          9,
+          3,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          6,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          12
+        ]
+      ],
+      "determinant": 3645,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        7,
+        3
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          9,
+          9,
+          7,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          6
+        ]
+      ],
+      "determinant": 1701,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        7,
+        11
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          9,
+          9,
+          7,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          10
+        ]
+      ],
+      "determinant": 6237,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        11,
+        7
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          9,
+          9,
+          11,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          8
+        ]
+      ],
+      "determinant": 6237,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        11,
+        15
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          9,
+          9,
+          11,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          12
+        ]
+      ],
+      "determinant": 13365,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        9,
+        15,
+        11
+      ],
+      "G0": [
+        [
+          18,
+          0,
+          0,
+          9
+        ],
+        [
+          0,
+          18,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          30,
+          15
+        ],
+        [
+          9,
+          9,
+          15,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          10
+        ]
+      ],
+      "determinant": 13365,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        1,
+        5
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          11,
+          11,
+          1,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          8
+        ]
+      ],
+      "determinant": 605,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        1,
+        13
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          11,
+          11,
+          1,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          12
+        ]
+      ],
+      "determinant": 1573,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        5,
+        1
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          11,
+          11,
+          5,
+          14
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          8,
+          -3,
+          0
+        ],
+        [
+          0,
+          -3,
+          8,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          6
+        ]
+      ],
+      "determinant": 605,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        5,
+        9
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          11,
+          11,
+          5,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          10
+        ]
+      ],
+      "determinant": 5445,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        9,
+        5
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          11,
+          11,
+          9,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          8
+        ]
+      ],
+      "determinant": 5445,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        9,
+        13
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          11,
+          11,
+          9,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          12
+        ]
+      ],
+      "determinant": 14157,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        11,
+        13,
+        9
+      ],
+      "G0": [
+        [
+          22,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          22,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          11,
+          11,
+          13,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          10
+        ]
+      ],
+      "determinant": 14157,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        3,
+        7
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          13,
+          13,
+          3,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          10
+        ]
+      ],
+      "determinant": 3549,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        3,
+        15
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          6,
+          3
+        ],
+        [
+          13,
+          13,
+          3,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          8,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          14
+        ]
+      ],
+      "determinant": 7605,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        7,
+        3
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          13,
+          13,
+          7,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          3
+        ],
+        [
+          0,
+          0,
+          3,
+          6
+        ]
+      ],
+      "determinant": 3549,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        7,
+        11
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          14,
+          7
+        ],
+        [
+          13,
+          13,
+          7,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          12
+        ]
+      ],
+      "determinant": 13013,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        11,
+        7
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          13,
+          13,
+          11,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          10
+        ]
+      ],
+      "determinant": 13013,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        11,
+        15
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          22,
+          11
+        ],
+        [
+          13,
+          13,
+          11,
+          26
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          14
+        ]
+      ],
+      "determinant": 27885,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        13,
+        15,
+        11
+      ],
+      "G0": [
+        [
+          26,
+          0,
+          0,
+          13
+        ],
+        [
+          0,
+          26,
+          0,
+          13
+        ],
+        [
+          0,
+          0,
+          30,
+          15
+        ],
+        [
+          13,
+          13,
+          15,
+          26
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          14,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          12
+        ]
+      ],
+      "determinant": 27885,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        1,
+        5
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          15,
+          15,
+          1,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          10
+        ]
+      ],
+      "determinant": 1125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        1,
+        13
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          15,
+          15,
+          1,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          14
+        ]
+      ],
+      "determinant": 2925,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        5,
+        1
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          15,
+          15,
+          5,
+          18
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          2,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          10,
+          -5,
+          0
+        ],
+        [
+          0,
+          -5,
+          10,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          8
+        ]
+      ],
+      "determinant": 1125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        5,
+        9
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          15,
+          15,
+          5,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          10,
+          -5,
+          0,
+          0
+        ],
+        [
+          -5,
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          12
+        ]
+      ],
+      "determinant": 10125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        9,
+        5
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          15,
+          15,
+          9,
+          22
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          -5
+        ],
+        [
+          0,
+          0,
+          -5,
+          10
+        ]
+      ],
+      "determinant": 10125,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 48,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 12,
+        "order=2,mod2_order=2,fixed_nonzero=7": 16,
+        "order=3,mod2_order=3,fixed_nonzero=3": 2,
+        "order=6,mod2_order=3,fixed_nonzero=3": 6,
+        "order=6,mod2_order=6,fixed_nonzero=1": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        9,
+        13
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          18,
+          9
+        ],
+        [
+          15,
+          15,
+          9,
+          26
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          12,
+          -3,
+          0,
+          0
+        ],
+        [
+          -3,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          14
+        ]
+      ],
+      "determinant": 26325,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    },
+    {
+      "parameters": [
+        15,
+        13,
+        9
+      ],
+      "G0": [
+        [
+          30,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          30,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          26,
+          13
+        ],
+        [
+          15,
+          15,
+          13,
+          26
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "Ra": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "v3": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "G": [
+        [
+          14,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          -3
+        ],
+        [
+          0,
+          0,
+          -3,
+          12
+        ]
+      ],
+      "determinant": 26325,
+      "minus_type": true,
+      "decomposable": true,
+      "automorphisms": 16,
+      "symmetry_zero_count": 36,
+      "gaussian_zero_count": 0,
+      "witness_orders_with_multiplicity": {
+        "2": 72
+      },
+      "automorphism_shapes": {
+        "order=1,mod2_order=1,fixed_nonzero=15": 1,
+        "order=2,mod2_order=1,fixed_nonzero=15": 3,
+        "order=2,mod2_order=2,fixed_nonzero=3": 4,
+        "order=2,mod2_order=2,fixed_nonzero=7": 8
+      }
+    }
+  ],
+  "seconds": 2.0647810000227764
+}

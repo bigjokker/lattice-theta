@@ -57,4 +57,17 @@ release 1.1.0, and each is replayed by the unchanged independent verifier
 proof of the minimum also uses the accepted determinant-24 census and the
 orthogonal-sum corollary of `docs/rank-four-decomposition-and-fibres.md`.
 
+## Release 1.3.0
+
+[rank-four-stage-two-review.md](rank-four-stage-two-review.md) is a Claude
+Opus 5.5 review of the stage-two reductions written by a Codex session
+([report](../docs/rank-four-stage-two-reductions.md)). It checks sections 2
+to 6 of that note line by line, and Lemma A and Theorem 5 of the
+[minus-type report](../docs/rank-four-minus-type.md) (Theorem E of the
+follow-up note). It adds an independent computation with its own
+automorphism code (`code/rank4_stage2_review_check.py`, 31,500 configurations,
+no exception), and runs and records the plus-type class list through 497. No
+errors were found. Independent human review of these proofs is still
+outstanding.
+
 The briefs themselves are handoff prompts and are not distributed.

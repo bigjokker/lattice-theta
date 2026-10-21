@@ -1,0 +1,2832 @@
+{
+  "source": "examples\\rank4-level4\\other-level4-certificates.json",
+  "sha256": "8889c8fe484e70ce91dea0241d38bc1f7401c91d51e2a49b1807d77d248daff5",
+  "source_determinant": 4480,
+  "gram_divisor": 2,
+  "G": [
+    [
+      3,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      5,
+      -1,
+      2
+    ],
+    [
+      1,
+      -1,
+      4,
+      -1
+    ],
+    [
+      0,
+      2,
+      -1,
+      7
+    ]
+  ],
+  "a": [
+    1,
+    0,
+    0,
+    1
+  ],
+  "b": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "determinant": 280,
+  "primitive": true,
+  "even": false,
+  "full_group_order": 2,
+  "level": 4,
+  "cutoff_document": {
+    "schema": "work7-rank4-cutoff-v1",
+    "G": [
+      [
+        3,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        5,
+        -1,
+        2
+      ],
+      [
+        1,
+        -1,
+        4,
+        -1
+      ],
+      [
+        0,
+        2,
+        -1,
+        7
+      ]
+    ],
+    "a": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "b": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "modular": {
+      "index_two_basis": [
+        [
+          2,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "G0": [
+        [
+          12,
+          -4,
+          -4,
+          -6
+        ],
+        [
+          -4,
+          6,
+          0,
+          4
+        ],
+        [
+          -4,
+          0,
+          5,
+          1
+        ],
+        [
+          -6,
+          4,
+          1,
+          10
+        ]
+      ],
+      "d0": 1120,
+      "N0": 560,
+      "unsigned_level": 8960,
+      "level_factors": [
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "index": 18432,
+      "cutoff": 3072,
+      "character_discriminant": 4480,
+      "weight": "2",
+      "coefficient_index": "norm4",
+      "theorem": "rank4-square-complex-identity-v1"
+    },
+    "run": {
+      "norm4_bound": 3072,
+      "max_nodes": 50000000
+    },
+    "evidence": {
+      "enumeration_complete": true,
+      "enumeration": {
+        "algorithm": "exact-rational-ldl-v1",
+        "complete": true,
+        "norm4_bound": 3072,
+        "visited_nodes": 374079,
+        "shells": [
+          {
+            "norm4": 10,
+            "norm": "5/2",
+            "vector_count": 4,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 18,
+            "norm": "9/2",
+            "vector_count": 4,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 26,
+            "norm": "13/2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 34,
+            "norm": "17/2",
+            "vector_count": 16,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 42,
+            "norm": "21/2",
+            "vector_count": 12,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 50,
+            "norm": "25/2",
+            "vector_count": 4,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 58,
+            "norm": "29/2",
+            "vector_count": 8,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 66,
+            "norm": "33/2",
+            "vector_count": 36,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 74,
+            "norm": "37/2",
+            "vector_count": 24,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 82,
+            "norm": "41/2",
+            "vector_count": 16,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 90,
+            "norm": "45/2",
+            "vector_count": 40,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 98,
+            "norm": "49/2",
+            "vector_count": 28,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 106,
+            "norm": "53/2",
+            "vector_count": 24,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 114,
+            "norm": "57/2",
+            "vector_count": 36,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 122,
+            "norm": "61/2",
+            "vector_count": 32,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 130,
+            "norm": "65/2",
+            "vector_count": 32,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 138,
+            "norm": "69/2",
+            "vector_count": 44,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 146,
+            "norm": "73/2",
+            "vector_count": 44,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 154,
+            "norm": "77/2",
+            "vector_count": 52,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 162,
+            "norm": "81/2",
+            "vector_count": 44,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 170,
+            "norm": "85/2",
+            "vector_count": 44,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 178,
+            "norm": "89/2",
+            "vector_count": 40,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 186,
+            "norm": "93/2",
+            "vector_count": 68,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 194,
+            "norm": "97/2",
+            "vector_count": 72,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 202,
+            "norm": "101/2",
+            "vector_count": 48,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 210,
+            "norm": "105/2",
+            "vector_count": 80,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 218,
+            "norm": "109/2",
+            "vector_count": 40,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 226,
+            "norm": "113/2",
+            "vector_count": 72,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 234,
+            "norm": "117/2",
+            "vector_count": 104,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 242,
+            "norm": "121/2",
+            "vector_count": 48,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 250,
+            "norm": "125/2",
+            "vector_count": 76,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 258,
+            "norm": "129/2",
+            "vector_count": 68,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 266,
+            "norm": "133/2",
+            "vector_count": 80,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 274,
+            "norm": "137/2",
+            "vector_count": 76,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 282,
+            "norm": "141/2",
+            "vector_count": 60,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 290,
+            "norm": "145/2",
+            "vector_count": 80,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 298,
+            "norm": "149/2",
+            "vector_count": 56,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 306,
+            "norm": "153/2",
+            "vector_count": 172,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 314,
+            "norm": "157/2",
+            "vector_count": 112,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 322,
+            "norm": "161/2",
+            "vector_count": 60,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 330,
+            "norm": "165/2",
+            "vector_count": 112,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 338,
+            "norm": "169/2",
+            "vector_count": 56,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 346,
+            "norm": "173/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 354,
+            "norm": "177/2",
+            "vector_count": 120,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 362,
+            "norm": "181/2",
+            "vector_count": 88,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 370,
+            "norm": "185/2",
+            "vector_count": 120,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 378,
+            "norm": "189/2",
+            "vector_count": 124,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 386,
+            "norm": "193/2",
+            "vector_count": 100,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 394,
+            "norm": "197/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 402,
+            "norm": "201/2",
+            "vector_count": 152,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 410,
+            "norm": "205/2",
+            "vector_count": 80,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 418,
+            "norm": "209/2",
+            "vector_count": 96,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 426,
+            "norm": "213/2",
+            "vector_count": 208,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 434,
+            "norm": "217/2",
+            "vector_count": 136,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 442,
+            "norm": "221/2",
+            "vector_count": 84,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 450,
+            "norm": "225/2",
+            "vector_count": 128,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 458,
+            "norm": "229/2",
+            "vector_count": 112,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 466,
+            "norm": "233/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 474,
+            "norm": "237/2",
+            "vector_count": 228,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 482,
+            "norm": "241/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 490,
+            "norm": "245/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 498,
+            "norm": "249/2",
+            "vector_count": 136,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 506,
+            "norm": "253/2",
+            "vector_count": 152,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 514,
+            "norm": "257/2",
+            "vector_count": 188,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 522,
+            "norm": "261/2",
+            "vector_count": 124,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 530,
+            "norm": "265/2",
+            "vector_count": 168,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 538,
+            "norm": "269/2",
+            "vector_count": 128,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 546,
+            "norm": "273/2",
+            "vector_count": 200,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 554,
+            "norm": "277/2",
+            "vector_count": 148,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 562,
+            "norm": "281/2",
+            "vector_count": 100,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 570,
+            "norm": "285/2",
+            "vector_count": 220,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 578,
+            "norm": "289/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 586,
+            "norm": "293/2",
+            "vector_count": 212,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 594,
+            "norm": "297/2",
+            "vector_count": 332,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 602,
+            "norm": "301/2",
+            "vector_count": 116,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 610,
+            "norm": "305/2",
+            "vector_count": 148,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 618,
+            "norm": "309/2",
+            "vector_count": 152,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 626,
+            "norm": "313/2",
+            "vector_count": 224,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 634,
+            "norm": "317/2",
+            "vector_count": 168,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 642,
+            "norm": "321/2",
+            "vector_count": 192,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 650,
+            "norm": "325/2",
+            "vector_count": 180,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 658,
+            "norm": "329/2",
+            "vector_count": 132,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 666,
+            "norm": "333/2",
+            "vector_count": 284,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 674,
+            "norm": "337/2",
+            "vector_count": 188,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 682,
+            "norm": "341/2",
+            "vector_count": 188,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 690,
+            "norm": "345/2",
+            "vector_count": 200,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 698,
+            "norm": "349/2",
+            "vector_count": 164,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 706,
+            "norm": "353/2",
+            "vector_count": 256,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 714,
+            "norm": "357/2",
+            "vector_count": 296,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 722,
+            "norm": "361/2",
+            "vector_count": 112,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 730,
+            "norm": "365/2",
+            "vector_count": 172,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 738,
+            "norm": "369/2",
+            "vector_count": 244,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 746,
+            "norm": "373/2",
+            "vector_count": 200,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 754,
+            "norm": "377/2",
+            "vector_count": 228,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 762,
+            "norm": "381/2",
+            "vector_count": 248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 770,
+            "norm": "385/2",
+            "vector_count": 248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 778,
+            "norm": "389/2",
+            "vector_count": 128,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 786,
+            "norm": "393/2",
+            "vector_count": 276,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 794,
+            "norm": "397/2",
+            "vector_count": 292,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 802,
+            "norm": "401/2",
+            "vector_count": 144,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 810,
+            "norm": "405/2",
+            "vector_count": 352,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 818,
+            "norm": "409/2",
+            "vector_count": 188,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 826,
+            "norm": "413/2",
+            "vector_count": 268,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 834,
+            "norm": "417/2",
+            "vector_count": 320,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 842,
+            "norm": "421/2",
+            "vector_count": 160,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 850,
+            "norm": "425/2",
+            "vector_count": 256,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 858,
+            "norm": "429/2",
+            "vector_count": 208,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 866,
+            "norm": "433/2",
+            "vector_count": 324,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 874,
+            "norm": "437/2",
+            "vector_count": 312,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 882,
+            "norm": "441/2",
+            "vector_count": 272,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 890,
+            "norm": "445/2",
+            "vector_count": 192,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 898,
+            "norm": "449/2",
+            "vector_count": 176,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 906,
+            "norm": "453/2",
+            "vector_count": 432,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 914,
+            "norm": "457/2",
+            "vector_count": 240,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 922,
+            "norm": "461/2",
+            "vector_count": 216,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 930,
+            "norm": "465/2",
+            "vector_count": 380,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 938,
+            "norm": "469/2",
+            "vector_count": 180,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 946,
+            "norm": "473/2",
+            "vector_count": 248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 954,
+            "norm": "477/2",
+            "vector_count": 344,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 962,
+            "norm": "481/2",
+            "vector_count": 228,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 970,
+            "norm": "485/2",
+            "vector_count": 224,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 978,
+            "norm": "489/2",
+            "vector_count": 320,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 986,
+            "norm": "493/2",
+            "vector_count": 364,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 994,
+            "norm": "497/2",
+            "vector_count": 328,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1002,
+            "norm": "501/2",
+            "vector_count": 232,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1010,
+            "norm": "505/2",
+            "vector_count": 212,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1018,
+            "norm": "509/2",
+            "vector_count": 240,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1026,
+            "norm": "513/2",
+            "vector_count": 412,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1034,
+            "norm": "517/2",
+            "vector_count": 392,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1042,
+            "norm": "521/2",
+            "vector_count": 236,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1050,
+            "norm": "525/2",
+            "vector_count": 376,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1058,
+            "norm": "529/2",
+            "vector_count": 184,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1066,
+            "norm": "533/2",
+            "vector_count": 268,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1074,
+            "norm": "537/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1082,
+            "norm": "541/2",
+            "vector_count": 200,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1090,
+            "norm": "545/2",
+            "vector_count": 320,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1098,
+            "norm": "549/2",
+            "vector_count": 384,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1106,
+            "norm": "553/2",
+            "vector_count": 336,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1114,
+            "norm": "557/2",
+            "vector_count": 300,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1122,
+            "norm": "561/2",
+            "vector_count": 312,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1130,
+            "norm": "565/2",
+            "vector_count": 344,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1138,
+            "norm": "569/2",
+            "vector_count": 220,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1146,
+            "norm": "573/2",
+            "vector_count": 540,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1154,
+            "norm": "577/2",
+            "vector_count": 408,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1162,
+            "norm": "581/2",
+            "vector_count": 248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1170,
+            "norm": "585/2",
+            "vector_count": 364,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1178,
+            "norm": "589/2",
+            "vector_count": 204,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1186,
+            "norm": "593/2",
+            "vector_count": 448,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1194,
+            "norm": "597/2",
+            "vector_count": 440,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1202,
+            "norm": "601/2",
+            "vector_count": 272,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1210,
+            "norm": "605/2",
+            "vector_count": 372,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1218,
+            "norm": "609/2",
+            "vector_count": 340,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1226,
+            "norm": "613/2",
+            "vector_count": 320,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1234,
+            "norm": "617/2",
+            "vector_count": 312,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1242,
+            "norm": "621/2",
+            "vector_count": 452,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1250,
+            "norm": "625/2",
+            "vector_count": 276,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1258,
+            "norm": "629/2",
+            "vector_count": 332,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1266,
+            "norm": "633/2",
+            "vector_count": 604,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1274,
+            "norm": "637/2",
+            "vector_count": 384,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1282,
+            "norm": "641/2",
+            "vector_count": 228,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1290,
+            "norm": "645/2",
+            "vector_count": 376,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1298,
+            "norm": "649/2",
+            "vector_count": 332,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1306,
+            "norm": "653/2",
+            "vector_count": 348,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1314,
+            "norm": "657/2",
+            "vector_count": 684,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1322,
+            "norm": "661/2",
+            "vector_count": 320,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1330,
+            "norm": "665/2",
+            "vector_count": 332,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1338,
+            "norm": "669/2",
+            "vector_count": 308,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1346,
+            "norm": "673/2",
+            "vector_count": 368,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1354,
+            "norm": "677/2",
+            "vector_count": 484,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1362,
+            "norm": "681/2",
+            "vector_count": 316,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1370,
+            "norm": "685/2",
+            "vector_count": 420,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1378,
+            "norm": "689/2",
+            "vector_count": 304,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1386,
+            "norm": "693/2",
+            "vector_count": 668,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1394,
+            "norm": "697/2",
+            "vector_count": 372,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1402,
+            "norm": "701/2",
+            "vector_count": 248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1410,
+            "norm": "705/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1418,
+            "norm": "709/2",
+            "vector_count": 268,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1426,
+            "norm": "713/2",
+            "vector_count": 544,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1434,
+            "norm": "717/2",
+            "vector_count": 696,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1442,
+            "norm": "721/2",
+            "vector_count": 284,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1450,
+            "norm": "725/2",
+            "vector_count": 296,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1458,
+            "norm": "729/2",
+            "vector_count": 380,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1466,
+            "norm": "733/2",
+            "vector_count": 528,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1474,
+            "norm": "737/2",
+            "vector_count": 444,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1482,
+            "norm": "741/2",
+            "vector_count": 408,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1490,
+            "norm": "745/2",
+            "vector_count": 440,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1498,
+            "norm": "749/2",
+            "vector_count": 316,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1506,
+            "norm": "753/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1514,
+            "norm": "757/2",
+            "vector_count": 428,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1522,
+            "norm": "761/2",
+            "vector_count": 388,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1530,
+            "norm": "765/2",
+            "vector_count": 552,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1538,
+            "norm": "769/2",
+            "vector_count": 372,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1546,
+            "norm": "773/2",
+            "vector_count": 548,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1554,
+            "norm": "777/2",
+            "vector_count": 692,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1562,
+            "norm": "781/2",
+            "vector_count": 300,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1570,
+            "norm": "785/2",
+            "vector_count": 376,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1578,
+            "norm": "789/2",
+            "vector_count": 500,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1586,
+            "norm": "793/2",
+            "vector_count": 416,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1594,
+            "norm": "797/2",
+            "vector_count": 584,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1602,
+            "norm": "801/2",
+            "vector_count": 564,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1610,
+            "norm": "805/2",
+            "vector_count": 420,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1618,
+            "norm": "809/2",
+            "vector_count": 276,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1626,
+            "norm": "813/2",
+            "vector_count": 548,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1634,
+            "norm": "817/2",
+            "vector_count": 536,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1642,
+            "norm": "821/2",
+            "vector_count": 300,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1650,
+            "norm": "825/2",
+            "vector_count": 740,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1658,
+            "norm": "829/2",
+            "vector_count": 400,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1666,
+            "norm": "833/2",
+            "vector_count": 544,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1674,
+            "norm": "837/2",
+            "vector_count": 684,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1682,
+            "norm": "841/2",
+            "vector_count": 312,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1690,
+            "norm": "845/2",
+            "vector_count": 448,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1698,
+            "norm": "849/2",
+            "vector_count": 356,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1706,
+            "norm": "853/2",
+            "vector_count": 604,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1714,
+            "norm": "857/2",
+            "vector_count": 628,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1722,
+            "norm": "861/2",
+            "vector_count": 472,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1730,
+            "norm": "865/2",
+            "vector_count": 400,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1738,
+            "norm": "869/2",
+            "vector_count": 336,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1746,
+            "norm": "873/2",
+            "vector_count": 892,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1754,
+            "norm": "877/2",
+            "vector_count": 456,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1762,
+            "norm": "881/2",
+            "vector_count": 404,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1770,
+            "norm": "885/2",
+            "vector_count": 728,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1778,
+            "norm": "889/2",
+            "vector_count": 372,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1786,
+            "norm": "893/2",
+            "vector_count": 456,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1794,
+            "norm": "897/2",
+            "vector_count": 588,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1802,
+            "norm": "901/2",
+            "vector_count": 448,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1810,
+            "norm": "905/2",
+            "vector_count": 364,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1818,
+            "norm": "909/2",
+            "vector_count": 648,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1826,
+            "norm": "913/2",
+            "vector_count": 704,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1834,
+            "norm": "917/2",
+            "vector_count": 572,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1842,
+            "norm": "921/2",
+            "vector_count": 456,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1850,
+            "norm": "925/2",
+            "vector_count": 424,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1858,
+            "norm": "929/2",
+            "vector_count": 432,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1866,
+            "norm": "933/2",
+            "vector_count": 676,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1874,
+            "norm": "937/2",
+            "vector_count": 688,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1882,
+            "norm": "941/2",
+            "vector_count": 440,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1890,
+            "norm": "945/2",
+            "vector_count": 720,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1898,
+            "norm": "949/2",
+            "vector_count": 312,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1906,
+            "norm": "953/2",
+            "vector_count": 540,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1914,
+            "norm": "957/2",
+            "vector_count": 964,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1922,
+            "norm": "961/2",
+            "vector_count": 372,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1930,
+            "norm": "965/2",
+            "vector_count": 604,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1938,
+            "norm": "969/2",
+            "vector_count": 652,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1946,
+            "norm": "973/2",
+            "vector_count": 620,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1954,
+            "norm": "977/2",
+            "vector_count": 496,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1962,
+            "norm": "981/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1970,
+            "norm": "985/2",
+            "vector_count": 620,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1978,
+            "norm": "989/2",
+            "vector_count": 360,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1986,
+            "norm": "993/2",
+            "vector_count": 920,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 1994,
+            "norm": "997/2",
+            "vector_count": 700,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2002,
+            "norm": "1001/2",
+            "vector_count": 436,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2010,
+            "norm": "1005/2",
+            "vector_count": 608,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2018,
+            "norm": "1009/2",
+            "vector_count": 356,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2026,
+            "norm": "1013/2",
+            "vector_count": 724,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2034,
+            "norm": "1017/2",
+            "vector_count": 780,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2042,
+            "norm": "1021/2",
+            "vector_count": 496,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2050,
+            "norm": "1025/2",
+            "vector_count": 576,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2058,
+            "norm": "1029/2",
+            "vector_count": 592,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2066,
+            "norm": "1033/2",
+            "vector_count": 580,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2074,
+            "norm": "1037/2",
+            "vector_count": 596,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2082,
+            "norm": "1041/2",
+            "vector_count": 660,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2090,
+            "norm": "1045/2",
+            "vector_count": 464,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2098,
+            "norm": "1049/2",
+            "vector_count": 508,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2106,
+            "norm": "1053/2",
+            "vector_count": 1036,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2114,
+            "norm": "1057/2",
+            "vector_count": 624,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2122,
+            "norm": "1061/2",
+            "vector_count": 380,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2130,
+            "norm": "1065/2",
+            "vector_count": 652,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2138,
+            "norm": "1069/2",
+            "vector_count": 508,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2146,
+            "norm": "1073/2",
+            "vector_count": 548,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2154,
+            "norm": "1077/2",
+            "vector_count": 1004,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2162,
+            "norm": "1081/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2170,
+            "norm": "1085/2",
+            "vector_count": 592,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2178,
+            "norm": "1089/2",
+            "vector_count": 640,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2186,
+            "norm": "1093/2",
+            "vector_count": 596,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2194,
+            "norm": "1097/2",
+            "vector_count": 780,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2202,
+            "norm": "1101/2",
+            "vector_count": 504,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2210,
+            "norm": "1105/2",
+            "vector_count": 616,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2218,
+            "norm": "1109/2",
+            "vector_count": 528,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2226,
+            "norm": "1113/2",
+            "vector_count": 928,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2234,
+            "norm": "1117/2",
+            "vector_count": 612,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2242,
+            "norm": "1121/2",
+            "vector_count": 348,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2250,
+            "norm": "1125/2",
+            "vector_count": 988,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2258,
+            "norm": "1129/2",
+            "vector_count": 424,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2266,
+            "norm": "1133/2",
+            "vector_count": 872,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2274,
+            "norm": "1137/2",
+            "vector_count": 1096,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2282,
+            "norm": "1141/2",
+            "vector_count": 452,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2290,
+            "norm": "1145/2",
+            "vector_count": 524,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2298,
+            "norm": "1149/2",
+            "vector_count": 528,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2306,
+            "norm": "1153/2",
+            "vector_count": 828,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2314,
+            "norm": "1157/2",
+            "vector_count": 580,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2322,
+            "norm": "1161/2",
+            "vector_count": 796,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2330,
+            "norm": "1165/2",
+            "vector_count": 716,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2338,
+            "norm": "1169/2",
+            "vector_count": 516,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2346,
+            "norm": "1173/2",
+            "vector_count": 908,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2354,
+            "norm": "1177/2",
+            "vector_count": 716,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2362,
+            "norm": "1181/2",
+            "vector_count": 580,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2370,
+            "norm": "1185/2",
+            "vector_count": 740,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2378,
+            "norm": "1189/2",
+            "vector_count": 532,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2386,
+            "norm": "1193/2",
+            "vector_count": 880,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2394,
+            "norm": "1197/2",
+            "vector_count": 1040,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2402,
+            "norm": "1201/2",
+            "vector_count": 456,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2410,
+            "norm": "1205/2",
+            "vector_count": 520,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2418,
+            "norm": "1209/2",
+            "vector_count": 716,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2426,
+            "norm": "1213/2",
+            "vector_count": 628,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2434,
+            "norm": "1217/2",
+            "vector_count": 888,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2442,
+            "norm": "1221/2",
+            "vector_count": 868,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2450,
+            "norm": "1225/2",
+            "vector_count": 632,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2458,
+            "norm": "1229/2",
+            "vector_count": 452,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2466,
+            "norm": "1233/2",
+            "vector_count": 1000,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2474,
+            "norm": "1237/2",
+            "vector_count": 888,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2482,
+            "norm": "1241/2",
+            "vector_count": 472,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2490,
+            "norm": "1245/2",
+            "vector_count": 932,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2498,
+            "norm": "1249/2",
+            "vector_count": 604,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2506,
+            "norm": "1253/2",
+            "vector_count": 756,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2514,
+            "norm": "1257/2",
+            "vector_count": 912,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2522,
+            "norm": "1261/2",
+            "vector_count": 408,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2530,
+            "norm": "1265/2",
+            "vector_count": 872,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2538,
+            "norm": "1269/2",
+            "vector_count": 644,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2546,
+            "norm": "1273/2",
+            "vector_count": 856,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2554,
+            "norm": "1277/2",
+            "vector_count": 924,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2562,
+            "norm": "1281/2",
+            "vector_count": 696,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2570,
+            "norm": "1285/2",
+            "vector_count": 592,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2578,
+            "norm": "1289/2",
+            "vector_count": 440,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2586,
+            "norm": "1293/2",
+            "vector_count": 1248,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2594,
+            "norm": "1297/2",
+            "vector_count": 700,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2602,
+            "norm": "1301/2",
+            "vector_count": 628,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2610,
+            "norm": "1305/2",
+            "vector_count": 1016,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2618,
+            "norm": "1309/2",
+            "vector_count": 640,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2626,
+            "norm": "1313/2",
+            "vector_count": 680,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2634,
+            "norm": "1317/2",
+            "vector_count": 992,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2642,
+            "norm": "1321/2",
+            "vector_count": 608,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2650,
+            "norm": "1325/2",
+            "vector_count": 616,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2658,
+            "norm": "1329/2",
+            "vector_count": 876,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2666,
+            "norm": "1333/2",
+            "vector_count": 960,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2674,
+            "norm": "1337/2",
+            "vector_count": 816,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2682,
+            "norm": "1341/2",
+            "vector_count": 708,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2690,
+            "norm": "1345/2",
+            "vector_count": 548,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2698,
+            "norm": "1349/2",
+            "vector_count": 600,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2706,
+            "norm": "1353/2",
+            "vector_count": 1036,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2714,
+            "norm": "1357/2",
+            "vector_count": 984,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2722,
+            "norm": "1361/2",
+            "vector_count": 680,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2730,
+            "norm": "1365/2",
+            "vector_count": 928,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2738,
+            "norm": "1369/2",
+            "vector_count": 500,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2746,
+            "norm": "1373/2",
+            "vector_count": 744,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2754,
+            "norm": "1377/2",
+            "vector_count": 1568,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2762,
+            "norm": "1381/2",
+            "vector_count": 496,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2770,
+            "norm": "1385/2",
+            "vector_count": 828,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2778,
+            "norm": "1389/2",
+            "vector_count": 880,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2786,
+            "norm": "1393/2",
+            "vector_count": 864,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2794,
+            "norm": "1397/2",
+            "vector_count": 828,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2802,
+            "norm": "1401/2",
+            "vector_count": 632,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2810,
+            "norm": "1405/2",
+            "vector_count": 792,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2818,
+            "norm": "1409/2",
+            "vector_count": 496,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2826,
+            "norm": "1413/2",
+            "vector_count": 1468,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2834,
+            "norm": "1417/2",
+            "vector_count": 940,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2842,
+            "norm": "1421/2",
+            "vector_count": 568,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2850,
+            "norm": "1425/2",
+            "vector_count": 820,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2858,
+            "norm": "1429/2",
+            "vector_count": 504,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2866,
+            "norm": "1433/2",
+            "vector_count": 1000,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2874,
+            "norm": "1437/2",
+            "vector_count": 1028,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2882,
+            "norm": "1441/2",
+            "vector_count": 768,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2890,
+            "norm": "1445/2",
+            "vector_count": 900,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2898,
+            "norm": "1449/2",
+            "vector_count": 852,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2906,
+            "norm": "1453/2",
+            "vector_count": 796,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2914,
+            "norm": "1457/2",
+            "vector_count": 796,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2922,
+            "norm": "1461/2",
+            "vector_count": 952,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2930,
+            "norm": "1465/2",
+            "vector_count": 680,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2938,
+            "norm": "1469/2",
+            "vector_count": 632,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2946,
+            "norm": "1473/2",
+            "vector_count": 1452,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2954,
+            "norm": "1477/2",
+            "vector_count": 908,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2962,
+            "norm": "1481/2",
+            "vector_count": 536,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2970,
+            "norm": "1485/2",
+            "vector_count": 1120,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2978,
+            "norm": "1489/2",
+            "vector_count": 740,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2986,
+            "norm": "1493/2",
+            "vector_count": 808,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 2994,
+            "norm": "1497/2",
+            "vector_count": 1436,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3002,
+            "norm": "1501/2",
+            "vector_count": 684,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3010,
+            "norm": "1505/2",
+            "vector_count": 716,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3018,
+            "norm": "1509/2",
+            "vector_count": 708,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3026,
+            "norm": "1513/2",
+            "vector_count": 876,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3034,
+            "norm": "1517/2",
+            "vector_count": 1104,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3042,
+            "norm": "1521/2",
+            "vector_count": 748,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3050,
+            "norm": "1525/2",
+            "vector_count": 924,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3058,
+            "norm": "1529/2",
+            "vector_count": 788,
+            "signed_coefficient": 0
+          },
+          {
+            "norm4": 3066,
+            "norm": "1533/2",
+            "vector_count": 1296,
+            "signed_coefficient": 0
+          }
+        ]
+      },
+      "verdict": "proved_zero_by_modular_cutoff"
+    }
+  },
+  "box_enumeration_nodes": 193734,
+  "independent_shells_agree": true,
+  "independent_nonisometry": true,
+  "kernel_configuration": {
+    "kernel_basis": [
+      [
+        2,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "G0": [
+      [
+        12,
+        -4,
+        -4,
+        -6
+      ],
+      [
+        -4,
+        6,
+        0,
+        4
+      ],
+      [
+        -4,
+        0,
+        5,
+        1
+      ],
+      [
+        -6,
+        4,
+        1,
+        10
+      ]
+    ],
+    "d0": 1120,
+    "complement_t": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "classes": {
+      "v1": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "v2": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "coset_lattices": {
+      "O_v1": {
+        "doubled_basis_in_L0": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            2
+          ]
+        ],
+        "gram_times_4": [
+          [
+            10,
+            0,
+            -6,
+            8
+          ],
+          [
+            0,
+            24,
+            0,
+            16
+          ],
+          [
+            -6,
+            0,
+            20,
+            4
+          ],
+          [
+            8,
+            16,
+            4,
+            40
+          ]
+        ],
+        "reduced": {
+          "basis": [
+            [
+              1,
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              2,
+              -2
+            ],
+            [
+              0,
+              2,
+              0,
+              -2
+            ],
+            [
+              1,
+              1,
+              0,
+              1
+            ]
+          ],
+          "gram": [
+            [
+              10,
+              4,
+              0,
+              4
+            ],
+            [
+              4,
+              18,
+              0,
+              -6
+            ],
+            [
+              0,
+              0,
+              24,
+              -8
+            ],
+            [
+              4,
+              -6,
+              -8,
+              26
+            ]
+          ],
+          "determinant": 71680
+        }
+      },
+      "O_v2": {
+        "doubled_basis_in_L0": [
+          [
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "gram_times_4": [
+          [
+            48,
+            -16,
+            -16,
+            -12
+          ],
+          [
+            -16,
+            24,
+            0,
+            8
+          ],
+          [
+            -16,
+            0,
+            20,
+            2
+          ],
+          [
+            -12,
+            8,
+            2,
+            10
+          ]
+        ],
+        "reduced": {
+          "basis": [
+            [
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              2
+            ],
+            [
+              1,
+              -1,
+              0,
+              1
+            ]
+          ],
+          "gram": [
+            [
+              10,
+              -2,
+              2,
+              0
+            ],
+            [
+              -2,
+              18,
+              -2,
+              -8
+            ],
+            [
+              2,
+              -2,
+              20,
+              6
+            ],
+            [
+              0,
+              -8,
+              6,
+              26
+            ]
+          ],
+          "determinant": 71680
+        }
+      }
+    },
+    "aut_L0_order": 2,
+    "orbits_on_classes": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ],
+      [
+        13
+      ],
+      [
+        14
+      ],
+      [
+        15
+      ]
+    ],
+    "elements_mapping_v1_to_v2": 0,
+    "elements_swapping_v1_v2": 0,
+    "level": 4,
+    "isometry_witness": null
+  },
+  "scope": "rescaling of an already certified example; no global minimality claim"
+}

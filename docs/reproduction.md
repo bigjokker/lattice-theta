@@ -12,10 +12,11 @@ python scripts/run_tests.py
 python scripts/run_tests.py --all
 ```
 
-The default suite contains 75 rank-four tests (31 from release 1.0.0, 36 for
+The default suite contains 82 rank-four tests (31 from release 1.0.0, 36 for
 the level-four, Eisenstein and parity work, 4 for the determinant-280
-certificate and 4 for the determinant census). The complete suite contains
-159 tests covering the original exact verifier, low ranks, root lattices,
+certificate, 4 for the determinant census and 7 for the odd-determinant work
+of release 1.3.0). The complete suite contains
+166 tests covering the original exact verifier, low ranks, root lattices,
 modular cutoffs, decomposition, the rank-four counterexample and the
 follow-up releases.
 
@@ -163,6 +164,41 @@ even-determinant mod-4 fact. The third command replays all 239 closure chunks
 (about six minutes on 16 cores, about an hour single-threaded); the last
 regenerates every chunk from scratch (about four minutes on 16 cores). Fresh
 chunk bytes differ from the preserved ones only in timing fields.
+
+## Even lattices of odd determinant (release 1.3.0)
+
+The [minus-type report](rank-four-minus-type.md), the
+[stage-two reductions](rank-four-stage-two-reductions.md) and their
+[review](../reviews/rank-four-stage-two-review.md) are backed by these
+commands. Preserved outputs are under `reports/rank4-minus-type/`,
+`reports/rank4-stage2/` and `reports/rank4-plus-type/`. Class lists stored
+only as `.json.gz` are read compressed.
+
+```sh
+python code/rank4_stage2_checks.py --output scratch/rank4-stage2/strategy-checks.json
+python code/rank4_plus_type_census.py planes --out scratch/rank4-plus-type
+python code/rank4_plus_type_census.py replay --workers 4 --out scratch/rank4-plus-type
+python code/rank4_minus_type.py finite --output scratch/rank4-minus-type/finite-groups.json
+python code/rank4_minus_type.py census --output scratch/rank4-minus-type/odd-det201-audit.json
+python code/rank4_minus_type.py census --source reports/rank4-minus-type/minus-det202-501.json.gz --output scratch/rank4-minus-type/minus-audit.json
+python code/rank4_minus_type.py mixed-kernels --output scratch/rank4-minus-type/mixed-kernels.json
+python code/rank4_minus_type.py replay-extension --source reports/rank4-minus-type/minus-det202-501.json.gz --output scratch/rank4-minus-type/replay.json
+python code/rank4_minus_type_constructions.py template --output scratch/rank4-minus-type/template.json
+python code/rank4_minus_type_constructions.py det280 --output scratch/rank4-minus-type/det280.json
+python code/rank4_stage2_review_check.py reports/rank4-parity/task-b-det201.json scratch/rank4-stage2/review-check.json
+python code/rank4_plus_type_census.py run --workers 16 --out scratch/rank4-plus-type-fresh
+```
+
+The first two commands (also run in CI) recheck the stage-two constructions
+on the stored class lists and compare every zero of the four even
+odd-determinant lists with the square-root-of-minus-identity planes; the
+third replays the 28 plus-type chunks independently. The `census` tasks audit
+Theorem E on every automorphism of every class; `replay-extension` replays
+the minus-type list for 202..501; the review check recomputes all
+automorphism groups of the 4,500 sign kernels with its own code; the last
+command regenerates the plus-type list from scratch (about 4 CPU-minutes).
+Fresh outputs differ from the preserved ones only in timing fields and in the
+workspace paths recorded inside the preserved files.
 
 ## Complete finite censuses
 

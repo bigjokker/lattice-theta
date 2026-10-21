@@ -1,13 +1,16 @@
 # Rank-four follow-up results: non-isometric coset lattices, the minimum counterexample determinant, and the parity property
 
-Releases 1.1.0 to 1.2.0, 2026-10-21. This note states the results added after
+Releases 1.1.0 to 1.3.0, 2026-10-21. This note states the results added after
 the [counterexample manuscript](rank-four-counterexample.md), with pointers to
 the full reports, the review notes, the exact certificates and the
 reproduction commands. The computations were specified, run and reviewed by
 Claude Fable 5.1 sessions and then assessed by a separate Claude session
 ([reviews](../reviews/README.md)); the determinant census of section 4 was
 run after the assessment and is verified by independent replay rather than
-by a separate review note. These are AI-assisted local reviews with
+by a separate review note. The odd-determinant results of section 6 were
+obtained by a Codex session and Claude Opus 5.5 sessions and are reviewed in
+[rank-four-stage-two-review.md](../reviews/rank-four-stage-two-review.md).
+These are AI-assisted local reviews with
 independent computational replication, not peer review. No publication,
 priority or novelty claim is made. Every count below names its enumeration
 universe; "class" always means an isometry class, with deduplication by a
@@ -41,8 +44,9 @@ Ranks one to three are always level 1 (the symmetry converse, proved in the
 [low-rank manuscript](low-rank-and-root-lattice-results.md)). The
 determinant-23,716 counterexample of the manuscript is level 2. The results
 below exhibit level 4 in rank four, determine the minimum determinant of a
-counterexample, give a smaller level-2 example, and settle two parity
-conjectures negatively.
+counterexample, give a smaller level-2 example, settle two parity
+conjectures negatively, and reduce the surviving minus-type parity
+conjecture to level-four zeros.
 
 ## 2. Level four: a zero whose coset lattices are not isometric
 
@@ -260,9 +264,9 @@ Consequently a minus-type lattice (det = 5 mod 8) has neither an involution
 witness nor a square root of -I. Data: all 131 distinct indecomposable
 minus-type classes with det <= 201 hold P. Whether every even indecomposable
 rank-four lattice with det = 5 mod 8 has P is open; it is the first item of
-[deferred research](../docs/deferred-research.md). Order-4 witnesses acting
-faithfully on L/2L, order-8 witnesses, and zeros without any witness are not
-excluded by the theorems.
+[deferred research](../docs/deferred-research.md). Theorem E below excludes
+the remaining witnesses (order 4 acting faithfully on L/2L, order 8), so only
+zeros without any witness remain.
 
 Degenerate case: among the 69 classes of even lattices with 4 | det <= 64,
 27 are indecomposable, 7 hold P and 20 fail; their 122 zeros are all level 1
@@ -287,7 +291,109 @@ certificates: [c1-counterexamples.json](../data/rank4-parity/c1-counterexamples.
 [pair-members-parity.json](../data/rank4-parity/pair-members-parity.json.gz);
 corollary script: [code/check_small_pairs.py](../code/check_small_pairs.py).
 
-## 6. Reporting conventions and corrections carried into this release
+## 6. Even lattices of odd determinant: symmetry zeros and the level reduction
+
+Setting: L even, rank four, odd determinant d (so d = 1 mod 4), V = L/2L with
+the nondegenerate alternating form B(x, y) = x.y mod 2 and the quadratic form
+Q(x) = x.x/2 mod 2; L has plus type for d = 1 mod 8 and minus type for
+d = 5 mod 8. For an even characteristic (a, b) put c = G^{-1} b mod 2; then
+B(a, c) = 0, and Theorem 1 makes (a, b) nonzero when a = c.
+
+**Theorem E (symmetry zeros).** Let L be even, orthogonally indecomposable,
+of rank four and odd determinant. An even characteristic (a, b) has a
+symmetry witness if and only if some h in Aut(L) with h^2 = -I has a and c as
+distinct nonzero classes of the plane (h+I)L/2L. In particular a minus-type
+lattice has no symmetry zero, at any determinant.
+
+Proof outline. Every element of order four in Sp_4(F2) fixes exactly one
+nonzero vector (Lemma A: a Jordan-block argument for the symplectic form,
+also checked on all 720 elements). An element of order eight in GL_4(Z) has
+characteristic polynomial x^4 + 1 (Lemma B). By Theorem 3 a witness may be
+replaced by its 2-part, of order 4 or 8. If that part acts with order four on
+V it fixes only one nonzero class, forcing a = c. An order-eight witness
+squares to a root of -I, which acts nontrivially on V by Theorem 4. A witness
+of order four acting with order at most two on V either squares to -I (the
+stated case) or squares to an involution congruent to I mod 2L, which splits
+L. The "if" direction is Theorem 4. Exhaustive audits of every automorphism
+of every class in the even odd-determinant lists below agree.
+
+**Theorem F (level reduction).** Let L be even, of rank four and odd
+determinant d, and let (a, b) be an even characteristic with a != c, coset
+lattices L1, L2 as in section 1.
+
+(i) Whether Theta_G[a, b] vanishes depends only on the plane span(a, c): the
+translation tau -> tau + 1 sends (a, c) to (a, a + c), and the integral
+symplectic matrix [[2I, 3G], [H, delta I]], with H = d G^{-1} and
+delta = (3d + 1)/2, maps tau G to ((2 tau + 3)/(d tau + delta)) G and sends
+(a, c) to (c, a). Together they act transitively on the six ordered bases.
+
+(ii) If d is not a square, every element of Aut(L0) mapping L1 onto L2 can be
+replaced by one interchanging them. So no zero has level 2, decomposable or
+not. The key step is a lemma on order-four automorphisms g with g^2 != -I of
+an even lattice M with v_2(det M) = 2: whenever g moves a class of M/2M in a
+four-cycle, an explicit involution of M (built from the eigenlattices of g^2)
+does the same. A square root of -I cannot occur, since it would make
+det L0 = 4d a square.
+
+(iii) If L is indecomposable of minus type, L1 and L2 are never isometric. If
+Q(a) = 1, L0 is the set of integral-norm vectors of both L1 and L2, so an
+isometry preserves L0; (ii) then gives an interchanging element, a symmetry
+witness, which Theorem E excludes. If Q(a) = 0 then Q(c) = 1, and the dual
+configuration rescaled by d (third lattice d G^{-1}, even, of minus type)
+falls under the first case.
+
+Consequently, any zero of an even indecomposable minus-type lattice would
+have level 4: its coset lattices L1, L2 would be isospectral, non-isometric
+Kneser 2-neighbours whose third intermediate lattice is even, indecomposable
+and of minus type. The same holds in plus type at nonsquare determinant on
+planes that are not totally singular. The minus-type parity conjecture is
+thus equivalent to the absence of such isospectral pairs. A decomposable
+control (A2 (+) [[2,1],[1,4]], det 21, a zero whose plane has exactly one
+singular vector) shows that indecomposability must enter any proof; in
+Theorems E and F it enters only through Theorem E.
+
+**Proposition G (even lattices of odd determinant through 501).** Universe:
+every isometry class of even positive definite rank-four lattices with odd
+det <= 501, deduplicated by exact isometry: 1,890 classes, 1,696 of them
+indecomposable, from four complete lists:
+
+| Universe | Candidates | Classes | Indecomposable | Indecomposable classes with zeros |
+|---|---:|---:|---:|---|
+| odd det <= 201 (section 5, Task B) | 10,188 | 300 | 255 | det 121 (6 zeros) |
+| odd det 202..279 (section 4) | 8,972 | 269 | 238 | none |
+| det = 5 mod 8, 202..501 | 23,612 | 787 | 703 | none |
+| det = 1 mod 8, 281..497 | 24,580 | 672 | 623 | det 361 (6 zeros) |
+
+The second and third lists overlap in minus type for 202..279 (123
+indecomposable classes), which are counted once in the totals. For every
+indecomposable class, the set of zero characteristics equals the union over
+all h in Aut(L) with h^2 = -I of the six ordered pairs on (h+I)L/2L, with
+nothing unresolved. The only indecomposable classes with zeros are the
+Gaussian lattice of determinant 121 and
+
+    G = [[4,-2,0,-1],[-2,6,-1,0],[0,-1,4,2],[-1,0,2,6]],   det 361 = 19^2,
+
+each with six zeros witnessed by a square root of -I. In particular all 834
+indecomposable minus-type classes with det <= 501 have P, and in this range
+every zero of an even indecomposable lattice of odd determinant has a
+symmetry witness. The two new lists are independently replayed by
+`code/verify_rank4_parity.py`.
+
+Two constructions cannot produce a minus-type counterexample: the
+Conway-Sloane common-kernel template never yields an even lattice of odd
+determinant, and a bounded quarter-turn probe found only decomposable
+lattices.
+
+Reports: [minus-type report](../docs/rank-four-minus-type.md) (Theorem E, the
+census through 501 in minus type, constructions),
+[stage-two reductions](../docs/rank-four-stage-two-reductions.md) (Theorem F);
+review: [rank-four-stage-two-review.md](../reviews/rank-four-stage-two-review.md)
+(line-by-line check of Lemma A, Theorem E and Theorem F, an independent
+computation over 31,500 configurations, and the plus-type list); preserved
+outputs: `reports/rank4-minus-type/`, `reports/rank4-stage2/`,
+`reports/rank4-plus-type/`.
+
+## 7. Reporting conventions and corrections carried into this release
 
 Every class count names its universe and is deduplicated by exact isometry.
 The reviews record three precision points that this note already applies:
@@ -299,10 +405,10 @@ the decision counts are 26,775 decisions in the even list (26,769 nonzero)
 and 120,120 in the odd list (120,065 nonzero, 55 zeros). Release 1.1.0 stated
 the bracket 24 < det <= 1156 for the minimum counterexample determinant;
 release 1.1.1 lowered it to 24 < det <= 280 (Theorem A'') and release 1.2.0
-closed it (Theorem D). The archival reports and reviews keep their dated
+closed it (Theorem D). Release 1.3.0 adds section 6. The archival reports and reviews keep their dated
 correction notes.
 
-## 7. Attribution
+## 8. Attribution
 
 The isospectral pairs are Schiemann's (1990), Conway-Sloane's (1992) and
 Earnest-Nipp's (1991); their non-isometry is Cervino-Hein's theorem (2011);
@@ -310,21 +416,23 @@ the theta-series determination of ternary forms is Schiemann's theorem (1997).
 The [literature note](../docs/rank-four-isospectrality-literature.md) records
 which pages were read and what each source proves. This project supplies the
 Klein-configuration bridge, the compatible index-two re-embedding, the
-characteristic zeros, the determinant census and the parity results. The
+characteristic zeros, the determinant census, the parity results and the
+odd-determinant results of section 6 (the symplectic plane transformation is
+an instance of the general theta transformation formula, DLMF 21.5.9). The
 Eisenstein-integer structure of the counterexamples was observed in this
 project and has not been checked against the literature. The weight-two
 coefficient criterion used in the corollaries is the Sturm bound (see section
 8.2 of Best et al., *Computing classical modular forms*).
 
-## 8. Where to find things
+## 9. Where to find things
 
 | Item | Location |
 |---|---|
-| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [minimum determinant](../docs/rank-four-minimum-determinant.md), [parity property](../docs/rank-four-parity-property.md), [literature](../docs/rank-four-isospectrality-literature.md) |
-| Reviews | [level four](../reviews/rank-four-level-four-review.md), [Eisenstein](../reviews/rank-four-eisenstein-review.md), [parity](../reviews/rank-four-parity-review.md), [assessment](../reviews/project-assessment-2026-10-21.md) |
-| Builders and verifiers | `code/rank4_level4_search.py`, `code/verify_rank4_level4.py`, `code/verify_rank4_det280.py`, `code/rank4_eisenstein_search.py`, `code/verify_rank4_eisenstein.py`, `code/rank4_parity_search.py`, `code/verify_rank4_parity.py`, `code/rank4_gap_census.py` |
-| Independent review checks | `code/rank4_level4_review_check.py`, `code/rank4_eisenstein_review_check.py`, `code/rank4_eisenstein_review_enum.py`, `code/rank4_parity_review_check.py`, `code/rank4_parity_review_enum.py`, `code/check_small_pairs.py` |
+| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [minimum determinant](../docs/rank-four-minimum-determinant.md), [parity property](../docs/rank-four-parity-property.md), [minus type](../docs/rank-four-minus-type.md), [stage-two reductions](../docs/rank-four-stage-two-reductions.md), [literature](../docs/rank-four-isospectrality-literature.md) |
+| Reviews | [level four](../reviews/rank-four-level-four-review.md), [Eisenstein](../reviews/rank-four-eisenstein-review.md), [parity](../reviews/rank-four-parity-review.md), [stage two](../reviews/rank-four-stage-two-review.md), [assessment](../reviews/project-assessment-2026-10-21.md) |
+| Builders and verifiers | `code/rank4_level4_search.py`, `code/verify_rank4_level4.py`, `code/verify_rank4_det280.py`, `code/rank4_eisenstein_search.py`, `code/verify_rank4_eisenstein.py`, `code/rank4_parity_search.py`, `code/verify_rank4_parity.py`, `code/rank4_gap_census.py`, `code/rank4_minus_type.py`, `code/rank4_minus_type_constructions.py`, `code/rank4_plus_type_census.py` |
+| Independent review checks | `code/rank4_level4_review_check.py`, `code/rank4_eisenstein_review_check.py`, `code/rank4_eisenstein_review_enum.py`, `code/rank4_parity_review_check.py`, `code/rank4_parity_review_enum.py`, `code/check_small_pairs.py`, `code/rank4_stage2_checks.py`, `code/rank4_stage2_review_check.py` |
 | Certificates | `data/rank4-level4/`, `data/rank4-eisenstein/`, `data/rank4-parity/` |
-| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/rank4-gap-census/`, `reports/project-review-2026-10-21/` |
-| Tests | `tests/test_rank4_level4.py`, `tests/test_rank4_det280.py`, `tests/test_rank4_eisenstein.py`, `tests/test_rank4_parity.py`, `tests/test_rank4_gap_census.py` |
+| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/rank4-gap-census/`, `reports/rank4-minus-type/`, `reports/rank4-stage2/`, `reports/rank4-plus-type/`, `reports/project-review-2026-10-21/` |
+| Tests | `tests/test_rank4_level4.py`, `tests/test_rank4_det280.py`, `tests/test_rank4_eisenstein.py`, `tests/test_rank4_parity.py`, `tests/test_rank4_gap_census.py`, `tests/test_rank4_stage_two.py` |
 | Commands | [reproduction guide](../docs/reproduction.md) |

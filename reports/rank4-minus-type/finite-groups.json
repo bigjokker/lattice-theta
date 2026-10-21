@@ -1,0 +1,278 @@
+{
+  "column_choices": 50625,
+  "group_orders": {
+    "Sp4_F2": 720,
+    "O4_plus_F2": 72,
+    "O4_minus_F2": 120
+  },
+  "tables": {
+    "Sp4_F2": {
+      "order=1,fixed_vectors=16": 1,
+      "order=2,fixed_vectors=4": 60,
+      "order=2,fixed_vectors=8": 15,
+      "order=3,fixed_vectors=1": 40,
+      "order=3,fixed_vectors=4": 40,
+      "order=4,fixed_vectors=2": 180,
+      "order=5,fixed_vectors=1": 144,
+      "order=6,fixed_vectors=1": 120,
+      "order=6,fixed_vectors=2": 120
+    },
+    "O4_plus_F2": {
+      "order=1,fixed_vectors=16": 1,
+      "order=2,fixed_vectors=4": 15,
+      "order=2,fixed_vectors=8": 6,
+      "order=3,fixed_vectors=1": 4,
+      "order=3,fixed_vectors=4": 4,
+      "order=4,fixed_vectors=2": 18,
+      "order=6,fixed_vectors=1": 12,
+      "order=6,fixed_vectors=2": 12
+    },
+    "O4_minus_F2": {
+      "order=1,fixed_vectors=16": 1,
+      "order=2,fixed_vectors=4": 15,
+      "order=2,fixed_vectors=8": 10,
+      "order=3,fixed_vectors=4": 20,
+      "order=4,fixed_vectors=2": 30,
+      "order=5,fixed_vectors=1": 24,
+      "order=6,fixed_vectors=2": 20
+    }
+  },
+  "symplectic_representatives": {
+    "order=2,fixed_vectors=4": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "order=4,fixed_vectors=2": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "order=6,fixed_vectors=1": [
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "order=3,fixed_vectors=1": [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    "order=6,fixed_vectors=2": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "order=5,fixed_vectors=1": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "order=2,fixed_vectors=8": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "order=3,fixed_vectors=4": [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "order=1,fixed_vectors=16": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "order_four_fixed_line_lemma": "verified on all 720 symplectic maps",
+  "seconds": 0.07453340000938624
+}

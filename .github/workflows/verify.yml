@@ -28,6 +28,11 @@ jobs:
         run: |
           python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 2 --out scratch/rank4-gap-census
           python code/rank4_gap_census.py summary --out scratch/rank4-gap-census
+      - name: Check the stage-two constructions and the odd-determinant zero planes
+        run: |
+          python code/rank4_stage2_checks.py --output scratch/rank4-stage2/strategy-checks.json
+          python code/rank4_plus_type_census.py planes --out scratch/rank4-plus-type
+          python code/rank4_plus_type_census.py replay --workers 2 --out scratch/rank4-plus-type
       - name: Replay the determinant-1156 counterexample
         run: python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-det1156-replay.json
       - name: Replay the determinant-121 parity certificates

@@ -1,5 +1,36 @@
 # Changelog
 
+## 1.3.0 (2026-10-21)
+
+- Even rank-four lattices of odd determinant (section 6 of the follow-up
+  note). Theorem E: in an even, orthogonally indecomposable rank-four lattice
+  of odd determinant, every symmetry zero comes from an automorphism h with
+  h^2 = -I on the plane (h+I)L/2L, so minus-type lattices (det = 5 mod 8)
+  have no symmetry zeros at any determinant. Theorem F: vanishing depends
+  only on the plane span(a, c); at odd nonsquare determinant no zero has
+  level 2; in indecomposable minus type the two coset lattices are never
+  isometric, so any zero would have level 4. The minus-type parity
+  conjecture is thereby reduced to the absence of isospectral non-isometric
+  coset pairs in that setting; it remains open.
+- Proposition G: complete isometry-class lists of all even rank-four
+  lattices with odd det <= 501 (1,890 classes, 1,696 indecomposable; new
+  lists for det = 5 mod 8, 202..501, and det = 1 mod 8, 281..497, both
+  independently replayed). Every zero of an indecomposable class lies on the
+  plane of a square root of -I; the only such classes are det 121 and a new
+  Gaussian class of det 361 = 19^2.
+- Reports `docs/rank-four-minus-type.md` and
+  `docs/rank-four-stage-two-reductions.md` (the latter by a Codex session);
+  review `reviews/rank-four-stage-two-review.md` (line-by-line check of
+  Lemma A, Theorem E and Theorem F, an independent computation over 31,500
+  configurations). Scripts `code/rank4_minus_type.py`,
+  `code/rank4_minus_type_constructions.py`, `code/rank4_stage2_checks.py`,
+  `code/rank4_stage2_review_check.py`, `code/rank4_plus_type_census.py`;
+  preserved outputs under `reports/rank4-minus-type/`, `reports/rank4-stage2/`
+  and `reports/rank4-plus-type/`; seven tests (default suite 82, complete
+  suite 166); CI steps for the stage-two checks and the plus-type replay and
+  plane comparison. README, citation metadata, indexes, deferred-research
+  table and reproduction guide updated.
+
 ## 1.2.0 (2026-10-21)
 
 - The minimum determinant of a rank-four counterexample to the symmetry

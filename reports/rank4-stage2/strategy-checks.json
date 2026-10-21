@@ -1,0 +1,106 @@
+{
+  "status": "all supplementary checks passed; conjecture remains open",
+  "sources": {
+    "odd_det": {
+      "path": "results\\rank4-parity\\task-b-det201.json",
+      "sha256": "c462ed47c3ebe13948ea05782340043555aee236be588eba62833581af93a904"
+    },
+    "kernels": {
+      "path": "results\\rank4-parity\\task-c-det64.json",
+      "sha256": "ac17e85e2d3095e00547598f12aac4cc232a34f6a42c877bf011753e4485e760"
+    }
+  },
+  "plane_transform": {
+    "lattices": 300,
+    "characteristic_swaps_and_dual_Q_checks": 31500
+  },
+  "mixed_kernel_and_mapping_universe": "32 stored kernels plus the computed det-84 control kernel",
+  "mixed_kernel_and_mapping": {
+    "kernel_classes": 33,
+    "mixed_order_four_elements": 540,
+    "eigenlattice_index_2": 492,
+    "four_cycle_steps_with_constructed_reflection": 3936,
+    "nonsquare_kernel_classes": 27,
+    "eigenlattice_index_1": 48,
+    "maps_with_even_third_lattice": 16
+  },
+  "decomposable_control": {
+    "G": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        4
+      ]
+    ],
+    "a": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "b": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "c": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "determinant": 21,
+    "Q_on_nonzero_plane_vectors": [
+      0,
+      1,
+      1
+    ],
+    "witness": [
+      [
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "witness_epsilon": 1
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "work7-rank4-plus-type-planes-v1",
+  "test": "per indecomposable class: zero set == union over h in Aut(L), h^2 = -I, of ordered pairs of distinct nonzero classes of (h+I)L/2L; c = G^{-1} b mod 2",
+  "sources": [
+    {
+      "label": "Task B: even, odd det <= 201",
+      "files": 1,
+      "sha256": {
+        "results/rank4-parity/task-b-det201.json": "c462ed47c3ebe13948ea05782340043555aee236be588eba62833581af93a904"
+      },
+      "classes": 300,
+      "indecomposable": 255,
+      "with_sqrt_minus_I": 1,
+      "zeros": 6,
+      "predicted": 6,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0,
+      "cutoff_zeros": 0,
+      "examples": [
+        {
+          "G": [
+            [
+              4,
+              -2,
+              -1,
+              -1
+            ],
+            [
+              -2,
+              4,
+              0,
+              1
+            ],
+            [
+              -1,
+              0,
+              4,
+              2
+            ],
+            [
+              -1,
+              1,
+              2,
+              4
+            ]
+          ],
+          "det": 121,
+          "type": "plus",
+          "zeros": 6,
+          "predicted": 6,
+          "unexplained": 0,
+          "predicted_but_nonzero": 0,
+          "sqrt_minus_I_elements": 2
+        }
+      ]
+    },
+    {
+      "label": "gap census: even, odd det 202..279",
+      "files": 39,
+      "sha256": "per chunk in the region summary",
+      "classes": 269,
+      "indecomposable": 238,
+      "with_sqrt_minus_I": 0,
+      "zeros": 0,
+      "predicted": 0,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0,
+      "cutoff_zeros": 0,
+      "examples": []
+    },
+    {
+      "label": "minus-type extension: even, det = 5 mod 8, 202..501",
+      "files": 1,
+      "sha256": {
+        "results/rank4-minus-type/minus-det202-501.json.gz": "496c5c8c2e5015b00a8bd63249e45c22e142f421f08c6b9b97896932e1ec097d"
+      },
+      "classes": 787,
+      "indecomposable": 703,
+      "with_sqrt_minus_I": 0,
+      "zeros": 0,
+      "predicted": 0,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0,
+      "cutoff_zeros": 0,
+      "examples": []
+    },
+    {
+      "label": "this run: even, det = 1 mod 8, 281..497",
+      "files": 28,
+      "sha256": "per chunk in the region summary",
+      "classes": 672,
+      "indecomposable": 623,
+      "with_sqrt_minus_I": 1,
+      "zeros": 6,
+      "predicted": 6,
+      "unexplained_zeros": 0,
+      "predicted_but_nonzero": 0,
+      "unresolved": 0,
+      "cutoff_zeros": 0,
+      "examples": [
+        {
+          "G": [
+            [
+              4,
+              -2,
+              0,
+              -1
+            ],
+            [
+              -2,
+              6,
+              -1,
+              0
+            ],
+            [
+              0,
+              -1,
+              4,
+              2
+            ],
+            [
+              -1,
+              0,
+              2,
+              6
+            ]
+          ],
+          "det": 361,
+          "type": "plus",
+          "zeros": 6,
+          "predicted": 6,
+          "unexplained": 0,
+          "predicted_but_nonzero": 0,
+          "sqrt_minus_I_elements": 2
+        }
+      ]
+    }
+  ]
+}

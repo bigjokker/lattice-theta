@@ -36,6 +36,23 @@ compressed by `code/rank4_gap_census.py` and not listed in
 `closure-25-279.json` and the logs. Paths inside these files are the original
 workspace paths.
 
+Release 1.3.0 adds the outputs for even lattices of odd determinant:
+
+- `rank4-minus-type/`: the Sp_4(F2) table (`finite-groups.json`), the
+  Theorem E audits of the two even odd-determinant lists, the complete
+  minus-type class list for 202..501 (`minus-det202-501.json.gz`, read
+  compressed, not in `compressed-reports.json`) and its independent replay,
+  the mixed order-four kernel check, the construction checks and the
+  determinant-280 rescaling check.
+- `rank4-stage2/`: the supplementary checks of the stage-two reductions
+  (`strategy-checks.json`) and the reviewer's independent computation
+  (`review-independent-check.json`).
+- `rank4-plus-type/`: the complete plus-type class list for 281..497 as 28
+  per-determinant chunks (read compressed), its summary, independent replay
+  and logs, and `planes.json`, the comparison of every zero with the
+  square-root-of-minus-identity planes over all four even odd-determinant
+  lists.
+
 Preserved outputs above one million bytes are stored as `.json.gz` and listed
 in [compressed-reports.json](compressed-reports.json);
 `python scripts/prepare_data.py --reports` expands them (about 860 MB) and

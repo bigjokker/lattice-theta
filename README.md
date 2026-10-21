@@ -6,7 +6,7 @@ Exact proofs, certificates, and reproducible computations for identical
 vanishing of lattice theta functions with half-integral characteristics.
 
 The symmetry converse holds in ranks one through three and fails in rank four.
-Releases 1.1.0 to 1.2.0 (October 2026) add four rank-four results, each with
+Releases 1.1.0 to 1.3.0 (October 2026) add five rank-four results, each with
 exact certificates and independent replays:
 
 - **A zero whose coset lattices are not isometric.** An odd lattice of
@@ -36,8 +36,17 @@ exact certificates and independent replays:
   determinant **49**, and even lattices of odd determinant fail first at
   determinant **121**, a Gaussian-integer lattice whose witnesses square to
   −I. An even indecomposable rank-four lattice of odd determinant has no
-  involution witness. Whether every such lattice of determinant 5 mod 8 has
-  the parity property is open.
+  involution witness.
+- **Even lattices of odd determinant.** In an even indecomposable rank-four
+  lattice of odd determinant, every vanishing characteristic explained by a
+  symmetry comes from an automorphism whose square is −I. So lattices of
+  determinant 5 mod 8 (minus type) have no such zeros. A further reduction
+  shows that any minus-type zero would have to be a pair of isospectral,
+  non-isometric coset lattices (level four). Complete class lists of all even
+  lattices of odd determinant through **501** (1,890 classes, 1,696
+  indecomposable) contain exactly the predicted zeros, at determinants 121
+  and 361 only. Whether every minus-type lattice has the parity property
+  remains open.
 
 The original results remain: the determinant-23,716 counterexample with its
 all-level coset bijection and complete automorphism group {I, −I}, the
@@ -49,7 +58,7 @@ Earnest–Nipp's, and their non-isometry is Cervino–Hein's theorem.
 
 ## Read the results
 
-- [Rank-four follow-up results, releases 1.1.0 to 1.2.0](papers/rank-four-follow-up-results.md)
+- [Rank-four follow-up results, releases 1.1.0 to 1.3.0](papers/rank-four-follow-up-results.md)
 - [Rank-four counterexample manuscript](papers/rank-four-counterexample.md)
 - [Low-rank and root-lattice manuscript](papers/low-rank-and-root-lattice-results.md)
 - [Reproduction instructions](docs/reproduction.md)
@@ -71,11 +80,13 @@ python code/verify_rank4_det280.py --output scratch/level4-det280-replay.json
 python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-replay.json
 python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexamples.json --output scratch/parity-replay.json
 python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 4 --out scratch/rank4-gap-census
+python code/rank4_stage2_checks.py --output scratch/rank4-stage2/strategy-checks.json
+python code/rank4_plus_type_census.py planes --out scratch/rank4-plus-type
 ```
 
-The default suite runs the 75 rank-four tests. The output path for a replay
+The default suite runs the 82 rank-four tests. The output path for a replay
 must be fresh. The test runner automatically prepares compressed datasets.
-To run the complete 159-test suite:
+To run the complete 166-test suite:
 
 ```sh
 python scripts/run_tests.py --all
@@ -85,10 +96,13 @@ The written coset bijections prove identical vanishing at every level; a long
 list of zero coefficients is not used as the identity proof. Independent box
 and LDL enumerations supply separate checks of the finite computational
 evidence. The complete class lists behind the parity, Eisenstein and
-minimum-determinant results are preserved in compressed form and can be
-replayed with the verifiers (the last command above replays the
-determinant-280 census; the full census through 279 takes a few minutes on
-16 cores); see the [reproduction guide](docs/reproduction.md).
+minimum-determinant and odd-determinant results are preserved in
+compressed form and can be replayed with the verifiers (the determinant-280
+census replay above takes about a minute; the full census through 279 takes
+a few minutes on 16 cores; the last two commands recheck the stage-two
+constructions and compare every zero of the even odd-determinant lists with
+the square-root-of-minus-identity planes); see the
+[reproduction guide](docs/reproduction.md).
 
 ## Repository layout
 
