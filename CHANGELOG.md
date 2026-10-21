@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.1 (2026-10-21)
 
 - Correction: the determinant-4480 level-four lattice has every Gram entry
   even, and halving it gives an odd lattice of determinant 280 with

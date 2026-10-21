@@ -7,11 +7,14 @@ abstract: >-
   The symmetry converse holds in ranks one through three and fails in rank
   four. Rank-four results: an identically vanishing even characteristic of a
   lattice of determinant 1729 whose two coset lattices are the Conway-Sloane
-  isospectral pair, which are not isometric; a counterexample to the symmetry
+  isospectral pair, which are not isometric, and a smaller level-four zero of
+  determinant 280 (version 1.1.1); an even counterexample to the symmetry
   converse of determinant 1156 with automorphism group {I, -I}, improving the
-  original determinant-23716 example (bracket 24 < det <= 1156, no minimality
-  claim); and the rank-four parity property, which fails for indecomposable
-  odd lattices of determinant 49 not divisible by four and for even
+  original determinant-23716 example; the determinant-280 lattice, also with
+  automorphism group {I, -I}, gives the bracket 24 < det <= 280 for the
+  minimum counterexample determinant (no minimality claim); and the
+  rank-four parity property, which fails for indecomposable odd lattices of
+  determinant 49 not divisible by four and for even
   indecomposable lattices of odd determinant at determinant 121, with
   complete class lists and structural theorems. The release also includes
   the low-rank parity classification, the irreducible crystallographic root
@@ -22,7 +25,7 @@ authors:
   - name: "bigjokker"
 type: software
 license: MIT
-version: 1.1.0
+version: 1.1.1
 date-released: "2026-10-21"
 repository-code: "https://github.com/bigjokker/lattice-theta"
 doi: 10.5281/zenodo.23002464

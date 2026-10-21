@@ -29,7 +29,7 @@ certificates, independent replays and a local review:
   involution witness. Whether every such lattice of determinant 5 mod 8 has
   the parity property is open.
 
-**Correction after 1.1.0 (2026-10-21).** The determinant-4480 level-four
+**Release 1.1.1 (2026-10-21): correction.** The determinant-4480 level-four
 lattice has every Gram entry even; halving it gives an odd lattice of
 determinant **280** with automorphism group {I, −I} and an identically
 vanishing even characteristic at level four. It is the smallest known
@@ -115,6 +115,7 @@ the version DOI to pin a specific release.
 * All versions: [10.5281/zenodo.23002464](https://zenodo.org/doi/10.5281/zenodo.23002464)
 * v1.0.0: [10.5281/zenodo.23002465](https://zenodo.org/doi/10.5281/zenodo.23002465)
 * v1.1.0: [10.5281/zenodo.23540724](https://zenodo.org/doi/10.5281/zenodo.23540724)
+* v1.1.1: archived from the GitHub release of the same name; its version DOI is listed on the Zenodo record
 
 ```bibtex
 @misc{lattice_theta,
