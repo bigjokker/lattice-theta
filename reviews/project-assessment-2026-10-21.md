@@ -25,7 +25,9 @@ settled; the latter is not.
 
 (Correction 2026-10-21: the level-4 and symmetry-converse records in this
 table are now both determinant 280, the determinant-4480 level-4 lattice
-halved; see the note at the end of the section on global minimization.)
+halved; see the note at the end of the section on global minimization. Later
+the same day the census of release 1.2.0 proved that 280 is the minimum: every
+rank-four lattice with det <= 279 satisfies the converse.)
 
 The determinant-1729 example is the most substantial conceptual advance. The
 determinant-1156 example improves the size and presentation of an already
@@ -169,7 +171,8 @@ substantial family.
 
 Global determinant minimization is also open. The existing reports' safe
 general bracket is 24 < det <= 1156 (24 < det <= 280 after the correction
-of 2026-10-21 below). Their family-minimum statement should
+of 2026-10-21 below, and exactly 280 after the census of release 1.2.0).
+Their family-minimum statement should
 not be promoted to a global minimum. The newer restricted censuses give
 more exclusions, but do not cover all odd lattices with determinant divisible
 by four above 24. I would not make a broad census to 1155 the next default
@@ -186,9 +189,12 @@ elements, so it is also a counterexample to the rank-four symmetry converse.
 It is certified directly (zero by the modular cutoff, B = 3072, 383 complete
 signed shells; group and non-isometry by complete searches;
 `data/rank4-level4/det280-level4.json`, replayed by
-`code/verify_rank4_det280.py`). The smallest known level-4 determinant is
-therefore 280, not 1729, and the bracket for the minimum counterexample
-determinant becomes 24 < det <= 280. No minimality claim is made.
+`code/verify_rank4_det280.py`). The smallest level-4 determinant is therefore
+280, not 1729, and the bracket for the minimum counterexample determinant
+becomes 24 < det <= 280. Later the same day the determinant census through 279
+(`docs/rank-four-minimum-determinant.md`, Theorem D of the follow-up note)
+showed that every rank-four lattice with det <= 279 satisfies the converse, so
+280 is the minimum.
 
 **What remains before the work is presented as a current release.**
 

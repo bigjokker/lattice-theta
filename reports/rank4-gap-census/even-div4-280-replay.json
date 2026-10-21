@@ -1,0 +1,43 @@
+{
+  "schema": "work7-rank4-gap-census-v1-replay",
+  "region": "even-div4-280",
+  "replay": "verify_rank4_parity.replay_decided per chunk (independent loose-box candidate domain, box isometries, box shell enumeration, cutoff replay), FAST_BOX",
+  "chunks_expected": 1,
+  "chunks_done": 1,
+  "all_verified": true,
+  "totals": {
+    "candidates": 486,
+    "classes": 27,
+    "pairwise_searches": 351,
+    "indecomposable_classes": 9,
+    "P_holds": 3,
+    "P_fails": 6,
+    "P_unresolved": 0
+  },
+  "wall_seconds": 3.0500314000528306,
+  "chunks": [
+    {
+      "region": "even-div4-280",
+      "determinant": 280,
+      "file": "results/rank4-gap-census/even-div4-280/det280.json.gz",
+      "sha256": "e6e8950f841a8e08c9846c8d0fa7110d3245e47c32db821bdbe4e7cf537ece05",
+      "seconds": 2.967002199962735,
+      "verdict": "verified",
+      "candidates": 486,
+      "classes": 27,
+      "pairwise_searches": 351,
+      "indecomposable_classes": 9,
+      "P_holds": 3,
+      "P_fails": 6,
+      "P_unresolved": 0,
+      "failing_determinants": [
+        280,
+        280,
+        280,
+        280,
+        280,
+        280
+      ]
+    }
+  ]
+}

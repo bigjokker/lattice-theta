@@ -12,11 +12,12 @@ python scripts/run_tests.py
 python scripts/run_tests.py --all
 ```
 
-The default suite contains 67 rank-four tests (31 from release 1.0.0 and 36
-for the level-four, Eisenstein and parity work). The complete suite contains
-151 tests covering the original exact verifier, low ranks, root lattices,
-modular cutoffs, decomposition, the rank-four counterexample and the 1.1.0
-follow-up.
+The default suite contains 75 rank-four tests (31 from release 1.0.0, 36 for
+the level-four, Eisenstein and parity work, 4 for the determinant-280
+certificate and 4 for the determinant census). The complete suite contains
+159 tests covering the original exact verifier, low ranks, root lattices,
+modular cutoffs, decomposition, the rank-four counterexample and the
+follow-up releases.
 
 Large JSON files are stored as lossless `.json.gz` files. Preparation restores
 their original bytes and verifies the uncompressed SHA-256 hashes. It does not
@@ -138,6 +139,30 @@ research-workspace default paths and take explicit paths on the command line;
 inspect `--help` before regenerating, and use fresh output paths under
 `scratch/`. The regeneration commands of each report are in its section 8,
 with paths relocated to this layout.
+
+## Minimum counterexample determinant (release 1.2.0)
+
+The census that proves the minimum determinant 280
+([report](rank-four-minimum-determinant.md)) is preserved as one compressed
+chunk per determinant under `reports/rank4-gap-census/` (241 chunks, read
+compressed; they are not in `compressed-reports.json`). The replays use the
+unchanged `code/verify_rank4_parity.py`.
+
+```sh
+python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 4 --out scratch/rank4-gap-census
+python code/rank4_gap_census.py summary --out scratch/rank4-gap-census
+python code/rank4_gap_census.py replay --workers 16 --out scratch/rank4-gap-census
+python code/rank4_gap_census.py run --workers 16 --out scratch/rank4-gap-census
+```
+
+The first command replays the two determinant-280 chunks (about a minute;
+also run in CI) and reproduces the single level-four zero. `summary`
+re-derives the closure from the preserved region summaries and replays,
+re-hashes the prior class lists (the `.json.gz` files suffice) and checks the
+even-determinant mod-4 fact. The third command replays all 239 closure chunks
+(about six minutes on 16 cores, about an hour single-threaded); the last
+regenerates every chunk from scratch (about four minutes on 16 cores). Fresh
+chunk bytes differ from the preserved ones only in timing fields.
 
 ## Complete finite censuses
 

@@ -1,0 +1,70 @@
+{
+  "schema": "lattice-theta-curated-export-validation-v1",
+  "release": "1.2.0",
+  "date": "2026-10-21",
+  "python": "3.11.9",
+  "default_test_suite": {
+    "command": "python scripts/run_tests.py",
+    "tests_run": 75,
+    "result": "passed",
+    "seconds": 63.308
+  },
+  "full_test_suite": {
+    "command": "python scripts/run_tests.py --all",
+    "tests_run": 159,
+    "result": "passed",
+    "seconds": 96.107
+  },
+  "gap_census_preserved_chunks": {
+    "count": 241,
+    "bytes": 42446822,
+    "regions": [
+      "even-div4-280",
+      "even-div4-65-279",
+      "even-odd-202-279",
+      "odd-div4-25-279",
+      "odd-div4-280",
+      "odd-notdiv4-169-279"
+    ]
+  },
+  "gap_census_det280_replay_in_release_layout": {
+    "command": "python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 2 --out scratch/rank4-gap-census",
+    "odd_div4_280": {
+      "verdict": "verified",
+      "classes": 243,
+      "seconds": 62.4
+    },
+    "even_div4_280": {
+      "verdict": "verified",
+      "classes": 27,
+      "seconds": 3.0
+    }
+  },
+  "gap_census_summary_in_release_layout": {
+    "command": "python code/rank4_gap_census.py summary --out scratch/rank4-gap-census",
+    "symmetry_converse_holds_for_25_to_279": true,
+    "preserved_closure_agrees": true,
+    "prior_list_hashes_verified": true,
+    "new_totals": {
+      "candidates": 236475,
+      "classes": 14987,
+      "decomposable_classes": 8748,
+      "indecomposable_classes": 6239,
+      "P_holds": 5054,
+      "P_fails": 1185,
+      "P_unresolved": 0,
+      "even_zeros": 5330,
+      "zeros_without_witness": 0,
+      "unresolved_characteristics": 0,
+      "zero_levels": {
+        "1": 5330
+      }
+    }
+  },
+  "preserved_closure_sha256": "a2f0995752c47e93f2d4f230f825ee3d3c9a3589b6d584f76804015038c7d5cd",
+  "full_closure_replay": {
+    "note": "all 239 closure chunks were replayed in the research workspace on 2026-10-21 (reports/rank4-gap-census/*-replay.json, all verified); in the release layout the determinant-280 chunks and the closure summary were replayed as recorded above",
+    "preserved_replay_all_verified": true
+  },
+  "local_document_links": "verified for all documents added or changed in 1.2.0"
+}

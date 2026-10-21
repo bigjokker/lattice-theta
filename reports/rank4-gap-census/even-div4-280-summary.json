@@ -1,0 +1,61 @@
+{
+  "schema": "work7-rank4-gap-census-v1-region",
+  "region": "even-div4-280",
+  "even_only": true,
+  "odd_lattices_only": false,
+  "det_filter": "divisible_by_4",
+  "dmin": 280,
+  "dmax": 280,
+  "universe": "all isometry classes of positive definite integral rank-four lattices with 280 <= det <= 280, det divisible_by_4, even lattices only",
+  "dedup": "exact isometry within each determinant chunk (rank4_parity_search.class_list); distinct determinants are distinct classes",
+  "decided": "every indecomposable class, all 105 even characteristics (decide_class_list); decomposable classes by the uniform orthogonal-sum corollary",
+  "chunks_expected": 1,
+  "chunks_done": 1,
+  "complete": true,
+  "totals": {
+    "candidates": 486,
+    "classes": 27,
+    "decomposable_classes": 18,
+    "indecomposable_classes": 9,
+    "P_holds": 3,
+    "P_fails": 6,
+    "P_unresolved": 0,
+    "even_zeros": 24,
+    "zeros_without_witness": 0,
+    "unresolved_characteristics": 0,
+    "zero_levels": {
+      "1": 24
+    },
+    "failing_determinants": [
+      280
+    ],
+    "largest_first_nonzero_norm4": 48,
+    "largest_aut_order": 96,
+    "cpu_seconds": 3.096867599990219
+  },
+  "wall_seconds": 3.356300700106658,
+  "chunks": [
+    {
+      "region": "even-div4-280",
+      "determinant": 280,
+      "file": "results/rank4-gap-census/even-div4-280/det280.json.gz",
+      "sha256": "e6e8950f841a8e08c9846c8d0fa7110d3245e47c32db821bdbe4e7cf537ece05",
+      "candidates": 486,
+      "classes": 27,
+      "decomposable_classes": 18,
+      "indecomposable_classes": 9,
+      "P_holds": 3,
+      "P_fails": 6,
+      "P_unresolved": 0,
+      "zero_levels": {
+        "1": 24
+      },
+      "even_zeros": 24,
+      "zeros_without_witness": 0,
+      "unresolved_characteristics": 0,
+      "largest_first_nonzero_norm4": 48,
+      "largest_aut_order": 96,
+      "seconds": 3.096867599990219
+    }
+  ]
+}

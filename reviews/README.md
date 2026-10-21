@@ -47,4 +47,14 @@ listed in [deferred research](../docs/deferred-research.md). Its remarks on
 the state of the workspace and of the release describe the state before this
 release.
 
+## Release 1.2.0
+
+The determinant census through 279 ([report](../docs/rank-four-minimum-determinant.md))
+has no separate review note. Its evidence is computational: every one of its
+241 per-determinant chunks is a decided class list in the schema reviewed for
+release 1.1.0, and each is replayed by the unchanged independent verifier
+`code/verify_rank4_parity.py` (`reports/rank4-gap-census/*-replay.json`). The
+proof of the minimum also uses the accepted determinant-24 census and the
+orthogonal-sum corollary of `docs/rank-four-decomposition-and-fibres.md`.
+
 The briefs themselves are handoff prompts and are not distributed.

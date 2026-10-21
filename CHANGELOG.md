@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.2.0 (2026-10-21)
+
+- The minimum determinant of a rank-four counterexample to the symmetry
+  converse is 280 (Theorem D of the follow-up note). Every positive definite
+  integral rank-four lattice with det <= 279 satisfies the converse: complete
+  isometry-class lists of the four regions not covered by the determinant-24
+  census and the 1.1.0 class lists (odd lattices with 4 !| det, 169..279;
+  odd lattices with 4 | det, 25..279; even lattices of odd determinant,
+  202..279; even lattices with 4 | det, 65..279) give 14,987 classes, 6,239
+  of them indecomposable, with all 655,095 even characteristics decided and
+  every one of the 5,330 zeros witnessed by an automorphism; every chunk is
+  independently replayed. At determinant 280 exactly one class fails the
+  converse (243 odd and 27 even classes censused). Script
+  `code/rank4_gap_census.py`; preserved per-determinant chunks, region
+  summaries, replays and `closure-25-279.json` under
+  `reports/rank4-gap-census/`; report `docs/rank-four-minimum-determinant.md`;
+  four tests (default suite 75, complete suite 159); a CI step replaying the
+  determinant-280 chunks and checking the closure summary.
+- The follow-up note, README and citation metadata now state the
+  determinant-280 level-four zero (Theorem A'') and the minimum (Theorem D)
+  as results. The dated correction notes of 1.1.1 in the archival reports and
+  reviews are completed with the minimality statement; the deferred-research
+  table marks the global-minimum question answered.
+
 ## 1.1.1 (2026-10-21)
 
 - Correction: the determinant-4480 level-four lattice has every Gram entry

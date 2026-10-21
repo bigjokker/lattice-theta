@@ -239,9 +239,12 @@ elements, so it is also a counterexample to the rank-four symmetry converse.
 It is certified directly (zero by the modular cutoff, B = 3072, 383 complete
 signed shells; group and non-isometry by complete searches;
 `data/rank4-level4/det280-level4.json`, replayed by
-`code/verify_rank4_det280.py`). The smallest known level-4 determinant is
-therefore 280, not 1729, and the bracket for the minimum counterexample
-determinant becomes 24 < det <= 280. No minimality claim is made.
+`code/verify_rank4_det280.py`). The smallest level-4 determinant is therefore
+280, not 1729, and the bracket for the minimum counterexample determinant
+becomes 24 < det <= 280. Later the same day the determinant census through 279
+(`docs/rank-four-minimum-determinant.md`, Theorem D of the follow-up note)
+showed that every rank-four lattice with det <= 279 satisfies the converse, so
+280 is the minimum.
 
 ## 5. Task D: bounded scan of sign kernels with det(L0) <= 24
 
@@ -290,7 +293,9 @@ Two directions, both with a clear completion criterion.
    Correction 2026-10-21: a level-4 zero of determinant 280 exists (the
    det-4480 configuration halved; see the note in section 4). Its coset
    lattices are not integral, so the 4*961 floor, which assumes integral coset
-   lattices, does not apply to it.
+   lattices, does not apply to it. The determinant census (release 1.2.0,
+   `docs/rank-four-minimum-determinant.md`) then proved that 280 is the
+   smallest determinant of any zero of level above one.
 2. Item 3 (smaller level-2 examples). For an even lattice M with a
    fixed-point-free automorphism of order three, M/2M is a two-dimensional
    F4-space and the five F4-lines are the orbits of the automorphism, so each

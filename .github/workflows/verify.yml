@@ -24,6 +24,10 @@ jobs:
         run: python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.json --certificates data/rank4-level4/det1729-level4.json --output scratch/level4-det1729-replay.json
       - name: Replay the determinant-280 level-four certificate
         run: python code/verify_rank4_det280.py --output scratch/level4-det280-replay.json
+      - name: Replay the determinant-280 census chunks and check the closure summary
+        run: |
+          python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 2 --out scratch/rank4-gap-census
+          python code/rank4_gap_census.py summary --out scratch/rank4-gap-census
       - name: Replay the determinant-1156 counterexample
         run: python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-det1156-replay.json
       - name: Replay the determinant-121 parity certificates

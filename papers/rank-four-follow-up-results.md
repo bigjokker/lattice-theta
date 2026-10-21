@@ -1,11 +1,13 @@
-# Rank-four follow-up results: non-isometric coset lattices, a determinant-1156 counterexample, and the parity property
+# Rank-four follow-up results: non-isometric coset lattices, the minimum counterexample determinant, and the parity property
 
-Release 1.1.0, 2026-10-21. This note states the results added after the
-[counterexample manuscript](rank-four-counterexample.md), with pointers to the
-full reports, the review notes, the exact certificates and the reproduction
-commands. The computations were specified, run and reviewed by Claude Fable
-5.1 sessions and then assessed by a separate Claude session
-([reviews](../reviews/README.md)); they are AI-assisted local reviews with
+Releases 1.1.0 to 1.2.0, 2026-10-21. This note states the results added after
+the [counterexample manuscript](rank-four-counterexample.md), with pointers to
+the full reports, the review notes, the exact certificates and the
+reproduction commands. The computations were specified, run and reviewed by
+Claude Fable 5.1 sessions and then assessed by a separate Claude session
+([reviews](../reviews/README.md)); the determinant census of section 4 was
+run after the assessment and is verified by independent replay rather than
+by a separate review note. These are AI-assisted local reviews with
 independent computational replication, not peer review. No publication,
 priority or novelty claim is made. Every count below names its enumeration
 universe; "class" always means an isometry class, with deduplication by a
@@ -38,8 +40,9 @@ explanations of a zero therefore form a hierarchy:
 Ranks one to three are always level 1 (the symmetry converse, proved in the
 [low-rank manuscript](low-rank-and-root-lattice-results.md)). The
 determinant-23,716 counterexample of the manuscript is level 2. The results
-below exhibit level 4 in rank four, a smaller level-2 example, and settle two
-parity conjectures negatively.
+below exhibit level 4 in rank four, determine the minimum determinant of a
+counterexample, give a smaller level-2 example, and settle two parity
+conjectures negatively.
 
 ## 2. Level four: a zero whose coset lattices are not isometric
 
@@ -75,17 +78,26 @@ sign kernels with det(L0) <= 24 from the census (Task D: 17,745 pairs, each
 either nonzero or level 1). Finite-domain statement: no level-2, level-3 or
 level-4 configuration has det(L0) <= 24. No level-3 configuration is known.
 
-**Correction (2026-10-21): determinant 280.** The determinant-4480 member,
-from parameters (2,8,14,20), has every Gram entry even. Its half,
-G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]] with the same a = (1,0,0,1),
-b = (1,1,1,1), is odd, primitive, of determinant 280, with Aut(L) = {I, -I}
-and epsilon 0 on both elements. Scaling the Gram matrix changes neither the
-vanishing nor the isometry type of the coset lattices, so it is a level-4
-zero; it is also certified directly (modular cutoff B = 3072 with 383
-complete signed shells, complete group and non-isometry searches;
-[det280-level4.json](../data/rank4-level4/det280-level4.json), replay
-`code/verify_rank4_det280.py`). Its coset lattices are not integral. It is
-the smallest known level-4 zero; no minimality claim is made.
+**Theorem A'' (the smallest level-four zero).** Let
+G = [[3,1,1,0],[1,5,-1,2],[1,-1,4,-1],[0,2,-1,7]], a = (1,0,0,1),
+b = (1,1,1,1). Then L is odd, primitive, positive definite of determinant
+280 = 2^3 * 5 * 7, Aut(L) = {I, -I} with epsilon 0 on both elements,
+Theta_G[a,b] vanishes identically, and the coset lattices L1, L2 are not
+isometric: a level-4 zero with no symmetry witness. By Theorem D no lattice of
+smaller determinant has a zero of level above one, so this is the smallest
+level-four zero and the smallest counterexample to the symmetry converse of
+any level.
+
+G is half the Gram matrix of the determinant-4480 configuration above
+(parameters (2,8,14,20)), all of whose entries are even; scaling a Gram matrix
+changes neither the vanishing nor the isometry type of the coset lattices.
+The lattice is also certified directly: the modular cutoff (B = 3072, 383
+complete signed shells, 173,956 vectors, every signed coefficient zero), the
+full automorphism group and the non-isometry of the coset lattices by
+complete searches ([det280-level4.json](../data/rank4-level4/det280-level4.json),
+replay `code/verify_rank4_det280.py`, which first checks the determinant-4480
+certificate with the unchanged level-four verifier). Its coset lattices are
+not integral.
 
 Precision. "The vanishing has no geometric explanation" means no single
 Euclidean isometry between the coset lattices explains it; the sign-change
@@ -106,7 +118,7 @@ Whether it appears in the literature has not been checked.
 Full report: [rank-four-level-four-zero.md](../docs/rank-four-level-four-zero.md);
 review: [rank-four-level-four-review.md](../reviews/rank-four-level-four-review.md).
 
-## 3. A smaller symmetry counterexample: determinant 1156
+## 3. An even symmetry counterexample: determinant 1156
 
 **Theorem B.** Let G = [[4,-2,1,-2],[-2,8,2,-2],[1,2,6,-4],[-2,-2,-4,12]],
 a = (0,1,0,1), b = (1,0,1,0). Then L is even, primitive, positive definite of
@@ -131,25 +143,64 @@ Z[omega]), the complete enumeration for 5 <= D' <= 41 (498 reduced triples,
 914 members) contains exactly 12 level-2 members, all of determinant 1156 and
 all isometric to G; every other member is level 1. The extension to
 D' <= 154 (9659 members, 133 at level 2) confirms 1156 as the family minimum
-and recovers the determinant-23,716 example. Bracket for the smallest
-determinant of a rank-four counterexample to the symmetry converse:
-
-    24 < det(L) <= 1156,
-
-the lower bound from the determinant-24 census, the upper bound from this
-example. No minimality claim is made between 25 and 1155; the family minimum
-is not a global minimum.
-
-Correction (2026-10-21): the determinant-280 level-4 lattice of section 2
-also has no symmetry witness, so the bracket is now 24 < det(L) <= 280.
-Determinant 1156 remains the minimum of the Eisenstein family F and the
-smallest known even counterexample.
+and recovers the determinant-23,716 example. Determinant 1156 is therefore the
+minimum of the Eisenstein family and the smallest known even counterexample.
+It is not the global minimum: by Theorem D that is 280, attained by the odd
+lattice of Theorem A''.
 
 Full report: [rank-four-eisenstein-family.md](../docs/rank-four-eisenstein-family.md);
 review: [rank-four-eisenstein-review.md](../reviews/rank-four-eisenstein-review.md);
 certificate: [det1156-level2.json](../data/rank4-eisenstein/det1156-level2.json).
 
-## 4. The parity property in rank four
+## 4. The minimum counterexample determinant is 280
+
+**Theorem D.** Every positive definite integral rank-four lattice with
+det <= 279 satisfies the symmetry converse: each of its identically vanishing
+even characteristics has a symmetry witness. Hence 280 is the minimum
+determinant of a rank-four counterexample. At determinant 280 exactly one
+isometry class fails the converse, the lattice of Theorem A'', and it fails
+on exactly one characteristic.
+
+Proof. A lattice is even or odd, and an even rank-four lattice has det = 0 or
+1 mod 4. Decomposable lattices satisfy the converse at every determinant
+([decomposition appendix](../docs/rank-four-decomposition-and-fibres.md),
+from the rank one to three converse). The determinant-24 census settles
+det <= 24 (169 classes, every zero with a checked witness). For
+25 <= det <= 279 the indecomposable classes are covered by seven complete
+class lists, three from release 1.1.0 (odd lattices with 4 !| det through
+168; even lattices of odd determinant through 201; even lattices with 4 | det
+through 64; 183 zeros, all witnessed) and four new ones:
+
+| Universe | Candidates | Classes | Indecomposable | Even zeros |
+|---|---:|---:|---:|---:|
+| odd lattices, 4 !\| det, 169..279 | 106,794 | 6,658 | 2,900 | 157 |
+| odd lattices, 4 \| det, 25..279 | 98,629 | 7,043 | 2,577 | 4,042 |
+| even lattices, odd det, 202..279 | 8,972 | 269 | 238 | 0 |
+| even lattices, 4 \| det, 65..279 | 22,080 | 1,017 | 524 | 1,131 |
+
+Each new list is generated one determinant at a time by the complete
+reduced-basis builder of the parity report and deduplicated by exact
+isometry. All 655,095 even characteristics of the 6,239 new indecomposable
+classes are decided: 5,330 are zeros, and every zero has a symmetry witness
+in the full automorphism group; the other 649,765 are nonzero by a complete
+shell coefficient (the first nonzero shell has norm4 at most 238, so the
+modular cutoff was never needed); nothing is unresolved. The independent
+verifier `code/verify_rank4_parity.py` (a separate candidate generator, box
+isometry searches, box enumeration, about 810,000 pairwise non-isometry
+searches) replays all 239 chunks as `verified`. The census of determinant 280
+itself (243 odd and 27 even classes, 187 zeros) finds exactly one zero without
+a witness, of level 4, in a class isometric to the lattice of Theorem A''.
+
+The universe of the claim is all positive definite integral rank-four
+lattices with det <= 279, with no primitivity or indecomposability
+restriction. Cost: about 50 CPU-minutes to build and 60 to replay, about ten
+minutes on 16 cores.
+
+Full report: [rank-four-minimum-determinant.md](../docs/rank-four-minimum-determinant.md);
+script `code/rank4_gap_census.py`; preserved chunks, summaries, replays and
+closure: `reports/rank4-gap-census/`.
+
+## 5. The parity property in rank four
 
 L has the parity property P when every even characteristic (a, b nonzero
 modulo two, a.b even) has a theta series that is not identically zero. A
@@ -236,7 +287,7 @@ certificates: [c1-counterexamples.json](../data/rank4-parity/c1-counterexamples.
 [pair-members-parity.json](../data/rank4-parity/pair-members-parity.json.gz);
 corollary script: [code/check_small_pairs.py](../code/check_small_pairs.py).
 
-## 5. Reporting conventions and corrections carried into this release
+## 6. Reporting conventions and corrections carried into this release
 
 Every class count names its universe and is deduplicated by exact isometry.
 The reviews record three precision points that this note already applies:
@@ -245,9 +296,13 @@ not 135 and 134, which repeated three census classes); witness orders quoted
 from the stored certificates describe the first stored witness, not a
 partition (the D4 zeros, for instance, also have involution witnesses); and
 the decision counts are 26,775 decisions in the even list (26,769 nonzero)
-and 120,120 in the odd list (120,065 nonzero, 55 zeros).
+and 120,120 in the odd list (120,065 nonzero, 55 zeros). Release 1.1.0 stated
+the bracket 24 < det <= 1156 for the minimum counterexample determinant;
+release 1.1.1 lowered it to 24 < det <= 280 (Theorem A'') and release 1.2.0
+closed it (Theorem D). The archival reports and reviews keep their dated
+correction notes.
 
-## 6. Attribution
+## 7. Attribution
 
 The isospectral pairs are Schiemann's (1990), Conway-Sloane's (1992) and
 Earnest-Nipp's (1991); their non-isometry is Cervino-Hein's theorem (2011);
@@ -255,21 +310,21 @@ the theta-series determination of ternary forms is Schiemann's theorem (1997).
 The [literature note](../docs/rank-four-isospectrality-literature.md) records
 which pages were read and what each source proves. This project supplies the
 Klein-configuration bridge, the compatible index-two re-embedding, the
-characteristic zeros and the parity results. The Eisenstein-integer structure
-of the counterexamples was observed in this project and has not been checked
-against the literature. The weight-two coefficient criterion used in the
-corollaries is the Sturm bound (see section 8.2 of Best et al., *Computing
-classical modular forms*).
+characteristic zeros, the determinant census and the parity results. The
+Eisenstein-integer structure of the counterexamples was observed in this
+project and has not been checked against the literature. The weight-two
+coefficient criterion used in the corollaries is the Sturm bound (see section
+8.2 of Best et al., *Computing classical modular forms*).
 
-## 7. Where to find things
+## 8. Where to find things
 
 | Item | Location |
 |---|---|
-| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [parity property](../docs/rank-four-parity-property.md), [literature](../docs/rank-four-isospectrality-literature.md) |
+| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [minimum determinant](../docs/rank-four-minimum-determinant.md), [parity property](../docs/rank-four-parity-property.md), [literature](../docs/rank-four-isospectrality-literature.md) |
 | Reviews | [level four](../reviews/rank-four-level-four-review.md), [Eisenstein](../reviews/rank-four-eisenstein-review.md), [parity](../reviews/rank-four-parity-review.md), [assessment](../reviews/project-assessment-2026-10-21.md) |
-| Builders and verifiers | `code/rank4_level4_search.py`, `code/verify_rank4_level4.py`, `code/rank4_eisenstein_search.py`, `code/verify_rank4_eisenstein.py`, `code/rank4_parity_search.py`, `code/verify_rank4_parity.py` |
+| Builders and verifiers | `code/rank4_level4_search.py`, `code/verify_rank4_level4.py`, `code/verify_rank4_det280.py`, `code/rank4_eisenstein_search.py`, `code/verify_rank4_eisenstein.py`, `code/rank4_parity_search.py`, `code/verify_rank4_parity.py`, `code/rank4_gap_census.py` |
 | Independent review checks | `code/rank4_level4_review_check.py`, `code/rank4_eisenstein_review_check.py`, `code/rank4_eisenstein_review_enum.py`, `code/rank4_parity_review_check.py`, `code/rank4_parity_review_enum.py`, `code/check_small_pairs.py` |
 | Certificates | `data/rank4-level4/`, `data/rank4-eisenstein/`, `data/rank4-parity/` |
-| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/project-review-2026-10-21/` |
-| Tests | `tests/test_rank4_level4.py`, `tests/test_rank4_eisenstein.py`, `tests/test_rank4_parity.py` |
+| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/rank4-gap-census/`, `reports/project-review-2026-10-21/` |
+| Tests | `tests/test_rank4_level4.py`, `tests/test_rank4_det280.py`, `tests/test_rank4_eisenstein.py`, `tests/test_rank4_parity.py`, `tests/test_rank4_gap_census.py` |
 | Commands | [reproduction guide](../docs/reproduction.md) |

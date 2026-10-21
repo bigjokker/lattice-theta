@@ -6,20 +6,30 @@ Exact proofs, certificates, and reproducible computations for identical
 vanishing of lattice theta functions with half-integral characteristics.
 
 The symmetry converse holds in ranks one through three and fails in rank four.
-Release 1.1.0 (October 2026) adds three rank-four results, each with exact
-certificates, independent replays and a local review:
+Releases 1.1.0 to 1.2.0 (October 2026) add four rank-four results, each with
+exact certificates and independent replays:
 
 - **A zero whose coset lattices are not isometric.** An odd lattice of
   determinant **1729** has an identically vanishing even characteristic whose
   two coset lattices are the Conway–Sloane isospectral pair L⁻(1,7,13,19),
   L⁺(1,7,13,19), which are not isometric. No single isometry, inside the
   lattice's automorphism group or outside it, explains the vanishing. Eight
-  such configurations are certified.
-- **A smaller symmetry counterexample.** An even lattice of determinant
-  **1156** with automorphism group **{I, −I}** has an identically vanishing
-  even characteristic, by the same Eisenstein-integer construction as the
-  original determinant-23,716 example. (The bracket stated at release,
-  24 < det ≤ 1156, is lowered by the correction below.)
+  such configurations are certified. The smallest such zero has determinant
+  **280**: an odd lattice with automorphism group {I, −I}, obtained by halving
+  the even determinant-4480 configuration and certified directly.
+- **The minimum counterexample determinant is 280.** Every rank-four lattice
+  of determinant at most 279 satisfies the symmetry converse, by complete
+  isometry-class lists: the determinant-24 census, the three class lists of
+  release 1.1.0, and four new lists covering the remaining determinants
+  (14,987 classes; every one of the 5,330 vanishing even characteristics of
+  their indecomposable classes is witnessed by an automorphism). Each list is
+  independently replayed. At determinant 280 exactly one class fails, so the
+  determinant-280 lattice is the smallest counterexample of any kind.
+- **An even counterexample of determinant 1156.** An even lattice with
+  automorphism group **{I, −I}** has an identically vanishing even
+  characteristic, by the same Eisenstein-integer construction as the original
+  determinant-23,716 example. It is the minimum of that family and the
+  smallest known even counterexample.
 - **The parity property.** The conjecture that an indecomposable rank-four
   lattice whose determinant is not divisible by four has no vanishing even
   characteristic is false, by complete class lists: odd lattices fail first at
@@ -28,16 +38,6 @@ certificates, independent replays and a local review:
   −I. An even indecomposable rank-four lattice of odd determinant has no
   involution witness. Whether every such lattice of determinant 5 mod 8 has
   the parity property is open.
-
-**Release 1.1.1 (2026-10-21): correction.** The determinant-4480 level-four
-lattice has every Gram entry even; halving it gives an odd lattice of
-determinant **280** with automorphism group {I, −I} and an identically
-vanishing even characteristic at level four. It is the smallest known
-level-four zero and the smallest known counterexample to the rank-four
-symmetry converse, so the minimum counterexample determinant satisfies
-24 < det ≤ 280; no minimality claim is made in between. Certificate
-`data/rank4-level4/det280-level4.json`, independent replay
-`code/verify_rank4_det280.py`.
 
 The original results remain: the determinant-23,716 counterexample with its
 all-level coset bijection and complete automorphism group {I, −I}, the
@@ -49,7 +49,7 @@ Earnest–Nipp's, and their non-isometry is Cervino–Hein's theorem.
 
 ## Read the results
 
-- [Rank-four follow-up results, release 1.1.0](papers/rank-four-follow-up-results.md)
+- [Rank-four follow-up results, releases 1.1.0 to 1.2.0](papers/rank-four-follow-up-results.md)
 - [Rank-four counterexample manuscript](papers/rank-four-counterexample.md)
 - [Low-rank and root-lattice manuscript](papers/low-rank-and-root-lattice-results.md)
 - [Reproduction instructions](docs/reproduction.md)
@@ -70,11 +70,12 @@ python code/verify_rank4_level4.py --bijection data/rank4-level4/cs-bijection.js
 python code/verify_rank4_det280.py --output scratch/level4-det280-replay.json
 python code/verify_rank4_eisenstein.py --certificates data/rank4-eisenstein/det1156-level2.json --output scratch/eisenstein-replay.json
 python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexamples.json --output scratch/parity-replay.json
+python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 4 --out scratch/rank4-gap-census
 ```
 
-The default suite runs the 71 rank-four tests. The output path for a replay
+The default suite runs the 75 rank-four tests. The output path for a replay
 must be fresh. The test runner automatically prepares compressed datasets.
-To run the complete 155-test suite:
+To run the complete 159-test suite:
 
 ```sh
 python scripts/run_tests.py --all
@@ -83,15 +84,17 @@ python scripts/run_tests.py --all
 The written coset bijections prove identical vanishing at every level; a long
 list of zero coefficients is not used as the identity proof. Independent box
 and LDL enumerations supply separate checks of the finite computational
-evidence. The complete class lists behind the parity and Eisenstein results
-are preserved in compressed form and can be replayed with the verifiers; see
-the [reproduction guide](docs/reproduction.md).
+evidence. The complete class lists behind the parity, Eisenstein and
+minimum-determinant results are preserved in compressed form and can be
+replayed with the verifiers (the last command above replays the
+determinant-280 census; the full census through 279 takes a few minutes on
+16 cores); see the [reproduction guide](docs/reproduction.md).
 
 ## Repository layout
 
 | Directory | Contents |
 |---|---|
-| `papers/` | Completed manuscripts and the 1.1.0 results note |
+| `papers/` | Completed manuscripts and the rank-four follow-up results note |
 | `docs/` | Proof appendices, full research reports, source scope, reproduction, and export provenance |
 | `code/` | Exact certificate builders, verification programs, and independent review checks |
 | `tests/` | Coverage, corruption, normalization, and resource-limit regressions |
@@ -116,6 +119,7 @@ the version DOI to pin a specific release.
 * v1.0.0: [10.5281/zenodo.23002465](https://zenodo.org/doi/10.5281/zenodo.23002465)
 * v1.1.0: [10.5281/zenodo.23540724](https://zenodo.org/doi/10.5281/zenodo.23540724)
 * v1.1.1: [10.5281/zenodo.23546565](https://zenodo.org/doi/10.5281/zenodo.23546565)
+* v1.2.0: archived from the GitHub release of the same name; its version DOI is listed on the Zenodo record
 
 ```bibtex
 @misc{lattice_theta,

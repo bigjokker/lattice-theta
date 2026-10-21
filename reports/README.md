@@ -28,6 +28,14 @@ Release 1.1.0 adds the rank-four follow-up outputs:
 - `project-review-2026-10-21/`: the modular-form check of the two small
   isospectral pairs from the independent assessment.
 
+Release 1.2.0 adds `rank4-gap-census/`: the determinant census through 279
+behind the minimum counterexample determinant 280, as one complete decided
+class list per determinant (`<region>/detNNN.json.gz`, 241 chunks, read
+compressed by `code/rank4_gap_census.py` and not listed in
+`compressed-reports.json`), the region summaries, the independent replays,
+`closure-25-279.json` and the logs. Paths inside these files are the original
+workspace paths.
+
 Preserved outputs above one million bytes are stored as `.json.gz` and listed
 in [compressed-reports.json](compressed-reports.json);
 `python scripts/prepare_data.py --reports` expands them (about 860 MB) and

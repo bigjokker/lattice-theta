@@ -288,8 +288,10 @@ Consequences for attribution and framing:
   Correction 2026-10-21: halving the determinant-4480 level-4 lattice gives a
   level-4 counterexample of determinant 280
   (`data/rank4-level4/det280-level4.json`, replayed by
-  `code/verify_rank4_det280.py`); both records are now 280 and the bracket is
-  24 < det <= 280.
+  `code/verify_rank4_det280.py`); both records are now 280, and the
+  determinant census through 279 (release 1.2.0,
+  `docs/rank-four-minimum-determinant.md`) then proved that 280 is the minimum
+  counterexample determinant.
 
 ## 8. Pages read for this note
 
