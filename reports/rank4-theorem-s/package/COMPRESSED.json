@@ -1,0 +1,30 @@
+{
+ "schema": "lattice-theta-theorem-s-compressed-v1",
+ "note": "Files of the audited package stored gzipped in the release; sha256 and size are of the raw file and equal the package MANIFEST.json entry. The checkers decompress and verify them.",
+ "files": [
+  {
+   "path": "data/cells-astra-final-20261023.json",
+   "gzip_path": "data/cells-astra-final-20261023.json.gz",
+   "sha256": "5c6da8ecd170aff1be61f273e5b0fcce7790d0674d4573dd13c33024e681d3ae",
+   "size": 10418074
+  },
+  {
+   "path": "data/cells-v2.json",
+   "gzip_path": "data/cells-v2.json.gz",
+   "sha256": "63f95a58255f318dc5583ccec41d0ce17dcb05244cd37d5aa188dd2fd03d1c01",
+   "size": 10418074
+  },
+  {
+   "path": "data/cells-v3.json",
+   "gzip_path": "data/cells-v3.json.gz",
+   "sha256": "7bc677a9b403c5d39fe07c8425101e05a8301fe358af160b789449cfdd95dc30",
+   "size": 10418074
+  },
+  {
+   "path": "data/cells.json",
+   "gzip_path": "data/cells.json.gz",
+   "sha256": "687b91803a90e7cd729ad20a35742a0666acb9ccfd374ecf21e179183fcdda5c",
+   "size": 8180290
+  }
+ ]
+}

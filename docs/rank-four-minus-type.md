@@ -1,5 +1,8 @@
 # Minus-type parity conjecture: stage 1 closed, stage 2 open
 
+*Status, release 1.4.0: stage 2 is closed. The conjecture is proved at every determinant by Theorem S
+([rank-four-theorem-s.md](rank-four-theorem-s.md)). This report is preserved as written on 2026-10-21.*
+
 The first direction of [deferred research](deferred-research.md), 2026-10-21. Started by a Codex session
 ("Astra"), which wrote the scripts and produced the results below but froze
 before writing this note; the note, the proof write-up, the replay of the

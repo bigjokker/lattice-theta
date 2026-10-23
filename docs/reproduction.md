@@ -200,6 +200,40 @@ command regenerates the plus-type list from scratch (about 4 CPU-minutes).
 Fresh outputs differ from the preserved ones only in timing fields and in the
 workspace paths recorded inside the preserved files.
 
+## Theorem S: the minus-type conjecture (release 1.4.0)
+
+The [Theorem S report](rank-four-theorem-s.md) and its
+[final audit](../reviews/rank-four-theorem-s-final-audit.md) are backed by the
+audited package `reports/rank4-theorem-s/package/` (byte-for-byte copies with
+`MANIFEST.json`; files over one million bytes stored gzipped and listed in its
+`COMPRESSED.json`, decompressed and hash-checked by the checkers).
+
+```sh
+python code/rank4_theorem_s_check_published.py --output scratch/theorem-s/published.json
+python code/rank4_theorem_s_check_bundle.py --workers 2 --output scratch/theorem-s/bundle-audit.json
+```
+
+The first command checks the explicit unimodular maps from both saved fans
+onto Voronoi's published cones (all ten rays each) and the recorded source and
+fan hashes; the second recomputes the complete minimal sets of all 2,394
+positive definite faces and checks every one of the 502,740 stored
+dispositions and certificates (about 36 seconds on two workers). Both use the
+standard library only and run in CI.
+
+Regenerating the classification itself needs numpy, scipy and pycddlib (the
+only third-party dependencies anywhere in the repository): from a copy of the
+package's `sources/` directory,
+
+```sh
+python -B rank4_six_cells.py run --workers 12 --fan <package>/data/fan-exact.json --out check.json
+```
+
+(about 10 seconds on 12 workers; 502,740 dispositions, 5,256 certified, none
+uncertified). Grok Bot's independent standard-library replay regenerates every
+disposition and certificate in about seven minutes on one thread:
+`python <package>/independent_replay_grokbot/replay.py <package>/data/fan.json <cells.json> <outdir>`,
+with `cells.json` decompressed from `data/cells.json.gz`.
+
 ## Complete finite censuses
 
 ```sh

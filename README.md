@@ -6,7 +6,7 @@ Exact proofs, certificates, and reproducible computations for identical
 vanishing of lattice theta functions with half-integral characteristics.
 
 The symmetry converse holds in ranks one through three and fails in rank four.
-Releases 1.1.0 to 1.3.0 (October 2026) add five rank-four results, each with
+Releases 1.1.0 to 1.4.0 (October 2026) add six rank-four results, each with
 exact certificates and independent replays:
 
 - **A zero whose coset lattices are not isometric.** An odd lattice of
@@ -45,8 +45,17 @@ exact certificates and independent replays:
   non-isometric coset lattices (level four). Complete class lists of all even
   lattices of odd determinant through **501** (1,890 classes, 1,696
   indecomposable) contain exactly the predicted zeros, at determinants 121
-  and 361 only. Whether every minus-type lattice has the parity property
-  remains open.
+  and 361 only.
+- **The minus-type parity conjecture is proved (release 1.4.0).** No even,
+  orthogonally indecomposable rank-four lattice of determinant 5 mod 8 has an
+  identically vanishing nontrivial even characteristic, at any determinant.
+  More generally, in an even rank-four lattice of odd determinant every such
+  zero is a symmetry zero, so in an indecomposable lattice it lies on the
+  totally singular plane of a square root of −I (plus type only). The proof is
+  computer-assisted: **Theorem S**, a finite classification over Voronoi's
+  three primitive cones of quaternary forms in which every one of the 502,740
+  face and marking cases carries an exact certificate. It was audited and
+  independently replayed ([Theorem S](docs/rank-four-theorem-s.md)).
 
 The original results remain: the determinant-23,716 counterexample with its
 all-level coset bijection and complete automorphism group {I, −I}, the
@@ -58,7 +67,8 @@ Earnest–Nipp's, and their non-isometry is Cervino–Hein's theorem.
 
 ## Read the results
 
-- [Rank-four follow-up results, releases 1.1.0 to 1.3.0](papers/rank-four-follow-up-results.md)
+- [Rank-four follow-up results, releases 1.1.0 to 1.4.0](papers/rank-four-follow-up-results.md)
+- [Theorem S: the minus-type parity conjecture at every determinant](docs/rank-four-theorem-s.md)
 - [Rank-four counterexample manuscript](papers/rank-four-counterexample.md)
 - [Low-rank and root-lattice manuscript](papers/low-rank-and-root-lattice-results.md)
 - [Reproduction instructions](docs/reproduction.md)
@@ -82,6 +92,8 @@ python code/verify_rank4_parity.py certificates data/rank4-parity/c1-counterexam
 python code/rank4_gap_census.py replay --regions odd-div4-280 even-div4-280 --workers 4 --out scratch/rank4-gap-census
 python code/rank4_stage2_checks.py --output scratch/rank4-stage2/strategy-checks.json
 python code/rank4_plus_type_census.py planes --out scratch/rank4-plus-type
+python code/rank4_theorem_s_check_published.py --output scratch/theorem-s/published.json
+python code/rank4_theorem_s_check_bundle.py --workers 2 --output scratch/theorem-s/bundle-audit.json
 ```
 
 The default suite runs the 82 rank-four tests. The output path for a replay
@@ -99,9 +111,11 @@ evidence. The complete class lists behind the parity, Eisenstein and
 minimum-determinant and odd-determinant results are preserved in
 compressed form and can be replayed with the verifiers (the determinant-280
 census replay above takes about a minute; the full census through 279 takes
-a few minutes on 16 cores; the last two commands recheck the stage-two
-constructions and compare every zero of the even odd-determinant lists with
-the square-root-of-minus-identity planes); see the
+a few minutes on 16 cores; the stage-two and plus-type commands recheck the
+stage-two constructions and compare every zero of the even odd-determinant
+lists with the square-root-of-minus-identity planes; the last two commands
+verify the published-cone identification and all 502,740 Theorem S
+certificates, in about half a minute on two cores); see the
 [reproduction guide](docs/reproduction.md).
 
 ## Repository layout

@@ -53,6 +53,16 @@ Release 1.3.0 adds the outputs for even lattices of odd determinant:
   square-root-of-minus-identity planes over all four even odd-determinant
   lists.
 
+Release 1.4.0 adds `rank4-theorem-s/package/`: the audited Theorem S
+package, byte for byte (its `MANIFEST.json` lists every file with its sha256
+and workspace origin): the generating sources, both secondary-fan files,
+the classification outputs, Grok Bot's independent replay with all 502,740
+certificates, Grok's literature and proof audit, the final audit's checkers
+and results, Claude's cross-checks and the proof documents. Its files over
+one million bytes are stored gzipped and listed in the package's own
+`COMPRESSED.json` (not in `compressed-reports.json`); the checkers read them
+compressed and verify the raw hashes.
+
 Preserved outputs above one million bytes are stored as `.json.gz` and listed
 in [compressed-reports.json](compressed-reports.json);
 `python scripts/prepare_data.py --reports` expands them (about 860 MB) and

@@ -1,0 +1,45 @@
+{
+  "schema": "lattice-theta-curated-export-validation-v1",
+  "release": "1.4.0",
+  "date": "2026-10-23",
+  "python": "3.11.9",
+  "default_test_suite": {
+    "command": "python scripts/run_tests.py",
+    "tests_run": 82,
+    "result": "passed",
+    "seconds": 85.67
+  },
+  "full_test_suite": {
+    "command": "python scripts/run_tests.py --all",
+    "tests_run": 166,
+    "result": "passed",
+    "seconds": 126.279
+  },
+  "release_layout_runs": {
+    "commands_seconds": {
+      "code/rank4_theorem_s_check_published.py --output scratch/theorem-s/published.json": 0.1,
+      "code/rank4_theorem_s_check_bundle.py --workers 2 --output scratch/theorem-s/bundle-audit.json": 36.0
+    },
+    "all_succeeded": true,
+    "agreement_with_preserved_outputs": "the bundle check reports 3,069 faces, 2,394 positive definite faces, 210 markings, 502,740 cases (477,492 multiplicity mismatches, 19,992 lower faces, 5,256 certified), complete unique coverage, all certificates checked and the certified set equal to the original classification, as in the preserved final-audit result; the published-cone check reports bijective exact ray matches for both fan files and matching source hashes"
+  },
+  "theorem_s_package": {
+    "path": "reports/rank4-theorem-s/package/",
+    "manifest_entries": 59,
+    "manifest_entries_verified": 59,
+    "stored_gzipped": [
+      "data/cells-astra-final-20261023.json",
+      "data/cells-v2.json",
+      "data/cells-v3.json",
+      "data/cells.json"
+    ],
+    "audited_source_hashes": {
+      "rank4_six_cells.py": "328a53ee5b36b66a36569f1f46a887d8ade11dbb15b639a06ad02d135a4b5b20",
+      "rank4_secondary_fan.py": "fc206a7cbd915951c1c6372e29eb1b842d4c45e6b9f0ed379bd2668f1daa8cdc",
+      "rank4_six_minima.py": "a133954d592bd0832818bad4482b13b2139a9caec089c6767d77b2b14d1c55cb",
+      "results/rank4-secondary-fan/fan-exact.json": "215e90f39d37edf40977a2cdf88961b855bbda1bef14b7fdf28fa209e1f56135"
+    },
+    "standalone_generating_run": "the package's rank4_six_cells.py, run from a copy of sources/ against data/fan-exact.json (numpy, scipy and pycddlib installed), gave 502,740 dispositions, 5,256 certified, none uncertified and the audited source hashes (2026-10-23, before export)"
+  },
+  "notes": "No production search, census or Magma job is part of this release. The generating classifier needs third-party packages; every check run in CI uses the standard library only."
+}

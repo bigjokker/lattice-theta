@@ -1,5 +1,40 @@
 # Changelog
 
+## 1.4.0 (2026-10-23)
+
+- The minus-type parity conjecture is proved at every determinant
+  (Theorem S; `docs/rank-four-theorem-s.md`, section 7 of the follow-up
+  note). An even, orthogonally indecomposable, positive definite rank-four
+  lattice with det = 5 mod 8 has no identically vanishing nontrivial even
+  characteristic. More generally, in an even rank-four lattice of odd
+  determinant every such zero is a symmetry zero; with Theorem E, in an
+  indecomposable lattice it comes from a square root of -I on a totally
+  singular plane (plus type only). This answers the plus-type companion
+  question of the deferred-research table for nontrivial even
+  characteristics.
+- Theorem S (computer-assisted): if a marking tau = I + N (N^2 = 0,
+  rank 2) of Z^4/2Z^4 pairs classes with equal minimal norms and equal
+  minimal multiplicities, then tau lifts to an automorphism of the form.
+  It is proved by an exact classification over the faces of Voronoi's three
+  primitive cones (matched to the published Delta, Delta', Delta''): 2,394
+  positive definite faces x 210 markings = 502,740 cases, every one with an
+  exact certificate (477,492 multiplicity mismatches, 19,992 Stiemke
+  exclusions, 5,256 symmetry certificates verified on the whole equality
+  subspace).
+- Final audit by a Codex session (`reviews/rank-four-theorem-s-final-audit.md`),
+  independent standard-library replay by Grok Bot and literature and proof
+  audit by Grok; the audited files are preserved byte for byte in
+  `reports/rank4-theorem-s/package/` (manifest with sha256; files over one
+  million bytes stored gzipped, listed in its `COMPRESSED.json`). Release
+  copies of the audit's checkers, `code/rank4_theorem_s_check_bundle.py` and
+  `code/rank4_theorem_s_check_published.py` (standard library only), run in
+  CI. The generating classifier in the package needs numpy, scipy and
+  pycddlib; nothing else in the repository does.
+- Status notes added to the minus-type report, the stage-two reductions and
+  the deferred-research table; README, citation metadata, indexes,
+  reproduction guide, export provenance and export validation updated;
+  checksums regenerated.
+
 ## 1.3.0 (2026-10-21)
 
 - Even rank-four lattices of odd determinant (section 6 of the follow-up

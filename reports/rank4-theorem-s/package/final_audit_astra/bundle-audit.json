@@ -1,0 +1,22 @@
+{
+ "faces": 3069,
+ "pd_faces": 2394,
+ "markings": 210,
+ "cases": 502740,
+ "counts": {
+  "multiplicity_mismatch": 477492,
+  "certified": 5256,
+  "lower_face": 19992
+ },
+ "complete_unique_coverage": true,
+ "all_certificates_checked": true,
+ "certified_set_matches": true,
+ "wall_seconds": 22.1040159999975,
+ "sha256": {
+  "results/rank4-secondary-fan/fan.json": "7f0cb1cd838aaba943c4f980ba821915d5141de9a0130228f80bab5a6c20f566",
+  "bot_work/bot/coverage/dispositions.jsonl.gz": "d630fed22ff084c4e145bc0b8b6503391178319bb1d25104f8a8578199b4dd2c",
+  "results/rank4-six-cells/cells.json": "687b91803a90e7cd729ad20a35742a0666acb9ccfd374ecf21e179183fcdda5c",
+  "bot_work/bot/coverage/replay.py": "6d62342f629082e114f7ef9a41f16138c8276f7ef67834df5c98cd5f0729902a",
+  "results/rank4-final-audit-20261023/check_bundle.py": "d9147baab5416605c12db19281fbfa2213225e127fdcc1d4797a8c2c46354c60"
+ }
+}

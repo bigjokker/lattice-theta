@@ -1,0 +1,23 @@
+{
+ "faces": 3069,
+ "pd_faces": 2394,
+ "markings": 210,
+ "cases": 502740,
+ "counts": {
+  "multiplicity_mismatch": 477492,
+  "infeasible": 0,
+  "lower_face": 19992,
+  "certified": 5256,
+  "uncertified": 0
+ },
+ "consistency_failures": [],
+ "uncertified": [],
+ "claude_cells": 5256,
+ "claude_certified_not_mine": [],
+ "mine_not_in_claude": [],
+ "savedT_tried": 5256,
+ "savedT_passed": 5256,
+ "own_T_found": 0,
+ "wall_s": 586.1,
+ "cpu_s": 583.4
+}

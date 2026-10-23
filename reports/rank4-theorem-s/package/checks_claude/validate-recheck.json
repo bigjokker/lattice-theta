@@ -1,0 +1,25 @@
+{
+ "cells": 5256,
+ "generic_point_six_balanced": 5256,
+ "T_verified": 5256,
+ "T_kinds": {
+  "T^2=I": 4093,
+  "other": 861,
+  "T^2=-I": 302
+ },
+ "kinds_by_dim": {
+  "dim 1 T^2=-I": 12,
+  "dim 1 T^2=I": 72,
+  "dim 2 T^2=-I": 192,
+  "dim 2 T^2=I": 546,
+  "dim 2 other": 447,
+  "dim 3 T^2=-I": 86,
+  "dim 3 T^2=I": 1618,
+  "dim 3 other": 414,
+  "dim 4 T^2=-I": 12,
+  "dim 4 T^2=I": 1410,
+  "dim 5 T^2=I": 408,
+  "dim 6 T^2=I": 39
+ },
+ "seconds": 3.2
+}

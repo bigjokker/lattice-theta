@@ -70,4 +70,19 @@ no exception), and runs and records the plus-type class list through 497. No
 errors were found. Independent human review of these proofs is still
 outstanding.
 
+## Release 1.4.0
+
+[rank-four-theorem-s-final-audit.md](rank-four-theorem-s-final-audit.md) is
+the final audit of Theorem S by a Codex session (Astra), which accepts the
+theorem and its minus-type corollary as a computer-assisted proof. Before it,
+the same reviewer's quick review set three tasks, all completed and preserved
+in `reports/rank4-theorem-s/package/`: exact bounds, input checks and
+explicit incomplete runs (Claude Opus 5.5; `documents/`); an independent
+standard-library replay of all 502,740 cases with certificates for every
+exclusion (Grok Bot; `independent_replay_grokbot/`); and a check of the fan
+against the primary literature and of the proof chain (Grok;
+`literature_audit_grok/`). The final audit's own checker recomputes every
+disposition without the classifier or its linear-programming backend; its
+release copies run in CI. Independent human review is still outstanding.
+
 The briefs themselves are handoff prompts and are not distributed.

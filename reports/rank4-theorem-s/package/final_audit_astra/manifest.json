@@ -1,0 +1,40 @@
+{
+ "files": [
+  {
+   "path": "results/rank4-final-audit-20261023/bundle-audit.json",
+   "sha256": "de0fb3e3c5a052a2ac9a77d9638a40095603e889ca198bdcaf8895b77c3f9d54"
+  },
+  {
+   "path": "results/rank4-final-audit-20261023/check_bundle.py",
+   "sha256": "d9147baab5416605c12db19281fbfa2213225e127fdcc1d4797a8c2c46354c60"
+  },
+  {
+   "path": "results/rank4-final-audit-20261023/check_published.py",
+   "sha256": "a2c308d22670ca95bb8229f223351a5ca5cc7b294a9208c41b7fce589f040a18"
+  },
+  {
+   "path": "results/rank4-final-audit-20261023/published-cones-and-hashes.json",
+   "sha256": "e25062c614b95e444e7b004f8a0f95ad428f1e0aa467f692da74d58058511309"
+  },
+  {
+   "path": "RANK4-THEOREM-S-FINAL-AUDIT-ASTRA.md",
+   "sha256": "b6cf8353b3de2034432812f864995d5032ca7e975c786f10cdf911e142d69672"
+  },
+  {
+   "path": "RANK4-SIX-CELLS-CLASSIFICATION.md",
+   "sha256": "835d373fa0d6bc2b48b6d5854d9ff9b1368a828a35921617616f1cfd023a4471"
+  },
+  {
+   "path": "RANK4-SIX-CELLS-PROOF-STATUS.md",
+   "sha256": "dd36e56428f0b9e99563f865080554b190d7c6bfe3509cd71535a715550c235a"
+  },
+  {
+   "path": "results/rank4-six-cells/cells-astra-final-20261023.json",
+   "sha256": "5c6da8ecd170aff1be61f273e5b0fcce7790d0674d4573dd13c33024e681d3ae"
+  },
+  {
+   "path": "results/rank4-secondary-fan/match-published.json",
+   "sha256": "b4585c574252ef807be879e623d3455f9f2a4ea7b45fcfcf304bc4dbae12c5f6"
+  }
+ ]
+}

@@ -19,7 +19,11 @@ abstract: >-
   lattices of odd determinant, every symmetry zero comes from a square root
   of -I, any zero of determinant 5 mod 8 would have to be a pair of
   isospectral non-isometric coset lattices, and complete class lists through
-  determinant 501 contain no other zeros. The release also
+  determinant 501 contain no other zeros; release 1.4.0 proves that no such
+  zero exists at any determinant (Theorem S, a computer-assisted
+  classification over Voronoi's primitive cones of quaternary forms), so
+  every vanishing nontrivial even characteristic of an even rank-four
+  lattice of odd determinant is a symmetry zero. The release also
   includes the low-rank parity classification, the irreducible
   crystallographic root lattices in the stated normalization, exact
   determinant-at-most-24 censuses through rank four, and a checked
@@ -29,8 +33,8 @@ authors:
   - name: "bigjokker"
 type: software
 license: MIT
-version: 1.3.0
-date-released: "2026-10-21"
+version: 1.4.0
+date-released: "2026-10-23"
 repository-code: "https://github.com/bigjokker/lattice-theta"
 doi: 10.5281/zenodo.23002464
 identifiers:

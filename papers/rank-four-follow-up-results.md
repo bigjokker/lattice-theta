@@ -1,6 +1,6 @@
 # Rank-four follow-up results: non-isometric coset lattices, the minimum counterexample determinant, and the parity property
 
-Releases 1.1.0 to 1.3.0, 2026-10-21. This note states the results added after
+Releases 1.1.0 to 1.4.0, 2026-10-21 to 2026-10-23. This note states the results added after
 the [counterexample manuscript](rank-four-counterexample.md), with pointers to
 the full reports, the review notes, the exact certificates and the
 reproduction commands. The computations were specified, run and reviewed by
@@ -10,6 +10,8 @@ run after the assessment and is verified by independent replay rather than
 by a separate review note. The odd-determinant results of section 6 were
 obtained by a Codex session and Claude Opus 5.5 sessions and are reviewed in
 [rank-four-stage-two-review.md](../reviews/rank-four-stage-two-review.md).
+Theorem S of section 7 (release 1.4.0) is a computer-assisted proof, audited
+in [rank-four-theorem-s-final-audit.md](../reviews/rank-four-theorem-s-final-audit.md).
 These are AI-assisted local reviews with
 independent computational replication, not peer review. No publication,
 priority or novelty claim is made. Every count below names its enumeration
@@ -393,7 +395,55 @@ computation over 31,500 configurations, and the plus-type list); preserved
 outputs: `reports/rank4-minus-type/`, `reports/rank4-stage2/`,
 `reports/rank4-plus-type/`.
 
-## 7. Reporting conventions and corrections carried into this release
+## 7. The minus-type conjecture is proved: Theorem S (release 1.4.0)
+
+**Theorem S.** Let H be a positive definite real quadratic form on Z^4 and
+tau = I + N an involution of F2^4 with N^2 = 0 and rank N = 2. If for each
+of the six pairs {k, tau k} of classes of Z^4/2Z^4 moved by tau the two
+classes have equal minimal norm and equal minimal multiplicity, then some T
+in GL4(Z) satisfies T^t H T = H and T = tau (mod 2).
+
+**Corollary.** An even, orthogonally indecomposable, positive definite
+rank-four lattice with det = 5 mod 8 has no identically vanishing
+nontrivial even characteristic, at any determinant. In an even rank-four
+lattice of odd determinant every such zero is a symmetry zero, so (Theorem E)
+in an indecomposable lattice it comes from a square root of -I on a totally
+singular plane, which occurs only in plus type.
+
+The deduction: by plane invariance (Theorem F's setting) a zero makes all
+three shifts of its plane P vanish; in the common lattice K = {y : y mod 2L
+in P} each shift splits by norm modulo 8 into two halves, each equal to
+theta(v + 2K) - theta(w + 2K) at every coefficient, so the six halves have
+balanced minima in exactly the sense of Theorem S for H = B^t G B / 2 and a
+square-zero rank-two marking tau; the lift T fixes 2L/2K, extends to an
+automorphism of L, fixes P modulo 2L and reverses the character, hence is a
+symmetry witness; Theorem E excludes it in indecomposable minus type.
+
+Theorem S is computer-assisted. Voronoi's secondary fan of quaternary forms
+has three orbits of maximal cones, all simplicial; the computed cones are
+matched by explicit unimodular maps to the published Delta, Delta', Delta''.
+On the relative interior of each of the 2,394 positive definite faces the
+complete minimal sets of the fifteen classes are constant, and the six
+minimum equalities are linear. Each of the 2,394 x 210 = 502,740 face and
+marking cases has an exact disposition: 477,492 multiplicity mismatches (the
+two minimizing sets), 19,992 lower-face exclusions (Stiemke vectors), and
+5,256 cells with a rational interior point, an integral T = tau mod 2 and
+D = Z E, which proves invariance on the whole equality subspace. None is
+uncertified.
+
+The classification was designed and run by Claude Opus 5.5 sessions,
+replayed independently in standard-library Python by Grok Bot, audited
+against the primary literature by Grok, and accepted in a final audit by a
+Codex session (Astra), whose checker recomputes every disposition without the
+classifier or its linear-programming backend. These are AI-assisted reviews
+with independent computational replication, not peer review.
+
+Report: [Theorem S](../docs/rank-four-theorem-s.md); audit:
+[rank-four-theorem-s-final-audit.md](../reviews/rank-four-theorem-s-final-audit.md);
+package: `reports/rank4-theorem-s/package/`; checks:
+`code/rank4_theorem_s_check_published.py`, `code/rank4_theorem_s_check_bundle.py`.
+
+## 8. Reporting conventions and corrections carried into this release
 
 Every class count names its universe and is deduplicated by exact isometry.
 The reviews record three precision points that this note already applies:
@@ -405,10 +455,10 @@ the decision counts are 26,775 decisions in the even list (26,769 nonzero)
 and 120,120 in the odd list (120,065 nonzero, 55 zeros). Release 1.1.0 stated
 the bracket 24 < det <= 1156 for the minimum counterexample determinant;
 release 1.1.1 lowered it to 24 < det <= 280 (Theorem A'') and release 1.2.0
-closed it (Theorem D). Release 1.3.0 adds section 6. The archival reports and reviews keep their dated
+closed it (Theorem D). Release 1.3.0 adds section 6 and release 1.4.0 section 7. The archival reports and reviews keep their dated
 correction notes.
 
-## 8. Attribution
+## 9. Attribution
 
 The isospectral pairs are Schiemann's (1990), Conway-Sloane's (1992) and
 Earnest-Nipp's (1991); their non-isometry is Cervino-Hein's theorem (2011);
@@ -424,15 +474,15 @@ project and has not been checked against the literature. The weight-two
 coefficient criterion used in the corollaries is the Sturm bound (see section
 8.2 of Best et al., *Computing classical modular forms*).
 
-## 9. Where to find things
+## 10. Where to find things
 
 | Item | Location |
 |---|---|
-| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [minimum determinant](../docs/rank-four-minimum-determinant.md), [parity property](../docs/rank-four-parity-property.md), [minus type](../docs/rank-four-minus-type.md), [stage-two reductions](../docs/rank-four-stage-two-reductions.md), [literature](../docs/rank-four-isospectrality-literature.md) |
-| Reviews | [level four](../reviews/rank-four-level-four-review.md), [Eisenstein](../reviews/rank-four-eisenstein-review.md), [parity](../reviews/rank-four-parity-review.md), [stage two](../reviews/rank-four-stage-two-review.md), [assessment](../reviews/project-assessment-2026-10-21.md) |
+| Reports | [level four](../docs/rank-four-level-four-zero.md), [Eisenstein family](../docs/rank-four-eisenstein-family.md), [minimum determinant](../docs/rank-four-minimum-determinant.md), [parity property](../docs/rank-four-parity-property.md), [minus type](../docs/rank-four-minus-type.md), [stage-two reductions](../docs/rank-four-stage-two-reductions.md), [Theorem S](../docs/rank-four-theorem-s.md), [literature](../docs/rank-four-isospectrality-literature.md) |
+| Reviews | [level four](../reviews/rank-four-level-four-review.md), [Eisenstein](../reviews/rank-four-eisenstein-review.md), [parity](../reviews/rank-four-parity-review.md), [stage two](../reviews/rank-four-stage-two-review.md), [Theorem S final audit](../reviews/rank-four-theorem-s-final-audit.md), [assessment](../reviews/project-assessment-2026-10-21.md) |
 | Builders and verifiers | `code/rank4_level4_search.py`, `code/verify_rank4_level4.py`, `code/verify_rank4_det280.py`, `code/rank4_eisenstein_search.py`, `code/verify_rank4_eisenstein.py`, `code/rank4_parity_search.py`, `code/verify_rank4_parity.py`, `code/rank4_gap_census.py`, `code/rank4_minus_type.py`, `code/rank4_minus_type_constructions.py`, `code/rank4_plus_type_census.py` |
-| Independent review checks | `code/rank4_level4_review_check.py`, `code/rank4_eisenstein_review_check.py`, `code/rank4_eisenstein_review_enum.py`, `code/rank4_parity_review_check.py`, `code/rank4_parity_review_enum.py`, `code/check_small_pairs.py`, `code/rank4_stage2_checks.py`, `code/rank4_stage2_review_check.py` |
+| Independent review checks | `code/rank4_level4_review_check.py`, `code/rank4_eisenstein_review_check.py`, `code/rank4_eisenstein_review_enum.py`, `code/rank4_parity_review_check.py`, `code/rank4_parity_review_enum.py`, `code/check_small_pairs.py`, `code/rank4_stage2_checks.py`, `code/rank4_stage2_review_check.py`, `code/rank4_theorem_s_check_published.py`, `code/rank4_theorem_s_check_bundle.py` |
 | Certificates | `data/rank4-level4/`, `data/rank4-eisenstein/`, `data/rank4-parity/` |
-| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/rank4-gap-census/`, `reports/rank4-minus-type/`, `reports/rank4-stage2/`, `reports/rank4-plus-type/`, `reports/project-review-2026-10-21/` |
+| Preserved outputs and replays | `reports/rank4-level4/`, `reports/rank4-eisenstein/`, `reports/rank4-parity/`, `reports/rank4-gap-census/`, `reports/rank4-minus-type/`, `reports/rank4-stage2/`, `reports/rank4-plus-type/`, `reports/rank4-theorem-s/package/`, `reports/project-review-2026-10-21/` |
 | Tests | `tests/test_rank4_level4.py`, `tests/test_rank4_det280.py`, `tests/test_rank4_eisenstein.py`, `tests/test_rank4_parity.py`, `tests/test_rank4_gap_census.py`, `tests/test_rank4_stage_two.py` |
 | Commands | [reproduction guide](../docs/reproduction.md) |

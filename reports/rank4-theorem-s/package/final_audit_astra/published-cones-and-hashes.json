@@ -1,0 +1,16 @@
+{
+ "published_cones": [
+  {
+   "file": "fan.json",
+   "bijective_exact_ray_match": true
+  },
+  {
+   "file": "fan-exact.json",
+   "bijective_exact_ray_match": true
+  }
+ ],
+ "source_hashes_match_handoff": true,
+ "paper": "https://arxiv.org/pdf/2407.03513",
+ "page": 5,
+ "ray_transcription": "R1..R10 outer products; R11 primitive half of printed matrix; R12 outer product (1,1,-1,-1)"
+}

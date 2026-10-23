@@ -1,0 +1,485 @@
+{
+ "package": "Theorem S and the minus-type corollary (computer-assisted proof), audited 2026-10-23",
+ "audit": "RANK4-THEOREM-S-FINAL-AUDIT-ASTRA.md (accepted)",
+ "audited_hashes": {
+  "rank4_six_cells.py": "328a53ee5b36b66a36569f1f46a887d8ade11dbb15b639a06ad02d135a4b5b20",
+  "rank4_secondary_fan.py": "fc206a7cbd915951c1c6372e29eb1b842d4c45e6b9f0ed379bd2668f1daa8cdc",
+  "rank4_six_minima.py": "a133954d592bd0832818bad4482b13b2139a9caec089c6767d77b2b14d1c55cb",
+  "results/rank4-secondary-fan/fan-exact.json": "215e90f39d37edf40977a2cdf88961b855bbda1bef14b7fdf28fa209e1f56135"
+ },
+ "files": [
+  {
+   "group": "data",
+   "file": "data/fan-exact.json",
+   "source": "results/rank4-secondary-fan/fan-exact.json",
+   "sha256": "215e90f39d37edf40977a2cdf88961b855bbda1bef14b7fdf28fa209e1f56135",
+   "bytes": 61516,
+   "audited_hash": "215e90f39d37edf40977a2cdf88961b855bbda1bef14b7fdf28fa209e1f56135"
+  },
+  {
+   "group": "data",
+   "file": "data/fan.json",
+   "source": "results/rank4-secondary-fan/fan.json",
+   "sha256": "7f0cb1cd838aaba943c4f980ba821915d5141de9a0130228f80bab5a6c20f566",
+   "bytes": 8770,
+   "audited_hash": null
+  },
+  {
+   "group": "data",
+   "file": "data/cells.json",
+   "source": "results/rank4-six-cells/cells.json",
+   "sha256": "687b91803a90e7cd729ad20a35742a0666acb9ccfd374ecf21e179183fcdda5c",
+   "bytes": 8180290,
+   "audited_hash": null
+  },
+  {
+   "group": "data",
+   "file": "data/cells-v2.json",
+   "source": "results/rank4-six-cells/cells-v2.json",
+   "sha256": "63f95a58255f318dc5583ccec41d0ce17dcb05244cd37d5aa188dd2fd03d1c01",
+   "bytes": 10418074,
+   "audited_hash": null
+  },
+  {
+   "group": "data",
+   "file": "data/cells-v3.json",
+   "source": "results/rank4-six-cells/cells-v3.json",
+   "sha256": "7bc677a9b403c5d39fe07c8425101e05a8301fe358af160b789449cfdd95dc30",
+   "bytes": 10418074,
+   "audited_hash": null
+  },
+  {
+   "group": "data",
+   "file": "data/cells-astra-final-20261023.json",
+   "source": "results/rank4-six-cells/cells-astra-final-20261023.json",
+   "sha256": "5c6da8ecd170aff1be61f273e5b0fcce7790d0674d4573dd13c33024e681d3ae",
+   "bytes": 10418074,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/replay.py",
+   "source": "bot_work/bot/coverage/replay.py",
+   "sha256": "6d62342f629082e114f7ef9a41f16138c8276f7ef67834df5c98cd5f0729902a",
+   "bytes": 16692,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/ownT.py",
+   "source": "bot_work/bot/coverage/ownT.py",
+   "sha256": "122c71f8fbe796e2fd7af0eca17ce3e701abbde1cf2cbefd7128008c0f997a82",
+   "bytes": 1497,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/dispositions.jsonl.gz",
+   "source": "bot_work/bot/coverage/dispositions.jsonl.gz",
+   "sha256": "d630fed22ff084c4e145bc0b8b6503391178319bb1d25104f8a8578199b4dd2c",
+   "bytes": 8354879,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/summary.json",
+   "source": "bot_work/bot/coverage/summary.json",
+   "sha256": "c39a5a382598591b73f004412b7f4561026724c090d797f8dc0ed3c3c7d5623a",
+   "bytes": 441,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/ownT.json",
+   "source": "bot_work/bot/coverage/ownT.json",
+   "sha256": "b45c728b1162a9ec2d0871f39aad8d919580834ff168b7973efa13bd594fe633",
+   "bytes": 79,
+   "audited_hash": null
+  },
+  {
+   "group": "independent_replay_grokbot",
+   "file": "independent_replay_grokbot/COVERAGE_REPLAY_GrokBot_20261023.md",
+   "source": "bot_work/bot/coverage/COVERAGE_REPLAY_GrokBot_20261023.md",
+   "sha256": "874d7c4b9d0ab839c52951e97f81c9dd43d5e1d6fb06e2d824028f1d5750f3da",
+   "bytes": 4815,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/PROOF_AUDIT_Grok_20261023.md",
+   "source": "bot_work/grok/proof_audit/PROOF_AUDIT_Grok_20261023.md",
+   "sha256": "122cb2128e6f632e5850bdc72dec166bbb757db4885fedfe1ca01359a0738ccc",
+   "bytes": 28614,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/check_proof_audit.py",
+   "source": "bot_work/grok/proof_audit/check_proof_audit.py",
+   "sha256": "5e28400e592960992f6c339ec88ff934649a9d9bac3cda640c28d287e08787fc",
+   "bytes": 20864,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/check_proof_audit.json",
+   "source": "bot_work/grok/proof_audit/check_proof_audit.json",
+   "sha256": "742762e4683aab26e9554ee083403e2b69684eaa738a80ada03b5911f68fd9bc",
+   "bytes": 18010,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/match_primitive_rays.py",
+   "source": "bot_work/grok/proof_audit/match_primitive_rays.py",
+   "sha256": "d3d688a59dabc268e8f35f78220c457ab513f0ee097fd1adeb7b92f3b1d5b87d",
+   "bytes": 4197,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/primitive_match.json",
+   "source": "bot_work/grok/proof_audit/primitive_match.json",
+   "sha256": "3a2db8136556b53d1cefbbca5ea261d0feb3eb96c45bd46c4520a9c363bb3502",
+   "bytes": 8567,
+   "audited_hash": null
+  },
+  {
+   "group": "literature_audit_grok",
+   "file": "literature_audit_grok/adjacent_cones.py",
+   "source": "bot_work/grok/proof_audit/adjacent_cones.py",
+   "sha256": "42b709fa752b25132c6e97a22739cbcff8794e1a41dab749df485476cf92695b",
+   "bytes": 2072,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/RANK4-THEOREM-S-FINAL-AUDIT-ASTRA.md",
+   "source": "RANK4-THEOREM-S-FINAL-AUDIT-ASTRA.md",
+   "sha256": "b6cf8353b3de2034432812f864995d5032ca7e975c786f10cdf911e142d69672",
+   "bytes": 11938,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/check_bundle.py",
+   "source": "results/rank4-final-audit-20261023/check_bundle.py",
+   "sha256": "d9147baab5416605c12db19281fbfa2213225e127fdcc1d4797a8c2c46354c60",
+   "bytes": 5664,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/bundle-audit.json",
+   "source": "results/rank4-final-audit-20261023/bundle-audit.json",
+   "sha256": "de0fb3e3c5a052a2ac9a77d9638a40095603e889ca198bdcaf8895b77c3f9d54",
+   "bytes": 908,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/check_published.py",
+   "source": "results/rank4-final-audit-20261023/check_published.py",
+   "sha256": "a2c308d22670ca95bb8229f223351a5ca5cc7b294a9208c41b7fce589f040a18",
+   "bytes": 2343,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/published-cones-and-hashes.json",
+   "source": "results/rank4-final-audit-20261023/published-cones-and-hashes.json",
+   "sha256": "e25062c614b95e444e7b004f8a0f95ad428f1e0aa467f692da74d58058511309",
+   "bytes": 401,
+   "audited_hash": null
+  },
+  {
+   "group": "final_audit_astra",
+   "file": "final_audit_astra/manifest.json",
+   "source": "results/rank4-final-audit-20261023/manifest.json",
+   "sha256": "a5abe814826d1905136934939e966493d823d3335bc3a284db080bcdd5d60280",
+   "bytes": 1418,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/match_published.py",
+   "source": "results/rank4-secondary-fan/match_published.py",
+   "sha256": "c2ca8fffe391b6159690c1d98593a6f31ecaaa31f6c0853b27c319069e725adb",
+   "bytes": 2628,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/match-published.json",
+   "source": "results/rank4-secondary-fan/match-published.json",
+   "sha256": "b4585c574252ef807be879e623d3455f9f2a4ea7b45fcfcf304bc4dbae12c5f6",
+   "bytes": 1843,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/regenerate_v1.py",
+   "source": "results/rank4-secondary-fan/regenerate_v1.py",
+   "sha256": "476814cf22917ec60f32d38857f72b6f1a88ead8defa1b5246880e0e7f500845",
+   "bytes": 3877,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/regenerate_v1.log",
+   "source": "results/rank4-secondary-fan/regenerate_v1.log",
+   "sha256": "6a046a869f3c78576c686fd1c353e7ad4954fe6f78d89773d7915edf78581e30",
+   "bytes": 413,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/fan-exact.log",
+   "source": "results/rank4-secondary-fan/fan-exact.log",
+   "sha256": "9afe99ee55b950a74d32827e86c72b3c32f798bd63b37972d166da9aa73e42ec",
+   "bytes": 427,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/validate.py",
+   "source": "results/rank4-six-cells/validate.py",
+   "sha256": "fad856384cea99fba0476f70d6188005650220fa1327f2be63b4b1ea53de1739",
+   "bytes": 6390,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/validate-recheck.json",
+   "source": "results/rank4-six-cells/validate-recheck.json",
+   "sha256": "6ecac8e18194d65818bee2527ac80e990253860a92a8f3b58b1cec53dbd1eabd",
+   "bytes": 473,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/validate-controls.json",
+   "source": "results/rank4-six-cells/validate-controls.json",
+   "sha256": "28c8ec5151e29c75e89a17d3c9a6210e8b4d651ceae618223a5ab98e9f8dfaf6",
+   "bytes": 218,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/validate-fan2.json",
+   "source": "results/rank4-six-cells/validate-fan2.json",
+   "sha256": "c15e6cf96b1f89221c6ecde63c0abb81fee43952db81d05860387213b142b7e8",
+   "bytes": 109,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/summary-on-regenerated-fan.json",
+   "source": "results/rank4-six-cells/grokbot-replay-crosscheck/summary-on-regenerated-fan.json",
+   "sha256": "1a42074e7943efa94b42b77c26bc23d8d097b621a3a03248b2820e83252fbabb",
+   "bytes": 463,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/summary-on-fan-exact.json",
+   "source": "results/rank4-six-cells/grokbot-replay-crosscheck/summary-on-fan-exact.json",
+   "sha256": "1a3daa64a2212940d95efca52793db715c653e4335b29e6b4426727fc0f5b690",
+   "bytes": 463,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/test_rank4_six_cells.py",
+   "source": "test_rank4_six_cells.py",
+   "sha256": "f08280fa440a9dca8654a4e0dfd406875424504f564dc4f31aae98161b4e82cc",
+   "bytes": 2680,
+   "audited_hash": null
+  },
+  {
+   "group": "checks_claude",
+   "file": "checks_claude/test_rank4_six_minima.py",
+   "source": "test_rank4_six_minima.py",
+   "sha256": "2ce126bbe8bc0508952273237c8bfd00e57b76c11c4594f64c22a9d9d322430e",
+   "bytes": 5977,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-SIX-CELLS-CLASSIFICATION.md",
+   "source": "RANK4-SIX-CELLS-CLASSIFICATION.md",
+   "sha256": "835d373fa0d6bc2b48b6d5854d9ff9b1368a828a35921617616f1cfd023a4471",
+   "bytes": 11073,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-SIX-CELLS-PROOF-STATUS.md",
+   "source": "RANK4-SIX-CELLS-PROOF-STATUS.md",
+   "sha256": "dd36e56428f0b9e99563f865080554b190d7c6bfe3509cd71535a715550c235a",
+   "bytes": 8953,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-SIX-CELLS-QUICK-REVIEW-ASTRA.md",
+   "source": "RANK4-SIX-CELLS-QUICK-REVIEW-ASTRA.md",
+   "sha256": "498a9a526e6b6dbf2adff52c9f3da6662653945153e414cfeca7191ecfcebb18",
+   "bytes": 7278,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-SIX-CELLS-QUICK-REVIEW-RESOLUTION.md",
+   "source": "RANK4-SIX-CELLS-QUICK-REVIEW-RESOLUTION.md",
+   "sha256": "35e6811646611a49de0b4bb48a0086b60f3de8aaa18e3193f1f9017fd79ae046",
+   "bytes": 7992,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-SIX-MINIMA-COMMON-LATTICE.md",
+   "source": "RANK4-SIX-MINIMA-COMMON-LATTICE.md",
+   "sha256": "c6bb1c8fd67de83e606d12b07795a7f6af0c0cb71bf105dc24b6b0f44909ec80",
+   "bytes": 8500,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-MINUS-TYPE.md",
+   "source": "RANK4-MINUS-TYPE.md",
+   "sha256": "8b340d9e19a03ad840dce45335dc5fe01041b4cbda0a88bca9e14a3ebd5667b7",
+   "bytes": 14544,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-STAGE2-STRATEGY.md",
+   "source": "RANK4-STAGE2-STRATEGY.md",
+   "sha256": "9cce8bd7f370888c289f62033869e75b12d0e5504b5162ae5f6b8013a73c11af",
+   "bytes": 16113,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/RANK4-PARITY-CONJECTURE.md",
+   "source": "RANK4-PARITY-CONJECTURE.md",
+   "sha256": "e977f1945c6b3c4952c9f70236874123e726ffb9cfe126393c72c3299f6e9145",
+   "bytes": 34969,
+   "audited_hash": null
+  },
+  {
+   "group": "documents",
+   "file": "documents/Astra-handoff-20261023-morning.md",
+   "source": "Astra-handoff-20261023-morning.md",
+   "sha256": "5f33d5bcd594b7194bb18fd7c2ab22a8065e23cfd966dc1afd881f420eae2022",
+   "bytes": 10094,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/exact_theta.py",
+   "source": "exact_theta.py",
+   "sha256": "3ecce1e124dbc00a11b76c5a29e62a054218d6cc457b2d8c4110feee71d37a80",
+   "bytes": 11400,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/lattice_census.py",
+   "source": "lattice_census.py",
+   "sha256": "db0e66f6a8b16dd5234aeed505b2768a0dd87f90e1526e9b91af15979809e4b6",
+   "bytes": 9200,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_feasibility.py",
+   "source": "rank4_feasibility.py",
+   "sha256": "b499b2434618ce4703a74ed6c216675ab847e959a1056b247ddca15a61b367ec",
+   "bytes": 12130,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_level4_search.py",
+   "source": "rank4_level4_search.py",
+   "sha256": "722e688f3dd220e4c31570865e45f15e361b8cb7b06aaf8e0a327577b1ba83f5",
+   "bytes": 44653,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_pairing_search.py",
+   "source": "rank4_pairing_search.py",
+   "sha256": "070ce8b2d4758297011070b016ca79abd5c62b8762fe8c1d38813020042c2f72",
+   "bytes": 89898,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_parity_search.py",
+   "source": "rank4_parity_search.py",
+   "sha256": "d7f1573d7982bf49123f7caa0809961c14cf93c8db23a8ee7f4df8cbcc6e9479",
+   "bytes": 67049,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_secondary_fan.py",
+   "source": "rank4_secondary_fan.py",
+   "sha256": "fc206a7cbd915951c1c6372e29eb1b842d4c45e6b9f0ed379bd2668f1daa8cdc",
+   "bytes": 14340,
+   "audited_hash": "fc206a7cbd915951c1c6372e29eb1b842d4c45e6b9f0ed379bd2668f1daa8cdc"
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_six_cells.py",
+   "source": "rank4_six_cells.py",
+   "sha256": "328a53ee5b36b66a36569f1f46a887d8ade11dbb15b639a06ad02d135a4b5b20",
+   "bytes": 12588,
+   "audited_hash": "328a53ee5b36b66a36569f1f46a887d8ade11dbb15b639a06ad02d135a4b5b20"
+  },
+  {
+   "group": "sources",
+   "file": "sources/rank4_six_minima.py",
+   "source": "rank4_six_minima.py",
+   "sha256": "a133954d592bd0832818bad4482b13b2139a9caec089c6767d77b2b14d1c55cb",
+   "bytes": 11607,
+   "audited_hash": "a133954d592bd0832818bad4482b13b2139a9caec089c6767d77b2b14d1c55cb"
+  },
+  {
+   "group": "sources",
+   "file": "sources/verify_lattice_census.py",
+   "source": "verify_lattice_census.py",
+   "sha256": "2a12ed12fba55fa922591466ff847ab1e569b59b97d511125645c66c31f0eff2",
+   "bytes": 13279,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/verify_rank4_feasibility.py",
+   "source": "verify_rank4_feasibility.py",
+   "sha256": "d0e96cf7a5d5bbd7bfd93a1c363bed7e4a45ab7b5b0ddce030d2847f8e1cead8",
+   "bytes": 15336,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/verify_rank4_level4.py",
+   "source": "verify_rank4_level4.py",
+   "sha256": "a9b1a9a28ae649dd61b83d36c6de675401c30b432292e71b5a2d5d3a190a4d8a",
+   "bytes": 35277,
+   "audited_hash": null
+  },
+  {
+   "group": "sources",
+   "file": "sources/verify_rank4_parity.py",
+   "source": "verify_rank4_parity.py",
+   "sha256": "0089f5d3270ed7f99bc867a9a9645555393fc4a724970a99b88b6530a26ab18c",
+   "bytes": 43712,
+   "audited_hash": null
+  }
+ ],
+ "count": 59
+}
